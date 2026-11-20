@@ -44,6 +44,9 @@ jobs:
           else
             echo "Stage 2 snapshot not yet available; retaining predictions for later scoring"
           fi
+          if [ -f research-ledger/unified-events.json ]; then
+            python scripts/validation_dashboard.py
+          fi
           python scripts/research_consistency.py
       - name: Publish verifiable workflow heartbeat
         if: always()
