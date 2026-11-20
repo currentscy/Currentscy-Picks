@@ -13,6 +13,20 @@ function relocate(){
  if(!host.contains(grid)){host.appendChild(grid);const note=[...p.children].find(e=>/Historical team-score resampling/i.test(e.textContent||''));if(note)host.appendChild(note)}
  if(!p.querySelector('.grid')){if(/NFL matchup/i.test(p.querySelector('h2')?.textContent||''))p.style.display='none';else p.querySelector('h2')?.remove()}
 }
+function cleanNbaPresentation(){
+ const d=$('detail');if(!d||d.classList.contains('hidden'))return;
+ const nba=!!$('v77-match-summary')?.querySelector('.grid')&&[...d.querySelectorAll('h2,h3')].some(h=>/NBA/i.test(h.textContent||''))||/NBA matchup research loaded/i.test($('dataStatus')?.textContent||'');
+ if(!nba)return;
+ const status=$('dataStatus');if(status&&/NBA matchup research loaded/i.test(status.textContent||''))status.style.display='none';
+ const r=$('results');if(r)for(const panel of r.querySelectorAll('.panel')){
+  for(const details of panel.querySelectorAll('details'))if(/How this matchup was evaluated/i.test(details.querySelector('summary')?.textContent||''))details.remove();
+ }
+ for(const h of d.querySelectorAll('h2,h3')){
+  if(/Recent ESPN player performance/i.test(h.textContent||'')){
+   const panel=h.closest('.panel');if(panel)panel.style.display='none';
+  }
+ }
+}
 function playerRows(){
  const footer=document.querySelector('footer');if(footer&&footer.textContent.includes('Currentscy Picks V73'))footer.textContent=footer.textContent.replace('Currentscy Picks V73','Currentscy Picks V78');
  const d=$('detail');if(!d||d.classList.contains('hidden'))return;
@@ -28,6 +42,6 @@ function playerRows(){
  }
 }
 let scheduled=false;
-function schedule(){if(scheduled)return;scheduled=true;requestAnimationFrame(()=>{scheduled=false;try{relocate();playerRows()}catch(e){console.warn('V77 enhancement skipped',e)}})}
+function schedule(){if(scheduled)return;scheduled=true;requestAnimationFrame(()=>{scheduled=false;try{relocate();cleanNbaPresentation();playerRows()}catch(e){console.warn('V77 enhancement skipped',e)}})}
 document.addEventListener('DOMContentLoaded',()=>{const root=$('detail');if(root)new MutationObserver(schedule).observe(root,{childList:true,subtree:true});schedule()});
 })();
