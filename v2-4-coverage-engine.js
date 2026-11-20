@@ -11,11 +11,44 @@ function register(matchId,entries){
  const valid=entries.filter(e=>e&&e.receiver&&e.team&&e.opponent&&e.sourceUrl&&/^https?:\/\//.test(e.sourceUrl)&&e.asOf);
  evidence.set(String(matchId),valid.map(e=>({...e})));return valid.length;
 }
+
+// Alignment projection: weighted route location × defender deployment × scheme.
+// All rates are observed shares in [0,1], not invented probabilities.
+const LOC=['left','slot','right','inline'];
+function normalizedShares(raw){
+ if(!raw||typeof raw!=='object')return null;
+ const v=LOC.map(k=>num(raw[k])??0);
+ if(v.some(x=>x<0)||v.reduce((a,b)=>a+b,0)<=0)return null;
+ const total=v.reduce((a,b)=>a+b,0);
+ return Object.fromEntries(LOC.map((k,i)=>[k,v[i]/total]));
+}
+function project(row){
+ const routes=normalizedShares(row.receiverAlignment);
+ const defenders=(Array.isArray(row.defenders)?row.defenders:[]).filter(d=>d&&d.name&&normalizedShares(d.alignment));
+ if(!routes||!defenders.length)return {matchups:[],missing:['Verified receiver alignment splits and defender alignment splits required'],method:'unavailable'};
+ const weights=defenders.map(d=>{
+  const deployment=normalizedShares(d.alignment);
+  const overlap=LOC.reduce((sum,k)=>sum+routes[k]*deployment[k],0);
+  const availability=d.availability==='out'?0:d.availability==='verified'?1:null;
+  return {name:d.name,role:d.role||'defensive back',overlap,availability,coverage:d.coverage||null};
+ });
+ const known=weights.filter(w=>w.availability!==null&&w.availability>0);
+ if(!known.length)return {matchups:[],missing:['No confirmed available defenders with alignment data'],method:'unavailable'};
+ const total=known.reduce((sum,w)=>sum+w.overlap,0);
+ if(total<=0)return {matchups:[],missing:['No observed alignment overlap'],method:'unavailable'};
+ const matchups=known.map(w=>({name:w.name,role:w.role,exposure:w.overlap/total,coverage:w.coverage})).sort((a,b)=>b.exposure-a.exposure);
+ const missing=[];
+ if(weights.some(w=>w.availability===null))missing.push('Unverified defensive availability excluded');
+ if(!row.scheme?.sourceUrl)missing.push('Defensive scheme frequency unavailable');
+ if(!row.shadow?.verified)missing.push('Shadowing and motion adjustments unavailable');
+ return {matchups,missing,method:'alignment-overlap proxy; not a snap-by-snap coverage probability'};
+}
 function evaluate(row){
  const defenders=Array.isArray(row.defenders)?row.defenders.filter(d=>d?.name&&d?.role):[];
  const assignment=row.assignment==='charted'?'charted':row.assignment==='projected'?'projected':'unknown';
  const coverage=row.coverage&&num(row.coverage.manPct)!==null&&num(row.coverage.zonePct)!==null?row.coverage:null;
  const receiver=row.receiverStats&&num(row.receiverStats.targetsPerGame)!==null?row.receiverStats:null;
+ const projection=project(row);
  const gaps=[];
  if(!defenders.length)gaps.push('No sourced individual coverage defender');
  if(assignment==='unknown')gaps.push('No confirmed alignment or shadow assignment');
@@ -36,8 +69,10 @@ function evaluate(row){
  }
  if(assignment==='projected')notes.push('Projected coverage candidate, not a confirmed one-on-one shadow assignment');
  if(assignment==='charted')notes.push('Historical charted matchup, not a guarantee for the upcoming game');
+ if(projection.matchups.length)notes.push('Alignment-based projected exposure (conditional on verified available defenders): '+projection.matchups.map(m=>m.name+' '+(100*m.exposure).toFixed(0)+'%').join(', '));
+ gaps.push(...projection.missing);
  const complete=gaps.length===0;
- return {defenders,assignment,notes,gaps,complete,probability:null};
+ return {defenders,assignment,notes,gaps,complete,projection,probability:null};
 }
 function game(){
  if(!['nfl','ncaa'].includes(typeof sport==='string'?sport:''))return null;
@@ -75,5 +110,5 @@ let queued=false;
 function schedule(){if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;render()})}
 function init(){const d=document.getElementById('detail');if(d)new MutationObserver(schedule).observe(d,{attributes:true,attributeFilter:['class'],childList:true,subtree:false});const date=document.getElementById('matchDate');if(date)new MutationObserver(schedule).observe(date,{childList:true,subtree:true,characterData:true});schedule()}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
-window.CurrentscyCoverageEngine=Object.freeze({register,evaluate,refresh:schedule,version:'V2.4',required:['receiver','team','opponent','sourceUrl','asOf','defenders','assignment','coverage','receiverStats','availability']});
+window.CurrentscyCoverageEngine=Object.freeze({register,evaluate,project,refresh:schedule,version:'V2.4',required:['receiver','team','opponent','sourceUrl','asOf','defenders','assignment','coverage','receiverStats','availability']});
 })();
