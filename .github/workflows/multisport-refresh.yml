@@ -1,0 +1,33 @@
+name: Currentscy Picks multisport refresh
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: currentscy-multisport-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh public multi-sport game data
+        run: python scripts/multisport-refresh.py
+      - name: Commit updated snapshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research-ledger/multisport-events.json research-ledger/multisport-status.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh multisport scoreboard research"
+            git pull --rebase
+            git push
+          fi
