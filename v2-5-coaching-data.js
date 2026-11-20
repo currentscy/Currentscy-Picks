@@ -21,12 +21,26 @@ function parseESPN(data){
  const previous=Array.isArray(data?.drives?.previous)?data.drives.previous:[];
  const current=data?.drives?.current;
  const drives=[...previous,...(current?[current]:[])];
+ const fromDrives=drives.flatMap(d=>{
+  const team=d?.team?.id||d?.teamId||d?.team?.team?.id||d?.offense?.id||null;
+  return (Array.isArray(d?.plays)?d.plays:[]).map(p=>({
+   ...p,team:p.team||p.possession||(team?{id:team}:null)
+  }));
+ });
  const top=Array.isArray(data?.plays)?data.plays:[];
- const plays=top.length?top:drives.flatMap(d=>(Array.isArray(d?.plays)?d.plays:[]).map(p=>({...p,team:p.team||d.team||d.teamId&&{id:d.teamId}})));
- if(!Array.isArray(plays))throw Error('No usable play list in ESPN summary');
- const rows=plays.map(parsePlay).filter(p=>p.period&&p.description);
- const attribution=rows.filter(p=>p.teamId&&[1,2].includes(p.half)).length;
- return {plays:rows,teamAttributedHalfPlays:attribution,firstHalf:rows.filter(p=>p.half===1).length,secondHalf:rows.filter(p=>p.half===2).length,coverageCharted:false,formationCharted:false,blitzCharted:false,personnelCharted:false};
+ const source=fromDrives.length?fromDrives:top;
+ const rows=source.map(parsePlay).filter(p=>p.period&&p.description);
+ const eligible=rows.filter(p=>[1,2].includes(p.half));
+ const attributed=eligible.filter(p=>/^\\d+$/.test(p.teamId));
+ const known=attributed.filter(p=>/pass|sack|rush|run/i.test(p.type+' '+p.description));
+ const teamIds=[...new Set(attributed.map(p=>p.teamId))];
+ return {plays:rows,teamAttributedHalfPlays:attributed.length,
+  attributionRate:eligible.length?attributed.length/eligible.length:0,
+  classifiedOffensivePlays:known.length,teamIds,
+  attributionVerified:teamIds.length===2&&known.length>=40&&attributed.length>=60&&attributed.length/Math.max(1,eligible.length)>=0.8,
+  firstHalf:rows.filter(p=>p.half===1).length,
+  secondHalf:rows.filter(p=>p.half===2).length,
+  coverageCharted:false,formationCharted:false,blitzCharted:false,personnelCharted:false};
 }
 async function espnGame(league,eventId){
  if(!ESPN[league]||!/^\d{5,15}$/.test(String(eventId)))throw Error('Invalid league or game ID');
@@ -53,7 +67,7 @@ async function audit(league,eventId){
  const reports=await Promise.allSettled([espnGame(league,eventId),league==='ncaa'&&window.CurrentscyCFBDV103?window.CurrentscyCFBDV103.request('games',{year:seasonYear(typeof chosen!=='undefined'?chosen?.date:null)}):Promise.resolve(null)]);
  const espn=reports[0].status==='fulfilled'?reports[0].value:null;
  const cfbd=reports[1].status==='fulfilled'&&reports[1].value?{connected:true,records:reports[1].value.items.length,scope:'completed NCAA game metadata; not defensive coverage'}:{connected:false};
- const value={league,eventId,espn:espn?{connected:true,plays:espn.plays.length,firstHalf:espn.firstHalf,secondHalf:espn.secondHalf,playMix:splits(espn.plays)}:{connected:false,error:String(reports[0].reason?.message||reports[0].reason)},cfbd,coverageAssignments:false,coachingBehaviorCalibrated:false,limitations:['No verified defensive coverage calls','No personnel or receiver alignment charting','No score-adjusted halftime causal analysis','No coach-specific profile trained']};
+ const value={league,eventId,espn:espn?{connected:true,plays:espn.plays.length,firstHalf:espn.firstHalf,secondHalf:espn.secondHalf,playMix:splits(espn.plays),teamAttributedHalfPlays:espn.teamAttributedHalfPlays,attributionRate:espn.attributionRate,attributionVerified:espn.attributionVerified}:{connected:false,error:String(reports[0].reason?.message||reports[0].reason)},cfbd,coverageAssignments:false,coachingBehaviorCalibrated:false,limitations:['No verified defensive coverage calls','No personnel or receiver alignment charting','No score-adjusted halftime causal analysis','No coach-specific profile trained']};
  cache.set(key,{time:Date.now(),value});return value;
 }
 window.CurrentscyCoachingDataV25=Object.freeze({audit,espnGame,parseESPN,splits,version:'V2.5 Step 1',scope:'source audit only',coachingModelReady:false});
