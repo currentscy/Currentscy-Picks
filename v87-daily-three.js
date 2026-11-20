@@ -24,15 +24,34 @@ const build=(event)=>{
  const pick=hr.pct>ar.pct?home:away,record=hr.pct>ar.pct?hr:ar;
  return {id:event.id,pick:pick.team.displayName,home:home.team.displayName,away:away.team.displayName,record,other:hr.pct>ar.pct?ar:hr,diff,date:event.date};
 };
-let loadedDate='',items=[],loading=false;
+let loadedDate='',items=[],loading=false,lastAttempt=0;
 async function fetchToday(){
- const day=dateKey(new Date());if(loading||loadedDate===day)return;
- loading=true;
+ const day=dateKey(new Date()),now=Date.now();
+ if(loading||(loadedDate===day&&now-lastAttempt<15*60*1000))return;
+ loading=true;lastAttempt=now;
  try{
-  const url='https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates='+day+'&limit=100';
-  const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error('scoreboard unavailable');
-  const j=await r.json();
-  items=(j.events||[]).filter(e=>dateKey(new Date(e.date))===day).map(build).filter(Boolean).sort((a,b)=>b.diff-a.diff).slice(0,3);
+  // Seven consecutive Pacific calendar days, including today. Fetch each day
+  // separately to avoid scoreboard defaults truncating the future schedule.
+  const dates=Array.from({length:7},(_,i)=>{
+   const d=new Date(now+i*86400000);
+   return dateKey(d);
+  });
+  const responses=await Promise.all(dates.map(async dayKey=>{
+   const url='https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates='+dayKey+'&limit=100';
+   const r=await fetch(url,{cache:'no-store'});
+   if(!r.ok)throw Error('scoreboard unavailable');
+   const j=await r.json();
+   return (j.events||[]).filter(e=>dateKey(new Date(e.date))===dayKey);
+  }));
+  const unique=new Map();
+  responses.flat().forEach(e=>{
+   const tip=Date.parse(e.date);
+   const state=e.status?.type?.state;
+   if(!e.id||!Number.isFinite(tip)||tip<=Date.now()||state==='in'||state==='post'||e.status?.type?.completed)return;
+   unique.set(e.id,e);
+  });
+  items=[...unique.values()].map(build).filter(Boolean)
+   .sort((a,b)=>b.diff-a.diff||Date.parse(a.date)-Date.parse(b.date)).slice(0,3);
   loadedDate=day;
  }catch{items=[];loadedDate='';}finally{loading=false;render()}
 }
@@ -53,16 +72,16 @@ function render(){
  if(host.dataset.date===day&&host.dataset.ids===items.map(x=>x.id).join(','))return;
  host.dataset.date=day;host.dataset.ids=items.map(x=>x.id).join(',');
  host.replaceChildren();
- const h=document.createElement('h2');h.textContent='🏀 Today’s NBA 3-Leg Game Parlay';host.appendChild(h);
- const note=document.createElement('p');note.className='v87-three-note';note.textContent='Three game-winner candidates for today (Pacific time), ranked by current team records. Preliminary research only; injuries, lineups and defensive matchups are not verified.';host.appendChild(note);
+ const h=document.createElement('h2');h.textContent='🏀 Upcoming NBA 3-Leg Game Parlay';host.appendChild(h);
+ const note=document.createElement('p');note.className='v87-three-note';note.textContent='Three game-winner candidates from NBA games scheduled over the next seven Pacific calendar days. Updates daily and excludes games that have already started. Ranked by current team records; injuries, lineups and defensive matchups are not verified.';host.appendChild(note);
  items.forEach((x,i)=>{
   const div=document.createElement('div');div.className='v87-three-leg';
   const title=document.createElement('strong');title.textContent=(i+1)+'. '+x.pick+' to win';div.appendChild(title);
-  const match=document.createElement('p');match.textContent=x.away+' vs '+x.home;div.appendChild(match);
+  const match=document.createElement('p');match.textContent=x.away+' vs '+x.home+' · '+new Intl.DateTimeFormat('en-US',{timeZone:tz,weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'}).format(new Date(x.date));div.appendChild(match);
   const sub=document.createElement('small');sub.textContent='Record comparison: '+x.record.w+'-'+x.record.l+' vs '+x.other.w+'-'+x.other.l+' · No calibrated win probability';div.appendChild(sub);
   host.appendChild(div);
  });
- const footer=document.createElement('p');footer.className='v87-three-note';footer.textContent='Record-based shortlist, not a three-game simulation or guaranteed parlay. Opens only when three eligible games have supported records.';host.appendChild(footer);
+ const footer=document.createElement('p');footer.className='v87-three-note';footer.textContent='Record-based shortlist, not a three-game simulation or guaranteed parlay. Shows only when three eligible upcoming games have supported records.';host.appendChild(footer);
 }
 let queued=false;function schedule(){if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;const nba=document.body.dataset.sport==='nba'&&!$('listing')?.classList.contains('hidden');if(nba){fetchToday();render()}else $('v87-daily-three')?.remove()})}
 function init(){
@@ -70,6 +89,9 @@ function init(){
  schedule();
  new MutationObserver(schedule).observe(document.body,{attributes:true,attributeFilter:['class','data-sport'],childList:true,subtree:false});
  const listing=$('listing');if(listing)new MutationObserver(schedule).observe(listing,{attributes:true,attributeFilter:['class'],childList:true,subtree:true});
+ document.addEventListener('visibilitychange',()=>{if(!document.hidden)schedule()});
+ window.addEventListener('focus',schedule);
+ setInterval(schedule,60000);
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
