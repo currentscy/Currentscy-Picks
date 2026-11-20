@@ -1,6 +1,50 @@
-/* V5.4: emoji fallbacks only; do not change homepage layout. */
-#sports .cp-league-fallback.is-visible{font-family:system-ui,"Apple Color Emoji","Segoe UI Emoji",sans-serif!important;letter-spacing:0!important;text-shadow:none!important}
+/* V5.5: align every selected-sport logo/emoji on one consistent 28px rail.
+   Navigation only; home tiles, matchup cards, team colors and data untouched. */
 @media(max-width:799px){
-body:not([data-sport="home"]) #sports button.sport .cp-league-fallback.is-visible{font-size:22px!important;line-height:1!important;overflow:visible!important}
-body:not([data-sport="home"]) #sports button.sport .cp-league-logo{font-size:0!important}
+ html body:not([data-sport="home"]) #sports button.sport{
+   gap:8px!important;
+   align-items:center!important;
+   justify-content:center!important;
+   padding:6px 11px!important;
+ }
+ html body:not([data-sport="home"]) #sports button.sport img.cp-league-logo{
+   display:block!important;
+   flex:0 0 28px!important;
+   width:28px!important;min-width:28px!important;max-width:28px!important;
+   height:28px!important;min-height:28px!important;max-height:28px!important;
+   object-fit:contain!important;
+   object-position:center!important;
+   vertical-align:middle!important;
+ }
+ html body:not([data-sport="home"]) #sports button.sport .cp-league-fallback.is-visible{
+   display:inline-flex!important;
+   flex:0 0 28px!important;
+   width:28px!important;min-width:28px!important;max-width:28px!important;
+   height:28px!important;min-height:28px!important;max-height:28px!important;
+   align-items:center!important;justify-content:center!important;
+   font-family:"Noto Color Emoji","Apple Color Emoji","Segoe UI Emoji",sans-serif!important;
+   font-size:22px!important;line-height:28px!important;
+   letter-spacing:0!important;text-shadow:none!important;
+   transform:none!important;
+   overflow:visible!important;
+ }
+ html body:not([data-sport="home"]) #sports button.sport .cp-league-label{
+   flex:0 1 auto!important;
+   font-size:13px!important;
+   font-weight:750!important;
+   line-height:1.15!important;
+   text-align:left!important;
+   margin:0!important;
+ }
+}
+/* Home screen uses the same centered icon box without changing tile geometry. */
+@media(max-width:799px){
+ body[data-sport="home"] #sports .sport .cp-league-fallback.is-visible{
+   width:65px!important;min-width:65px!important;
+   height:47px!important;min-height:47px!important;
+   display:flex!important;align-items:center!important;justify-content:center!important;
+   font-family:"Noto Color Emoji","Apple Color Emoji","Segoe UI Emoji",sans-serif!important;
+   font-size:35px!important;line-height:1!important;
+   letter-spacing:0!important;text-shadow:none!important;
+ }
 }
