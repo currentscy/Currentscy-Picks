@@ -1,8 +1,6 @@
 name: V88 NBA defender data research
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '40 13 * * *'
 permissions:
   contents: write
 concurrency:
