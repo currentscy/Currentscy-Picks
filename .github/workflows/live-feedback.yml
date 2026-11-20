@@ -58,6 +58,8 @@ jobs:
         run: |
           python scripts/learning_calibration.py
           python scripts/forecast_vs_results.py
+      - name: Test AI research evidence gates
+        run: python -m unittest discover -s scripts -p 'test_ai_research_agent.py'
       - name: AI research audit (optional, never changes forecasts)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
