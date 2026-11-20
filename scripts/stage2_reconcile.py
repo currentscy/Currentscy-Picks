@@ -101,7 +101,10 @@ def reconcile(stage1, observations=None):
                       "status": o.get("status"), "statName": o.get("statName"), "value": o.get("value"),
                       "sourceUrl": source_url, "observedAt": as_of, "effectiveAt": source_time,
                       "verified": True, "modelEligible": False}
-        # Stage 2 links evidence only. Provider-supplied verification flags are\n        # not independent proof; no model activation until authenticated sources\n        # and pregame time-gating are implemented and validated.\n        normalized["modelEligible"] = False\n        # Historical stat observations are evidence, not model features until time-gated.
+        # Stage 2 only links evidence; supplied verification flags are not proof.
+        # No model activation without authenticated sources and pregame gating.
+        normalized["modelEligible"] = False
+        # Historical stats are not model features until time-gated.
         dedup = (game_key, provider, source_id, kind, entity, text(o.get("statName")), source_time, source_url)
         if dedup in seen:
             continue
