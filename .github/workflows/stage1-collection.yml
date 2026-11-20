@@ -1,0 +1,34 @@
+name: Currentscy Stage 1 multi-sport evidence collection
+on:
+  schedule:
+    - cron: '37 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: currentscy-stage1
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test normalization and source provenance
+        run: python -m unittest discover -s scripts -p 'test_stage1_collector.py'
+      - name: Collect scoreboard snapshots
+        run: python scripts/stage1_collect.py
+      - name: Save latest evidence snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research-ledger/stage1/latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh Stage 1 multi-sport scoreboard evidence"
+            git push
+          fi
