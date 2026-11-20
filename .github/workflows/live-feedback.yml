@@ -1,0 +1,52 @@
+name: Currentscy live NBA prediction feedback
+on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: currentscy-feedback
+  cancel-in-progress: false
+jobs:
+  feedback:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test exact shared NBA model and outcome extraction
+        run: node --test scripts/test-live-nba-feedback.cjs
+      - name: Test feedback evaluation and research audit
+        run: |
+          python -m unittest discover -s scripts -p 'test_stage3_evaluate.py'
+          python -m unittest discover -s scripts -p 'test_stage4_audit.py'
+          python -m unittest discover -s scripts -p 'test_research_consistency.py'
+      - name: Capture actual pregame NBA model forecasts and completed outcomes
+        run: node scripts/live-nba-feedback.cjs
+      - name: Score live forecasts when source evidence is available
+        run: |
+          if [ -f research-ledger/stage2/latest.json ]; then
+            python scripts/stage3_evaluate.py
+            python scripts/stage4_audit.py
+          else
+            echo "Stage 2 snapshot not yet available; retaining predictions for later scoring"
+          fi
+          python scripts/research_consistency.py
+      - name: Commit forecast history and feedback diagnostics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research-ledger/stage3/ research-ledger/stage4/ research-ledger/feedback-health.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Capture live NBA forecasts, outcomes and scoring feedback"
+            git pull --rebase
+            git push
+          fi
