@@ -100,7 +100,11 @@ def read(path,default):
 def main():
     if not STAGE2.exists():
         raise SystemExit("Stage 2 snapshot missing; refusing to manufacture predictions")
-    data=evaluate(read(STAGE2,{}),read(PREDICTIONS,[]),read(OUTCOMES,[]))
+    evidence=read(STAGE2,{})
+    historic=read(ROOT/"research-ledger"/"stage3"/"game-index.json",{"games":[]})
+    known={g.get("gameKey") for g in evidence.get("games",[])}
+    evidence["games"]=list(evidence.get("games",[]))+[g for g in historic.get("games",[]) if g.get("gameKey") not in known]
+    data=evaluate(evidence,read(PREDICTIONS,[]),read(OUTCOMES,[]))
     OUTPUT.parent.mkdir(parents=True,exist_ok=True)
     tmp=OUTPUT.with_suffix(".json.tmp")
     tmp.write_text(json.dumps(data,indent=2)+"\n")
