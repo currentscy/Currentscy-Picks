@@ -385,8 +385,8 @@ async function v66BuildFiveLegs(comp,game,league,anchor){
    if(id)injuryById.set(id,status);
    if(name)injuryByName.set(name,status);
   }
-  const disallowed=/\\b(out|injured reserve|ir|suspended|inactive|doubtful|pup|non.football injury)\\b/i;
-  const questionable=/\\b(questionable|game.time decision|limited)\\b/i;
+  const disallowed=/\b(out|injured reserve|ir|suspended|inactive|doubtful|pup|non.football injury)\b/i;
+  const questionable=/\b(questionable|game.time decision|limited)\b/i;
   const verified=eligible.filter(p=>{
    const status=injuryById.get(String(p.id))||injuryByName.get(p.name.toLowerCase())||'';
    return !disallowed.test(status)&&!questionable.test(status);
