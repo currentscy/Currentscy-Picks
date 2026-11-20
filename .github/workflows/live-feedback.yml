@@ -1,5 +1,11 @@
 name: Currentscy live NBA prediction feedback
 on:
+  push:
+    paths:
+      - 'scripts/**'
+      - 'nba-shared-model.js'
+      - 'v87-daily-three.js'
+      - '.github/workflows/live-feedback.yml'
   schedule:
     - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
