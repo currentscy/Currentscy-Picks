@@ -12,6 +12,14 @@ const parseRecord=c=>{
  if(!m)return null;
  const w=+m[1],l=+m[2];return w+l>=8?{w,l,pct:w/(w+l)}:null;
 };
+// Provisional regularized record model. These parameters are conservative
+// engineering defaults, NOT backtested/calibrated probabilities.
+const sigmoid=x=>1/(1+Math.exp(-x));
+const strength=r=>Math.log((r.w+6)/(r.l+6)); // 12-game symmetric prior
+const estimate=(hr,ar)=>{
+ const logit=.22+.70*(strength(hr)-strength(ar)); // small home edge
+ return Math.max(.25,Math.min(.75,sigmoid(logit)));
+};
 const build=(event)=>{
  if(event.status?.type?.completed||event.status?.type?.state==='post')return null;
  const competitors=event.competitions?.[0]?.competitors||[];
@@ -19,10 +27,14 @@ const build=(event)=>{
  if(!home?.team?.displayName||!away?.team?.displayName)return null;
  const hr=parseRecord(home),ar=parseRecord(away);
  if(!hr||!ar)return null;
- const diff=Math.abs(hr.pct-ar.pct);
- if(diff<.10)return null; // Avoid marginal record-only selections.
- const pick=hr.pct>ar.pct?home:away,record=hr.pct>ar.pct?hr:ar;
- return {id:event.id,pick:pick.team.displayName,home:home.team.displayName,away:away.team.displayName,record,other:hr.pct>ar.pct?ar:hr,diff,date:event.date};
+ const homeEstimate=estimate(hr,ar);
+ const homeFavored=homeEstimate>=.5;
+ const edge=Math.abs(homeEstimate-.5);
+ if(edge<.055)return null;
+ const pick=homeFavored?home:away;
+ return {id:event.id,pick:pick.team.displayName,home:home.team.displayName,away:away.team.displayName,
+  record:homeFavored?hr:ar,other:homeFavored?ar:hr,
+  diff:edge,estimate:homeFavored?homeEstimate:1-homeEstimate,date:event.date};
 };
 let loadedDate='',items=[],loading=false,lastAttempt=0;
 async function fetchToday(){
@@ -69,19 +81,19 @@ function render(){
   const parent=games.parentNode;parent.insertBefore(host,games);
  }
  const day=dateKey(new Date());
- if(host.dataset.date===day&&host.dataset.ids===items.map(x=>x.id).join(','))return;
- host.dataset.date=day;host.dataset.ids=items.map(x=>x.id).join(',');
+ if(host.dataset.date===day&&host.dataset.ids===items.map(x=>x.id+':'+x.estimate.toFixed(4)).join(','))return;
+ host.dataset.date=day;host.dataset.ids=items.map(x=>x.id+':'+x.estimate.toFixed(4)).join(',');
  host.replaceChildren();
  const h=document.createElement('h2');h.textContent='🏀 Upcoming NBA 3-Leg Game Parlay';host.appendChild(h);
- const note=document.createElement('p');note.className='v87-three-note';note.textContent='Three game-winner candidates from NBA games scheduled over the next seven Pacific calendar days. Updates daily and excludes games that have already started. Ranked by current team records; injuries, lineups and defensive matchups are not verified.';host.appendChild(note);
+ const note=document.createElement('p');note.className='v87-three-note';note.textContent='Three game-winner candidates from NBA games scheduled over the next seven Pacific calendar days. Updates daily and excludes games that have already started. Ranked by a conservative model that shrinks small-sample records toward average and accounts for home court. Model estimates are NOT historically calibrated. Injuries, lineups and defensive matchups are not verified.';host.appendChild(note);
  items.forEach((x,i)=>{
   const div=document.createElement('div');div.className='v87-three-leg';
   const title=document.createElement('strong');title.textContent=(i+1)+'. '+x.pick+' to win';div.appendChild(title);
   const match=document.createElement('p');match.textContent=x.away+' vs '+x.home+' · '+new Intl.DateTimeFormat('en-US',{timeZone:tz,weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'}).format(new Date(x.date));div.appendChild(match);
-  const sub=document.createElement('small');sub.textContent='Record comparison: '+x.record.w+'-'+x.record.l+' vs '+x.other.w+'-'+x.other.l+' · No calibrated win probability';div.appendChild(sub);
+  const sub=document.createElement('small');sub.textContent='Record comparison: '+x.record.w+'-'+x.record.l+' vs '+x.other.w+'-'+x.other.l+' · Provisional model estimate: '+Math.round(x.estimate*100)+'% (NOT calibrated)';div.appendChild(sub);
   host.appendChild(div);
  });
- const footer=document.createElement('p');footer.className='v87-three-note';footer.textContent='Record-based shortlist, not a three-game simulation or guaranteed parlay. Shows only when three eligible upcoming games have supported records.';host.appendChild(footer);
+ const footer=document.createElement('p');footer.className='v87-three-note';footer.textContent='Regularized record-and-home-court model, not a three-game simulation or guaranteed parlay. Calibration requires walk-forward testing against historical games. Shows only when three eligible upcoming games have supported records.';host.appendChild(footer);
 }
 let queued=false;function schedule(){if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;const nba=document.body.dataset.sport==='nba'&&!$('listing')?.classList.contains('hidden');if(nba){fetchToday();render()}else $('v87-daily-three')?.remove()})}
 function init(){
