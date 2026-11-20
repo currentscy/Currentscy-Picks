@@ -1,0 +1,30 @@
+name: V88 NBA defender data research
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 13 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: v88-nba-defender-research
+  cancel-in-progress: false
+jobs:
+  research:
+    if: github.ref == 'refs/heads/v88-free-defender-engine'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: v88-free-defender-engine
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --disable-pip-version-check 'nba_api>=1.8,<2' pandas
+      - run: python scripts/v88_nba_matchups.py
+      - name: Commit research snapshot only when changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/v88-nba-matchups.json
+          git diff --cached --quiet || (git commit -m "Refresh V88 NBA matchup research snapshot" && git push)
