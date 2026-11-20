@@ -308,7 +308,7 @@ async function v66BuildFiveLegs(comp,game,league,anchor){
  if(!anchor)return;
  anchor.innerHTML='<div class="panel"><h2>🏈 Selected game · five-leg player research</h2><p class="desc">Checking verified ESPN box scores…</p></div>';
  try{
-  const cutoff=Date.parse(game?.date),histories=await Promise.all(comp.map(c=>v64RecentGames(c,'football/'+league,cutoff,7)));
+  const cutoff=Date.parse(game?.date),histories=await Promise.all(comp.map(c=>v64RecentGames(c,'football/'+league,cutoff,12)));
   const all=[];let failures=0;
   for(let i=0;i<comp.length;i++){
    const teamId=String(comp[i]?.team?.id||''),teamName=comp[i]?.team?.displayName||'Team';
@@ -330,9 +330,13 @@ async function v66BuildFiveLegs(comp,game,league,anchor){
        if(pos&&!['QB','RB','FB','WR','TE'].includes(pos))continue;
        const values=athlete.stats||[],yi=labels.findIndex(x=>x==='YDS'||x==='YARDS');
        const ri=labels.findIndex(x=>x==='REC'||x==='RECEPTIONS');
+       const ai=labels.findIndex(x=>x==='ATT'||x==='CAR'||x==='RUSH ATT');
+       const ci=labels.findIndex(x=>x==='C/ATT'||x==='CMP/ATT'||x==='COMP/ATT');
+       const ti=labels.findIndex(x=>x==='TGTS'||x==='TGT'||x==='TARGETS');
+       const passPair=ci>=0?String(values[ci]).split('/').map(Number):[];
        const yards=yi>=0?Number(values[yi]):NaN;
        const receptions=ri>=0?Number(values[ri]):NaN;
-       const record={id:String(id),name,team:teamName,pos,type,gameId:String(game.id),yards,receptions};
+       const record={id:String(id),name,team:teamName,pos,type,gameId:String(game.id),yards,receptions,attempts:ai>=0?Number(values[ai]):NaN,completions:passPair.length===2?passPair[0]:NaN,passAttempts:passPair.length===2?passPair[1]:NaN,targets:ti>=0?Number(values[ti]):NaN};
        observed.set(record.id+':'+type,record);
       }
      }
@@ -340,19 +344,42 @@ async function v66BuildFiveLegs(comp,game,league,anchor){
     }catch(e){failures++}
    }
   }
-  const grouped=new Map();
-  for(const row of all){const key=row.team+':'+row.id+':'+row.type;let g=grouped.get(key);if(!g){g={...row,logs:[]};grouped.set(key,g)}g.logs.push(row)}
+  // V78: merge every observed category per athlete/game, then use actual appearances.
+  const playerGames=new Map();
+  for(const row of all){
+   const key=row.team+':'+row.id;
+   let player=playerGames.get(key);
+   if(!player){player={id:row.id,name:row.name,team:row.team,pos:row.pos,games:new Map()};playerGames.set(key,player)}
+   if(row.pos)player.pos=row.pos;
+   let g=player.games.get(row.gameId);
+   if(!g){g={gameId:row.gameId,passing:0,rushing:0,receiving:0,receptions:0,passAttempts:0,completions:0,rushAttempts:0,targets:0,hasPassAttempts:false,hasCompletions:false,hasRushAttempts:false,hasTargets:false};player.games.set(row.gameId,g)}
+   if(row.type==='passing'){
+    if(Number.isFinite(row.yards))g.passing=row.yards;
+    if(Number.isFinite(row.completions)){g.completions=row.completions;g.hasCompletions=true}
+    if(Number.isFinite(row.passAttempts)){g.passAttempts=row.passAttempts;g.hasPassAttempts=true}
+   }else if(row.type==='rushing'){
+    if(Number.isFinite(row.yards))g.rushing=row.yards;
+    if(Number.isFinite(row.attempts)){g.rushAttempts=row.attempts;g.hasRushAttempts=true}
+   }else if(row.type==='receiving'){
+    if(Number.isFinite(row.yards))g.receiving=row.yards;
+    if(Number.isFinite(row.receptions))g.receptions=row.receptions;
+    if(Number.isFinite(row.targets)){g.targets=row.targets;g.hasTargets=true}
+   }
+  }
   const eligible=[];
-  for(const p of grouped.values()){
-   // Only fixed, user-approved thresholds; do not infer a line from the player's best games.
-   const tests=p.type==='passing'?[['125+ passing yards','yards',125]]:p.type==='rushing'?[['15+ rushing yards','yards',15]]:[['10+ receiving yards','yards',10],['2+ receptions','receptions',2]];
+  for(const p of playerGames.values()){
+   const games=[...p.games.values()];
+   if(games.length<3)continue;
+   const totals={games:games.length,passing:0,rushing:0,receiving:0,receptions:0,completions:0,passAttempts:0,rushAttempts:0,targets:0,hasPassAttempts:false,hasCompletions:false,hasRushAttempts:false,hasTargets:false};
+   for(const g of games)for(const k of ['passing','rushing','receiving','receptions','completions','passAttempts','rushAttempts','targets'])totals[k]+=g[k];
+   for(const k of ['hasPassAttempts','hasCompletions','hasRushAttempts','hasTargets'])totals[k]=games.some(g=>g[k]);
+   const tests=p.pos==='QB'?[['125+ passing yards','passing',125]]:
+     p.pos==='RB'||p.pos==='FB'?[['15+ rushing yards','rushing',15],['2+ receptions','receptions',2]]:
+     [['10+ receiving yards','receiving',10],['2+ receptions','receptions',2]];
    for(const [label,field,threshold] of tests){
-    const vals=p.logs.map(l=>l[field]).filter(Number.isFinite);
-    if(vals.length<3)continue;
+    const vals=games.map(g=>g[field]);
     const hits=vals.filter(x=>x>=threshold).length;
-    // Shrink small samples; this is a ranking score, NOT a probability.
-    const score=(hits+2)/(vals.length+4);
-    eligible.push({...p,label,field,threshold,hits,count:vals.length,score,average:vals.reduce((x,y)=>x+y,0)/vals.length});
+    eligible.push({...p,label,field,threshold,hits,count:vals.length,logs:games.map(g=>({[field]:g[field]})),average:vals.reduce((x,y)=>x+y,0)/vals.length,totals});
    }
   }
   // V76: fail closed when the injury feed cannot be verified. Historical 7/7 is not 100%.
@@ -365,7 +392,7 @@ async function v66BuildFiveLegs(comp,game,league,anchor){
   }catch(err){injuryError=String(err.message||err)}
   const rawInjuries=injuryFeed?.injuries||injuryFeed?.teams||injuryFeed?.items;
   if(!Array.isArray(rawInjuries)||!rawInjuries.length){
-   anchor.innerHTML='<div class="panel"><h2>🏈 V76 · Five-leg safety check</h2><p><strong>Selections withheld.</strong> Current player availability could not be verified from the live injury feed. Historical game logs are not proof that a player will suit up.</p><small>'+escapeHtml(injuryError||'No usable injury records')+' · no invented probabilities</small></div>';
+   anchor.innerHTML='<div class="panel"><h2>🏈 V78 · Five-leg safety check</h2><p><strong>Selections withheld.</strong> Current player availability could not be verified from the live injury feed. Historical game logs are not proof that a player will suit up.</p><small>'+escapeHtml(injuryError||'No usable injury records')+' · no invented probabilities</small></div>';
    return;
   }
   const injuryRows=[];
@@ -399,11 +426,20 @@ async function v66BuildFiveLegs(comp,game,league,anchor){
    const cv=Math.sqrt(variance)/Math.max(1,Math.abs(avg));
    p.v76score=(p.hits+2)/(p.count+5)*Math.min(1,p.count/5)*Math.max(.35,1-.3*cv);
   }
-  verified.sort((a,b)=>b.v76score-a.v76score||b.count-a.count);
+  verified.sort((a,b)=>(b.hits/b.count)-(a.hits/a.count)||b.v76score-a.v76score||b.count-a.count);
   const chosenLegs=[];
   for(const leg of verified){if(chosenLegs.some(x=>x.id===leg.id))continue;chosenLegs.push(leg);if(chosenLegs.length===5)break}
-  const cards=chosenLegs.map((c,i)=>'<div class="v65leg"><strong>'+(i+1)+'. '+escapeHtml(c.name)+' — '+escapeHtml(c.label)+'</strong><small>'+escapeHtml(c.team)+' · '+c.hits+'/'+c.count+' historical hits · stability score '+(100*c.v76score).toFixed(0)+'/100 (not probability) · availability not confirmed by injury report alone</small></div>').join('');
-  anchor.innerHTML='<div class="panel"><h2>🏈 V76 · Provisional player research</h2><p class="desc">Injury feed checked. Players listed OUT, IR, suspended, doubtful or questionable are excluded when identified. <strong>Not a verified active roster:</strong> final inactives and projected snaps remain unavailable. These are research candidates, not finalized five-leg picks.</p>'+cards+(chosenLegs.length<5?'<p>Only '+chosenLegs.length+' candidates passed the filters; five-leg selection withheld.</p>':'<p>Five candidates found, but final active status must be confirmed before selection.</p>')+'<small>Missing historical reports: '+failures+'</small></div>';
+  const cards=chosenLegs.map((c,i)=>{
+   const t=c.totals;
+   const stats=c.pos==='QB'?
+    [['Pass yds',t.passing],['Completions',t.hasCompletions?t.completions:'—'],['Pass att',t.hasPassAttempts?t.passAttempts:'—'],['Rush yds',t.rushing]]:
+    c.pos==='RB'||c.pos==='FB'?
+    [['Rush yds',t.rushing],['Carries',t.hasRushAttempts?t.rushAttempts:'—'],['Receptions',t.receptions],['Rec yds',t.receiving]]:
+    [['Rec yds',t.receiving],['Receptions',t.receptions],['Targets',t.hasTargets?t.targets:'—'],['Rush yds',t.rushing]];
+   const chips=stats.map(([name,val])=>'<span class="v78-chip">'+escapeHtml(name)+': <b>'+escapeHtml(String(val))+'</b></span>').join('');
+   return '<div class="v65leg v78-leg"><strong>'+(i+1)+'. '+escapeHtml(c.name)+' — '+escapeHtml(c.label)+'</strong><div class="v78-sub">'+escapeHtml(c.team)+' · '+escapeHtml(c.pos||'Player')+' · '+t.games+' verified games in sample</div><div class="v78-hit">'+c.hits+'/'+c.count+' hits · '+(100*c.hits/c.count).toFixed(0)+'% historical</div><div class="v78-stats">'+chips+'</div><small>2026 totals from available completed ESPN box scores · stability '+(100*c.v76score).toFixed(0)+'/100 (not probability) · active status unconfirmed</small></div>';
+  }).join('');
+  anchor.innerHTML='<div class="panel"><h2>🏈 V78 · Provisional player research</h2><p class="desc">Injury feed checked. Players listed OUT, IR, suspended, doubtful or questionable are excluded when identified. <strong>Not a verified active roster:</strong> final inactives and projected snaps remain unavailable. These are research candidates, not finalized five-leg picks.</p>'+cards+(chosenLegs.length<5?'<p>Only '+chosenLegs.length+' candidates passed the filters; five-leg selection withheld.</p>':'<p>Five candidates found, but final active status must be confirmed before selection.</p>')+'<small>Missing box-score reports: '+failures+'</small></div>';
  }catch(e){anchor.innerHTML='<div class="panel"><h2>🏈 Selected game · five-leg research</h2><p class="desc">Insufficient verified data: '+escapeHtml(e.message)+'</p></div>'}
 }
 
