@@ -18,7 +18,7 @@ function playerRows(){
  for(const heading of d.querySelectorAll('h2,h3')){
   if(!/Provisional player research/i.test(heading.textContent||''))continue;
   const panel=heading.closest('.panel');if(!panel)continue;
-  heading.textContent=heading.textContent.replace(/V7[0-6]/,'V77');
+  if(/V7[0-6]/.test(heading.textContent))heading.textContent=heading.textContent.replace(/V7[0-6]/,'V77');
   // Do not fabricate 2026 season totals or expand historical sample denominators.
   for(const el of panel.querySelectorAll('p,small,div')){
    if(el.children.length)continue;
