@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-20T23:56:27.997560+00:00",
+  "status": "awaiting-server-api-key",
+  "aiEnabled": false,
+  "analysis": null,
+  "error": null,
+  "model": null,
+  "summary": {
+    "scored": 0,
+    "awaitingFinal": 48,
+    "invalidOutcomeEvidence": 0,
+    "bySport": {}
+  },
+  "recentScored": [],
+  "recentPending": [
+    {
+      "gameKey": "nhl:401892768",
+      "sport": "nhl",
+      "start": "2026-11-22T17:30Z",
+      "predictedAt": "2026-11-20T23:37:03.216913+00:00",
+      "baselineHomeWin": 0.47415,
+      "modelVersion": "research-prior20-v1"
+    },
+    {
+      "gameKey": "nhl:401892769",
+      "sport": "nhl",
+      "start": "2026-11-22T22:00Z",
+      "predictedAt": "2026-11-20T23:37:03.216913+00:00",
+      "baselineHomeWin": 0.64455,
+      "modelVersion": "research-prior20-v1"
+    },
+    {
+      "gameKey": "nhl:401892770",
+      "sport": "nhl",
+      "start": "2026-11-23T00:00Z",
+      "predictedAt": "2026-11-20T23:37:03.216913+00:00",
+      "baselineHomeWin": 0.46955,
+      "modelVersion": "research-prior20-v1"
+    },
+    {
+      "gameKey": "nhl:401892771",
+      "sport": "nhl",
+      "start": "2026-11-23T00:00Z",
+      "predictedAt": "2026-11-20T23:37:03.216913+00:00",
+      "baselineHomeWin": 0.68102,
+      "modelVersion": "research-prior20-v1"
+    },
+    {
+      "gameKey": "nhl:401892772",
+      "sport": "nhl",
+      "start": "2026-11-23T01:00Z",
+      "predictedAt": "2026-11-20T23:37:03.216913+00:00",
+      "baselineHomeWin": 0.52818,
+      "modelVersion": "research-prior20-v1"
+    },
+    {
+      "gameKey": "nhl:401892773",
+      "sport": "nhl",
+      "start": "2026-11-24T00:00Z",
+      "predictedAt": "2026-11-20T23:37:03.216913+00:00",
+      "baselineHomeWin": 0.65474,
+      "modelVersion": "research-prior20-v1"
+    },
+    {
+      "gameKey": "nhl:401892774",
+      "sport": "nhl",
+      "start": "2026-11-24T00:30Z",
+      "predictedAt": "2026-11-20T23:37:03.216913+00:00",
+      "baselineHomeWin": 0.61801,
+      "modelVersion": "research-prior20-v1"
+    },
+    {
+      "gameKey": "nhl:401892775",
+      "sport": "nhl",
+      "start": "2026-11-24T00:30Z",
+      "predictedAt": "2026-11-20T23:37:03.216913+00:00",
+      "baselineHomeWin": 0.52626,
+      "modelVersion": "research-prior20-v1"
+    },
+    {
+      "gameKey": "nhl:401892776",
+      "sport": "nhl",
+      "start": "2026-11-24T00:30Z",
+      "predictedAt": "2026-11-20T23:37:03.216913+00:00",
+      "baselineHomeWin": 0.60658,
+      "modelVersion": "research-prior20-v1"
+    },
+    {
+      "gameKey": "nhl:401892777",
+      "sport": "nhl",
+      "start": "2026-11-24T00:30Z",
+      "predictedAt": "2026-11-20T23:37:03.216913+00:00",
+      "baselineHomeWin": 0.57457,
+      "modelVersion": "research-prior20-v1"
+    },
+    {
+      "gameKey": "nhl:401892778",
+      "sport": "nhl",
+      "start": "2026-11-24T02:40Z",
+      "predictedAt": "2026-11-20T23:37:03.216913+00:00",
+      "baselineHomeWin": 0.54648,
+      "modelVersion": "research-prior20-v1"
+    },
+    {
+      "gameKey": "nhl:401892779",
+      "sport": "nhl",
+      "start": "2026-11-24T03:00Z",
+      "predictedAt": "2026-11-20T23:37:03.216913+00:00",
+      "baselineHomeWin": 0.38735,
+      "modelVersion": "research-prior20-v1"
+    }
+  ],
+  "recommendations": [
+    "Capture forecasts before kickoff and preserve them unchanged.",
+    "Score finalized games before attempting calibration.",
+    "Review data-source coverage, player injuries and lineup freshness independently.",
+    "Compare proposed calibration against later, unseen games before release."
+  ],
+  "liveModelChanged": false,
+  "productionCodeModified": false,
+  "note": "AI narrative is advisory; deterministic evaluation is authoritative."
+}
