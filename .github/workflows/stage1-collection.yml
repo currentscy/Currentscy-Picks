@@ -74,6 +74,10 @@ jobs:
         run: python scripts/validation_dashboard.py
       - name: Cross-check all research layers
         run: python scripts/research_consistency.py
+      - name: Learn from finalized pregame predictions (shadow mode)
+        run: |
+          python scripts/learning_calibration.py
+          python scripts/forecast_vs_results.py
       - name: Publish verifiable workflow heartbeat
         if: always()
         env:
