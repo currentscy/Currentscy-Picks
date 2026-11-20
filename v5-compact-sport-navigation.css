@@ -1,0 +1,9 @@
+/* V5 compact mobile sport navigation; retains original buttons and listeners. */
+@media(max-width:760px){
+body[data-sport="home"] #sports, #sports{display:flex!important;flex-wrap:nowrap!important;overflow-x:auto!important;overflow-y:hidden!important;scroll-snap-type:x proximity;gap:8px!important;padding:8px 3px 12px!important;-webkit-overflow-scrolling:touch;scrollbar-width:thin;max-width:100%;align-items:stretch}
+#sports .sport{flex:0 0 auto!important;width:112px!important;min-width:112px!important;max-width:112px!important;height:88px!important;min-height:88px!important;padding:10px 6px!important;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:5px!important;scroll-snap-align:start;font-size:12px!important;line-height:1.15!important;text-align:center}
+#sports .sport .cp-league-logo{height:37px!important;width:65px!important;object-fit:contain!important;max-width:100%!important}
+#sports .sport .cp-league-label{font-size:12px!important;white-space:normal!important;line-height:1.2!important}
+#sports .sport .cp-league-fallback{font-size:16px!important}
+body[data-sport="home"] #sports{margin-bottom:10px}
+}
