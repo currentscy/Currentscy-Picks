@@ -1,0 +1,13 @@
+const assert=require('node:assert/strict'),vm=require('node:vm'),fs=require('node:fs');
+const sandbox={window:{},setTimeout,clearTimeout,AbortController,fetch:()=>{throw Error('Network not used in unit test')}};
+vm.runInNewContext(fs.readFileSync('v2-5-coaching-data.js','utf8'),sandbox);
+const parse=sandbox.window.CurrentscyCoachingDataV25.parseESPN;
+const plays=(team,n,period)=>Array.from({length:n},(_,i)=>({id:String(team)+'-'+period+'-'+i,period:{number:period},text:'Pass complete',type:{text:'Pass'}}));
+const summary={drives:{previous:[{team:{id:'1'},plays:[...plays(1,20,1),...plays(1,20,3)]},{team:{id:'2'},plays:[...plays(2,20,2),...plays(2,20,4)]}]}};
+const out=parse(summary);
+assert.equal(out.teamAttributedHalfPlays,80);
+assert.equal(out.attributionVerified,true);
+assert.equal(out.teamIds.length,2);
+const missing=parse({plays:[{id:'1',period:1,text:'Pass complete',type:{text:'Pass'}}]});
+assert.equal(missing.attributionVerified,false);
+console.log('ESPN attribution parser unit tests passed (synthetic fixture; live feed not verified)');
