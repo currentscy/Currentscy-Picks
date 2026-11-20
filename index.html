@@ -21,6 +21,7 @@ html=html.replace('</body>','<script src="v2-9-ufc-outcome-gate.js?v=2-9-1"><'+'
 html=html.replace('</body>','<script src="v3-0-ufc-validation.js?v=3-0-1"><'+'/script></body>');
 html=html.replace('</head>','<link rel="stylesheet" href="v3-1-ufc-final-layout.css?v=3-1-1"><link rel="stylesheet" href="v4-1-clean-prediction-ui.css?v=4-1-1"></head>');
 html=html.replace('</body>','<script src="v4-0-coaching-math.js?v=4-3-1"><'+'/script><script src="v4-3-coaching-integration.js?v=4-3-1"><'+'/script></body>');
+html=html.replace('</body>','<script src="v4-4-sport-isolation.js?v=4-4-1"><'+'/script></body>');
 /* V4.1: do not load the generic NFL coaching outlook card. Research adapters remain loaded. */
 document.open();document.write(html);document.close();
 }catch(e){document.body.textContent='Unable to load Currentscy Picks: '+e.message;}})();
