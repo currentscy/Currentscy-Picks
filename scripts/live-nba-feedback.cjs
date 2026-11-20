@@ -65,7 +65,7 @@ async function run(){
  const games=new Map(index.games.map(g=>[g.gameKey,g]));
  let created=0,settled=0,failures=[];
  // Capture the current and prior two Pacific dates so finals still settle.
- const dates=[0,-1,-2].map(offset=>{const d=new Date(now);d.setUTCDate(d.getUTCDate()+offset);return day(d)});
+ const dates=[0,-1,-2,1,2].map(offset=>{const d=new Date(now);d.setUTCDate(d.getUTCDate()+offset);return day(d)});
  for(const date of new Set(dates)){
   const url='https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates='+date+'&limit=100';
   let events;
