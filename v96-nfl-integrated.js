@@ -51,17 +51,32 @@ function evaluateInputs({playerId,metric,eventId,legs}={}){
  return {ready:missing.length===0,missing,simulationCalibrated:false,
   note:'No joint five-leg simulation or calibrated probabilities until historical validation and source mapping'};
 }
-// PFF ONLY in the five-leg player-summary context and ONLY through licensed, server-curated content.
-// Never call PFF endpoints directly or scrape PFF.
-function playerSummary({context,playerId,licensedPffSummary}={}){
- if(context!=='five-leg-player-parlay')return {pffUsed:false,summary:null};
- const v=licensedPffSummary;
- if(!v||v.provider!=='pff'||v.licensed===true!==true||v.publicDisplayAuthorized!==true||
-    v.playerId!==playerId||!fresh(v.observedAt,168)||typeof v.summary!=='string')
-  return {pffUsed:false,summary:null,reason:'Licensed PFF player summary unavailable'};
- return {pffUsed:true,summary:v.summary.slice(0,500),observedAt:v.observedAt};
+// PFF may contribute to any NFL research context IF the specific licensed usage permits it.
+// No scraping, public client credentials, invented data, or unlicensed redistribution.
+const pffContexts=new Set(['nfl-simulation','player-matchup','team-matchup','offense-defense',
+ 'five-leg-player-parlay','five-leg-simulation','injury-context','research']);
+function pffEvidence({context,playerId,licensedPffData}={}){
+ if(!pffContexts.has(context))return {pffUsed:false,reason:'Unsupported NFL context'};
+ const v=licensedPffData;
+ if(!v||v.provider!=='pff'||v.licensed!==true||v.derivedAnalyticsAuthorized!==true||
+    v.contexts?.includes(context)!==true||!fresh(v.observedAt,168)||
+    (playerId&&v.playerId!==playerId))
+  return {pffUsed:false,reason:'Authorized, fresh PFF evidence unavailable for this use'};
+ const metrics=v.metrics&&typeof v.metrics==='object'?Object.fromEntries(
+  Object.entries(v.metrics).filter(([k,n])=>/^[a-zA-Z][a-zA-Z0-9_]{0,40}$/.test(k)&&finite(n))
+ ):{};
+ return {pffUsed:true,context,metrics,observedAt:v.observedAt,
+  source:'PFF licensed server feed',simulationCalibrated:false};
 }
-window.CurrentscyNFLV96=Object.freeze({version:VERSION,providers,refresh,health,evaluateInputs,playerSummary});
+function playerSummary({context,playerId,licensedPffSummary}={}){
+ const ev=pffEvidence({context,playerId,licensedPffData:licensedPffSummary});
+ if(!ev.pffUsed||licensedPffSummary.publicDisplayAuthorized!==true||
+    typeof licensedPffSummary.summary!=='string')
+  return {pffUsed:false,summary:null,reason:'Licensed public-display PFF summary unavailable'};
+ return {pffUsed:true,summary:licensedPffSummary.summary.slice(0,500),observedAt:ev.observedAt};
+}
+window.CurrentscyNFLV96=Object.freeze({version:VERSION,providers,refresh,health,evaluateInputs,
+ pffEvidence,playerSummary});
 function init(){
  cleanVersion(document.body);
  const observer=new MutationObserver(scheduleClean);
