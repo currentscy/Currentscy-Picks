@@ -59,7 +59,13 @@ jobs:
         run: python scripts/validation_dashboard.py
       - name: Cross-check all research layers
         run: python scripts/research_consistency.py
+      - name: Publish verifiable workflow heartbeat
+        if: always()
+        env:
+          WORKFLOW_JOB_STATUS: ${{ job.status }}
+        run: python scripts/workflow-verification.py
       - name: Save latest evidence snapshot
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
