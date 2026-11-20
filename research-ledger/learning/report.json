@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-20T23:43:32.707555+00:00",
+  "scoredPredictions": 0,
+  "bySport": {},
+  "liveCalibrationActivated": false,
+  "automaticRetrainingDeployed": false,
+  "releaseGate": "Shadow model only. Requires >=200 scored forecasts per sport, >=30 chronological holdout results, improved Brier AND log loss, independent provenance review and explicit versioned release.",
+  "limitations": "Source-verified ESPN finals are not independent multi-provider verification; no prediction is backfilled or modified."
+}
