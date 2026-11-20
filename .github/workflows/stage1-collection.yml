@@ -1,5 +1,9 @@
 name: Currentscy Stage 1 multi-sport evidence collection
 on:
+  push:
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/stage1-collection.yml'
   schedule:
     - cron: '37 */6 * * *'
   workflow_dispatch:
