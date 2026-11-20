@@ -42,12 +42,8 @@ async function fetchToday(){
  if(loading||(loadedDate===day&&now-lastAttempt<15*60*1000))return;
  loading=true;lastAttempt=now;
  try{
-  // Seven consecutive Pacific calendar days, including today. Fetch each day
-  // separately to avoid scoreboard defaults truncating the future schedule.
-  const dates=Array.from({length:7},(_,i)=>{
-   const d=new Date(now+i*86400000);
-   return dateKey(d);
-  });
+  // Only the current Pacific calendar day, regardless of UTC midnight.
+  const dates=[day];
   const responses=await Promise.all(dates.map(async dayKey=>{
    const url='https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates='+dayKey+'&limit=100';
    const r=await fetch(url,{cache:'no-store'});
@@ -62,7 +58,7 @@ async function fetchToday(){
    if(!e.id||!Number.isFinite(tip)||tip<=Date.now()||state==='in'||state==='post'||e.status?.type?.completed)return;
    unique.set(e.id,e);
   });
-  items=[...unique.values()].map(build).filter(Boolean)
+  items=[...unique.values()].filter(e=>dateKey(new Date(e.date))===day).map(build).filter(Boolean)
    .sort((a,b)=>b.diff-a.diff||Date.parse(a.date)-Date.parse(b.date)).slice(0,3);
   loadedDate=day;
  }catch{items=[];loadedDate='';}finally{loading=false;render()}
@@ -84,8 +80,8 @@ function render(){
  if(host.dataset.date===day&&host.dataset.ids===items.map(x=>x.id+':'+x.estimate.toFixed(4)).join(','))return;
  host.dataset.date=day;host.dataset.ids=items.map(x=>x.id+':'+x.estimate.toFixed(4)).join(',');
  host.replaceChildren();
- const h=document.createElement('h2');h.textContent='🏀 Upcoming NBA 3-Leg Game Parlay';host.appendChild(h);
- const note=document.createElement('p');note.className='v87-three-note';note.textContent='Three game-winner candidates from NBA games scheduled over the next seven Pacific calendar days. Updates daily and excludes games that have already started. Ranked by a conservative model that shrinks small-sample records toward average and accounts for home court. Model estimates are NOT historically calibrated. Injuries, lineups and defensive matchups are not verified.';host.appendChild(note);
+ const h=document.createElement('h2');h.textContent='🏀 Today's NBA 3-Leg Game Parlay';host.appendChild(h);
+ const note=document.createElement('p');note.className='v87-three-note';note.textContent='Three game-winner candidates from NBA games scheduled today (Pacific time) only. Updates daily and excludes games that have already started. Ranked by a conservative model that shrinks small-sample records toward average and accounts for home court. Model estimates are NOT historically calibrated. Injuries, lineups and defensive matchups are not verified.';host.appendChild(note);
  items.forEach((x,i)=>{
   const div=document.createElement('div');div.className='v87-three-leg';
   const title=document.createElement('strong');title.textContent=(i+1)+'. '+x.pick+' to win';div.appendChild(title);
@@ -93,7 +89,7 @@ function render(){
   const sub=document.createElement('small');sub.textContent='Record comparison: '+x.record.w+'-'+x.record.l+' vs '+x.other.w+'-'+x.other.l+' · Provisional model estimate: '+Math.round(x.estimate*100)+'% (NOT calibrated)';div.appendChild(sub);
   host.appendChild(div);
  });
- const footer=document.createElement('p');footer.className='v87-three-note';footer.textContent='Regularized record-and-home-court model, not a three-game simulation or guaranteed parlay. Calibration requires walk-forward testing against historical games. Shows only when three eligible upcoming games have supported records.';host.appendChild(footer);
+ const footer=document.createElement('p');footer.className='v87-three-note';footer.textContent='Regularized record-and-home-court model, not a three-game simulation or guaranteed parlay. Calibration requires walk-forward testing against historical games. Shows only when three eligible games today have supported records; never fills missing legs with tomorrow's games.';host.appendChild(footer);
 }
 let queued=false;function schedule(){if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;const nba=document.body.dataset.sport==='nba'&&!$('listing')?.classList.contains('hidden');if(nba){fetchToday();render()}else $('v87-daily-three')?.remove()})}
 function init(){
