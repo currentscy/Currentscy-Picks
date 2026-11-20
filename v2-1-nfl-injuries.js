@@ -86,47 +86,58 @@ function availability(rec,player){
  if(uncertain.test(p.status))return {status:'uncertain',factor:.65,reason:p.status};
  return {status:'reported',factor:.85,reason:p.status};
 }
+const TEAM_IDS={'Arizona Cardinals':'22','Atlanta Falcons':'1','Baltimore Ravens':'33','Buffalo Bills':'2','Carolina Panthers':'29','Chicago Bears':'3','Cincinnati Bengals':'4','Cleveland Browns':'5','Dallas Cowboys':'6','Denver Broncos':'7','Detroit Lions':'8','Green Bay Packers':'9','Houston Texans':'34','Indianapolis Colts':'11','Jacksonville Jaguars':'30','Kansas City Chiefs':'12','Las Vegas Raiders':'13','Los Angeles Chargers':'24','Los Angeles Rams':'14','Miami Dolphins':'15','Minnesota Vikings':'16','New England Patriots':'17','New Orleans Saints':'18','New York Giants':'19','New York Jets':'20','Philadelphia Eagles':'21','Pittsburgh Steelers':'23','San Francisco 49ers':'25','Seattle Seahawks':'26','Tampa Bay Buccaneers':'27','Tennessee Titans':'10','Washington Commanders':'28'};
+function panels(){
+ const found=[];
+ for(const h of document.querySelectorAll('h1,h2,h3,h4,h5,div,strong')){
+  const own=[...h.childNodes].filter(n=>n.nodeType===3).map(n=>n.textContent).join(' ').trim();
+  if(!/^match injury report$/i.test(own.replace(/^🏥\s*/,'')))continue;
+  let card=h.closest('.panel,.card,.v87-card,.injury-card');
+  if(!card){let n=h;for(let i=0;i<5&&n.parentElement;i++){n=n.parentElement;if((n.textContent||'').length>90&&Object.keys(TEAM_IDS).some(t=>(n.textContent||'').includes(t))){card=n;break}}}
+  if(card&&!found.includes(card))found.push(card);
+ }
+ return found;
+}
+function panelTeams(card){
+ const raw=card.dataset.v21Teams||card.textContent||'';
+ return Object.entries(TEAM_IDS).filter(([name])=>raw.includes(name)).map(([name,id])=>({name,id}));
+}
 function display(records){
- for(const heading of document.querySelectorAll('h1,h2,h3,h4')){
-  if(!/match injury report/i.test(heading.textContent||''))continue;
-  let card=heading.closest('.panel,.card,.v87-card,.injury-card');
-  if(!card){
-   let node=heading;
-   for(let i=0;i<5&&node.parentElement;i++){
-    node=node.parentElement;
-    if(/injury information unavailable/i.test(node.textContent||'')&&(node.textContent||'').length<5000){card=node;break}
-   }
-  }
-  if(!card)return;
-  if(card.dataset.v21Injuries==='yes')continue;
-  const original=card.textContent||'';
-  const teams=[...records.values()].filter(r=>original.includes(r.team.name));
-  if(!teams.length)return;
+ for(const card of panels()){
+  const teams=panelTeams(card);
+  if(!teams.length)continue;
+  card.dataset.v21Teams=teams.map(t=>t.name).join(' | ');
   const title=document.createElement('h3');title.textContent='🏥 Match injury report';title.style.cssText='margin:0 0 12px';
   const box=document.createElement('div');box.style.cssText='display:grid;gap:8px';
-  for(const r of teams){
-   const details=document.createElement('details');details.style.cssText='border:1px solid #465065;border-radius:8px;background:#161c28';
+  for(const t of teams.slice(0,2)){
+   const r=records.get(String(t.id));
+   const players=r?[...r.players.values()].filter(x=>bad.test(x.status)||uncertain.test(x.status)):[];
+   const detail=document.createElement('details');detail.style.cssText='border:1px solid #465065;border-radius:8px;background:#161c28';
    const summary=document.createElement('summary');summary.style.cssText='cursor:pointer;padding:11px;font-weight:650;font-size:14px';
-   const players=[...r.players.values()].filter(x=>bad.test(x.status)||uncertain.test(x.status));
-   summary.textContent=r.team.name+' · '+(players.length?players.length+' reported':'No names verified');
+   summary.textContent=t.name+' · '+(players.length?players.length+' injury names':'Injury names unavailable');
    const body=document.createElement('div');body.style.cssText='padding:0 12px 12px;font-size:13px;line-height:1.5';
    if(players.length){
     const ul=document.createElement('ul');ul.style.cssText='margin:0;padding-left:18px';
-    for(const p of players.sort((a,b)=>a.name.localeCompare(b.name))){
-     const li=document.createElement('li');li.textContent=p.name+' — '+p.status+' ('+p.source+')';ul.append(li);
-    }
+    for(const p of players.sort((a,b)=>a.name.localeCompare(b.name))){const li=document.createElement('li');li.textContent=p.name+' — '+p.status;ul.append(li)}
     body.append(ul);
-   }else{const p=document.createElement('p');p.textContent='No named injuries verified from available feeds; this does not mean the team is healthy.';body.append(p)}
-   details.append(summary,body);box.append(details);
+   }else{const p=document.createElement('p');p.textContent='No named injuries could be verified from the available data. This does not mean there are no injuries.';body.append(p)}
+   detail.append(summary,body);box.append(detail);
   }
-  card.dataset.v21Injuries='yes';
-  card.replaceChildren(title,box);
+  card.dataset.v21Injuries='yes';card.replaceChildren(title,box);
  }
 }
-let latest=null,queued=false;
-function schedule(){if(!latest||queued)return;queued=true;setTimeout(()=>{queued=false;display(latest)},250)}
-const originalLoad=load;
-window.CurrentscyInjuries={load:async teams=>{latest=await originalLoad(teams);schedule();return latest},availability,display};
-function start(){new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true})}
+let latest=null,queued=false,activeKey='';
+async function refresh(){
+ const cards=panels();
+ if(!cards.length)return;
+ const teams=[...new Map(cards.flatMap(panelTeams).map(t=>[t.id,t])).values()];
+ const key=teams.map(t=>t.id).sort().join(',');
+ if(!key)return;
+ if(key!==activeKey){activeKey=key;latest=null;try{latest=await load(teams)}catch(_){latest=new Map()}}
+ if(latest)display(latest);
+}
+function schedule(){if(queued)return;queued=true;setTimeout(()=>{queued=false;refresh()},300)}
+window.CurrentscyInjuries={load,availability,display};
+function start(){schedule();new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true})}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();
 })();
