@@ -1,15 +1,15 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Currentscy Picks V98</title></head><body style="background:#081426;color:white;font-family:system-ui"><p>Loading Currentscy Picks…</p><script>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Currentscy Picks V99</title></head><body style="background:#081426;color:white;font-family:system-ui"><p>Loading Currentscy Picks…</p><script>
 (async()=>{try{
 const files=Array.from({length:18},(_,i)=>`page-${String(i+1).padStart(2,'0')}.txt`);
 const response=await Promise.all(files.map(f=>fetch(f,{cache:'no-store'})));
 if(response.some(r=>!r.ok))throw Error('A website file could not be loaded');
 let html=(await Promise.all(response.map(r=>r.text()))).join('');
 html=html.replace(/(?:href|src)="assets\/(style-\d+\.css|script-\d+\.js)"/g,(match,file)=>match.replace('assets/',''));
-html=html.replace(/Currentscy Picks V\d+\b/g,'Currentscy Picks V98');
+html=html.replace(/Currentscy Picks V\d+\b/g,'Currentscy Picks V99');
 html=html.replace('src="script-01.js"','src="script-01.js?v=98-1"');
 html=html.replace('</head>','<link rel="stylesheet" href="v77.css"><link rel="stylesheet" href="v78.css"><link rel="stylesheet" href="v79.css"><link rel="stylesheet" href="v81.css?v=82"><link rel="stylesheet" href="v83.css?v=83-1"><link rel="stylesheet" href="v84.css?v=84-1"><link rel="stylesheet" href="v85-nba-defense.css?v=85-1"><link rel="stylesheet" href="v86-defenders.css?v=86-1"><link rel="stylesheet" href="v87-synergy.css?v=87-1"><link rel="stylesheet" href="v87-layout.css?v=87-3"><link rel="stylesheet" href="v87-daily-three.css?v=87-6"></head>');
 html=html.replace('</body>','<script src="v77.js?v=81"><'+'/script><script src="v81.js?v=82"><'+'/script><script src="v83.js?v=83-1"><'+'/script><script src="v84.js?v=84-1"><'+'/script><script src="v85-nba-defense.js?v=85-1"><'+'/script><script src="v86-defenders.js?v=86-1"><'+'/script><script src="v87-synergy.js?v=87-1"><'+'/script><script src="v87-release.js?v=87-2"><'+'/script><script src="v87-layout.js?v=87-3"><'+'/script><script src="v87-player-research.js?v=87-6"><'+'/script><script src="v87-daily-three.js?v=93-1"><'+'/script></body>');
-html=html.replace('</body>','<script src="v95-nfl-sources.js?v=95-1"><'+'/script><script src="v95-nflverse.js?v=95-1"><'+'/script><script src="v95-sportsdataio.js?v=95-2"><'+'/script><script src="v95-sportradar.js?v=95-3"><'+'/script><script src="v95-espn-nfl.js?v=95-4"><'+'/script><script src="v96-nfl-integrated.js?v=98-1"><'+'/script><script src="v97-injury-links.js?v=98-1"><'+'/script><script src="v98-nfl-leg-summary.js?v=98-1"><'+'/script></body>');
+html=html.replace('</body>','<script src="v95-nfl-sources.js?v=95-1"><'+'/script><script src="v95-nflverse.js?v=95-1"><'+'/script><script src="v95-sportsdataio.js?v=95-2"><'+'/script><script src="v95-sportradar.js?v=95-3"><'+'/script><script src="v95-espn-nfl.js?v=95-4"><'+'/script><script src="v96-nfl-integrated.js?v=99-click-fix"><'+'/script><script src="v97-injury-links.js?v=98-1"><'+'/script><script src="v98-nfl-leg-summary.js?v=99-1"><'+'/script></body>');
 document.open();document.write(html);document.close();
 }catch(e){document.body.textContent='Unable to load Currentscy Picks: '+e.message;}})();
 </script></body></html>
