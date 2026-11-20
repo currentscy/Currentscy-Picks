@@ -29,7 +29,7 @@ function refresh(){
  // Remove only a wrapper that became visually empty after the explanatory details were hidden.
  for(const panel of detail?.querySelectorAll('.panel')||[]){
   const children=[...panel.children];
-  const emptyAfterCleanup=children.length>0&&children.every(el=>
+  const emptyAfterCleanup=(panel.innerText||'').trim()===''||children.length>0&&children.every(el=>
    el.classList.contains('v81-hide-panel')||
    (el.tagName==='DETAILS'&&el.classList.contains('v81-hide-panel'))||
    (el.textContent||'').trim()===''&&el.children.length===0
