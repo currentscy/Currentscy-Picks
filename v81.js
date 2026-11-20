@@ -25,7 +25,8 @@ function refresh(){
   if(!panel)continue;
   if(/ESPN\s*[·•-]\s*Last completed game box scores/i.test(label)){panel.classList.remove('v81-hide-panel','v81-empty-wrapper');continue;}
   if(/^Recent ESPN player performance$/i.test(label)){
-   panel.classList.toggle('v81-hide-panel',nba);
+   // Keep original ESPN panel and its player table visible.
+   panel.classList.remove('v81-hide-panel','v81-empty-wrapper');
   }
  }
  for(const summary of document.querySelectorAll('summary')){
@@ -40,7 +41,7 @@ function refresh(){
    (el.tagName==='DETAILS'&&el.classList.contains('v81-hide-panel'))||
    (el.textContent||'').trim()===''&&el.children.length===0
   );
-  panel.classList.toggle('v81-empty-wrapper',nba&&emptyAfterCleanup);
+  panel.classList.toggle('v81-empty-wrapper',nba&&emptyAfterCleanup&&!panel.querySelector('table,tbody,thead,[role="table"]'));
  }
 }
 function schedule(){if(pending)return;pending=true;requestAnimationFrame(()=>{pending=false;refresh()})}
