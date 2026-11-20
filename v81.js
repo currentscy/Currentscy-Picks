@@ -23,7 +23,8 @@ function refresh(){
   const label=(h.textContent||'').trim();
   const panel=h.closest('.panel');
   if(!panel)continue;
-  if(/^(?:Recent ESPN player performance|ESPN\s*[·•-]\s*Last completed game box scores)$/i.test(label)){
+  if(/ESPN\s*[·•-]\s*Last completed game box scores/i.test(label)){panel.classList.remove('v81-hide-panel','v81-empty-wrapper');continue;}
+  if(/^Recent ESPN player performance$/i.test(label)){
    panel.classList.toggle('v81-hide-panel',nba);
   }
  }
