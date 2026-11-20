@@ -91,7 +91,11 @@ def evaluate(stage2,predictions,outcomes):
 
 def main():
     if not S2.exists():raise SystemExit("Stage 2 evidence missing; Stage 4 cannot evaluate")
-    result=evaluate(load(S2,{}),load(P,[]),load(O,[]))
+    evidence=load(S2,{})
+    historic=load(ROOT/"research-ledger"/"stage3"/"game-index.json",{"games":[]})
+    known={g.get("gameKey") for g in evidence.get("games",[])}
+    evidence["games"]=list(evidence.get("games",[]))+[g for g in historic.get("games",[]) if g.get("gameKey") not in known]
+    result=evaluate(evidence,load(P,[]),load(O,[]))
     OUT.parent.mkdir(parents=True,exist_ok=True)
     tmp=OUT.with_suffix(".json.tmp")
     tmp.write_text(json.dumps(result,indent=2)+"\n")
