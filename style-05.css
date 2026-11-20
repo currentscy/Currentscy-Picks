@@ -1,0 +1,47 @@
+
+:root{--line:#383b43;color:#f5f5f6;background:#101113}body{background:#101113;color:#f5f5f6;--a:#d8d9dc;--shade:#1e2025;--line:#393c44}body[data-sport=home]{--a:#e4e4e6;--shade:#1b1d21}body[data-sport=nfl]{--a:#ef414d;--shade:#15263e}body[data-sport=nba]{--a:#f47734;--shade:#162d50}body[data-sport=ncaa]{--a:#e34e55;--shade:#1e2e48}body[data-sport=nhl]{--a:#e4e8f1;--shade:#22252e}body[data-sport=mlb]{--a:#f04a55;--shade:#1b2945}body[data-sport=soccer]{--a:#c5a4ff;--shade:#282139}body[data-sport=soccer][data-league="esp.1"]{--a:#ff6d61;--shade:#322123}body[data-sport=soccer][data-league="eng.1"]{--a:#b86cff;--shade:#2d193a}body[data-sport=soccer][data-league="ita.1"]{--a:#69c6ff;--shade:#162d39}body[data-sport=soccer][data-league="ger.1"]{--a:#ff5a64;--shade:#321b23}body[data-sport=soccer][data-league="fra.1"]{--a:#8dbaff;--shade:#1b2a43}body[data-sport=soccer][data-league="uefa.champions"]{--a:#8ba9ff;--shade:#1a2550}body[data-sport=tennis]{--a:#c2e765;--shade:#232a1b}body[data-sport=ufc]{--a:#f3494c;--shade:#2d1d21}
+body{background:radial-gradient(ellipse at 85% 0,var(--shade),transparent 52%),#101113}.wrap{max-width:1040px}.panel{background:#1d2027;border:1px solid #383d47}.tile,.player,.game{background:#14171d;border-color:#3b414c}.hint{background:#131821}.brandline{display:flex;align-items:center;gap:12px;min-width:0}.brand-logo{width:clamp(116px,23vw,166px);height:auto;max-height:82px;object-fit:contain;flex-shrink:0;filter:drop-shadow(0 1px 5px rgba(218,172,68,.16))}header{align-items:center}header h1{font-size:clamp(23px,4.4vw,32px)}.sub,.muted,.desc{color:#b8bac3}.badge{background:#2b2e35;color:#eee}#homeIntro{text-align:center;padding:26px 0 4px}#homeIntro h2{font-size:28px;letter-spacing:-.8px;margin:0}#homeIntro p{color:#aeb1bb;font-size:14px}body[data-sport=home] .sports{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:18px 0 28px}body[data-sport=home] .sport{padding:22px 8px;min-height:115px;background:#22252b;border:1px solid #41454d;border-radius:20px;font-size:15px}body[data-sport=home] .sport em{font-size:31px;margin-bottom:9px}.sport{background:#1c2532;border-color:#434955;color:#fff}.sport.active{border-color:var(--a);box-shadow:inset 0 -3px var(--a)}.home-link{border:1px solid #50535a;background:#25272d;color:#f7f7f7;padding:10px 15px;border-radius:11px;cursor:pointer}.btn{color:#101114}.ghost{background:#292f39;color:#fff}footer{color:#9fa4b0}#v59WeeklyPanel{border-top:3px solid #e33d4b}@media(max-width:550px){.brand-logo{width:82px;height:52px}.badge{font-size:9px;padding:7px}.wrap{padding:15px 12px 55px}body[data-sport=home] .sports{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* V62: color-coded sports and blended brand, without changing source data routing */
+body[data-sport="home"]{--a:#d5ad58;--shade:#16181b;background:#111316;color:#f6f6f6}
+body[data-sport="nfl"]{--a:#e84d58;--shade:#13213a;background:radial-gradient(ellipse at top right,#183c66,transparent 60%),#0a1323}
+body[data-sport="nba"]{--a:#f07737;--shade:#162f55;background:radial-gradient(ellipse at top right,#233f6b,transparent 60%),#111722}
+body[data-sport="ncaa"]{--a:#e8a44c;--shade:#3b2919}
+body[data-sport="nhl"]{--a:#c8d2df;--shade:#28303c}
+body[data-sport="mlb"]{--a:#ed5e63;--shade:#19375a}
+body[data-sport="soccer"]{--a:#b49ae5;--shade:#2b2140}
+body[data-sport="tennis"]{--a:#b3dc5e;--shade:#203328}
+body[data-sport="ufc"]{--a:#ed424d;--shade:#341b23}
+.brand-logo{mix-blend-mode:screen;object-fit:contain;object-position:center;filter:contrast(1.14);border:0!important;box-shadow:none!important;background:transparent!important}
+body[data-sport="home"] .sport{background:#22252a;border-color:#41454b;color:#f6f6f6}
+body[data-sport="home"] .sport:hover{border-color:#d5ad58}
+body:not([data-sport="home"]) .sport.active{border-color:var(--a);box-shadow:inset 0 -4px 0 var(--a);background:color-mix(in srgb,var(--a) 13%,#162337)}
+body:not([data-sport="home"]) .btn:not(.ghost){background:var(--a)}
+body[data-sport="nfl"] .panel,body[data-sport="nba"] .panel{border-color:#34475c}
+@media(max-width:650px){.brand-logo{max-width:118px;max-height:72px;object-fit:contain}.brandline{align-items:center;gap:10px}.sub{font-size:11px;line-height:1.45}}
+
+/* V64 compact persistent navigation: logo remains embedded in this HTML */
+.wrap>header{position:sticky;top:0;z-index:30;min-height:0!important;padding:5px 10px!important;gap:8px!important;background:#111318!important;border-bottom:1px solid #30333a;display:flex;align-items:center}
+.wrap>header .brandline{gap:7px!important;min-width:0;flex:1}
+.wrap>header .brand-logo{width:72px!important;height:39px!important;max-width:72px!important;max-height:39px!important;object-fit:contain}
+.wrap>header h1{font-size:17px!important;line-height:1.05!important;margin:0!important;white-space:nowrap}
+.wrap>header .sub{display:none!important}
+.wrap>header .badge{font-size:8px!important;padding:4px 5px!important;white-space:nowrap}
+#sports{position:sticky;top:49px;z-index:29;display:flex!important;flex-wrap:nowrap!important;overflow-x:auto;gap:5px!important;padding:5px 2px!important;margin:0 0 12px!important;background:#111318;scrollbar-width:thin;overscroll-behavior-x:contain}
+#sports .sport{flex:0 0 auto!important;min-width:66px!important;min-height:0!important;padding:6px 8px!important;font-size:11px!important;border-radius:9px!important;line-height:1.2!important}
+#sports .sport em{font-size:17px!important;margin:0 3px 0 0!important;display:inline!important}
+body[data-sport=home] #sports{position:relative;top:auto;display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;flex-wrap:wrap!important;overflow:visible}
+body[data-sport=home] #sports .sport{min-height:95px!important;padding:16px 8px!important;font-size:15px!important}
+body[data-sport=home] #sports .sport em{display:block!important;font-size:28px!important;margin-bottom:8px!important}
+#v64NflFive .v64pick{padding:11px 0;border-bottom:1px solid #41454d}
+#v64NflFive .v64pick:last-child{border:0}
+@media(max-width:550px){.wrap>header{margin:0!important}.wrap>header .brand-logo{width:65px!important;height:35px!important}.wrap>header h1{font-size:16px!important}#sports{top:45px}}
+
+.sports-nav-wrap{display:flex;align-items:center;gap:6px;min-width:0;overflow:hidden;background:#111319;padding:4px 0}
+.sports-nav-wrap .sports{flex:1;min-width:0;margin:0!important}
+.home-nav{flex:0 0 auto;border:1px solid #414751;background:#24272e;color:#fff;border-radius:12px;padding:13px 9px;font:inherit;font-size:13px;white-space:nowrap;cursor:pointer}
+.home-nav.hidden{display:none!important}
+.nfl-recent-row{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:9px 0;border-bottom:1px solid #333b47;font-size:14px}
+.nfl-recent-row:last-child{border-bottom:0}.nfl-recent-row .nfl-score{white-space:nowrap;font-weight:700}.nfl-recent-row .nfl-w{color:#83d4ac}.nfl-recent-row .nfl-l{color:#ef858a}
+.nfl-recent-stack{display:grid;grid-template-columns:1fr;gap:12px}.nfl-recent-team{padding:14px;background:#161a21;border:1px solid #373e49;border-radius:14px}
+.v65leg{padding:13px 0;border-bottom:1px solid #38404d}.v65leg:last-child{border:0}.v65leg strong{font-size:17px}.v65leg small{display:block;color:#b4bece;margin-top:5px}
