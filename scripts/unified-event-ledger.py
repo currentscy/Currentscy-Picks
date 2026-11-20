@@ -19,6 +19,7 @@ UTC=dt.timezone.utc
 # separate ESPN scoreboard feeds; their completeness is not assumed.
 FEEDS={**SPORTS,"mlb":("baseball","mlb"),"ufc":("mma","ufc"),
        "tennis-atp":("tennis","atp"),"tennis-wta":("tennis","wta")}
+EXTRA={k:v for k,v in FEEDS.items() if k not in SPORTS}
 def iso(s):
  try:
   d=dt.datetime.fromisoformat(s.replace("Z","+00:00"))
@@ -45,11 +46,11 @@ def merge(existing,observed):
    else:
     by[key]={**e,"firstObservedAt":first,"lastObservedAt":e["observedAt"],"observationCount":count+1}
  return sorted(by.values(),key=lambda x:x["eventKey"])
-def collect(now=None,fetcher=get,back=2,forward=7):
+def collect(now=None,fetcher=get,back=1,forward=2):
  now=now or dt.datetime.now(UTC)
  observed=now.isoformat()
  events=[];checks=[]
- for sport,(category,league) in FEEDS.items():
+ for sport,(category,league) in EXTRA.items():
   for offset in range(-back,forward+1):
    day=(now+dt.timedelta(days=offset)).strftime("%Y%m%d")
    url=f"https://site.api.espn.com/apis/site/v2/sports/{category}/{league}/scoreboard?dates={day}&limit=300"
@@ -80,7 +81,11 @@ def collect(now=None,fetcher=get,back=2,forward=7):
  return events,checks
 def main():
  old=json.loads(OUT.read_text()) if OUT.exists() else {"events":[]}
+ stage1path=ROOT/"research-ledger"/"stage1"/"latest.json"
+ stage1=json.loads(stage1path.read_text()) if stage1path.exists() else {"events":[],"checks":[]}
  events,checks=collect()
+ events=list(stage1.get("events",[]))+events
+ checks=list(stage1.get("checks",[]))+checks
  result={"schemaVersion":1,"updatedAt":dt.datetime.now(UTC).isoformat(),
          "events":merge(old.get("events",[]),events)}
  summary={}
@@ -88,7 +93,7 @@ def main():
   attempts=[x for x in checks if x["sport"]==sport]
   summary[sport]={"requestsSucceeded":sum(x["ok"] for x in attempts),
    "requestsFailed":sum(not x["ok"] for x in attempts),
-   "eventsObservedThisRun":sum(x.get("count",0) for x in attempts),
+   "eventsObservedThisRun":sum(x.get("count",x.get("eventsReturned",0)) for x in attempts),
    "historicalEvents":sum(x.get("sport")==sport for x in result["events"]),
    "coverageVerifiedComplete":False}
  health={"schemaVersion":1,"updatedAt":result["updatedAt"],"sports":summary,
