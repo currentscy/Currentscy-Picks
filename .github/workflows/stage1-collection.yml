@@ -78,6 +78,11 @@ jobs:
         run: |
           python scripts/learning_calibration.py
           python scripts/forecast_vs_results.py
+      - name: AI research audit (optional, never changes forecasts)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-4.1-mini
+        run: python scripts/ai-research-agent.py
       - name: Publish verifiable workflow heartbeat
         if: always()
         env:
