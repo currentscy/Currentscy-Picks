@@ -182,8 +182,11 @@ async function analyzeNHL(){
   if(a.games.length<5||h.games.length<5)throw Error('Found '+a.games.length+' / '+h.games.length+' usable completed games (away/home); need at least five each. Data sources: '+a.diagnostics.join('; ')+' | '+h.diagnostics.join('; '));
   const [ar,hr]=await Promise.all([nhlPlayerReports(a),nhlPlayerReports(h)]);
   const mean=(v,k)=>v.reduce((n,x)=>n+x[k],0)/v.length;
-  const la=Math.max(.2,Math.min(7,(mean(a.games,'own')+mean(h.games,'against'))/2));
-  const lh=Math.max(.2,Math.min(7,(mean(h.games,'own')+mean(a.games,'against'))/2));
+  const baselineLa=Math.max(.2,Math.min(7,(mean(a.games,'own')+mean(h.games,'against'))/2));
+  const baselineLh=Math.max(.2,Math.min(7,(mean(h.games,'own')+mean(a.games,'against'))/2));
+  const nhlInjury=window.CurrentscyInjuryEngineV48?.apply('nhl',String(chosen.id),{home:baselineLh,away:baselineLa});
+  const la=nhlInjury?.applied?nhlInjury.away:baselineLa;
+  const lh=nhlInjury?.applied?nhlInjury.home:baselineLh;
   const N=100000;let aw=0,hw=0,tie=0,over45=0,over55=0,btts=0;
   const scores=new Map();let total=0;
   for(let i=0;i<N;i++){
@@ -1183,8 +1186,11 @@ async function analyzeSoccer(){
  h.detail=detail[1].status==='fulfilled'?detail[1].value:[];
  const avg=(g,k)=>g.reduce((s,x)=>s+x[k],0)/g.length;
  // Blend each side's attacking rate with opponent's defensive rate, plus a conservative baseline.
- const lambdaH=Math.max(.15,Math.min(4.5,.46*weightedRate(h.games,'gf',true)+.38*weightedRate(a.games,'ga',false)+.16*1.35));
- const lambdaA=Math.max(.15,Math.min(4.5,.46*weightedRate(a.games,'gf',false)+.38*weightedRate(h.games,'ga',true)+.16*1.15));
+ const baselineLambdaH=Math.max(.15,Math.min(4.5,.46*weightedRate(h.games,'gf',true)+.38*weightedRate(a.games,'ga',false)+.16*1.35));
+ const baselineLambdaA=Math.max(.15,Math.min(4.5,.46*weightedRate(a.games,'gf',false)+.38*weightedRate(h.games,'ga',true)+.16*1.15));
+ const soccerInjury=window.CurrentscyInjuryEngineV48?.apply('soccer',String(gameAtStart),{home:baselineLambdaH,away:baselineLambdaA});
+ const lambdaH=soccerInjury?.applied?soccerInjury.home:baselineLambdaH;
+ const lambdaA=soccerInjury?.applied?soccerInjury.away:baselineLambdaA;
  let apiPlayers,threeLeg;
  if(league==='eng.1'){
   try{({apiPlayers,threeLeg}=await v31FplPanels(away,home,a,h));}
