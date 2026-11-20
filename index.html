@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Currentscy Picks V2.8</title></head><body style="background:#081426;color:white;font-family:system-ui"><p>Loading Currentscy Picks…</p><script>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Currentscy Picks V2.9</title></head><body style="background:#081426;color:white;font-family:system-ui"><p>Loading Currentscy Picks…</p><script>
 (async()=>{try{
 const files=Array.from({length:18},(_,i)=>`page-${String(i+1).padStart(2,'0')}.txt`);
 const response=await Promise.all(files.map(f=>fetch(f,{cache:'no-store'})));
@@ -17,6 +17,7 @@ html=html.replace('</head>','<link rel="stylesheet" href="v2-5-ufc-cleanup.css?v
 html=html.replace('</body>','<script src="v2-5-ufc-cleanup.js?v=2-5-1"><'+'/script><script src="v2-6-ufc-data-readiness.js?v=2-6-1"><'+'/script></body>');
 html=html.replace('</body>','<script src="v2-7-ufc-history.js?v=2-7-1"><'+'/script></body>');
 html=html.replace('</body>','<script src="v2-8-ufc-tactics.js?v=2-8-1"><'+'/script></body>');
+html=html.replace('</body>','<script src="v2-9-ufc-outcome-gate.js?v=2-9-1"><'+'/script></body>');
 document.open();document.write(html);document.close();
 }catch(e){document.body.textContent='Unable to load Currentscy Picks: '+e.message;}})();
 </script></body></html>
