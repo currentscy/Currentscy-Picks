@@ -1115,6 +1115,8 @@ function v53TeamKey(s){
  'real betis balompie':'real betis','real sociedad san sebastian':'real sociedad',
  'internazionale':'inter','inter milan':'inter','ac milan':'milan',
  'bayern munich':'bayern munich','fc bayern munchen':'bayern munich',
+ 'koln':'cologne','koln 1':'cologne','1 fc koln':'cologne','fc koln':'cologne',
+ 'cologne':'cologne','fc cologne':'cologne','1 fc cologne':'cologne',
  'paris saint germain':'paris saint germain','psg':'paris saint germain'};
  const key=String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'')
  .toLowerCase().replace(/&/g,' and ').replace(/[^a-z0-9 ]/g,' ')
@@ -1134,9 +1136,10 @@ async function v53LeaguePicks(home,away,h,a){
  u.searchParams.set('league',league);
  const resp=await get(u.toString());
  if(!resp.ok||!Array.isArray(resp.players))throw Error(resp.error||'Player dataset unavailable');
+ if(!resp.players.length)throw Error('Provider returned no player records for '+league);
  const homeName=home.team?.displayName||h.name,awayName=away.team?.displayName||a.name;
  const homeKey=v53FindTeam(resp.players,homeName),awayKey=v53FindTeam(resp.players,awayName);
- if(!homeKey||!awayKey)throw Error('Team identity could not be matched safely: '+homeName+' / '+awayName);
+ if(!homeKey||!awayKey)throw Error('Team identity could not be matched safely: '+homeName+' / '+awayName+' (provider teams: '+[...new Set(resp.players.map(p=>p.team))].slice(0,8).join(', ')+')');
  const eligible=resp.players.filter(p=>p.team===homeKey||p.team===awayKey)
   .filter(p=>Number.isFinite(p.appearances)&&p.appearances>=5&&Number.isFinite(p.minutes)&&p.minutes>=450)
   .flatMap(p=>['goal','assist'].map(kind=>{
@@ -1225,10 +1228,10 @@ async function analyzeSoccer(){
   matchPanel.append(summary);
  }
  $('results').innerHTML=threeLeg+apiPlayers+
- '<div class="panel"><h2>Most frequent scorelines</h2>'+top.map(([score,c],i)=>'<div class="leg">'+(i+1)+'. <strong>'+escapeHtml(h.name)+' '+score+' '+escapeHtml(a.name)+'</strong> · <b>'+(100*c/n).toFixed(1)+'%</b></div>').join('')+'</div>'+
- '<div class="panel"><h2>Recent team form · actual scores</h2><div class="grid">'+[h,a].map(t=>'<div class="tile"><strong>'+escapeHtml(t.name)+'</strong><p class="desc">'+t.games.length+' completed matches<br>Goals scored / match: '+avg(t.games,'gf').toFixed(2)+'<br>Goals allowed / match: '+avg(t.games,'ga').toFixed(2)+'<br>Clean sheets: '+t.games.filter(g=>g.ga===0).length+'<br>Failed to score: '+t.games.filter(g=>g.gf===0).length+'</p></div>').join('')+'</div></div>'+
- soccerMetricPanel(h,a)+
- '<div class="panel"><h3>Method and limitations</h3><p class="desc">Match scores come from ESPN unofficial competition-specific team schedules. The model blends each club’s recent attack and opponent’s recent goals conceded, with home/away weighting and a modest baseline. It assumes independent Poisson goals and does not yet use expected-goals event data, confirmed lineups, injuries, tactics, opponent strength, or in-game events. Percentages are uncalibrated model frequencies, not guarantees or verified Kalshi contracts. Player projections are experimental, and unverified defender assignments and lineups are excluded.</p></div>';
+ '<details class="panel cp-soccer-research"><summary>Most frequent scorelines</summary>'+top.map(([score,c],i)=>'<div class="leg">'+(i+1)+'. <strong>'+escapeHtml(h.name)+' '+score+' '+escapeHtml(a.name)+'</strong> · <b>'+(100*c/n).toFixed(1)+'%</b></div>').join('')+'</details>'+
+ '<details class="panel cp-soccer-research"><summary>Recent team form · actual scores</summary>'<div class="grid">'+[h,a].map(t=>'<div class="tile"><strong>'+escapeHtml(t.name)+'</strong><p class="desc">'+t.games.length+' completed matches<br>Goals scored / match: '+avg(t.games,'gf').toFixed(2)+'<br>Goals allowed / match: '+avg(t.games,'ga').toFixed(2)+'<br>Clean sheets: '+t.games.filter(g=>g.ga===0).length+'<br>Failed to score: '+t.games.filter(g=>g.gf===0).length+'</p></div>').join('')+'</div></details>'+
+ '<details class="cp-soccer-research"><summary>Shots, corners, saves & possession</summary>'+soccerMetricPanel(h,a)+'</details>'+
+ '<details class="panel cp-soccer-research"><summary>Method and limitations</summary><p class="desc">Match scores come from ESPN unofficial competition-specific team schedules. The model blends each club’s recent attack and opponent’s recent goals conceded, with home/away weighting and a modest baseline. It assumes independent Poisson goals and does not yet use expected-goals event data, confirmed lineups, injuries, tactics, opponent strength, or in-game events. Percentages are uncalibrated model frequencies, not guarantees or verified Kalshi contracts. Player projections are experimental, and unverified defender assignments and lineups are excluded.</p></details>';
  // V58: no API-Football player-data requests on automatic soccer analysis.
  }catch(e){$('results').innerHTML='<div class="panel err">Soccer analysis unavailable: '+escapeHtml(e.message)+'. No simulated probabilities were fabricated.</div>'}finally{btn.disabled=false;btn.textContent='Re-run 100,000 soccer trials'}
 }
