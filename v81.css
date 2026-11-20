@@ -1,0 +1,4 @@
+/* Currentscy Picks V81 — NBA display cleanup only */
+#detail.v81-nba #dataStatus{display:none!important}
+#detail.v81-nba .v81-hide-panel{display:none!important}
+body:has(#detail.v81-nba) .v81-hide-panel{display:none!important}
