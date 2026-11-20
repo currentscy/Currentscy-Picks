@@ -50,7 +50,8 @@ def eligible(games,predictions,outcomes):
   seen.add(pid)
   rows.append({"id":pid,"gameKey":p["gameKey"],"sport":g.get("sport") or p["gameKey"].split(":")[0],
    "modelVersion":p.get("modelVersion"),"kickoff":start.isoformat(),
-   "probability":probability,"result":o["result"]})
+   "probability":probability,"result":o["result"],
+   "shadowProbability":p.get("shadowProbability") if type(p.get("shadowProbability")) in (int,float) and 0<p["shadowProbability"]<1 else None})
  return sorted(rows,key=lambda r:(r["kickoff"],r["id"]))
 def analyze(rows):
  groups=defaultdict(list)
@@ -59,7 +60,11 @@ def analyze(rows):
  for sport,items in sorted(groups.items()):
   n=len(items);cut=max(0,n-MIN_HOLDOUT)
   train=items[:cut];test=items[cut:]
+  shadow_rows=[x for x in items if x.get("shadowProbability") is not None]
   entry={"n":n,"trainCount":len(train),"holdoutCount":len(test),
+    "actualArchivedShadow":{"n":len(shadow_rows),
+      "baseline":score([(x["probability"],x["result"]) for x in shadow_rows]),
+      "shadow":score([(x["shadowProbability"],x["result"]) for x in shadow_rows])},
     "originalBrier":score([(x["probability"],x["result"]) for x in items]),
     "candidate":None,"holdout":None,"promotionEligible":False,
     "activeAdjustment":None}
