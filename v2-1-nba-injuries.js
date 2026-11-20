@@ -25,7 +25,23 @@ async function load(teams){
  })();
  try{return await inflight}finally{inflight=null}
 }
-function findCard(){if(!/\bNBA\b/i.test(document.getElementById('matchDate')?.textContent||''))return null;for(const h of document.querySelectorAll('h2,h3,h4')){if(!/match injury report/i.test(h.textContent||''))continue;const card=h.closest('.panel,.card,.v87-card,.injury-card');if(card)return card}return null}
+function findCard(){
+ if(document.body.dataset.sport!=='nba')return null;
+ const detail=document.getElementById('detail');if(!detail||detail.classList.contains('hidden'))return null;
+ for(const h of detail.querySelectorAll('h1,h2,h3,h4,h5,strong,div')){
+  const own=[...h.childNodes].filter(n=>n.nodeType===3).map(n=>n.textContent).join(' ').trim();
+  if(!/match injury report/i.test(own))continue;
+  let n=h;
+  for(let i=0;i<6&&n.parentElement;i++){
+   n=n.parentElement;
+   if(n===detail)break;
+   const txt=n.textContent||'';
+   if(Object.keys(TEAMS).filter(name=>txt.includes(name)).length>=2&&txt.length>140&&txt.length<2500)return n;
+   if(n.classList.contains('panel')||n.classList.contains('card'))return n;
+  }
+ }
+ return null;
+}
 function matchTeams(card){const text=card.textContent||'';const list=Object.entries(TEAMS).filter(([name])=>text.includes(name)).map(([name,id])=>({name,id}));return [...new Map(list.map(t=>[t.id,t])).values()].slice(0,2)}
 function render(card,teams,records,key){
  if(!card.isConnected)return;
