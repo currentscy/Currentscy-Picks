@@ -1,0 +1,1524 @@
+{
+  "schemaVersion": 5,
+  "entries": [
+    {
+      "digest": "3a8e77be1ddc7e4e115a6d8fdadc3eb5c866a52722a0f6f5a1c3c496e630aef8",
+      "gameKey": "nhl:401892742",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/3a8e77be1ddc7e4e115a6d8fdadc3eb5c866a52722a0f6f5a1c3c496e630aef8.json"
+    },
+    {
+      "digest": "c2e9fa6c02ab8645c72fb3d6392842ea9424a7a179553b42dee40962014b03cf",
+      "gameKey": "nhl:401892743",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/c2e9fa6c02ab8645c72fb3d6392842ea9424a7a179553b42dee40962014b03cf.json"
+    },
+    {
+      "digest": "013f7dc6b9105b84b7f449dd2375ba49eb1a68046e00e1649aaeb6906d9d1702",
+      "gameKey": "nhl:401892745",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/013f7dc6b9105b84b7f449dd2375ba49eb1a68046e00e1649aaeb6906d9d1702.json"
+    },
+    {
+      "digest": "001b550e2dc0bb23612b8e67e487b5b04aa8a8a10787bb8b4cb8b3aa745cbd13",
+      "gameKey": "nhl:401892746",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/001b550e2dc0bb23612b8e67e487b5b04aa8a8a10787bb8b4cb8b3aa745cbd13.json"
+    },
+    {
+      "digest": "f7bc241931d828a3b77b4f320ff51f1943f009bce5c221d7e813edf22d040003",
+      "gameKey": "nhl:401892747",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/f7bc241931d828a3b77b4f320ff51f1943f009bce5c221d7e813edf22d040003.json"
+    },
+    {
+      "digest": "e4c2712ee4c4420a506a54989c1207e4d6b0ee2cb59ec811dcecfc8bf64e9b41",
+      "gameKey": "nhl:401892749",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/e4c2712ee4c4420a506a54989c1207e4d6b0ee2cb59ec811dcecfc8bf64e9b41.json"
+    },
+    {
+      "digest": "d29ae90e7bcfcefa569430b8764c70a3c173e211859a9d46e4a483818a36076c",
+      "gameKey": "ncaa-football:401862830",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/d29ae90e7bcfcefa569430b8764c70a3c173e211859a9d46e4a483818a36076c.json"
+    },
+    {
+      "digest": "afbac3285395073b76391a6fb976cce0d12b72fa8f9ee6592c821c234ef23992",
+      "gameKey": "nhl:401892744",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/afbac3285395073b76391a6fb976cce0d12b72fa8f9ee6592c821c234ef23992.json"
+    },
+    {
+      "digest": "e0972f59c45c2adaa03b020fd7d24fde50f2f1909e67778da963ff3913367501",
+      "gameKey": "soccer-mls:401933535",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/e0972f59c45c2adaa03b020fd7d24fde50f2f1909e67778da963ff3913367501.json"
+    },
+    {
+      "digest": "696263bd498dac85fc0c8a52202061c61b79d386bc9fe3c64c70d0cb13b58a83",
+      "gameKey": "nba:401910019",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/696263bd498dac85fc0c8a52202061c61b79d386bc9fe3c64c70d0cb13b58a83.json"
+    },
+    {
+      "digest": "7d054b471973e43b08408c9b8f45547f4dff7a24a1efc23a39c785ec604ff0b9",
+      "gameKey": "nba:401910020",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/7d054b471973e43b08408c9b8f45547f4dff7a24a1efc23a39c785ec604ff0b9.json"
+    },
+    {
+      "digest": "34e7e46a73f74e89bd8ff7fe35620ae41f27a12afeede319881f4d186bf23981",
+      "gameKey": "nba:401910021",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/34e7e46a73f74e89bd8ff7fe35620ae41f27a12afeede319881f4d186bf23981.json"
+    },
+    {
+      "digest": "1389c864704c46cc09b348d96adceaa4ac381b524e5e0b100e18de6d5e330ae7",
+      "gameKey": "nba:401910022",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/1389c864704c46cc09b348d96adceaa4ac381b524e5e0b100e18de6d5e330ae7.json"
+    },
+    {
+      "digest": "ef32f3c6a68d0391247a6898a3ac93351511638cae6ec8e1431ff0f5981b4823",
+      "gameKey": "nhl:401892748",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/ef32f3c6a68d0391247a6898a3ac93351511638cae6ec8e1431ff0f5981b4823.json"
+    },
+    {
+      "digest": "7146ba8bc91a53dda459dc0b10e6167de19b74253cd0c5e6be7f544694431d65",
+      "gameKey": "nhl:401892750",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/7146ba8bc91a53dda459dc0b10e6167de19b74253cd0c5e6be7f544694431d65.json"
+    },
+    {
+      "digest": "f6a91e19ef708810bc5641511b5c887967eb203ef31674c92dfe0e0de2b382ba",
+      "gameKey": "nfl:401873066",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/f6a91e19ef708810bc5641511b5c887967eb203ef31674c92dfe0e0de2b382ba.json"
+    },
+    {
+      "digest": "f70abdf0974e1cde4f701cfb770d10b6b470356b5edb44443f0775758dde1efd",
+      "gameKey": "nhl:401892751",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/f70abdf0974e1cde4f701cfb770d10b6b470356b5edb44443f0775758dde1efd.json"
+    },
+    {
+      "digest": "4e6c77a8356267565a6089f1a0670a08bff9e73a31e5e14c344a2aa81db9f5b9",
+      "gameKey": "nhl:401892752",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/4e6c77a8356267565a6089f1a0670a08bff9e73a31e5e14c344a2aa81db9f5b9.json"
+    },
+    {
+      "digest": "5173f0c8e1ed1a402743601dd7c054610882fa3dc1e59c5a22e9b8f5eb229fb5",
+      "gameKey": "nhl:401892753",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/5173f0c8e1ed1a402743601dd7c054610882fa3dc1e59c5a22e9b8f5eb229fb5.json"
+    },
+    {
+      "digest": "bd2bea8d1e99343829cfac405a8d34cf66dde59fa204ad33adbca5cc7d08e125",
+      "gameKey": "soccer-mls:401933555",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/bd2bea8d1e99343829cfac405a8d34cf66dde59fa204ad33adbca5cc7d08e125.json"
+    },
+    {
+      "digest": "72a6418f83f98a25cc503b327d89e902f1d634911ebeeae150d0a4ab6c03853a",
+      "gameKey": "soccer-germany:401884736",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/72a6418f83f98a25cc503b327d89e902f1d634911ebeeae150d0a4ab6c03853a.json"
+    },
+    {
+      "digest": "39de2de2a0a482613b103d6aed1d0fde5d8711c124971bb81f3f38b0b4f4b130",
+      "gameKey": "soccer-france:401876395",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/39de2de2a0a482613b103d6aed1d0fde5d8711c124971bb81f3f38b0b4f4b130.json"
+    },
+    {
+      "digest": "473d4d486e5a29089f26a1d826d68bbe69ea63319d85c91bd8d8e412468b65f0",
+      "gameKey": "soccer-spain:401882805",
+      "phase": "postgame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/473d4d486e5a29089f26a1d826d68bbe69ea63319d85c91bd8d8e412468b65f0.json"
+    },
+    {
+      "digest": "7be651c9c83bb5cc0481fbcf240998f561b42c15141e6f4676950feb4f6423cb",
+      "gameKey": "nba:401909305",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/7be651c9c83bb5cc0481fbcf240998f561b42c15141e6f4676950feb4f6423cb.json"
+    },
+    {
+      "digest": "bc744cc60c679071e5aa6d2bfe305c219cb011240030f94c828e2161601d1238",
+      "gameKey": "nba:401909306",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/bc744cc60c679071e5aa6d2bfe305c219cb011240030f94c828e2161601d1238.json"
+    },
+    {
+      "digest": "bf4b6d76fbdd180a663f1e0d3cc6484a0cecd7b327cc2921715555504916daa5",
+      "gameKey": "nba:401909307",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/bf4b6d76fbdd180a663f1e0d3cc6484a0cecd7b327cc2921715555504916daa5.json"
+    },
+    {
+      "digest": "1b6042ace0e8dd80ab03e939d1ff9819954b1ab8a165b2fc0fa2425adbafbe37",
+      "gameKey": "nba:401909308",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/1b6042ace0e8dd80ab03e939d1ff9819954b1ab8a165b2fc0fa2425adbafbe37.json"
+    },
+    {
+      "digest": "ebc8d257f1a92bf5f89407dfe478bd8ae08ba6f6efe8f70ca708978f2202ff73",
+      "gameKey": "ncaa-football:401858303",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/ebc8d257f1a92bf5f89407dfe478bd8ae08ba6f6efe8f70ca708978f2202ff73.json"
+    },
+    {
+      "digest": "9f16429cad016ed93948f0aad57e2fecc4b6c685392e3168109f44793b62449d",
+      "gameKey": "ncaa-football:401866468",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/9f16429cad016ed93948f0aad57e2fecc4b6c685392e3168109f44793b62449d.json"
+    },
+    {
+      "digest": "a8fbd91518930dd0ebb710b97946b8bdd99414b052de1755cf20b6650e58f9d4",
+      "gameKey": "nba:401909309",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/a8fbd91518930dd0ebb710b97946b8bdd99414b052de1755cf20b6650e58f9d4.json"
+    },
+    {
+      "digest": "8fc690b5c097774c22ea0a0f466a936cd3ebace5d1ce62fe15f564a683f95b3c",
+      "gameKey": "nba:401909310",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/8fc690b5c097774c22ea0a0f466a936cd3ebace5d1ce62fe15f564a683f95b3c.json"
+    },
+    {
+      "digest": "1ea657510b0c69bd9ac66050ff3840bcffacbe24c7b845d1c42dd13366fbcb03",
+      "gameKey": "ncaa-football:401858529",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/1ea657510b0c69bd9ac66050ff3840bcffacbe24c7b845d1c42dd13366fbcb03.json"
+    },
+    {
+      "digest": "036139ad1133b91bde46a790f3db4a59bf7e3aeb08b0bf15b091b4da8bbf4c37",
+      "gameKey": "ncaa-football:401864545",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/036139ad1133b91bde46a790f3db4a59bf7e3aeb08b0bf15b091b4da8bbf4c37.json"
+    },
+    {
+      "digest": "9f9c36708cdb5d20ecd357d10d51974d17c2b2143d548ccd43ad852d3ebee156",
+      "gameKey": "soccer-mexico:401877054",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/9f9c36708cdb5d20ecd357d10d51974d17c2b2143d548ccd43ad852d3ebee156.json"
+    },
+    {
+      "digest": "885e94c99f8d7b02728264746e58bbb2e986f0c1c54abd8b422a02c0b4f8f9e0",
+      "gameKey": "ncaa-football:401864542",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/885e94c99f8d7b02728264746e58bbb2e986f0c1c54abd8b422a02c0b4f8f9e0.json"
+    },
+    {
+      "digest": "6b3be5b3251577a119db1a8c5780d24f4a8c737db45c6fe693551163e13f4e96",
+      "gameKey": "nba:401909311",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/6b3be5b3251577a119db1a8c5780d24f4a8c737db45c6fe693551163e13f4e96.json"
+    },
+    {
+      "digest": "a2b344c7dfbffb184abdceda311154c9d7a894b77f9da01ccd032b6fb32ea6c7",
+      "gameKey": "nba:401909312",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/a2b344c7dfbffb184abdceda311154c9d7a894b77f9da01ccd032b6fb32ea6c7.json"
+    },
+    {
+      "digest": "f6cd947cb0712d7ae250b65943a08a34cce16f856cf5ce4933424d3935dc39dd",
+      "gameKey": "nba:401909313",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/f6cd947cb0712d7ae250b65943a08a34cce16f856cf5ce4933424d3935dc39dd.json"
+    },
+    {
+      "digest": "73df1d662be33c3651eddd26b9bc06c0793a77c65924dc52b4ef125c68cd1cb9",
+      "gameKey": "soccer-mexico:401877053",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/73df1d662be33c3651eddd26b9bc06c0793a77c65924dc52b4ef125c68cd1cb9.json"
+    },
+    {
+      "digest": "1db997ade1d061d518d8c566553632cc8b13362c55533114ef26ffb4b6d32dd0",
+      "gameKey": "soccer-mexico:401877052",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/1db997ade1d061d518d8c566553632cc8b13362c55533114ef26ffb4b6d32dd0.json"
+    },
+    {
+      "digest": "2e24c3e34f372b7ee979f6b74b604f5ceddf36c2ccac2acf51c5d73adffa4b5e",
+      "gameKey": "soccer-england:401879233",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/2e24c3e34f372b7ee979f6b74b604f5ceddf36c2ccac2acf51c5d73adffa4b5e.json"
+    },
+    {
+      "digest": "421043694e2fcf88b10fa6f672736dc7a638ecfcab5560c969a0fd8cc1e3ae31",
+      "gameKey": "soccer-spain:401882806",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/421043694e2fcf88b10fa6f672736dc7a638ecfcab5560c969a0fd8cc1e3ae31.json"
+    },
+    {
+      "digest": "6bcf02cf8203cd07fbb8a2b2c6a8c63c973169ba9ce1f3b769b91b9c21f19e26",
+      "gameKey": "soccer-italy:401874981",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/6bcf02cf8203cd07fbb8a2b2c6a8c63c973169ba9ce1f3b769b91b9c21f19e26.json"
+    },
+    {
+      "digest": "e6a97bf4ce30a5bd60598203f6cc6b9a71fce71df3f4c198a1fea51b236629da",
+      "gameKey": "soccer-italy:401875056",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/e6a97bf4ce30a5bd60598203f6cc6b9a71fce71df3f4c198a1fea51b236629da.json"
+    },
+    {
+      "digest": "94e2a9343c9ab4d6f26b335e274a08190d286b59e38233b92c7843b50219ccdb",
+      "gameKey": "soccer-germany:401884728",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/94e2a9343c9ab4d6f26b335e274a08190d286b59e38233b92c7843b50219ccdb.json"
+    },
+    {
+      "digest": "c73cd40a36ac563b048f2557a6cab9e2b086a01afa6bcb8f6420735c05efebe1",
+      "gameKey": "soccer-germany:401884731",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/c73cd40a36ac563b048f2557a6cab9e2b086a01afa6bcb8f6420735c05efebe1.json"
+    },
+    {
+      "digest": "b62fed6da77bb91a55dd149c9b04a75838fdcd54e24ed5660a56097fd6f5c637",
+      "gameKey": "soccer-germany:401884732",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/b62fed6da77bb91a55dd149c9b04a75838fdcd54e24ed5660a56097fd6f5c637.json"
+    },
+    {
+      "digest": "a5635219c03395773fe970644dfb5758002e781aaa71d598f8b31ca8a1745823",
+      "gameKey": "soccer-germany:401884734",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/a5635219c03395773fe970644dfb5758002e781aaa71d598f8b31ca8a1745823.json"
+    },
+    {
+      "digest": "a91090cdf86ec155df0e375f7911e6eb5164689b73ea6da355382eb165732bb0",
+      "gameKey": "soccer-germany:401884735",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/a91090cdf86ec155df0e375f7911e6eb5164689b73ea6da355382eb165732bb0.json"
+    },
+    {
+      "digest": "07d140771dc938f9787c5b47a9606ba64cd8980f76e76f787179796c5149b046",
+      "gameKey": "soccer-england:401878754",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/07d140771dc938f9787c5b47a9606ba64cd8980f76e76f787179796c5149b046.json"
+    },
+    {
+      "digest": "88e26784d27f4ffc3a73796dc1b088660239ddd3b6a723a4891d072c8f73dd6e",
+      "gameKey": "soccer-england:401878756",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/88e26784d27f4ffc3a73796dc1b088660239ddd3b6a723a4891d072c8f73dd6e.json"
+    },
+    {
+      "digest": "2a3444d5c5af1ed527821f5fb4fac73c30287161b9b7a2f6cf25e0ed7b1a3c77",
+      "gameKey": "soccer-england:401879235",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/2a3444d5c5af1ed527821f5fb4fac73c30287161b9b7a2f6cf25e0ed7b1a3c77.json"
+    },
+    {
+      "digest": "b6726a97d2a27be8e4d5eb7055ee19bf7c31b6c09bb5c9f803a7c69121706acb",
+      "gameKey": "soccer-england:401879236",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/b6726a97d2a27be8e4d5eb7055ee19bf7c31b6c09bb5c9f803a7c69121706acb.json"
+    },
+    {
+      "digest": "b1b5f97c0957514015c679b2260f24677def7fbaf9a2f75e58367304f21feda3",
+      "gameKey": "soccer-england:401879238",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/b1b5f97c0957514015c679b2260f24677def7fbaf9a2f75e58367304f21feda3.json"
+    },
+    {
+      "digest": "02578b4c2821614b2471f67793292d9cd9f7b79e7e7be97ae3c0ea2e53f744a1",
+      "gameKey": "soccer-spain:401882799",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/02578b4c2821614b2471f67793292d9cd9f7b79e7e7be97ae3c0ea2e53f744a1.json"
+    },
+    {
+      "digest": "7446d243a5278178cc36252cb667ffc2852ab2b80f662cdf423a97c62faa26e1",
+      "gameKey": "soccer-france:401876398",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/7446d243a5278178cc36252cb667ffc2852ab2b80f662cdf423a97c62faa26e1.json"
+    },
+    {
+      "digest": "ecd444eb446c4cb03f43118965b4185934b3040c67408f055e983e4db5ed1e9e",
+      "gameKey": "ncaa-football:401856748",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/ecd444eb446c4cb03f43118965b4185934b3040c67408f055e983e4db5ed1e9e.json"
+    },
+    {
+      "digest": "e42ea316ea506b467a00178fb4cf9f58497568d024e6c17891b3e4d499c04d4c",
+      "gameKey": "ncaa-football:401856749",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/e42ea316ea506b467a00178fb4cf9f58497568d024e6c17891b3e4d499c04d4c.json"
+    },
+    {
+      "digest": "5e09e5736e98b10d7b2f389e561b45b5332e809c89edc02aa0abd7f4c8810929",
+      "gameKey": "ncaa-football:401856866",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/5e09e5736e98b10d7b2f389e561b45b5332e809c89edc02aa0abd7f4c8810929.json"
+    },
+    {
+      "digest": "69a4f5b4159c209c8d10dcd6e3f568286182b4782a643d1613433756aecfdc83",
+      "gameKey": "ncaa-football:401856867",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/69a4f5b4159c209c8d10dcd6e3f568286182b4782a643d1613433756aecfdc83.json"
+    },
+    {
+      "digest": "d36eb3043a5cb55731605a642d26a39e2a3950af953613ef6e7d7e632bd5d296",
+      "gameKey": "ncaa-football:401858309",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/d36eb3043a5cb55731605a642d26a39e2a3950af953613ef6e7d7e632bd5d296.json"
+    },
+    {
+      "digest": "c9f30e2c2139f008231a033bac660737b6710d1c3790ec1b83c3b53552867540",
+      "gameKey": "ncaa-football:401858310",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/c9f30e2c2139f008231a033bac660737b6710d1c3790ec1b83c3b53552867540.json"
+    },
+    {
+      "digest": "46713c0e5ec79f79458977305df611b172e89110e7bcdc53f472fe75f3d54130",
+      "gameKey": "ncaa-football:401858530",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/46713c0e5ec79f79458977305df611b172e89110e7bcdc53f472fe75f3d54130.json"
+    },
+    {
+      "digest": "76bd4aa4db618401ee45be048c436b22769528a5239b012f0944edb4f5fa7b4c",
+      "gameKey": "ncaa-football:401858531",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/76bd4aa4db618401ee45be048c436b22769528a5239b012f0944edb4f5fa7b4c.json"
+    },
+    {
+      "digest": "c0680ef7f8ac1327f5be39b9b0d1f513948abd781c7d290995d9ff94e6f61827",
+      "gameKey": "ncaa-football:401858533",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/c0680ef7f8ac1327f5be39b9b0d1f513948abd781c7d290995d9ff94e6f61827.json"
+    },
+    {
+      "digest": "e2e67cbfc9f9376cec8021a81bee37d36c4b2cd32316ba01c3cc4a6833adebbc",
+      "gameKey": "ncaa-football:401862831",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/e2e67cbfc9f9376cec8021a81bee37d36c4b2cd32316ba01c3cc4a6833adebbc.json"
+    },
+    {
+      "digest": "2adb031e93a42fadba2eea327a4130b32eff3b8307e895bbefe4bb19724bf5db",
+      "gameKey": "ncaa-football:401862834",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/2adb031e93a42fadba2eea327a4130b32eff3b8307e895bbefe4bb19724bf5db.json"
+    },
+    {
+      "digest": "e00cd128ba63ad39cabea9e73bbb45210d24530cfd9075edf6fca4d9ee5eff92",
+      "gameKey": "ncaa-football:401862835",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/e00cd128ba63ad39cabea9e73bbb45210d24530cfd9075edf6fca4d9ee5eff92.json"
+    },
+    {
+      "digest": "bcd2a02998350cb2a152c2e139537c1fd3b83f94eba8ab6afb96316fa67dc899",
+      "gameKey": "soccer-italy:401874967",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/bcd2a02998350cb2a152c2e139537c1fd3b83f94eba8ab6afb96316fa67dc899.json"
+    },
+    {
+      "digest": "ad6fe335744290c52a93a5fc4ef1ea6ad273e86fdab41c984794532910412b76",
+      "gameKey": "ncaa-football:401858305",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/ad6fe335744290c52a93a5fc4ef1ea6ad273e86fdab41c984794532910412b76.json"
+    },
+    {
+      "digest": "32c8c179f141e83ae30726e5bc9f8507a46e3c04c38f2fb6c8b51b04cbbf699d",
+      "gameKey": "soccer-england:401879232",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/32c8c179f141e83ae30726e5bc9f8507a46e3c04c38f2fb6c8b51b04cbbf699d.json"
+    },
+    {
+      "digest": "cf0544631c9b7de33acc2cd53fb004a2e39619a7e460fb77da654d894fd6f0aa",
+      "gameKey": "soccer-germany:401884729",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/cf0544631c9b7de33acc2cd53fb004a2e39619a7e460fb77da654d894fd6f0aa.json"
+    },
+    {
+      "digest": "46a7c85f53643f957966ca3b2db7e072a46a7c58ff24f432bb52f39c8d8605a5",
+      "gameKey": "soccer-spain:401882797",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/46a7c85f53643f957966ca3b2db7e072a46a7c58ff24f432bb52f39c8d8605a5.json"
+    },
+    {
+      "digest": "b1e2e32182a3ed91a35bccde9f087b52503ab9c1fd44996bc6022405729cd6f5",
+      "gameKey": "nba:401910023",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/b1e2e32182a3ed91a35bccde9f087b52503ab9c1fd44996bc6022405729cd6f5.json"
+    },
+    {
+      "digest": "5e2273e909aed6b310eb20d8e2c1473ca8dd4230c1a7a802d743e1d28001e71e",
+      "gameKey": "ncaa-football:401856750",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/5e2273e909aed6b310eb20d8e2c1473ca8dd4230c1a7a802d743e1d28001e71e.json"
+    },
+    {
+      "digest": "1dbf2a54b1d86ee5f38fb7414d7c04ffcc870d2765a2dee00bd76529ee8b9164",
+      "gameKey": "ncaa-football:401856868",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/1dbf2a54b1d86ee5f38fb7414d7c04ffcc870d2765a2dee00bd76529ee8b9164.json"
+    },
+    {
+      "digest": "e9b4329fa642b5cbe816e62610a1acb46301dc83a39509a4a0a431b4eacc97ed",
+      "gameKey": "ncaa-football:401871080",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/e9b4329fa642b5cbe816e62610a1acb46301dc83a39509a4a0a431b4eacc97ed.json"
+    },
+    {
+      "digest": "cfe4b06961c1ee4c2ca6dcdfbac539cbe4ea8b29ccbf4c38979aef28d6f27a23",
+      "gameKey": "nhl:401892754",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/cfe4b06961c1ee4c2ca6dcdfbac539cbe4ea8b29ccbf4c38979aef28d6f27a23.json"
+    },
+    {
+      "digest": "01d9d8fb3034b2f601983c94698d8427143f895c0c747fb2a3c8f8e175aefd04",
+      "gameKey": "ncaa-football:401856746",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/01d9d8fb3034b2f601983c94698d8427143f895c0c747fb2a3c8f8e175aefd04.json"
+    },
+    {
+      "digest": "d56c3a9130623d90fe16f8e0cec512c9acfc47b903dead331635c7d9f224798c",
+      "gameKey": "ncaa-football:401862832",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/d56c3a9130623d90fe16f8e0cec512c9acfc47b903dead331635c7d9f224798c.json"
+    },
+    {
+      "digest": "16f78e8e74877fdcaa9f46a0cabbcf421b07fec3ecd176f3a4b4d51241fcf8b9",
+      "gameKey": "ncaa-football:401871079",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/16f78e8e74877fdcaa9f46a0cabbcf421b07fec3ecd176f3a4b4d51241fcf8b9.json"
+    },
+    {
+      "digest": "6e6f34d3f81186f7c107d2c5ba1ce77d7aa8623f9131ed4807e54ac8b39f3caa",
+      "gameKey": "ncaa-football:401871081",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/6e6f34d3f81186f7c107d2c5ba1ce77d7aa8623f9131ed4807e54ac8b39f3caa.json"
+    },
+    {
+      "digest": "b352220e2fb50f94d7a93b326fa35744e63ec97833593987fcd6a7e9b3358054",
+      "gameKey": "soccer-mls:401933733",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/b352220e2fb50f94d7a93b326fa35744e63ec97833593987fcd6a7e9b3358054.json"
+    },
+    {
+      "digest": "cc873a06a3f0751b2d6f3edcfbc4737aa2f9235f95a285c1fff2b7d44e728842",
+      "gameKey": "ncaa-football:401858527",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/cc873a06a3f0751b2d6f3edcfbc4737aa2f9235f95a285c1fff2b7d44e728842.json"
+    },
+    {
+      "digest": "7e438fb24fa4b507301e404b8acb01734f088f2a313792485bdb9c410399b46c",
+      "gameKey": "ncaa-football:401862833",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/7e438fb24fa4b507301e404b8acb01734f088f2a313792485bdb9c410399b46c.json"
+    },
+    {
+      "digest": "421a551089d7d1a055ba85dab9b904b9baaf3072ad3fb8a46e5088abc31bdd89",
+      "gameKey": "ncaa-football:401869929",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/421a551089d7d1a055ba85dab9b904b9baaf3072ad3fb8a46e5088abc31bdd89.json"
+    },
+    {
+      "digest": "58b73972ec6ce304cbd7e7f084ad586c93670a6e5f8b507b4b25e47f9e53291f",
+      "gameKey": "soccer-france:401876396",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/58b73972ec6ce304cbd7e7f084ad586c93670a6e5f8b507b4b25e47f9e53291f.json"
+    },
+    {
+      "digest": "d8c17786d425d78fd013dfd8e440222d668b266c9b98312c158fc49da80c2182",
+      "gameKey": "soccer-france:401876399",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/d8c17786d425d78fd013dfd8e440222d668b266c9b98312c158fc49da80c2182.json"
+    },
+    {
+      "digest": "7784f7ddf5c1167cd75474700cc3d8d3d9962370a2084302beb980a3c243e703",
+      "gameKey": "soccer-france:401876402",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/7784f7ddf5c1167cd75474700cc3d8d3d9962370a2084302beb980a3c243e703.json"
+    },
+    {
+      "digest": "77b597b626f9f6b3b3ec2211969c9a68ad3d52747a46d85d65c1bdb1a9d4299a",
+      "gameKey": "soccer-france:401876403",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/77b597b626f9f6b3b3ec2211969c9a68ad3d52747a46d85d65c1bdb1a9d4299a.json"
+    },
+    {
+      "digest": "0e7eefbd391d0a30477723ffb46f5bb90c356ae0773b4dd1567cea85dcc755a6",
+      "gameKey": "soccer-italy:401875067",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/0e7eefbd391d0a30477723ffb46f5bb90c356ae0773b4dd1567cea85dcc755a6.json"
+    },
+    {
+      "digest": "14b11e54390903c726415ad103cb4c493ac14616443371e8ecfa7cee97f6fb37",
+      "gameKey": "ncaa-football:401869946",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/14b11e54390903c726415ad103cb4c493ac14616443371e8ecfa7cee97f6fb37.json"
+    },
+    {
+      "digest": "1f8ac237ac69c5d4b86f7de5ad2c0c903c8a9d76f68943ed55816eaa0421876c",
+      "gameKey": "ncaa-football:401871077",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/1f8ac237ac69c5d4b86f7de5ad2c0c903c8a9d76f68943ed55816eaa0421876c.json"
+    },
+    {
+      "digest": "8f8ab1e3476c10266c5e8303997a412212d8c8603b1a3286b76ee83b2f9889e3",
+      "gameKey": "ncaa-football:401871078",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/8f8ab1e3476c10266c5e8303997a412212d8c8603b1a3286b76ee83b2f9889e3.json"
+    },
+    {
+      "digest": "6fed569c051a33dc80d38b7e48785d396e21a14c35508f4ffccd3af9f543f04b",
+      "gameKey": "soccer-spain:401882798",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/6fed569c051a33dc80d38b7e48785d396e21a14c35508f4ffccd3af9f543f04b.json"
+    },
+    {
+      "digest": "f9ea39e3bc252bdcba25baabdadfee2caf106bb4db1b877453683a06afbe09b0",
+      "gameKey": "ncaa-football:401856747",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/f9ea39e3bc252bdcba25baabdadfee2caf106bb4db1b877453683a06afbe09b0.json"
+    },
+    {
+      "digest": "60c5e31436c0b41a60433a26d2bde22121589cf181d5ea985557f25f59d0456d",
+      "gameKey": "ncaa-football:401856754",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/60c5e31436c0b41a60433a26d2bde22121589cf181d5ea985557f25f59d0456d.json"
+    },
+    {
+      "digest": "9e6989a7b807a29c90154579ad37791cd7d50fb2f822e2ca5da0b188be4d05fe",
+      "gameKey": "ncaa-football:401856755",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/9e6989a7b807a29c90154579ad37791cd7d50fb2f822e2ca5da0b188be4d05fe.json"
+    },
+    {
+      "digest": "771849b43b6b8017aff06cc41650c75cb455fec58d0876589db851aa414367e6",
+      "gameKey": "ncaa-football:401856871",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/771849b43b6b8017aff06cc41650c75cb455fec58d0876589db851aa414367e6.json"
+    },
+    {
+      "digest": "e1fba0d6a141ecbf6d8b5f8d793d059ebe9e4d9f29fd7bcc05506d60cf292cf9",
+      "gameKey": "ncaa-football:401858304",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/e1fba0d6a141ecbf6d8b5f8d793d059ebe9e4d9f29fd7bcc05506d60cf292cf9.json"
+    },
+    {
+      "digest": "a15f303921655f16498237d6a32e08333888856d006364b2b2a32c5f47735320",
+      "gameKey": "ncaa-football:401858528",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/a15f303921655f16498237d6a32e08333888856d006364b2b2a32c5f47735320.json"
+    },
+    {
+      "digest": "fe1bb4758e0141507dba77d2d732ab5f03fafee7194791fc5d175160af0a1c7c",
+      "gameKey": "ncaa-football:401858532",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/fe1bb4758e0141507dba77d2d732ab5f03fafee7194791fc5d175160af0a1c7c.json"
+    },
+    {
+      "digest": "acdd11c9401b3c2ff957e0d0e9147227a655dcf4e2064972b766bc26149860b5",
+      "gameKey": "ncaa-football:401858535",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/acdd11c9401b3c2ff957e0d0e9147227a655dcf4e2064972b766bc26149860b5.json"
+    },
+    {
+      "digest": "0cd71121aaa9add0a98e900defb2cd8ad1269a85ffbbbefb550f0a78326fcf03",
+      "gameKey": "ncaa-football:401861968",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/0cd71121aaa9add0a98e900defb2cd8ad1269a85ffbbbefb550f0a78326fcf03.json"
+    },
+    {
+      "digest": "95b1c02103b90bf906b0b07be490cca3c139accd7db24ef6905ea23fcdaa2a7b",
+      "gameKey": "nhl:401892755",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/95b1c02103b90bf906b0b07be490cca3c139accd7db24ef6905ea23fcdaa2a7b.json"
+    },
+    {
+      "digest": "1b01e3ff5192290147b9fe4f742f4fc8b808f6a7a24ba361412a72cfe99aecb8",
+      "gameKey": "ncaa-football:401856752",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/1b01e3ff5192290147b9fe4f742f4fc8b808f6a7a24ba361412a72cfe99aecb8.json"
+    },
+    {
+      "digest": "3e05d15456e7d17b114682239c35bb9ad2e304663b3e8b9ca94e3d05b720056f",
+      "gameKey": "ncaa-football:401864543",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/3e05d15456e7d17b114682239c35bb9ad2e304663b3e8b9ca94e3d05b720056f.json"
+    },
+    {
+      "digest": "f849f4dbb53fa07c2398a977b5ed4e295859889642be401026b349dae7165f59",
+      "gameKey": "ncaa-football:401869953",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/f849f4dbb53fa07c2398a977b5ed4e295859889642be401026b349dae7165f59.json"
+    },
+    {
+      "digest": "548a8045623fc7d964e2fcb02b32471ba4500fef4d21198a381e086645171dd7",
+      "gameKey": "ncaa-football:401869958",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/548a8045623fc7d964e2fcb02b32471ba4500fef4d21198a381e086645171dd7.json"
+    },
+    {
+      "digest": "c70aebc6ef3c2028196bd818544c96ac118709ca2f3b6602686f20ab18911c1b",
+      "gameKey": "ncaa-football:401871101",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/c70aebc6ef3c2028196bd818544c96ac118709ca2f3b6602686f20ab18911c1b.json"
+    },
+    {
+      "digest": "2fc3b1fe245b2b6c79eeb60902175820c59162bfaef6fd59ba18297b14d81364",
+      "gameKey": "soccer-mls:401933732",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/2fc3b1fe245b2b6c79eeb60902175820c59162bfaef6fd59ba18297b14d81364.json"
+    },
+    {
+      "digest": "1d22d616f1b04ec50ffb7c0fa43fa334cb62a19120bcd40fe478d612f6440456",
+      "gameKey": "soccer-mexico:401877050",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/1d22d616f1b04ec50ffb7c0fa43fa334cb62a19120bcd40fe478d612f6440456.json"
+    },
+    {
+      "digest": "300e13ebbf6ebf10e6a91ffa6780d51e88a604aaa149efc5205ca47ae5da3f64",
+      "gameKey": "ncaa-football:401860920",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/300e13ebbf6ebf10e6a91ffa6780d51e88a604aaa149efc5205ca47ae5da3f64.json"
+    },
+    {
+      "digest": "0d76805132335c400a9ccec1f00fb8cea90ed33e429d085d2059a65a0eacb848",
+      "gameKey": "nhl:401892756",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/0d76805132335c400a9ccec1f00fb8cea90ed33e429d085d2059a65a0eacb848.json"
+    },
+    {
+      "digest": "7cb14dcb0bfeb16030dd7797d78dde7466216a7f6623815ed1a4b2fe477e60ed",
+      "gameKey": "nhl:401892757",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/7cb14dcb0bfeb16030dd7797d78dde7466216a7f6623815ed1a4b2fe477e60ed.json"
+    },
+    {
+      "digest": "625bfa7b1a214ec59f9c42046ac107026685fbcfb4fa2822e032a056a8a2e672",
+      "gameKey": "soccer-mexico:401877051",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/625bfa7b1a214ec59f9c42046ac107026685fbcfb4fa2822e032a056a8a2e672.json"
+    },
+    {
+      "digest": "25e03eddc51c07ed4c3cefeff082f6c47037450e7a5ef8be617065d168beb1d3",
+      "gameKey": "soccer-mls:401933739",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/25e03eddc51c07ed4c3cefeff082f6c47037450e7a5ef8be617065d168beb1d3.json"
+    },
+    {
+      "digest": "3e379d377e38ff3bfa24be99c94f8e7656d68876ba5e5460abbd1ba5db845e2e",
+      "gameKey": "ncaa-football:401858534",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/3e379d377e38ff3bfa24be99c94f8e7656d68876ba5e5460abbd1ba5db845e2e.json"
+    },
+    {
+      "digest": "7209020eb1e450dad49fb20b5fab015f5de3b92bc9d300643c3daf4e96fc4546",
+      "gameKey": "ncaa-football:401856865",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/7209020eb1e450dad49fb20b5fab015f5de3b92bc9d300643c3daf4e96fc4546.json"
+    },
+    {
+      "digest": "36b3f4333f9e6463eb9ad121895756a20867a2a010fe67382692e88343b43776",
+      "gameKey": "ncaa-football:401858302",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/36b3f4333f9e6463eb9ad121895756a20867a2a010fe67382692e88343b43776.json"
+    },
+    {
+      "digest": "6d66d821c99d01a93a7b8995cc3b76bc282970cfc96a3b4e637e1c533e4116c2",
+      "gameKey": "ncaa-football:401864544",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/6d66d821c99d01a93a7b8995cc3b76bc282970cfc96a3b4e637e1c533e4116c2.json"
+    },
+    {
+      "digest": "6fcbe2efda7e7441690734148d7496ebdb7163da77cfc505313a7c8172fcea20",
+      "gameKey": "ncaa-football:401869938",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/6fcbe2efda7e7441690734148d7496ebdb7163da77cfc505313a7c8172fcea20.json"
+    },
+    {
+      "digest": "05ad257e7c61f19662c7e4b342066f818f99ad5cddb109e58bb191d6fe948d1b",
+      "gameKey": "nhl:401892758",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/05ad257e7c61f19662c7e4b342066f818f99ad5cddb109e58bb191d6fe948d1b.json"
+    },
+    {
+      "digest": "d102122c6841e3c4906ebb2bafffaaa8af8fe69d3a25bceb922dddb0d3edf89b",
+      "gameKey": "nhl:401892759",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/d102122c6841e3c4906ebb2bafffaaa8af8fe69d3a25bceb922dddb0d3edf89b.json"
+    },
+    {
+      "digest": "fcc5f2d88580986205ae71f6c3fa129086fdeb545568f53c2d756fbb4ac8126e",
+      "gameKey": "nhl:401892760",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/fcc5f2d88580986205ae71f6c3fa129086fdeb545568f53c2d756fbb4ac8126e.json"
+    },
+    {
+      "digest": "250c25790c56d14f0e542ac605cb3ee37dd0e349d6402e3d21a2601b362a8933",
+      "gameKey": "nhl:401892761",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/250c25790c56d14f0e542ac605cb3ee37dd0e349d6402e3d21a2601b362a8933.json"
+    },
+    {
+      "digest": "a5a55e644a8b60859107c54414d364b447a86f3815d782f27b522488f0fcff8e",
+      "gameKey": "nhl:401892762",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/a5a55e644a8b60859107c54414d364b447a86f3815d782f27b522488f0fcff8e.json"
+    },
+    {
+      "digest": "e44191c9ff0e1ea655751fa87871dfd8f8b4b125d10c86b41af14a6d083eb1c0",
+      "gameKey": "nhl:401892763",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/e44191c9ff0e1ea655751fa87871dfd8f8b4b125d10c86b41af14a6d083eb1c0.json"
+    },
+    {
+      "digest": "ea24314087e159f03abfa88bc5ae2cb2f5087789bb312a14e847caba22a395f9",
+      "gameKey": "nhl:401892764",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/ea24314087e159f03abfa88bc5ae2cb2f5087789bb312a14e847caba22a395f9.json"
+    },
+    {
+      "digest": "dbabc8a9dc245d6dc3e3a2bbe69e98ccc6efdca60c5dced05082f553c0ff1ab7",
+      "gameKey": "nba:401910024",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/dbabc8a9dc245d6dc3e3a2bbe69e98ccc6efdca60c5dced05082f553c0ff1ab7.json"
+    },
+    {
+      "digest": "4d2dfaaca3010fce796392599e2f069908411c6538950e2ae2e926b610cd3401",
+      "gameKey": "ncaa-football:401856751",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/4d2dfaaca3010fce796392599e2f069908411c6538950e2ae2e926b610cd3401.json"
+    },
+    {
+      "digest": "1f1e9eec1fbe44ee2c88c8c0fa6299c138a51d4002a44ff9b4c3d8048ab8ccb2",
+      "gameKey": "ncaa-football:401856753",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/1f1e9eec1fbe44ee2c88c8c0fa6299c138a51d4002a44ff9b4c3d8048ab8ccb2.json"
+    },
+    {
+      "digest": "3a72e679a81183d7eeb7c607d556070aa39f115322c8952b91e5989c2c40df82",
+      "gameKey": "ncaa-football:401858306",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/3a72e679a81183d7eeb7c607d556070aa39f115322c8952b91e5989c2c40df82.json"
+    },
+    {
+      "digest": "681c8905f2876a1d0746468bc6953eca43ffbbddfbf9d1bc1431a57e0aeae13c",
+      "gameKey": "ncaa-football:401858307",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/681c8905f2876a1d0746468bc6953eca43ffbbddfbf9d1bc1431a57e0aeae13c.json"
+    },
+    {
+      "digest": "b5d6558a227ecc46519bca85319a34cfd51a42b0bced65e44251327f55b95c3c",
+      "gameKey": "ncaa-football:401858308",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/b5d6558a227ecc46519bca85319a34cfd51a42b0bced65e44251327f55b95c3c.json"
+    },
+    {
+      "digest": "0b46b56301ca0f5cdc1e85537b525c56d5451c6320a51250c2bc98c321ee1af4",
+      "gameKey": "ncaa-football:401860918",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/0b46b56301ca0f5cdc1e85537b525c56d5451c6320a51250c2bc98c321ee1af4.json"
+    },
+    {
+      "digest": "15ae20db9c89abf550220f56a53d4127b8da84cc9b96e07acfba540ab175222c",
+      "gameKey": "nba:401910025",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/15ae20db9c89abf550220f56a53d4127b8da84cc9b96e07acfba540ab175222c.json"
+    },
+    {
+      "digest": "4f2bc2465c12a43c0e84ac1a663fa67d775d4fd8b1138ddd0fb1e80ed762d7cf",
+      "gameKey": "nba:401910026",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/4f2bc2465c12a43c0e84ac1a663fa67d775d4fd8b1138ddd0fb1e80ed762d7cf.json"
+    },
+    {
+      "digest": "2aa7ba98360541f55adf0dad66c09417efa85b029b7c519c8be13199078cbeed",
+      "gameKey": "nba:401910027",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/2aa7ba98360541f55adf0dad66c09417efa85b029b7c519c8be13199078cbeed.json"
+    },
+    {
+      "digest": "1fd28e5ac48e4ad092a411eb127e56c93295496175779c4d4d1af3fea51cdbbf",
+      "gameKey": "ncaa-football:401862836",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/1fd28e5ac48e4ad092a411eb127e56c93295496175779c4d4d1af3fea51cdbbf.json"
+    },
+    {
+      "digest": "10c3669eac34736e0088d7c61c0106ff7cadb2df61d8c2df3aef76a356533735",
+      "gameKey": "soccer-mexico:401877049",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/10c3669eac34736e0088d7c61c0106ff7cadb2df61d8c2df3aef76a356533735.json"
+    },
+    {
+      "digest": "df0811cc5a199b6e74390f7f5ea54c704bb7634134b5124444ff1000077ff27d",
+      "gameKey": "ncaa-football:401856872",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/df0811cc5a199b6e74390f7f5ea54c704bb7634134b5124444ff1000077ff27d.json"
+    },
+    {
+      "digest": "0660957ea018e4beada4c78107732460ee1caa93fef2b663c741ccd1bad2ec4d",
+      "gameKey": "nhl:401892765",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/0660957ea018e4beada4c78107732460ee1caa93fef2b663c741ccd1bad2ec4d.json"
+    },
+    {
+      "digest": "5feb3b731d7d887c811184169720f04545cd34cfcf7198aed9ec7ae2eb7add05",
+      "gameKey": "ncaa-football:401860925",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/5feb3b731d7d887c811184169720f04545cd34cfcf7198aed9ec7ae2eb7add05.json"
+    },
+    {
+      "digest": "53bcf803423f887f8d75eb66ba06e86c886638ad1c1693dd7557d468182b5223",
+      "gameKey": "nba:401910028",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/53bcf803423f887f8d75eb66ba06e86c886638ad1c1693dd7557d468182b5223.json"
+    },
+    {
+      "digest": "f8083fc733d92e3f6bec2b1a750361ac59442365b036c81218ceeff2ab9dbec5",
+      "gameKey": "nhl:401892766",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/f8083fc733d92e3f6bec2b1a750361ac59442365b036c81218ceeff2ab9dbec5.json"
+    },
+    {
+      "digest": "d3723e2b322b938b4a7cb2e8fc17ca0c83e96f3e09a19c40cefd6510bfaf067b",
+      "gameKey": "nhl:401892767",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/d3723e2b322b938b4a7cb2e8fc17ca0c83e96f3e09a19c40cefd6510bfaf067b.json"
+    },
+    {
+      "digest": "fee0ff5d1829056f51402eea5209f1ed8024bcaae2ff93c4ab452c87ce80476a",
+      "gameKey": "soccer-mexico:401877048",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/fee0ff5d1829056f51402eea5209f1ed8024bcaae2ff93c4ab452c87ce80476a.json"
+    },
+    {
+      "digest": "04a2551250a8a7783b3d6e7e5d033b7d580a8e33fc730d2c40aa9eca783507d0",
+      "gameKey": "ncaa-football:401856870",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/04a2551250a8a7783b3d6e7e5d033b7d580a8e33fc730d2c40aa9eca783507d0.json"
+    },
+    {
+      "digest": "38c66f7eaa52f1a1a755cb65cf654070ceb532643898c9ee159a5d740dd56d87",
+      "gameKey": "ncaa-football:401860919",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/38c66f7eaa52f1a1a755cb65cf654070ceb532643898c9ee159a5d740dd56d87.json"
+    },
+    {
+      "digest": "58e638bc7a0a3f3c97c05fcb1b8cb1d8c6bc1b03b2fc3e087adc656b3981efff",
+      "gameKey": "ncaa-football:401864541",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/58e638bc7a0a3f3c97c05fcb1b8cb1d8c6bc1b03b2fc3e087adc656b3981efff.json"
+    },
+    {
+      "digest": "2413fd0bf046155d1429e9107161991005f7f46ca4c3d2acb9a264c3c952c4c5",
+      "gameKey": "soccer-italy:401875008",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/2413fd0bf046155d1429e9107161991005f7f46ca4c3d2acb9a264c3c952c4c5.json"
+    },
+    {
+      "digest": "74f71ea3e921705b872d5c6c33091fcfb46ef438f0fc5686242b78583a655b6b",
+      "gameKey": "soccer-spain:401882804",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/74f71ea3e921705b872d5c6c33091fcfb46ef438f0fc5686242b78583a655b6b.json"
+    },
+    {
+      "digest": "844c7451de30578ecd5cb4451e8a054f828f54d86a020f145e6e7fd42f90f5d7",
+      "gameKey": "soccer-england:401879234",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/844c7451de30578ecd5cb4451e8a054f828f54d86a020f145e6e7fd42f90f5d7.json"
+    },
+    {
+      "digest": "e2301709b15dda5a2cb6a83a6adf95d4fe11d0c454bf81ace28719f64737339f",
+      "gameKey": "soccer-france:401876397",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/e2301709b15dda5a2cb6a83a6adf95d4fe11d0c454bf81ace28719f64737339f.json"
+    },
+    {
+      "digest": "698a1ec35d99ed7893d74873ab7620a99c056f9b2de0f1f8a0146759713fb933",
+      "gameKey": "soccer-italy:401874960",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/698a1ec35d99ed7893d74873ab7620a99c056f9b2de0f1f8a0146759713fb933.json"
+    },
+    {
+      "digest": "baaa6654f0d3216cd537301e0584965e65313b70aef857b5afd35fe0e0f42c0d",
+      "gameKey": "soccer-italy:401875047",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/baaa6654f0d3216cd537301e0584965e65313b70aef857b5afd35fe0e0f42c0d.json"
+    },
+    {
+      "digest": "432c429f1869f0399cabed586b06ac860d6ad18de169f232055fd3184e435959",
+      "gameKey": "soccer-germany:401884733",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/432c429f1869f0399cabed586b06ac860d6ad18de169f232055fd3184e435959.json"
+    },
+    {
+      "digest": "5e6aa808c5f3b7e83ed0029db908aa3f8b6a1f9739bfd85d3ce755c370beb009",
+      "gameKey": "soccer-spain:401882800",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/5e6aa808c5f3b7e83ed0029db908aa3f8b6a1f9739bfd85d3ce755c370beb009.json"
+    },
+    {
+      "digest": "a95aaf345817ac2f3015b67bc63498d18fc367bc268fa8beba24d9955de0114a",
+      "gameKey": "soccer-france:401876401",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/a95aaf345817ac2f3015b67bc63498d18fc367bc268fa8beba24d9955de0114a.json"
+    },
+    {
+      "digest": "7c53c4b8d4f45c847c9776173dd4d73b54cd170aa8da6f21b58d356c6c35c66f",
+      "gameKey": "soccer-england:401878755",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/7c53c4b8d4f45c847c9776173dd4d73b54cd170aa8da6f21b58d356c6c35c66f.json"
+    },
+    {
+      "digest": "856033dcce2cad1e09dbd0700d76d5bbca4acfc47bac8f715ef5187cddfd8c45",
+      "gameKey": "soccer-germany:401884730",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/856033dcce2cad1e09dbd0700d76d5bbca4acfc47bac8f715ef5187cddfd8c45.json"
+    },
+    {
+      "digest": "6ed3001384f3f43d73dd1799d36a37d8e97fa9a4fa5d2798ad4f79b0a0975420",
+      "gameKey": "soccer-italy:401874989",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/6ed3001384f3f43d73dd1799d36a37d8e97fa9a4fa5d2798ad4f79b0a0975420.json"
+    },
+    {
+      "digest": "eb146a797f251837afb5713aaba17f7f2753fec2793aa0a06103ae4d70391db8",
+      "gameKey": "nhl:401892768",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/eb146a797f251837afb5713aaba17f7f2753fec2793aa0a06103ae4d70391db8.json"
+    },
+    {
+      "digest": "9ffc1451dd1187e00bdb9c3ea5b23ea50b33479218d57954c1843156efd5fb00",
+      "gameKey": "soccer-spain:401882801",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/9ffc1451dd1187e00bdb9c3ea5b23ea50b33479218d57954c1843156efd5fb00.json"
+    },
+    {
+      "digest": "3b1cffcaa8014dcd5e8904ae72d0db05f10a8e3ec6899003ad21c50d32af6030",
+      "gameKey": "nfl:401873067",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/3b1cffcaa8014dcd5e8904ae72d0db05f10a8e3ec6899003ad21c50d32af6030.json"
+    },
+    {
+      "digest": "42d7bf92fbba682326c740827cc785ac70a3ef4152fb3c1e92450225906b1077",
+      "gameKey": "nfl:401873068",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/42d7bf92fbba682326c740827cc785ac70a3ef4152fb3c1e92450225906b1077.json"
+    },
+    {
+      "digest": "dad1a69966ab02d31a3299e185e9d7540461f65d56125dd79fbe4e641580c500",
+      "gameKey": "nfl:401873070",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/dad1a69966ab02d31a3299e185e9d7540461f65d56125dd79fbe4e641580c500.json"
+    },
+    {
+      "digest": "b464a5f487b34fa979c1342fe94ec8760cbc99683cb57b36c18ffd65e61cfe79",
+      "gameKey": "nfl:401873071",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/b464a5f487b34fa979c1342fe94ec8760cbc99683cb57b36c18ffd65e61cfe79.json"
+    },
+    {
+      "digest": "68745dd11ada7d31881c31e31956634ab74752c9fb88287ab9e1f675b9443781",
+      "gameKey": "nfl:401873072",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/68745dd11ada7d31881c31e31956634ab74752c9fb88287ab9e1f675b9443781.json"
+    },
+    {
+      "digest": "5375fe1a2d49bd22946483e09a97ceca56b5be0b827d3f14195e9864f921a34f",
+      "gameKey": "nfl:401873073",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/5375fe1a2d49bd22946483e09a97ceca56b5be0b827d3f14195e9864f921a34f.json"
+    },
+    {
+      "digest": "72318b7add80abb18c0a9570d4b3f69600cad4d6b02e494a0a7db775964724bf",
+      "gameKey": "nfl:401873076",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/72318b7add80abb18c0a9570d4b3f69600cad4d6b02e494a0a7db775964724bf.json"
+    },
+    {
+      "digest": "0046d7fa95c858f4442daa5d14dcd33d0ca3dc6d6fb5462a7b7e2d845f6cf1a4",
+      "gameKey": "soccer-france:401876400",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/0046d7fa95c858f4442daa5d14dcd33d0ca3dc6d6fb5462a7b7e2d845f6cf1a4.json"
+    },
+    {
+      "digest": "d268efa26c5e9297b0bc832dd9bcdcb5b27e3f7237606b14f65751d783519451",
+      "gameKey": "soccer-italy:401875001",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/d268efa26c5e9297b0bc832dd9bcdcb5b27e3f7237606b14f65751d783519451.json"
+    },
+    {
+      "digest": "50b16aad7c669df4f0c467ed64a16598aad19c64ff0e0f05edbd4e86a611dd94",
+      "gameKey": "soccer-spain:401882803",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/50b16aad7c669df4f0c467ed64a16598aad19c64ff0e0f05edbd4e86a611dd94.json"
+    },
+    {
+      "digest": "03da20a16e739937911e05217fd2e2733c3240c917e1b081141b235681cd854a",
+      "gameKey": "nba:401910029",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/03da20a16e739937911e05217fd2e2733c3240c917e1b081141b235681cd854a.json"
+    },
+    {
+      "digest": "34a08265f6603141e3bb7e28a3314b2e4950cea515a5c4ddb4ba58dbccbeea55",
+      "gameKey": "soccer-mls:401933731",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/34a08265f6603141e3bb7e28a3314b2e4950cea515a5c4ddb4ba58dbccbeea55.json"
+    },
+    {
+      "digest": "0bbf79b3c4843e0d0f87c7b044e686529d9eaa2759ac8dc63ecbe18688a5e503",
+      "gameKey": "nfl:401873074",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/0bbf79b3c4843e0d0f87c7b044e686529d9eaa2759ac8dc63ecbe18688a5e503.json"
+    },
+    {
+      "digest": "b681aa49533e0cb006b648283deeb7cc52f7a016f15adc51ef4882453b24e2aa",
+      "gameKey": "nfl:401873069",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/b681aa49533e0cb006b648283deeb7cc52f7a016f15adc51ef4882453b24e2aa.json"
+    },
+    {
+      "digest": "94035f9bee074159f7e8ae98aae6e1cc0216b77cc5c6e53dcfdbae2af79cd553",
+      "gameKey": "nfl:401873075",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/94035f9bee074159f7e8ae98aae6e1cc0216b77cc5c6e53dcfdbae2af79cd553.json"
+    },
+    {
+      "digest": "1f73e16a32b98585fb3d4264c4a664851951b70d852b21460eaff2a0e2583b8d",
+      "gameKey": "nhl:401892769",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/1f73e16a32b98585fb3d4264c4a664851951b70d852b21460eaff2a0e2583b8d.json"
+    },
+    {
+      "digest": "68435c0e85465971250fc5af8574ac747aa6e34bcafda62caed46bce64c8ab93",
+      "gameKey": "nba:401910030",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/68435c0e85465971250fc5af8574ac747aa6e34bcafda62caed46bce64c8ab93.json"
+    },
+    {
+      "digest": "1102a362c445fc63c48cfc0dc713130687234e853fb745d2f881c40b26e6e854",
+      "gameKey": "soccer-mexico:401877047",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/1102a362c445fc63c48cfc0dc713130687234e853fb745d2f881c40b26e6e854.json"
+    },
+    {
+      "digest": "703961798b0d77bc5505ee6b7be2bae9ea209d2decd5ee6b25a8c94d7eb5c120",
+      "gameKey": "soccer-mls:401933730",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/703961798b0d77bc5505ee6b7be2bae9ea209d2decd5ee6b25a8c94d7eb5c120.json"
+    },
+    {
+      "digest": "a9ae02944a8b1227cacd52291bfd11178e14381f11a906c7375bdb1331127f5f",
+      "gameKey": "nba:401910031",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/a9ae02944a8b1227cacd52291bfd11178e14381f11a906c7375bdb1331127f5f.json"
+    },
+    {
+      "digest": "f54289dc21c51c07d806c0cc133c018cd0930e4d05b2cd14bda1ac10a436552d",
+      "gameKey": "nba:401910032",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/f54289dc21c51c07d806c0cc133c018cd0930e4d05b2cd14bda1ac10a436552d.json"
+    },
+    {
+      "digest": "8f955f75ab3adbbeddad025b67aabf9a13ebb73f671594239ff83147ac9220fd",
+      "gameKey": "nba:401910033",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/8f955f75ab3adbbeddad025b67aabf9a13ebb73f671594239ff83147ac9220fd.json"
+    },
+    {
+      "digest": "f4fd70cd50151f98b275aba8edbdcc473af41347af940d73f601eefa1840ab7f",
+      "gameKey": "nhl:401892770",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/f4fd70cd50151f98b275aba8edbdcc473af41347af940d73f601eefa1840ab7f.json"
+    },
+    {
+      "digest": "f320737d920125bccbce33f326148f7ac3dbc0986150ec45d4162440c5e16a67",
+      "gameKey": "nhl:401892771",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/f320737d920125bccbce33f326148f7ac3dbc0986150ec45d4162440c5e16a67.json"
+    },
+    {
+      "digest": "15bb91072b52ffee5c46f4a960990a3d698ce3ea99164176d70fbc5cb285a3f4",
+      "gameKey": "nba:401910034",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/15bb91072b52ffee5c46f4a960990a3d698ce3ea99164176d70fbc5cb285a3f4.json"
+    },
+    {
+      "digest": "9c8281d2befe5a5a77ffffebe61d6e7b4d0fba90773a44ea2e9921dd01fe5bb4",
+      "gameKey": "nhl:401892772",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/9c8281d2befe5a5a77ffffebe61d6e7b4d0fba90773a44ea2e9921dd01fe5bb4.json"
+    },
+    {
+      "digest": "9e7f9a2128b7dd827673bec04beba3ca6fc7396c05ed51a91d2355685f8a7aea",
+      "gameKey": "soccer-mexico:401877046",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/9e7f9a2128b7dd827673bec04beba3ca6fc7396c05ed51a91d2355685f8a7aea.json"
+    },
+    {
+      "digest": "16e61c4ecf2c948455c2df975f54a73b1d952f4c17ccb45f4547cfbc1ab522eb",
+      "gameKey": "nfl:401873077",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/16e61c4ecf2c948455c2df975f54a73b1d952f4c17ccb45f4547cfbc1ab522eb.json"
+    },
+    {
+      "digest": "8b89b74a87a3d4fbc8e6deb273c3e608c05272fecff52f96770bb09e3e50bae4",
+      "gameKey": "nba:401910035",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/8b89b74a87a3d4fbc8e6deb273c3e608c05272fecff52f96770bb09e3e50bae4.json"
+    },
+    {
+      "digest": "88fa03889e815d4919573068009cdb3877918fbbf0d1060a1a40a8147096d2f4",
+      "gameKey": "soccer-mls:401933729",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/88fa03889e815d4919573068009cdb3877918fbbf0d1060a1a40a8147096d2f4.json"
+    },
+    {
+      "digest": "2d752e7c4d51d6b46de1d9e9eec4609a727cb74e0a47329bed0c0e7c0d8d09c0",
+      "gameKey": "soccer-italy:401875009",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/2d752e7c4d51d6b46de1d9e9eec4609a727cb74e0a47329bed0c0e7c0d8d09c0.json"
+    },
+    {
+      "digest": "96d6ad32298db2dab02b8060ad1a0cc6ff9696677d79aa22232a9c9f8c83233d",
+      "gameKey": "soccer-england:401879237",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/96d6ad32298db2dab02b8060ad1a0cc6ff9696677d79aa22232a9c9f8c83233d.json"
+    },
+    {
+      "digest": "850d4f1492896f0385812d87bb4938564d5fc7b53655e3eac5df09298046a8fc",
+      "gameKey": "soccer-spain:401882802",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/850d4f1492896f0385812d87bb4938564d5fc7b53655e3eac5df09298046a8fc.json"
+    },
+    {
+      "digest": "bd3aa39e8d714702758a2d0969869e6fce692a053ef9fcc4dec1af73e4a21f72",
+      "gameKey": "nba:401910036",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/bd3aa39e8d714702758a2d0969869e6fce692a053ef9fcc4dec1af73e4a21f72.json"
+    },
+    {
+      "digest": "825fd52b116201aade223ad09bf55fe04b65702e87e0016b611c98c880f7a0d1",
+      "gameKey": "nba:401910037",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/825fd52b116201aade223ad09bf55fe04b65702e87e0016b611c98c880f7a0d1.json"
+    },
+    {
+      "digest": "d3fdf9414078b9d50550241599f35756a68cac0ed6bec3f433e1fb1ba5550c9e",
+      "gameKey": "nhl:401892773",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/d3fdf9414078b9d50550241599f35756a68cac0ed6bec3f433e1fb1ba5550c9e.json"
+    },
+    {
+      "digest": "27ea1569b3599a63ef58f25a20a6d94c295f7e2763cd251a3ce5b1327b97ff1b",
+      "gameKey": "nba:401910038",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/27ea1569b3599a63ef58f25a20a6d94c295f7e2763cd251a3ce5b1327b97ff1b.json"
+    },
+    {
+      "digest": "d03ff1a7eb2741d730ab255ef0466b40d3e25c8bc28177d6fb9ed09f80feed14",
+      "gameKey": "nba:401910039",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/d03ff1a7eb2741d730ab255ef0466b40d3e25c8bc28177d6fb9ed09f80feed14.json"
+    },
+    {
+      "digest": "8ce09516bc862d1d0a8e8d9fc4bfa5e5c7c9baf3e4cef2e770ff616ec644f8d1",
+      "gameKey": "nba:401910040",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/8ce09516bc862d1d0a8e8d9fc4bfa5e5c7c9baf3e4cef2e770ff616ec644f8d1.json"
+    },
+    {
+      "digest": "ac95f0e3e7f3792ee5d2006eecc3c4239cb96fe465080b3375a6936a806c6d13",
+      "gameKey": "nhl:401892774",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/ac95f0e3e7f3792ee5d2006eecc3c4239cb96fe465080b3375a6936a806c6d13.json"
+    },
+    {
+      "digest": "0f6a928f867d839e9adcb9d741a63a61bb7ad090c4f749d4aecf43d833eb9066",
+      "gameKey": "nhl:401892775",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/0f6a928f867d839e9adcb9d741a63a61bb7ad090c4f749d4aecf43d833eb9066.json"
+    },
+    {
+      "digest": "13a378ff92870de2424878ab00e93f6cc90972b86a748c23b15d13f4f885cd77",
+      "gameKey": "nhl:401892776",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/13a378ff92870de2424878ab00e93f6cc90972b86a748c23b15d13f4f885cd77.json"
+    },
+    {
+      "digest": "c07a557bfc63852d602adf0ef0658043b5be6ccdeb0f28390fa3eb1b47c19f84",
+      "gameKey": "nhl:401892777",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/c07a557bfc63852d602adf0ef0658043b5be6ccdeb0f28390fa3eb1b47c19f84.json"
+    },
+    {
+      "digest": "35cd5495e489936a759ef16b271d401ec5f1297589613114027d0c553252afb5",
+      "gameKey": "nba:401910041",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/35cd5495e489936a759ef16b271d401ec5f1297589613114027d0c553252afb5.json"
+    },
+    {
+      "digest": "96edbaa480bd5337cf499076060b3c0d2105b9a6409b0425e3f114ef4495b78f",
+      "gameKey": "nba:401910042",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/96edbaa480bd5337cf499076060b3c0d2105b9a6409b0425e3f114ef4495b78f.json"
+    },
+    {
+      "digest": "2c5617b731ea02b56e76bc757050acc1d4c04b49614401ce3b97c0459e01e450",
+      "gameKey": "soccer-mls:401933728",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/2c5617b731ea02b56e76bc757050acc1d4c04b49614401ce3b97c0459e01e450.json"
+    },
+    {
+      "digest": "86fd569bc25e02caffb2a5374da9931f1dc470de20362aa46a09cc90e1b60aec",
+      "gameKey": "nfl:401873078",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/86fd569bc25e02caffb2a5374da9931f1dc470de20362aa46a09cc90e1b60aec.json"
+    },
+    {
+      "digest": "7d8a5fc20c2d3b3b575531dfe0ba68ad451e863909ebd49d46e4fba285c1279c",
+      "gameKey": "nba:401910043",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/7d8a5fc20c2d3b3b575531dfe0ba68ad451e863909ebd49d46e4fba285c1279c.json"
+    },
+    {
+      "digest": "14a4172c008f04455e1e99903ea75ac74fb0d1d8239ddf6e88a72f358a11bfab",
+      "gameKey": "nhl:401892778",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/14a4172c008f04455e1e99903ea75ac74fb0d1d8239ddf6e88a72f358a11bfab.json"
+    },
+    {
+      "digest": "cdf39d23a64668203ddb65bfce776b1f99498a1d04fcd86ee6e08ed3fb2d2f38",
+      "gameKey": "nba:401910044",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/cdf39d23a64668203ddb65bfce776b1f99498a1d04fcd86ee6e08ed3fb2d2f38.json"
+    },
+    {
+      "digest": "d647e4dba02ecee72a801e169e4298bf2e8e143b83bbd606e49e5c4fc0b22799",
+      "gameKey": "nba:401910045",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/d647e4dba02ecee72a801e169e4298bf2e8e143b83bbd606e49e5c4fc0b22799.json"
+    },
+    {
+      "digest": "2969fad1a3e8415402b067ef9cfef3ea17067b600925e0a6c07b971e22c10919",
+      "gameKey": "nhl:401892779",
+      "phase": "pregame",
+      "sourceObservedAt": "2026-11-20T23:29:21.856907+00:00",
+      "path": "snapshots/2969fad1a3e8415402b067ef9cfef3ea17067b600925e0a6c07b971e22c10919.json"
+    }
+  ]
+}

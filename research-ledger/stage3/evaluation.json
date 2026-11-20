@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 3,
+  "generatedAt": "2026-11-20T23:29:34.426819+00:00",
+  "summary": {
+    "gamesAvailable": 232,
+    "validPregamePredictions": 0,
+    "scoredBaselinePredictions": 0,
+    "scoredCandidatePredictions": 0,
+    "pairedSample": 0,
+    "unscoredPredictions": 0,
+    "rejectedRecords": 0
+  },
+  "baseline": null,
+  "candidate": null,
+  "pairedBaseline": null,
+  "pairedCandidate": null,
+  "improvementEstablished": false,
+  "liveModelActivated": false,
+  "deploymentGate": {
+    "passed": false,
+    "reason": "Requires independently authenticated pregame evidence, immutable prediction capture, sufficient out-of-sample paired sample, and reviewed calibration before activation"
+  },
+  "rejected": [],
+  "note": "Evaluation scaffold only. Self-asserted evidence flags do not authenticate sources; candidate numbers cannot automatically deploy."
+}

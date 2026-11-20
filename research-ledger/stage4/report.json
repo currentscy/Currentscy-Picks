@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 4,
+  "generatedAt": "2026-11-20T23:29:34.466412+00:00",
+  "total": {
+    "scored": 0,
+    "paired": 0,
+    "baseline": null,
+    "pairedBaseline": null,
+    "pairedCandidate": null,
+    "pairedBrierDelta": null,
+    "pairedLogLossDelta": null
+  },
+  "bySport": {},
+  "byKickoffMonth": {},
+  "pendingOutcomes": 0,
+  "rejected": [],
+  "diagnostics": {
+    "candidateCoverage": 0,
+    "minimumPairedSampleForReview": 200,
+    "sufficientPairedSample": false,
+    "sourceAuthenticationIndependentlyAudited": false,
+    "historicalPregameSnapshotsImmutable": false,
+    "outOfSampleValidationComplete": false
+  },
+  "improvementEstablished": false,
+  "liveModelActivated": false,
+  "deploymentGate": {
+    "passed": false,
+    "reason": "No independently audited immutable pregame predictions and outcomes, trusted source verification, or out-of-sample evidence"
+  },
+  "interpretation": "Negative paired deltas favor candidate on the same games; no causal improvement claim is justified from these snapshots."
+}

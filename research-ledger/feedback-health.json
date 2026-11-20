@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-20T23:29:34.546706+00:00",
+  "pipeline": {
+    "stage1Events": 218,
+    "stage2Games": 218,
+    "legacyMultisportGames": 279,
+    "legacyFootballGames": 88,
+    "stage5Snapshots": 217,
+    "unifiedEventHistory": 232,
+    "sportsWithCoverageChecks": 17,
+    "liveModelForecasts": 0,
+    "ESPNFinalOutcomes": 0,
+    "stage3Scored": 0,
+    "stage4Scored": 0
+  },
+  "verification": {
+    "sameProviderGamesCompared": 200,
+    "sameProviderDisagreements": [],
+    "unmatchedOutcomeIds": [],
+    "independentProviderVerification": false,
+    "injuriesVerified": false,
+    "lineupsVerified": false
+  },
+  "readyForAutomaticModelUpdates": false,
+  "note": "Every research script feeds this audit or a stage of the evaluation pipeline; ESPN-only cross-checks are not independent confirmation."
+}
