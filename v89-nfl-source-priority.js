@@ -19,14 +19,14 @@ const evaluate=(input)=>{
  const records=Array.isArray(input?.records)?input.records:[];
  const rejected=[];
  for(const provider of hierarchy[category]){
-  const item=records.find(x=>x?.provider===provider);
+  const item=records.find(x=>x?.provider===provider && window.CurrentscyPublicNFL?.checkRecord(x).ok===true);
   if(!item){rejected.push({provider,reason:'No data'});continue}
-  if(item.publicUseAuthorized!==true){rejected.push({provider,reason:'Public/commercial redistribution not authorized'});continue}
+  if(item.publicUseAuthorized!==true||item.commercialUseAuthorized!==true){rejected.push({provider,reason:'Public and commercial usage not authorized'});continue}
   const t=parseTime(item.observedAt);
   if(t===null||t>Date.now()+300000){rejected.push({provider,reason:'Missing/invalid observation time'});continue}
   const maxAge=category==='injuries'?12:category==='schedule'?12:category==='boxscore'?72:168;
   if(Date.now()-t>maxAge*3600000){rejected.push({provider,reason:'Data too old'});continue}
-  if(!item.sourceUrl||!item.eventId||!item.value){rejected.push({provider,reason:'Missing provenance, game ID, or measurement'});continue}
+  if(!item.sourceUrl||!item.eventId||item.value==null){rejected.push({provider,reason:'Missing provenance, game ID, or measurement'});continue}
   return {usable:true,category,provider,observedAt:item.observedAt,value:item.value,sourceUrl:item.sourceUrl,eventId:item.eventId,rejected};
  }
  return {usable:false,category,reason:'No authorized, recent, verifiable measurement',rejected};
