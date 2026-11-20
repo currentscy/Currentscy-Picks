@@ -1459,7 +1459,7 @@ function ufcExtractStats(payload){
  for(const k of ['strAcc','strDef','tdAcc','tdDef'])if(out[k]!=null&&out[k]>0&&out[k]<=1)out[k]*=100;
  return {stats:out,labels:samples};
 }
-function ufcAthleteData(c){const a=c?.athlete||{};return {id:a.id||c?.id,name:a.displayName||a.fullName||c?.displayName||'Fighter',record:c?.record?.displayValue||a.record?.displayValue||null,reach:a.reach||null,stance:a.stance||null,height:a.displayHeight||null,age:a.age||null}}
+function ufcAthleteData(c){const a=c?.athlete||{};return {id:a.id||c?.id,name:a.displayName||a.fullName||c?.displayName||'Fighter',record:c?.record?.displayValue||a.record?.displayValue||(c?.records||[]).find(r=>r.type==='total')?.summary||(c?.records||[])[0]?.summary||null,reach:a.reach||null,stance:a.stance||null,height:a.displayHeight||null,age:a.age||null}}
 async function ufcFetchFighter(c){
  const a=ufcAthleteData(c),id=a.id;
  if(!id)return {...a,stats:{},sources:[],error:'Fighter ID not supplied'};
