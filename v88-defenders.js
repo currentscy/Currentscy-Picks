@@ -28,15 +28,18 @@ function sourcePlayerPosition(name){
  for(const table of headings){const row=[...table.querySelectorAll('tr')].find(tr=>norm(tr.cells?.[0]?.textContent)===norm(name));if(row){const t=tidy(row.textContent);const m=t.match(/\b(PG|SG|SF|PF|C)\b/);if(m)return m[1]}}
  return '';
 }
-let runId=0;
+let runId=0;let lastMatch='';
 async function render(){
  const d=document.getElementById('detail');
  if(!d||d.classList.contains('hidden')||!/\bNBA\b/i.test(document.getElementById('matchDate')?.textContent||''))return;
  const teams=tidy(document.getElementById('matchTitle')?.textContent).split(/\s+vs\.?\s+/i);
  if(teams.length!==2)return;
+ const signatureMatch=teams.join('|')+'|'+d.querySelectorAll('details').length;
+ if(signatureMatch===lastMatch)return;
+ lastMatch=signatureMatch;
  const id=++runId;
  const details=[...d.querySelectorAll('details')].filter(el=>/matchup research/i.test(tidy(el.querySelector('summary')?.textContent)));
- if(!details.length)return;
+ if(!details.length){lastMatch='';return;}
  const rosters=await Promise.all(teams.map(teamInfo));
  if(id!==runId)return;
  for(const det of details){
