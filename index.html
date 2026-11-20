@@ -7,7 +7,7 @@ let html=(await Promise.all(response.map(r=>r.text()))).join('');
 html=html.replace(/(?:href|src)="assets\/(style-\d+\.css|script-\d+\.js)"/g,(match,file)=>match.replace('assets/',''));
 html=html.replace(/Currentscy Picks V(?:7\d|8[01])\b/g,'Currentscy Picks V82');
 html=html.replace('</head>','<link rel="stylesheet" href="v77.css"><link rel="stylesheet" href="v78.css"><link rel="stylesheet" href="v79.css"><link rel="stylesheet" href="v81.css?v=82"><link rel="stylesheet" href="v82.css?v=82-1"></head>');
-html=html.replace('</body>','<script src="v77.js?v=81"><'+'/script><script src="v81.js?v=82"><'+'/script></body>');
+html=html.replace('</body>','<script src="v77.js?v=81"><'+'/script><script src="v81.js?v=82"><'+'/script><script src="v82.js?v=82-3"><'+'/script></body>');
 document.open();document.write(html);document.close();
 }catch(e){document.body.textContent='Unable to load Currentscy Picks: '+e.message;}})();
 </script></body></html>
