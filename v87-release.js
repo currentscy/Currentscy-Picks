@@ -18,7 +18,7 @@ function run(){
  const footer=document.querySelector('footer');
  if(footer){
   const w=document.createTreeWalker(footer,NodeFilter.SHOW_TEXT);let n;
-  while(n=w.nextNode()){if(/Currentscy Picks V[0-9]+/.test(n.textContent))n.textContent=n.textContent.replace(/Currentscy Picks V[0-9]+/g,'Currentscy Picks V100')}
+  while(n=w.nextNode()){if(/Currentscy Picks V[0-9]+/.test(n.textContent))n.textContent=n.textContent.replace(/Currentscy Picks V[0-9]+/g,'Currentscy Picks V2.1')}
  }
  if(eligible){
   let p=document.getElementById('v87-source-note');
