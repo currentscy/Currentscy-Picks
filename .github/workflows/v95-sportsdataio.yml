@@ -1,0 +1,27 @@
+name: V95 SportsDataIO private validation
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: v95-nfl-multisource
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate licensed injury feed without publishing it
+        env:
+          SPORTSDATAIO_API_KEY: ${{ secrets.SPORTSDATAIO_API_KEY }}
+          SPORTSDATAIO_INJURIES_URL: ${{ vars.SPORTSDATAIO_INJURIES_URL }}
+        run: python scripts/v95_sportsdataio_private.py
+      - name: Upload restricted artifact for repository administrators
+        uses: actions/upload-artifact@v4
+        with:
+          name: v95-sportsdataio-private-injuries
+          path: private-output/sportsdataio-injuries.json
+          retention-days: 1
+          if-no-files-found: error
