@@ -20,7 +20,9 @@ function update(){
   if(!match)continue;
   const [,name,threshold,stat]=match;
   const text=tidy(leg.textContent);
-  const team=teams.find(t=>text.includes(t))||'';
+  const intro=tidy(leg.textContent).slice(0,260);
+  const ownLine=intro.slice(label.length).trim();
+  const team=teams.find(t=>ownLine.startsWith(t))||teams.find(t=>ownLine.includes(t))||'';
   const opponent=teams.find(t=>t!==team)||'the opponent';
   const hit=text.match(/(\d+)\s*\/\s*(\d+)\s*hits/i)||text.match(/cleared\s+[^.]+?\s+in\s+(\d+)\s+of\s+(\d+)/i);
   const minutes=text.match(/(\d+(?:\.\d+)?)\s+projected minutes/i);
