@@ -52,7 +52,7 @@ v62AnalyzeTeamSport=async function(){
  results.appendChild(slot);
  try{
   const [data,a,h]=await Promise.all([
-   window.CurrentscyCFBDV103.request('advanced',{year}),
+   (async()=>{const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),25000);try{const url=window.CurrentscyCFBDV103.endpoint('advanced',{year});const response=await fetch(url,{signal:ctrl.signal});if(!response.ok)throw Error('CFBD HTTP '+response.status);const data=await response.json();if(data?.source!=='CFBD'||data?.type!=='advanced'||!Array.isArray(data.items))throw Error('Unexpected CFBD advanced payload');return data}finally{clearTimeout(timer)}})(),
    v62TeamHistory(away,'football/college-football',cutoff),
    v62TeamHistory(home,'football/college-football',cutoff)
   ]);
@@ -71,7 +71,7 @@ v62AnalyzeTeamSport=async function(){
   if(status)status.textContent+=' CFBD advanced success-rate adjustment available.';
  }catch(e){
   if(chosen===selected&&sport==='ncaa'&&slot.isConnected){
-   slot.innerHTML='<h2>CFBD efficiency adjustment unavailable</h2><p class="desc">'+esc(e.message)+'</p><p class="desc">Historical NCAA trials above remain available; no advanced statistics were invented.</p>';
+   slot.innerHTML='<h2>CFBD efficiency adjustment unavailable</h2><p class="desc">'+esc(e.name==='AbortError'?'CFBD advanced data request timed out after 25 seconds':e.message)+'</p><p class="desc">Historical NCAA trials above remain available; no advanced statistics were invented.</p>';
   }
  }
 };
