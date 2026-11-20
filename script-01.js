@@ -1115,7 +1115,7 @@ function v53TeamKey(s){
  'real betis balompie':'real betis','real sociedad san sebastian':'real sociedad',
  'internazionale':'inter','inter milan':'inter','ac milan':'milan',
  'bayern munich':'bayern munich','fc bayern munchen':'bayern munich',
- 'koln':'cologne','koln 1':'cologne','1 fc koln':'cologne','fc koln':'cologne',
+ 'koln':'cologne','koln 1':'cologne','1 koln':'cologne','1 fc koln':'cologne','fc koln':'cologne',
  'cologne':'cologne','fc cologne':'cologne','1 fc cologne':'cologne',
  'paris saint germain':'paris saint germain','psg':'paris saint germain'};
  const key=String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'')
