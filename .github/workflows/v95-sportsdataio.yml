@@ -18,10 +18,4 @@ jobs:
           SPORTSDATAIO_API_KEY: ${{ secrets.SPORTSDATAIO_API_KEY }}
           SPORTSDATAIO_INJURIES_URL: ${{ vars.SPORTSDATAIO_INJURIES_URL }}
         run: python scripts/v95_sportsdataio_private.py
-      - name: Upload restricted artifact for repository administrators
-        uses: actions/upload-artifact@v4
-        with:
-          name: v95-sportsdataio-private-injuries
-          path: private-output/sportsdataio-injuries.json
-          retention-days: 1
-          if-no-files-found: error
+      # Do not upload or commit licensed injury records: even Actions artifacts may be accessible to repository collaborators.\n
