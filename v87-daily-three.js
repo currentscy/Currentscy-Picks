@@ -107,8 +107,8 @@ function render(){
  if(host.dataset.date===day&&host.dataset.ids===items.map(x=>x.id+':'+x.estimate.toFixed(4)).join(','))return;
  host.dataset.date=day;host.dataset.ids=items.map(x=>x.id+':'+x.estimate.toFixed(4)).join(',');
  host.replaceChildren();
- const h=document.createElement('h2');h.textContent='🏀 Today's NBA 5 Game Parlay';host.appendChild(h);
- const note=document.createElement('p');note.className='v87-three-note';note.textContent='Up to five ranked game-winner candidates from NBA games scheduled today (Pacific time) only. Updates daily and excludes games that have already started. Ranked by a conservative model that shrinks small-sample records toward average and accounts for home court. Model estimates are NOT historically calibrated. Injuries, lineups and defensive matchups are not verified.';host.appendChild(note);
+ const h=document.createElement('h2');h.textContent='🏀 NBA '+items.length+' Game Parlay';host.appendChild(h);
+ const note=document.createElement('p');note.className='v87-three-note';note.textContent='Ranked game-winner candidates from NBA games scheduled today (Pacific time) only. Updates daily and excludes games that have already started. Ranked by a conservative model that shrinks small-sample records toward average and accounts for home court. Model estimates are NOT historically calibrated. Injuries, lineups and defensive matchups are not verified.';host.appendChild(note);
  items.forEach((x,i)=>{
   const div=document.createElement('div');div.className='v87-three-leg';
   const title=document.createElement('strong');title.textContent=(i+1)+'. '+x.pick+' to win';div.appendChild(title);
