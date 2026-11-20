@@ -1,0 +1,50 @@
+/* V5.3 — selected-sport navigation ONLY. Homepage and content untouched. */
+@media(max-width:799px){
+ html body:not([data-sport="home"]) #sports{
+   display:flex!important;flex-flow:row nowrap!important;align-items:center!important;
+   justify-content:flex-start!important;gap:7px!important;
+   box-sizing:border-box!important;width:100%!important;max-width:100%!important;
+   height:56px!important;min-height:56px!important;max-height:56px!important;
+   overflow-x:auto!important;overflow-y:hidden!important;
+   padding:4px!important;margin:4px 0 8px!important;
+   scrollbar-width:none!important;-webkit-overflow-scrolling:touch;
+ }
+ html body:not([data-sport="home"]) #sports::-webkit-scrollbar{display:none!important}
+ html body:not([data-sport="home"]) #sports button.sport{
+   box-sizing:border-box!important;display:inline-flex!important;
+   flex-flow:row nowrap!important;align-items:center!important;justify-content:center!important;
+   flex:0 0 auto!important;width:auto!important;min-width:76px!important;max-width:134px!important;
+   height:46px!important;min-height:46px!important;max-height:46px!important;
+   padding:6px 10px!important;margin:0!important;gap:7px!important;
+   border-radius:12px!important;white-space:nowrap!important;
+   font-size:0!important;line-height:1!important;letter-spacing:0!important;
+   overflow:hidden!important;text-overflow:clip!important;
+ }
+ html body:not([data-sport="home"]) #sports button.sport em{display:none!important}
+ html body:not([data-sport="home"]) #sports button.sport img.cp-league-logo{
+   display:block!important;position:static!important;flex:0 0 25px!important;
+   width:25px!important;min-width:25px!important;max-width:25px!important;
+   height:29px!important;min-height:29px!important;max-height:29px!important;
+   object-fit:contain!important;object-position:center!important;
+   margin:0!important;padding:0!important;transform:none!important;
+ }
+ html body:not([data-sport="home"]) #sports button.sport .cp-league-label{
+   display:block!important;flex:0 1 auto!important;min-width:0!important;
+   font-size:12px!important;font-weight:750!important;line-height:1.1!important;
+   letter-spacing:0!important;white-space:normal!important;text-align:left!important;
+   overflow-wrap:normal!important;word-break:normal!important;
+ }
+ html body:not([data-sport="home"]) #sports button.sport .cp-league-fallback{
+   display:none!important;
+ }
+ html body:not([data-sport="home"]) #sports button.sport .cp-league-fallback.is-visible{
+   display:flex!important;align-items:center!important;justify-content:center!important;
+   flex:0 0 25px!important;width:25px!important;max-width:25px!important;
+   height:29px!important;max-height:29px!important;font-size:8px!important;
+   overflow:hidden!important;
+ }
+ html body:not([data-sport="home"]) #sports button.sport.active{
+   border-color:#d39a40!important;
+   box-shadow:inset 0 0 0 1px #c18a38,0 2px 9px #0007!important;
+ }
+}
