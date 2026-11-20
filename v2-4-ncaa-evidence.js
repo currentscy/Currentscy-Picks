@@ -27,7 +27,7 @@ function injury(){
  for(const card of cards){
   const k=/ucf/i.test(card.querySelector('summary')?.textContent||'')?'ucf':'isu';
   const rows=teams[k];
-  const summary=card.querySelector('summary');if(summary)summary.innerHTML=esc(k==='ucf'?'UCF Knights':'Iowa State Cyclones')+' · '+rows.length+' named statuses · Tap to expand';
+  const summary=card.querySelector('summary');if(summary){const label=(k==='ucf'?'UCF Knights':'Iowa State Cyclones')+' · '+rows.length+' named statuses · Tap to expand';if(summary.textContent!==label)summary.textContent=label;}
   let body=card.querySelector('.v24-sourced-injuries');
   if(!body){body=document.createElement('div');body.className='v24-sourced-injuries';card.append(body)}
   const markup=rows.map(x=>'<div><strong>'+esc(x[0])+'</strong> · '+esc(x[1])+' · <b>'+esc(x[2])+'</b></div>').join('');
