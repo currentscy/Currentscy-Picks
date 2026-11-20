@@ -1,0 +1,8 @@
+/* V5.4: emoji fallbacks only; do not change homepage layout. */
+#sports .cp-league-fallback.is-visible{font-family:system-ui,"Apple Color Emoji","Segoe UI Emoji",sans-serif!important;letter-spacing:0!important;text-shadow:none!important}
+@media(max-width:799px){
+body:not([data-sport="home"]) #sports button.sport .cp-league-fallback.is-visible{font-size:22px!important;line-height:1!important;overflow:visible!important}
+body:not([data-sport="home"]) #sports button.sport .cp-league-label{font-size:0!important;line-height:0!important}
+body:not([data-sport="home"]) #sports button.sport .cp-league-label::after{content:attr(data-cp-name);font-size:12px!important;line-height:1.15!important;font-weight:750!important;display:block!important}
+body:not([data-sport="home"]) #sports button.sport .cp-league-logo{font-size:0!important}
+}
