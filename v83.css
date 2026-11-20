@@ -1,0 +1,11 @@
+#detail #v63BoxScore.v83-source-hidden{display:none!important}
+#v83-player-stats{margin-top:18px}
+#v83-player-stats .v83-caption{font-size:12px;color:#aeb9c8;line-height:1.5;margin:10px 0 20px}
+#v83-player-stats h3{font-size:18px;margin:20px 0 8px}
+#v83-player-stats .v83-scroll{overflow-x:auto;max-width:100%;margin-bottom:20px;-webkit-overflow-scrolling:touch}
+#v83-player-stats .v83-table{border-collapse:collapse;min-width:640px;width:100%;font-size:13px;font-variant-numeric:tabular-nums}
+#v83-player-stats th,#v83-player-stats td{padding:12px 9px;border-bottom:1px solid #3a4350;text-align:right;white-space:nowrap}
+#v83-player-stats th:first-child,#v83-player-stats td:first-child{text-align:left;min-width:150px;position:sticky;left:0;background:#1e222b}
+#v83-player-stats .v83-sort{border:0;background:transparent;color:inherit;font:inherit;font-weight:700;padding:5px;cursor:pointer}
+#v83-player-stats .v83-sort[data-direction=desc]::after{content:' ↓';color:#ff9054}
+#v83-player-stats .v83-sort[data-direction=asc]::after{content:' ↑';color:#ff9054}
