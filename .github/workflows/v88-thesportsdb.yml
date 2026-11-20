@@ -1,0 +1,24 @@
+name: V88 TheSportsDB free NBA verification
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  research:
+    if: github.ref == 'refs/heads/v88-free-defender-engine'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: v88-free-defender-engine
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python scripts/v88_thesportsdb.py
+      - name: Commit public TheSportsDB snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/v88-thesportsdb.json
+          git diff --cached --quiet || (git commit -m "Refresh V88 TheSportsDB NBA snapshot" && git push)
