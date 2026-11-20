@@ -92,6 +92,21 @@ def main():
   "releaseGate":"Shadow model only. Requires >=200 scored forecasts per sport, >=30 chronological holdout results, improved Brier AND log loss, independent provenance review and explicit versioned release.",
   "limitations":"Source-verified ESPN finals are not independent multi-provider verification; no prediction is backfilled or modified."}
  OUTPUT.parent.mkdir(parents=True,exist_ok=True)
+ # Candidate adjustments are automatically refitted from previously scored
+ # games. They are shadow-only, never a retroactive change to saved forecasts.
+ shadow={"schemaVersion":1,"generatedAt":report["generatedAt"],"models":{}}
+ for sport,items in report["bySport"].items():
+  if items["candidate"] and items["holdout"] and items["holdout"]["improvesBoth"]:
+   used=[x for x in rows if x["sport"]==sport]
+   latest=max(x["kickoff"] for x in used)
+   shadow["models"][sport]={"offset":items["candidate"]["offset"],
+    "slope":items["candidate"]["slope"],"trainedOnCount":items["trainCount"],
+    "holdoutCount":items["holdoutCount"],"trainedThrough":latest,
+    "modelVersion":"shadow-platt-grid-v1","notLive":True}
+ shadowpath=OUTPUT.parent/"shadow-config.json"
+ shadowtmp=shadowpath.with_suffix(".tmp")
+ shadowtmp.write_text(json.dumps(shadow,indent=2)+"\\n")
+ os.replace(shadowtmp,shadowpath)
  temp=OUTPUT.with_suffix(".tmp");temp.write_text(json.dumps(report,indent=2)+"\n");os.replace(temp,OUTPUT)
  print(json.dumps({"scored":len(rows),"sports":{k:v["n"] for k,v in report["bySport"].items()}}))
 if __name__=="__main__":main()
