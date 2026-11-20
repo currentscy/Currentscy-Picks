@@ -40,6 +40,8 @@ def report(stage1,stage2,legacy,football,forecasts,outcomes,stage3,stage4,stage5
   "pipeline":{"stage1Events":len(a),"stage2Games":len(stage2.get("games",[])),
    "legacyMultisportGames":len(b),"legacyFootballGames":len(football),
    "stage5Snapshots":len(stage5.get("entries",[])),
+   "unifiedEventHistory":len(load("unified-events.json",{}).get("events",[])),
+   "sportsWithCoverageChecks":len(load("unified-coverage.json",{}).get("sports",{})),
    "liveModelForecasts":len(forecasts),"ESPNFinalOutcomes":len(outcomes),
    "stage3Scored":stage3.get("summary",{}).get("scoredBaselinePredictions",0),
    "stage4Scored":stage4.get("total",{}).get("scored",0)},
