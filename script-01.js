@@ -1226,6 +1226,29 @@ async function analyzeSoccer(){
   const summary=document.createElement('div');summary.id='cpSoccerMatchSummary';
   summary.innerHTML='<div style="margin-top:18px"><div style="font-weight:700;font-size:15px;margin-bottom:10px">⚽ Match simulation · 100,000 trials</div><div class="grid">'+tile(h.name+' win',pct('home'))+tile('Draw',pct('draw'))+tile(a.name+' win',pct('away'))+tile('Both teams score',pct('btts'))+tile('Over 1.5 goals',pct('over15'))+tile('Over 2.5 goals',pct('over25'))+tile('Over 3.5 goals',pct('over35'))+tile('Expected goals (home / away)',lambdaH.toFixed(2)+' / '+lambdaA.toFixed(2))+'</div></div>';
   matchPanel.append(summary);
+  // V4.7: fetch match-specific verified events. Never re-label an ordinary
+  // substitution as an injury and never rewrite the pregame forecast.
+  const injuryApi=window.CurrentscySoccerInjuryV47;
+  if(injuryApi){
+   const timeline=document.createElement('details');timeline.className='cp-soccer-injury-timeline';
+   timeline.innerHTML='<summary>Lineup changes & injury events</summary><p class="desc">Checking verified match events…</p>';
+   summary.append(timeline);
+   const requestedGame=String(gameAtStart),requestedLeague=String(league);
+   fetch(ESPN+'soccer/'+encodeURIComponent(requestedLeague)+'/summary?event='+encodeURIComponent(requestedGame))
+    .then(res=>{if(!res.ok)throw Error('ESPN summary unavailable');return res.json()})
+    .then(payload=>{
+      if(sport!=='soccer'||String(chosen?.id)!==requestedGame||!timeline.isConnected)return;
+      const data=injuryApi.extract(payload,requestedGame);
+      if(!data.ok){timeline.innerHTML='<summary>Lineup changes & injury events</summary><p class="desc">Event identity could not be verified.</p>';return;}
+      const html=data.events.length
+       ?data.events.map(ev=>'<div class="leg"><b>'+escapeHtml(ev.minute)+'</b> · '+escapeHtml(ev.type==='injury-reported'?'Injury mentioned':'Substitution')+' · '+escapeHtml(ev.text||'ESPN event')+'</div>').join('')
+       :'<p class="desc">No usable injury or substitution events were returned. This does not confirm full availability.</p>';
+      timeline.innerHTML='<summary>Lineup changes & injury events</summary>'+html+
+       '<p class="desc">ESPN match events · '+escapeHtml(data.coverage)+'. Changes do not alter pregame probabilities without validated player-impact data.</p>';
+    }).catch(()=>{
+      if(timeline.isConnected)timeline.innerHTML='<summary>Lineup changes & injury events</summary><p class="desc">Verified match-event feed unavailable. No injury adjustment applied.</p>';
+    });
+  }
  }
  $('results').innerHTML=threeLeg+apiPlayers+
  '<details class="panel cp-soccer-research"><summary>Most frequent scorelines</summary>'+top.map(([score,c],i)=>'<div class="leg">'+(i+1)+'. <strong>'+escapeHtml(h.name)+' '+score+' '+escapeHtml(a.name)+'</strong> · <b>'+(100*c/n).toFixed(1)+'%</b></div>').join('')+'</details>'+
