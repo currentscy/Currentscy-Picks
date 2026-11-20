@@ -16,4 +16,15 @@ class EventLedgerTests(unittest.TestCase):
   result=merge(old,new)
   self.assertTrue(result[0]["completed"])
   self.assertEqual(result[0]["teams"][0]["score"],"101")
+ def test_ufc_card_splits_fights(self):
+  sample={"events":[{"id":"card1","date":"2026-11-21T20:00:00Z",
+    "competitions":[{"id":"fight1","competitors":[{"athlete":{"id":"a"}},{"athlete":{"id":"b"}}]},
+                    {"id":"fight2","competitors":[{"athlete":{"id":"c"}},{"athlete":{"id":"d"}}]}]}]}
+  from datetime import datetime,timezone
+  events,checks=module.collect(now=datetime(2026,11,20,tzinfo=timezone.utc),
+     fetcher=lambda url:sample if "/mma/ufc/" in url else {"events":[]},back=0,forward=0)
+  ids={e["eventKey"] for e in events}
+  self.assertIn("ufc:fight1",ids)
+  self.assertIn("ufc:fight2",ids)
+  self.assertEqual(len([e for e in events if e["sport"]=="ufc"]),2)
 if __name__=="__main__":unittest.main()
