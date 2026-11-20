@@ -3,6 +3,14 @@
 function run(){
  if(typeof sport==='undefined'||sport!=='ncaa')return;
  const root=document.getElementById('results');if(!root)return;
+ const availability=document.getElementById('v22-ncaa-availability');
+ if(availability&&availability.textContent.includes('NCAA match injury report')){
+  for(const h of document.querySelectorAll('#detail h2,#detail h3')){
+   if(!/Match injury report/i.test(h.textContent||''))continue;
+   const old=h.closest('.panel');
+   if(old&&old!==availability)old.style.display='none';
+  }
+ }
  for(const panel of root.querySelectorAll('.panel')){
   if(panel.classList.contains('v23-history'))continue;
   const title=panel.querySelector('h2');
