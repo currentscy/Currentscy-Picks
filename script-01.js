@@ -355,12 +355,55 @@ async function v66BuildFiveLegs(comp,game,league,anchor){
     eligible.push({...p,label,field,threshold,hits,count:vals.length,score,average:vals.reduce((x,y)=>x+y,0)/vals.length});
    }
   }
-  eligible.sort((a,b)=>b.score-a.score||b.count-a.count||b.average-a.average);
+  // V76: fail closed when the injury feed cannot be verified. Historical 7/7 is not 100%.
+  let injuryFeed=null, injuryError='';
+  try{
+   const url='https://site.api.espn.com/apis/site/v2/sports/football/'+league+'/injuries';
+   const response=await fetch(url,{cache:'no-store'});
+   if(!response.ok)throw Error('HTTP '+response.status);
+   injuryFeed=await response.json();
+  }catch(err){injuryError=String(err.message||err)}
+  const rawInjuries=injuryFeed?.injuries||injuryFeed?.teams||injuryFeed?.items;
+  if(!Array.isArray(rawInjuries)||!rawInjuries.length){
+   anchor.innerHTML='<div class="panel"><h2>🏈 V76 · Five-leg safety check</h2><p><strong>Selections withheld.</strong> Current player availability could not be verified from the live injury feed. Historical game logs are not proof that a player will suit up.</p><small>'+escapeHtml(injuryError||'No usable injury records')+' · no invented probabilities</small></div>';
+   return;
+  }
+  const injuryRows=[];
+  const walk=(value,depth)=>{
+   if(depth>7||!value||typeof value!=='object')return;
+   if(Array.isArray(value)){for(const v of value)walk(v,depth+1);return}
+   if((value.athlete?.id||value.athlete?.displayName||value.athlete?.name||value.player?.id)&&
+      (value.status||value.type||value.injuryStatus))injuryRows.push(value);
+   for(const [key,val] of Object.entries(value))if(key!=='statistics'&&key!=='events')walk(val,depth+1);
+  };
+  walk(rawInjuries,0);
+  const injuryById=new Map(),injuryByName=new Map();
+  for(const r of injuryRows){
+   const id=String(r.athlete?.id||r.player?.id||'');
+   const name=String(r.athlete?.displayName||r.athlete?.name||r.player?.displayName||'').toLowerCase();
+   const status=String(r.status?.name||r.status?.type||r.status||r.type?.name||r.type||r.injuryStatus||'').toLowerCase();
+   if(id)injuryById.set(id,status);
+   if(name)injuryByName.set(name,status);
+  }
+  const disallowed=/\\b(out|injured reserve|ir|suspended|inactive|doubtful|pup|non.football injury)\\b/i;
+  const questionable=/\\b(questionable|game.time decision|limited)\\b/i;
+  const verified=eligible.filter(p=>{
+   const status=injuryById.get(String(p.id))||injuryByName.get(p.name.toLowerCase())||'';
+   return !disallowed.test(status)&&!questionable.test(status);
+  });
+  // Penalize volatile workloads and small samples; no claim of calibrated probabilities.
+  for(const p of verified){
+   const vals=p.logs.map(l=>l[p.field]).filter(Number.isFinite);
+   const avg=p.average;
+   const variance=vals.reduce((sum,v)=>sum+(v-avg)**2,0)/vals.length;
+   const cv=Math.sqrt(variance)/Math.max(1,Math.abs(avg));
+   p.v76score=(p.hits+2)/(p.count+5)*Math.min(1,p.count/5)*Math.max(.35,1-.3*cv);
+  }
+  verified.sort((a,b)=>b.v76score-a.v76score||b.count-a.count);
   const chosenLegs=[];
-  for(const leg of eligible){if(chosenLegs.some(x=>x.id===leg.id))continue;chosenLegs.push(leg);if(chosenLegs.length===5)break}
-  const note='';
-  if(chosenLegs.length<5){anchor.innerHTML='<div class="panel"><h2>🏈 Selected game · five-leg research</h2><p>Only '+chosenLegs.length+' distinct players meet the minimum recorded-game requirement. Five selections are withheld.</p>'+note+'<small>Missing or unusable game reports: '+failures+'</small></div>';return}
-  anchor.innerHTML='<div class="panel"><h2>🏈 Selected game · five-leg player shortlist</h2><small>Historical trends · injury status unverified</small>'+chosenLegs.map((c,i)=>'<div class="v65leg"><strong>'+(i+1)+'. '+escapeHtml(c.name)+' — '+escapeHtml(c.label)+'</strong><small>'+escapeHtml(c.team)+' · recorded '+c.hits+'/'+c.count+' games · average '+c.average.toFixed(1)+' · injury status unverified</small></div>').join('')+'</div>';
+  for(const leg of verified){if(chosenLegs.some(x=>x.id===leg.id))continue;chosenLegs.push(leg);if(chosenLegs.length===5)break}
+  const cards=chosenLegs.map((c,i)=>'<div class="v65leg"><strong>'+(i+1)+'. '+escapeHtml(c.name)+' — '+escapeHtml(c.label)+'</strong><small>'+escapeHtml(c.team)+' · '+c.hits+'/'+c.count+' historical hits · stability score '+(100*c.v76score).toFixed(0)+'/100 (not probability) · availability not confirmed by injury report alone</small></div>').join('');
+  anchor.innerHTML='<div class="panel"><h2>🏈 V76 · Provisional player research</h2><p class="desc">Injury feed checked. Players listed OUT, IR, suspended, doubtful or questionable are excluded when identified. <strong>Not a verified active roster:</strong> final inactives and projected snaps remain unavailable. These are research candidates, not finalized five-leg picks.</p>'+cards+(chosenLegs.length<5?'<p>Only '+chosenLegs.length+' candidates passed the filters; five-leg selection withheld.</p>':'<p>Five candidates found, but final active status must be confirmed before selection.</p>')+'<small>Missing historical reports: '+failures+'</small></div>';
  }catch(e){anchor.innerHTML='<div class="panel"><h2>🏈 Selected game · five-leg research</h2><p class="desc">Insufficient verified data: '+escapeHtml(e.message)+'</p></div>'}
 }
 
