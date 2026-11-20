@@ -429,6 +429,43 @@ async function v66BuildFiveLegs(comp,game,league,anchor){
   verified.sort((a,b)=>(b.hits/b.count)-(a.hits/a.count)||b.v76score-a.v76score||b.count-a.count);
   const chosenLegs=[];
   for(const leg of verified){if(chosenLegs.some(x=>x.id===leg.id))continue;chosenLegs.push(leg);if(chosenLegs.length===5)break}
+  // V99: identify the actual opposing team and measure its recent defensive results.
+  // This is team-level evidence, NOT individual coverage or scheme tracking.
+  const matchupTeams=comp.map(c=>({id:String(c.team?.id||''),name:c.team?.displayName||'Unknown'}));
+  const defensiveEvidence=new Map();
+  await Promise.all(matchupTeams.map(async team=>{
+   const opponentComp=comp.find(c=>String(c.team?.id||'')===team.id);
+   const samples=histories[comp.indexOf(opponentComp)]?.games?.slice(0,3)||[];
+   const allowed=[];
+   for(const past of samples){
+    try{
+     const box=await get(root+'football/'+league+'/summary?event='+encodeURIComponent(past.id));
+     const teams=box.boxscore?.players||[];
+     const other=teams.find(x=>String(x.team?.id||'')!==team.id);
+     if(!other)continue;
+     const metrics={passing:0,rushing:0,receiving:0},seen=new Set();
+     for(const cat of other.statistics||[]){
+      const category=String(cat.name||cat.type||'').toLowerCase();
+      const type=/pass/.test(category)?'passing':/rush/.test(category)?'rushing':/receiv/.test(category)?'receiving':null;
+      if(!type)continue;
+      const labels=(cat.labels||[]).map(x=>String(x).toUpperCase());
+      const yi=labels.findIndex(x=>x==='YDS'||x==='YARDS');
+      if(yi<0)continue;
+      for(const athlete of cat.athletes||[]){
+       const id=String(athlete.athlete?.id||'');
+       const key=id+':'+type;if(!id||seen.has(key))continue;
+       const y=Number(athlete.stats?.[yi]);
+       if(Number.isFinite(y)){metrics[type]+=y;seen.add(key)}
+      }
+     }
+     if(seen.size)allowed.push(metrics);
+    }catch(_){}
+   }
+   if(allowed.length>=2)defensiveEvidence.set(team.id,{n:allowed.length,
+    passing:allowed.reduce((a,x)=>a+x.passing,0)/allowed.length,
+    rushing:allowed.reduce((a,x)=>a+x.rushing,0)/allowed.length,
+    receiving:allowed.reduce((a,x)=>a+x.receiving,0)/allowed.length});
+  }));
   const cards=chosenLegs.map((c,i)=>{
    const t=c.totals;
    const stats=c.pos==='QB'?
@@ -437,7 +474,7 @@ async function v66BuildFiveLegs(comp,game,league,anchor){
     [['Rush yds',t.rushing],['Carries',t.hasRushAttempts?t.rushAttempts:'—'],['Receptions',t.receptions],['Rec yds',t.receiving]]:
     [['Rec yds',t.receiving],['Receptions',t.receptions],['Targets',t.hasTargets?t.targets:'—'],['Rush yds',t.rushing]];
    const chips=stats.map(([name,val])=>'<span class="v78-chip">'+escapeHtml(name)+': <b>'+escapeHtml(String(val))+'</b></span>').join('');
-   return '<div class="v65leg v78-leg"><strong>'+(i+1)+'. '+escapeHtml(c.name)+' — '+escapeHtml(c.label)+'</strong><div class="v78-sub">'+escapeHtml(c.team)+' · '+escapeHtml(c.pos||'Player')+' · '+t.games+' verified games in sample</div><div class="v78-hit">'+c.hits+'/'+c.count+' hits · '+(100*c.hits/c.count).toFixed(0)+'% historical</div><div class="v78-stats">'+chips+'</div><details style="margin:10px 0;border:1px solid #495063;border-radius:8px;background:#22252d"><summary style="cursor:pointer;padding:10px 12px;color:#f0d69d;font-size:13px;font-weight:600">Why '+escapeHtml(c.name)+' could hit · Tap to expand</summary><div style="padding:0 12px 12px;color:#dce2eb;font-size:13px;line-height:1.5">'+escapeHtml(c.name)+' cleared '+escapeHtml(c.label)+' in '+c.hits+'/'+c.count+' recorded games'+(c.pos==='QB'?' while averaging '+(t.passing/t.games).toFixed(1)+' passing yards per game.':c.pos==='RB'||c.pos==='FB'?' while averaging '+(t.rushing/t.games).toFixed(1)+' rushing yards per game.':' while averaging '+(t.receiving/t.games).toFixed(1)+' receiving yards'+(t.hasTargets?' on '+(t.targets/t.games).toFixed(1)+' targets':'')+' per game.')+' The opposing defender and defensive scheme have not been verified, so the specific matchup advantage remains unknown.</div></details><small>2026 totals from available completed ESPN box scores · stability '+(100*c.v76score).toFixed(0)+'/100 (not probability) · active status unconfirmed</small></div>';
+   return '<div class="v65leg v78-leg"><strong>'+(i+1)+'. '+escapeHtml(c.name)+' — '+escapeHtml(c.label)+'</strong><div class="v78-sub">'+escapeHtml(c.team)+' · '+escapeHtml(c.pos||'Player')+' · '+t.games+' verified games in sample</div><div class="v78-hit">'+c.hits+'/'+c.count+' hits · '+(100*c.hits/c.count).toFixed(0)+'% historical</div><div class="v78-stats">'+chips+'</div><details style="margin:10px 0;border:1px solid #495063;border-radius:8px;background:#22252d"><summary style="cursor:pointer;padding:10px 12px;color:#f0d69d;font-size:13px;font-weight:600">Why '+escapeHtml(c.name)+' could hit · Tap to expand</summary><div style="padding:0 12px 12px;color:#dce2eb;font-size:13px;line-height:1.5">'+escapeHtml(c.name)+' cleared '+escapeHtml(c.label)+' in '+c.hits+'/'+c.count+' recorded games'+(c.pos==='QB'?' while averaging '+(t.passing/t.games).toFixed(1)+' passing yards per game.':c.pos==='RB'||c.pos==='FB'?' while averaging '+(t.rushing/t.games).toFixed(1)+' rushing yards per game.':' while averaging '+(t.receiving/t.games).toFixed(1)+' receiving yards'+(t.hasTargets?' on '+(t.targets/t.games).toFixed(1)+' targets':'')+' per game.')+' Against '+escapeHtml((matchupTeams.find(x=>x.name!==c.team)||{}).name||'the opposing team')+', '+(function(){const opp=matchupTeams.find(x=>x.name!==c.team);const d=opp&&defensiveEvidence.get(opp.id);if(!d)return 'recent defensive allowance data could not be confirmed.';const key=c.field==='passing'?'passing':c.field==='rushing'?'rushing':'receiving';return 'opponents averaged '+d[key].toFixed(0)+' '+key+' yards in '+d.n+' sampled games; this is a team-level matchup signal, not a prediction.';})()+' Individual defender assignments and coverage scheme are not established by these box scores.</div></details><small>2026 totals from available completed ESPN box scores · stability '+(100*c.v76score).toFixed(0)+'/100 (not probability) · active status unconfirmed</small></div>';
   }).join('');
   anchor.innerHTML='<div class="panel"><h2>🏈 5 Leg Player Parlay</h2>'+cards+(chosenLegs.length<5?'<p>Only '+chosenLegs.length+' candidates passed the filters; five-leg selection withheld.</p>':'<p>Five candidates found, but final active status must be confirmed before selection.</p>')+'<small>Missing box-score reports: '+failures+'</small></div>';
  }catch(e){anchor.innerHTML='<div class="panel"><h2>🏈 Selected game · five-leg research</h2><p class="desc">Insufficient verified data: '+escapeHtml(e.message)+'</p></div>'}
