@@ -107,6 +107,7 @@ function display(records){
   const teams=panelTeams(card);
   if(!teams.length)continue;
   card.dataset.v21Teams=teams.map(t=>t.name).join(' | ');
+  if(card.dataset.v21Injuries==='yes')continue;
   const title=document.createElement('h3');title.textContent='🏥 Match injury report';title.style.cssText='margin:0 0 12px';
   const box=document.createElement('div');box.style.cssText='display:grid;gap:8px';
   for(const t of teams.slice(0,2)){
