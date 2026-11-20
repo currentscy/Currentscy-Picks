@@ -83,7 +83,7 @@ async function run(){
      const forecast=await enrich(e);
      // A slow provider call must never create a prediction after kickoff.
      const captured=clock();
-     if(forecast&&captured<tip){
+     if(forecast&&tip.getTime()-captured.getTime()>20*60*1000){
       predictions.push({predictionId:id,gameKey:key,market:'home-win',entityId:forecast.homeId,
        modelVersion:model.version,predictedAt:captured.toISOString(),sourceUrl:url,
        baselineProbability:forecast.homeProbability,homeTeamId:forecast.homeId,awayTeamId:forecast.awayId,
