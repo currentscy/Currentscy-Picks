@@ -6,7 +6,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: currentscy-feedback
+  group: currentscy-research-write
   cancel-in-progress: false
 jobs:
   feedback:
@@ -40,11 +40,17 @@ jobs:
             echo "Stage 2 snapshot not yet available; retaining predictions for later scoring"
           fi
           python scripts/research_consistency.py
+      - name: Publish verifiable workflow heartbeat
+        if: always()
+        env:
+          WORKFLOW_JOB_STATUS: ${{ job.status }}
+        run: python scripts/workflow-verification.py
       - name: Commit forecast history and feedback diagnostics
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add research-ledger/stage3/ research-ledger/stage4/ research-ledger/feedback-health.json
+          git add research-ledger/stage3/ research-ledger/stage4/ research-ledger/feedback-health.json research-ledger/workflow-verification.json
           if ! git diff --cached --quiet; then
             git commit -m "Capture live NBA forecasts, outcomes and scoring feedback"
             git pull --rebase
