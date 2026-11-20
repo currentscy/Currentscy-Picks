@@ -16,7 +16,7 @@ DEST=ROOT/"research-ledger"/"history-bootstrap.json"
 NOW=lambda:dt.datetime.now(dt.timezone.utc)
 def get(url):
  req=urllib.request.Request(url,headers={"User-Agent":"CurrentscyResearchHistory/1.0","Accept":"application/json"})
- with urllib.request.urlopen(req,timeout=12) as response:return json.load(response)
+ with urllib.request.urlopen(req,timeout=6) as response:return json.load(response)
 def dates(sport,now):
  # Bound network cost; enough historical days for team-level prior results.
  if sport=="nfl":return [now-dt.timedelta(days=x) for x in range(0,85,7)]
