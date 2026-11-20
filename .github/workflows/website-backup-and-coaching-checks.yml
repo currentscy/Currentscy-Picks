@@ -6,6 +6,9 @@ on:
     paths:
       - 'v2-5-coaching-data.js'
       - 'v4-0-coaching-math.js'
+      - 'v4-7-soccer-injury.js'
+      - 'script-01.js'
+      - 'scripts/test_soccer_injury.js'
       - 'scripts/test_coaching_math.js'
       - 'scripts/verify_coaching_backtest.py'
       - '.github/workflows/website-backup-and-coaching-checks.yml'
@@ -23,10 +26,14 @@ jobs:
         run: |
           node --check v2-5-coaching-data.js
           node --check v4-0-coaching-math.js
+          node --check v4-7-soccer-injury.js
+          node --check script-01.js
       - name: Test ESPN attribution with synthetic fixtures
         run: node scripts/test_espn_attribution.js
       - name: Test coaching math with synthetic fixtures
         run: node scripts/test_coaching_math.js
+      - name: Test soccer injury event validation
+        run: node scripts/test_soccer_injury.js
       - name: Run fail-closed backtest audit
         run: python3 scripts/verify_coaching_backtest.py
       - name: Package complete repository snapshot
