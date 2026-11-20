@@ -105,7 +105,7 @@ def main():
     "modelVersion":"shadow-platt-grid-v1","notLive":True}
  shadowpath=OUTPUT.parent/"shadow-config.json"
  shadowtmp=shadowpath.with_suffix(".tmp")
- shadowtmp.write_text(json.dumps(shadow,indent=2)+"\\n")
+ shadowtmp.write_text(json.dumps(shadow,indent=2)+"\n")
  os.replace(shadowtmp,shadowpath)
  temp=OUTPUT.with_suffix(".tmp");temp.write_text(json.dumps(report,indent=2)+"\n");os.replace(temp,OUTPUT)
  print(json.dumps({"scored":len(rows),"sports":{k:v["n"] for k,v in report["bySport"].items()}}))
