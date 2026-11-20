@@ -1,6 +1,6 @@
-/* Currentscy Picks V97 — source-aware NFL evidence, never fabricate provider availability. */
+/* Currentscy Picks V99 — source-aware NFL evidence, never fabricate provider availability. */
 (()=>{'use strict';
-const VERSION='V97';
+const VERSION='V99';
 const providers=['nflverse','sportsdataio','sportradar','espn'];
 const sourceState={nflverse:'not-tested',sportsdataio:'not-connected',sportradar:'not-connected',espn:'not-tested'};
 const finite=n=>typeof n==='number'&&Number.isFinite(n);
@@ -14,7 +14,7 @@ function cleanVersion(root){
   if(!p||p.closest('script,style,noscript,textarea,code,pre'))continue;
   if(/\bV\d+\b/i.test(walk.currentNode.nodeValue))nodes.push(walk.currentNode);
  }
- for(const n of nodes)n.nodeValue=n.nodeValue.replace(/\bV\d+\b/gi,VERSION);
+ for(const n of nodes){const next=n.nodeValue.replace(/\bV\d+\b/gi,VERSION);if(next!==n.nodeValue)n.nodeValue=next;}
  if(document.title)document.title=document.title.replace(/\bV\d+\b/gi,VERSION);
 }
 let pending=false;
