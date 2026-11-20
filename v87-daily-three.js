@@ -4,22 +4,10 @@ const $=id=>document.getElementById(id);
 const tz='America/Los_Angeles';
 const dateKey=d=>{const parts=new Intl.DateTimeFormat('en-US',{timeZone:tz,year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(d);const p=Object.fromEntries(parts.map(x=>[x.type,x.value]));return p.year+p.month+p.day};
 const clean=x=>String(x||'').trim();
-const parseRecord=c=>{
- const records=c?.records||[];
- const overall=records.find(x=>/overall|total/i.test(x.type||x.name||''))||records[0];
- const summary=clean(overall?.summary||c?.team?.record?.summary||c?.team?.record||c?.record);
- const m=summary.match(/^(\d+)\s*-\s*(\d+)$/);
- if(!m)return null;
- const w=+m[1],l=+m[2];return w+l>=8?{w,l,pct:w/(w+l)}:null;
-};
-// Provisional regularized record model. These parameters are conservative
-// engineering defaults, NOT backtested/calibrated probabilities.
-const sigmoid=x=>1/(1+Math.exp(-x));
-const strength=r=>Math.log((r.w+6)/(r.l+6)); // 12-game symmetric prior
-const estimate=(hr,ar)=>{
- const logit=.22+.70*(strength(hr)-strength(ar)); // small home edge
- return Math.max(.25,Math.min(.75,sigmoid(logit)));
-};
+const model=window.CurrentscyNBAModel;
+if(!model){console.warn('Currentscy NBA shared model unavailable');return;}
+const parseRecord=model.parseRecord;
+const estimate=model.estimate;
 const build=(event)=>{
  if(event.status?.type?.completed||event.status?.type?.state==='post')return null;
  const competitors=event.competitions?.[0]?.competitors||[];
