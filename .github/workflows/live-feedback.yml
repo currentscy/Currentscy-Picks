@@ -54,6 +54,10 @@ jobs:
             python scripts/validation_dashboard.py
           fi
           python scripts/research_consistency.py
+      - name: Learn from finalized pregame predictions (shadow mode)
+        run: |
+          python scripts/learning_calibration.py
+          python scripts/forecast_vs_results.py
       - name: Publish verifiable workflow heartbeat
         if: always()
         env:
