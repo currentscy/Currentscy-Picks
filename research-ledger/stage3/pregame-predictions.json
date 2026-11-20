@@ -1,1 +1,530 @@
-[]
+[
+  {
+    "predictionId": "nba-home-win:401909305:nba-record-home-v1",
+    "gameKey": "nba:401909305",
+    "market": "home-win",
+    "entityId": "1",
+    "modelVersion": "nba-record-home-v1",
+    "predictedAt": "2026-11-20T23:35:20.740Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=100",
+    "baselineProbability": 0.6693403389048642,
+    "homeTeamId": "1",
+    "awayTeamId": "30",
+    "homeRecord": {
+      "w": 9,
+      "l": 6,
+      "pct": 0.6
+    },
+    "awayRecord": {
+      "w": 4,
+      "l": 10,
+      "pct": 0.2857142857142857
+    },
+    "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+    "candidateProbability": null
+  },
+  {
+    "predictionId": "nba-home-win:401909306:nba-record-home-v1",
+    "gameKey": "nba:401909306",
+    "market": "home-win",
+    "entityId": "17",
+    "modelVersion": "nba-record-home-v1",
+    "predictedAt": "2026-11-20T23:35:20.740Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=100",
+    "baselineProbability": 0.47071190141488634,
+    "homeTeamId": "17",
+    "awayTeamId": "19",
+    "homeRecord": {
+      "w": 3,
+      "l": 11,
+      "pct": 0.21428571428571427
+    },
+    "awayRecord": {
+      "w": 6,
+      "l": 8,
+      "pct": 0.42857142857142855
+    },
+    "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+    "candidateProbability": null
+  },
+  {
+    "predictionId": "nba-home-win:401909307:nba-record-home-v1",
+    "gameKey": "nba:401909307",
+    "market": "home-win",
+    "entityId": "5",
+    "modelVersion": "nba-record-home-v1",
+    "predictedAt": "2026-11-20T23:35:20.740Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=100",
+    "baselineProbability": 0.6182873967272698,
+    "homeTeamId": "5",
+    "awayTeamId": "11",
+    "homeRecord": {
+      "w": 8,
+      "l": 8,
+      "pct": 0.5
+    },
+    "awayRecord": {
+      "w": 5,
+      "l": 10,
+      "pct": 0.3333333333333333
+    },
+    "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+    "candidateProbability": null
+  },
+  {
+    "predictionId": "nba-home-win:401909308:nba-record-home-v1",
+    "gameKey": "nba:401909308",
+    "market": "home-win",
+    "entityId": "8",
+    "modelVersion": "nba-record-home-v1",
+    "predictedAt": "2026-11-20T23:35:20.740Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=100",
+    "baselineProbability": 0.6923838917932342,
+    "homeTeamId": "8",
+    "awayTeamId": "28",
+    "homeRecord": {
+      "w": 10,
+      "l": 4,
+      "pct": 0.7142857142857143
+    },
+    "awayRecord": {
+      "w": 5,
+      "l": 10,
+      "pct": 0.3333333333333333
+    },
+    "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+    "candidateProbability": null
+  },
+  {
+    "predictionId": "nba-home-win:401909309:nba-record-home-v1",
+    "gameKey": "nba:401909309",
+    "market": "home-win",
+    "entityId": "4",
+    "modelVersion": "nba-record-home-v1",
+    "predictedAt": "2026-11-20T23:35:20.740Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=100",
+    "baselineProbability": 0.548774429090057,
+    "homeTeamId": "4",
+    "awayTeamId": "27",
+    "homeRecord": {
+      "w": 4,
+      "l": 10,
+      "pct": 0.2857142857142857
+    },
+    "awayRecord": {
+      "w": 5,
+      "l": 11,
+      "pct": 0.3125
+    },
+    "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+    "candidateProbability": null
+  },
+  {
+    "predictionId": "nba-home-win:401909310:nba-record-home-v1",
+    "gameKey": "nba:401909310",
+    "market": "home-win",
+    "entityId": "25",
+    "modelVersion": "nba-record-home-v1",
+    "predictedAt": "2026-11-20T23:35:20.740Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=100",
+    "baselineProbability": 0.663944700597734,
+    "homeTeamId": "25",
+    "awayTeamId": "3",
+    "homeRecord": {
+      "w": 9,
+      "l": 6,
+      "pct": 0.6
+    },
+    "awayRecord": {
+      "w": 5,
+      "l": 11,
+      "pct": 0.3125
+    },
+    "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+    "candidateProbability": null
+  },
+  {
+    "predictionId": "nba-home-win:401909311:nba-record-home-v1",
+    "gameKey": "nba:401909311",
+    "market": "home-win",
+    "entityId": "26",
+    "modelVersion": "nba-record-home-v1",
+    "predictedAt": "2026-11-20T23:35:20.740Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=100",
+    "baselineProbability": 0.4248120353039498,
+    "homeTeamId": "26",
+    "awayTeamId": "21",
+    "homeRecord": {
+      "w": 3,
+      "l": 13,
+      "pct": 0.1875
+    },
+    "awayRecord": {
+      "w": 7,
+      "l": 7,
+      "pct": 0.5
+    },
+    "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+    "candidateProbability": null
+  },
+  {
+    "predictionId": "nba-home-win:401909312:nba-record-home-v1",
+    "gameKey": "nba:401909312",
+    "market": "home-win",
+    "entityId": "7",
+    "modelVersion": "nba-record-home-v1",
+    "predictedAt": "2026-11-20T23:35:20.740Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=100",
+    "baselineProbability": 0.4943409352458288,
+    "homeTeamId": "7",
+    "awayTeamId": "10",
+    "homeRecord": {
+      "w": 8,
+      "l": 5,
+      "pct": 0.6153846153846154
+    },
+    "awayRecord": {
+      "w": 12,
+      "l": 4,
+      "pct": 0.75
+    },
+    "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+    "candidateProbability": null
+  },
+  {
+    "predictionId": "nba-home-win:401909313:nba-record-home-v1",
+    "gameKey": "nba:401909313",
+    "market": "home-win",
+    "entityId": "13",
+    "modelVersion": "nba-record-home-v1",
+    "predictedAt": "2026-11-20T23:35:20.740Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=100",
+    "baselineProbability": 0.75,
+    "homeTeamId": "13",
+    "awayTeamId": "23",
+    "homeRecord": {
+      "w": 13,
+      "l": 3,
+      "pct": 0.8125
+    },
+    "awayRecord": {
+      "w": 1,
+      "l": 13,
+      "pct": 0.07142857142857142
+    },
+    "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+    "candidateProbability": null
+  },
+  {
+    "predictionId": "nba-home-win:401910023:nba-record-home-v1",
+    "gameKey": "nba:401910023",
+    "market": "home-win",
+    "entityId": "20",
+    "modelVersion": "nba-record-home-v1",
+    "predictedAt": "2026-11-20T23:35:21.112Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121&limit=100",
+    "baselineProbability": 0.75,
+    "homeTeamId": "20",
+    "awayTeamId": "15",
+    "homeRecord": {
+      "w": 13,
+      "l": 3,
+      "pct": 0.8125
+    },
+    "awayRecord": {
+      "w": 1,
+      "l": 15,
+      "pct": 0.0625
+    },
+    "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+    "candidateProbability": null
+  },
+  {
+    "predictionId": "nba-home-win:401910024:nba-record-home-v1",
+    "gameKey": "nba:401910024",
+    "market": "home-win",
+    "entityId": "18",
+    "modelVersion": "nba-record-home-v1",
+    "predictedAt": "2026-11-20T23:35:21.112Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121&limit=100",
+    "baselineProbability": 0.528448011170889,
+    "homeTeamId": "18",
+    "awayTeamId": "22",
+    "homeRecord": {
+      "w": 9,
+      "l": 6,
+      "pct": 0.6
+    },
+    "awayRecord": {
+      "w": 10,
+      "l": 5,
+      "pct": 0.6666666666666666
+    },
+    "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+    "candidateProbability": null
+  },
+  {
+    "predictionId": "nba-home-win:401910025:nba-record-home-v1",
+    "gameKey": "nba:401910025",
+    "market": "home-win",
+    "entityId": "6",
+    "modelVersion": "nba-record-home-v1",
+    "predictedAt": "2026-11-20T23:35:21.112Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121&limit=100",
+    "baselineProbability": 0.6458571807616109,
+    "homeTeamId": "6",
+    "awayTeamId": "12",
+    "homeRecord": {
+      "w": 8,
+      "l": 7,
+      "pct": 0.5333333333333333
+    },
+    "awayRecord": {
+      "w": 4,
+      "l": 10,
+      "pct": 0.2857142857142857
+    },
+    "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+    "candidateProbability": null
+  },
+  {
+    "predictionId": "nba-home-win:401910026:nba-record-home-v1",
+    "gameKey": "nba:401910026",
+    "market": "home-win",
+    "entityId": "16",
+    "modelVersion": "nba-record-home-v1",
+    "predictedAt": "2026-11-20T23:35:21.112Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121&limit=100",
+    "baselineProbability": 0.5282877569724889,
+    "homeTeamId": "16",
+    "awayTeamId": "29",
+    "homeRecord": {
+      "w": 11,
+      "l": 5,
+      "pct": 0.6875
+    },
+    "awayRecord": {
+      "w": 12,
+      "l": 4,
+      "pct": 0.75
+    },
+    "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+    "candidateProbability": null
+  },
+  {
+    "predictionId": "nba-home-win:401910027:nba-record-home-v1",
+    "gameKey": "nba:401910027",
+    "market": "home-win",
+    "entityId": "24",
+    "modelVersion": "nba-record-home-v1",
+    "predictedAt": "2026-11-20T23:35:21.112Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121&limit=100",
+    "baselineProbability": 0.7403469731240956,
+    "homeTeamId": "24",
+    "awayTeamId": "3",
+    "homeRecord": {
+      "w": 13,
+      "l": 3,
+      "pct": 0.8125
+    },
+    "awayRecord": {
+      "w": 5,
+      "l": 11,
+      "pct": 0.3125
+    },
+    "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+    "candidateProbability": null
+  },
+  {
+    "predictionId": "nba-home-win:401910028:nba-record-home-v1",
+    "gameKey": "nba:401910028",
+    "market": "home-win",
+    "entityId": "23",
+    "modelVersion": "nba-record-home-v1",
+    "predictedAt": "2026-11-20T23:35:21.112Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121&limit=100",
+    "baselineProbability": 0.29934686679868006,
+    "homeTeamId": "23",
+    "awayTeamId": "2",
+    "homeRecord": {
+      "w": 1,
+      "l": 13,
+      "pct": 0.07142857142857142
+    },
+    "awayRecord": {
+      "w": 11,
+      "l": 4,
+      "pct": 0.7333333333333333
+    },
+    "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+    "candidateProbability": null
+  },
+  {
+    "predictionId": "nba-home-win:401910029:nba-record-home-v1",
+    "gameKey": "nba:401910029",
+    "market": "home-win",
+    "entityId": "1",
+    "modelVersion": "nba-record-home-v1",
+    "predictedAt": "2026-11-20T23:35:21.189Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
+    "baselineProbability": 0.5117972964265518,
+    "homeTeamId": "1",
+    "awayTeamId": "8",
+    "homeRecord": {
+      "w": 9,
+      "l": 6,
+      "pct": 0.6
+    },
+    "awayRecord": {
+      "w": 10,
+      "l": 4,
+      "pct": 0.7142857142857143
+    },
+    "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+    "candidateProbability": null
+  },
+  {
+    "predictionId": "nba-home-win:401910030:nba-record-home-v1",
+    "gameKey": "nba:401910030",
+    "market": "home-win",
+    "entityId": "14",
+    "modelVersion": "nba-record-home-v1",
+    "predictedAt": "2026-11-20T23:35:21.189Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
+    "baselineProbability": 0.5547792351072148,
+    "homeTeamId": "14",
+    "awayTeamId": "25",
+    "homeRecord": {
+      "w": 9,
+      "l": 6,
+      "pct": 0.6
+    },
+    "awayRecord": {
+      "w": 9,
+      "l": 6,
+      "pct": 0.6
+    },
+    "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+    "candidateProbability": null
+  },
+  {
+    "predictionId": "nba-home-win:401910031:nba-record-home-v1",
+    "gameKey": "nba:401910031",
+    "market": "home-win",
+    "entityId": "27",
+    "modelVersion": "nba-record-home-v1",
+    "predictedAt": "2026-11-20T23:35:21.189Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
+    "baselineProbability": 0.5057954469415695,
+    "homeTeamId": "27",
+    "awayTeamId": "19",
+    "homeRecord": {
+      "w": 5,
+      "l": 11,
+      "pct": 0.3125
+    },
+    "awayRecord": {
+      "w": 6,
+      "l": 8,
+      "pct": 0.42857142857142855
+    },
+    "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+    "candidateProbability": null
+  },
+  {
+    "predictionId": "nba-home-win:401910032:nba-record-home-v1",
+    "gameKey": "nba:401910032",
+    "market": "home-win",
+    "entityId": "4",
+    "modelVersion": "nba-record-home-v1",
+    "predictedAt": "2026-11-20T23:35:21.189Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
+    "baselineProbability": 0.4309892987289582,
+    "homeTeamId": "4",
+    "awayTeamId": "7",
+    "homeRecord": {
+      "w": 4,
+      "l": 10,
+      "pct": 0.2857142857142857
+    },
+    "awayRecord": {
+      "w": 8,
+      "l": 5,
+      "pct": 0.6153846153846154
+    },
+    "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+    "candidateProbability": null
+  },
+  {
+    "predictionId": "nba-home-win:401910033:nba-record-home-v1",
+    "gameKey": "nba:401910033",
+    "market": "home-win",
+    "entityId": "26",
+    "modelVersion": "nba-record-home-v1",
+    "predictedAt": "2026-11-20T23:35:21.189Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
+    "baselineProbability": 0.4121884727408568,
+    "homeTeamId": "26",
+    "awayTeamId": "6",
+    "homeRecord": {
+      "w": 3,
+      "l": 13,
+      "pct": 0.1875
+    },
+    "awayRecord": {
+      "w": 8,
+      "l": 7,
+      "pct": 0.5333333333333333
+    },
+    "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+    "candidateProbability": null
+  },
+  {
+    "predictionId": "nba-home-win:401910034:nba-record-home-v1",
+    "gameKey": "nba:401910034",
+    "market": "home-win",
+    "entityId": "18",
+    "modelVersion": "nba-record-home-v1",
+    "predictedAt": "2026-11-20T23:35:21.189Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
+    "baselineProbability": 0.6544111162019277,
+    "homeTeamId": "18",
+    "awayTeamId": "11",
+    "homeRecord": {
+      "w": 9,
+      "l": 6,
+      "pct": 0.6
+    },
+    "awayRecord": {
+      "w": 5,
+      "l": 10,
+      "pct": 0.3333333333333333
+    },
+    "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+    "candidateProbability": null
+  },
+  {
+    "predictionId": "nba-home-win:401910035:nba-record-home-v1",
+    "gameKey": "nba:401910035",
+    "market": "home-win",
+    "entityId": "9",
+    "modelVersion": "nba-record-home-v1",
+    "predictedAt": "2026-11-20T23:35:21.189Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
+    "baselineProbability": 0.4622122471862427,
+    "homeTeamId": "9",
+    "awayTeamId": "2",
+    "homeRecord": {
+      "w": 8,
+      "l": 8,
+      "pct": 0.5
+    },
+    "awayRecord": {
+      "w": 11,
+      "l": 4,
+      "pct": 0.7333333333333333
+    },
+    "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+    "candidateProbability": null
+  }
+]
