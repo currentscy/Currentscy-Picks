@@ -98,6 +98,7 @@ function display(records){
    }
   }
   if(!card)return;
+  if(card.dataset.v21Injuries==='yes')continue;
   const original=card.textContent||'';
   const teams=[...records.values()].filter(r=>original.includes(r.team.name));
   if(!teams.length)return;
@@ -118,8 +119,14 @@ function display(records){
    }else{const p=document.createElement('p');p.textContent='No named injuries verified from available feeds; this does not mean the team is healthy.';body.append(p)}
    details.append(summary,body);box.append(details);
   }
+  card.dataset.v21Injuries='yes';
   card.replaceChildren(title,box);
  }
 }
-window.CurrentscyInjuries={load,availability,display};
+let latest=null,queued=false;
+function schedule(){if(!latest||queued)return;queued=true;setTimeout(()=>{queued=false;display(latest)},250)}
+const originalLoad=load;
+window.CurrentscyInjuries={load:async teams=>{latest=await originalLoad(teams);schedule();return latest},availability,display};
+function start(){new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true})}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();
 })();
