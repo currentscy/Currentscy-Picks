@@ -7,7 +7,7 @@ const clean=x=>String(x||'').trim();
 const parseRecord=c=>{
  const records=c?.records||[];
  const overall=records.find(x=>/overall|total/i.test(x.type||x.name||''))||records[0];
- const summary=clean(overall?.summary);
+ const summary=clean(overall?.summary||c?.team?.record?.summary||c?.team?.record||c?.record);
  const m=summary.match(/^(\d+)\s*-\s*(\d+)$/);
  if(!m)return null;
  const w=+m[1],l=+m[2];return w+l>=8?{w,l,pct:w/(w+l)}:null;
@@ -37,6 +37,33 @@ const build=(event)=>{
   diff:edge,estimate:homeFavored?homeEstimate:1-homeEstimate,date:event.date};
 };
 let loadedDate='',items=[],loading=false,lastAttempt=0;
+async function teamRecord(c){
+ const direct=parseRecord(c);
+ if(direct)return direct;
+ const id=c?.team?.id;
+ if(!id)return null;
+ try{
+  const r=await fetch('https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/'+encodeURIComponent(id),{cache:'no-store'});
+  if(!r.ok)return null;
+  const j=await r.json(),t=j.team||j;
+  const records=t.record?.items||t.record?.records||[];
+  const overall=records.find(x=>/total|overall/i.test(x.type||x.name||''))||records[0];
+  const stats=overall?.stats||[];
+  const stat=n=>stats.find(x=>x.name===n||x.abbreviation===n)?.value;
+  const w=Number(stat('wins')),l=Number(stat('losses'));
+  if(Number.isFinite(w)&&Number.isFinite(l)&&w+l>=8)return {w,l,pct:w/(w+l)};
+  const summary=overall?.summary||t.record?.summary||t.record;
+  return parseRecord({records:[{summary:typeof summary==='string'?summary:''}]});
+ }catch{return null}
+}
+async function enrichEvent(e){
+ const competitors=e.competitions?.[0]?.competitors||[];
+ const home=competitors.find(c=>c.homeAway==='home'),away=competitors.find(c=>c.homeAway==='away');
+ if(!home||!away)return null;
+ const [hr,ar]=await Promise.all([teamRecord(home),teamRecord(away)]);
+ if(!hr||!ar)return null;
+ return build({...e,competitions:[{...e.competitions[0],competitors:competitors.map(c=>c===home?{...c,records:[{type:'total',summary:hr.w+'-'+hr.l}]}:c===away?{...c,records:[{type:'total',summary:ar.w+'-'+ar.l}]}:c)}]});
+}
 async function fetchToday(){
  const day=dateKey(new Date()),now=Date.now();
  if(loading||(loadedDate===day&&now-lastAttempt<5*60*1000))return;
@@ -58,7 +85,7 @@ async function fetchToday(){
    if(!e.id||!Number.isFinite(tip)||tip<=Date.now()||state==='in'||state==='post'||e.status?.type?.completed)return;
    unique.set(e.id,e);
   });
-  items=[...unique.values()].filter(e=>dateKey(new Date(e.date))===day).map(build).filter(Boolean)
+  items=(await Promise.all([...unique.values()].filter(e=>dateKey(new Date(e.date))===day).map(enrichEvent))).filter(Boolean)
    .sort((a,b)=>b.estimate-a.estimate||Date.parse(a.date)-Date.parse(b.date)).slice(0,5);
   loadedDate=day;
  }catch{items=[];loadedDate='';}finally{loading=false;render()}
@@ -71,7 +98,7 @@ function render(){
  const status=$('status');
  if(status&&/\d+\s+games found\s*·\s*live source/i.test(status.textContent||''))status.style.display='none';
  else if(status)status.style.display='';
- if(!items.length||items.length!==5){host?.remove();return}
+ if(items.length<3){host?.remove();return}
  if(!host){
   host=document.createElement('section');host.id='v87-daily-three';host.className='v87-daily-three';
   const parent=games.parentNode;parent.insertBefore(host,games);
@@ -81,7 +108,7 @@ function render(){
  host.dataset.date=day;host.dataset.ids=items.map(x=>x.id+':'+x.estimate.toFixed(4)).join(',');
  host.replaceChildren();
  const h=document.createElement('h2');h.textContent='🏀 Today's NBA 5 Game Parlay';host.appendChild(h);
- const note=document.createElement('p');note.className='v87-three-note';note.textContent='Five ranked game-winner candidates from NBA games scheduled today (Pacific time) only. Updates daily and excludes games that have already started. Ranked by a conservative model that shrinks small-sample records toward average and accounts for home court. Model estimates are NOT historically calibrated. Injuries, lineups and defensive matchups are not verified.';host.appendChild(note);
+ const note=document.createElement('p');note.className='v87-three-note';note.textContent='Up to five ranked game-winner candidates from NBA games scheduled today (Pacific time) only. Updates daily and excludes games that have already started. Ranked by a conservative model that shrinks small-sample records toward average and accounts for home court. Model estimates are NOT historically calibrated. Injuries, lineups and defensive matchups are not verified.';host.appendChild(note);
  items.forEach((x,i)=>{
   const div=document.createElement('div');div.className='v87-three-leg';
   const title=document.createElement('strong');title.textContent=(i+1)+'. '+x.pick+' to win';div.appendChild(title);
@@ -89,7 +116,7 @@ function render(){
   const sub=document.createElement('small');sub.textContent='Record comparison: '+(x.record?x.record.w+'-'+x.record.l:'unavailable')+' vs '+(x.other?x.other.w+'-'+x.other.l:'unavailable')+' · Provisional model estimate: '+Math.round(x.estimate*100)+'% (NOT calibrated)';div.appendChild(sub);
   host.appendChild(div);
  });
- const footer=document.createElement('p');footer.className='v87-three-note';footer.textContent='Regularized record-and-home-court model, not a five-game simulation or guaranteed parlay. Calibration requires walk-forward testing against historical games. Shows only when at least five games today have not started; games without sufficient current-season records are excluded rather than assigned a probability. Never fills missing selections with tomorrow's games.';host.appendChild(footer);
+ const footer=document.createElement('p');footer.className='v87-three-note';footer.textContent='Regularized record-and-home-court model, not a five-game simulation or guaranteed parlay. Calibration requires walk-forward testing against historical games. Shows only when at least three games today have not started and have usable records; games without sufficient current-season records are excluded rather than assigned a probability. Never fills missing selections with tomorrow's games.';host.appendChild(footer);
 }
 let queued=false;function schedule(){if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;const nba=document.body.dataset.sport==='nba'&&!$('listing')?.classList.contains('hidden');if(nba){fetchToday();render()}else $('v87-daily-three')?.remove()})}
 function init(){
