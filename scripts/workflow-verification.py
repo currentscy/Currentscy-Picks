@@ -35,5 +35,9 @@ def main():
  path=ROOT/"workflow-verification.json"
  path.parent.mkdir(parents=True,exist_ok=True)
  path.write_text(json.dumps(status,indent=2)+"\n")
+ if status["runId"]:
+  history=ROOT/"workflow-runs"
+  history.mkdir(parents=True,exist_ok=True)
+  (history/(status["runId"]+"-"+str(status["runAttempt"] or "1")+".json")).write_text(json.dumps(status,indent=2)+"\n")
  print(json.dumps(status))
 if __name__=="__main__":main()
