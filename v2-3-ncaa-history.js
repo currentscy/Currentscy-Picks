@@ -32,6 +32,6 @@ function run(){
 }
 let pending=false;
 function schedule(){if(pending)return;pending=true;requestAnimationFrame(()=>{pending=false;run()})}
-function init(){const root=document.getElementById('results');if(root)new MutationObserver(schedule).observe(root,{childList:true,subtree:true});schedule()}
+function init(){const root=document.getElementById('results');if(root)new MutationObserver(schedule).observe(root,{childList:true,subtree:true});const detail=document.getElementById('detail');if(detail)new MutationObserver(schedule).observe(detail,{childList:true,subtree:true});schedule()}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
