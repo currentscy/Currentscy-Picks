@@ -1,77 +1,90 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T23:35:21.321003+00:00",
+  "generatedAt": "2026-11-20T23:37:03.555485+00:00",
   "fiveSteps": {
     "eventCollection": true,
     "pregameForecastCaptured": true,
     "finalOutcomeMatched": false,
     "researchCoverageReported": true,
-    "accuracyEvaluationReady": false
+    "accuracyEvaluationReady": false,
+    "everySportScored": false
   },
   "bySport": {
     "nba": {
-      "events": 36,
-      "completed": 4,
+      "events": 258,
+      "completed": 226,
       "validForecasts": 22,
       "matchedFinalOutcomes": 0
     },
     "ncaa-football": {
-      "events": 65,
-      "completed": 1,
+      "events": 113,
+      "completed": 49,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "nfl": {
-      "events": 13,
-      "completed": 1,
+      "events": 23,
+      "completed": 11,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "nhl": {
-      "events": 38,
-      "completed": 12,
-      "validForecasts": 0,
+      "events": 264,
+      "completed": 238,
+      "validForecasts": 26,
       "matchedFinalOutcomes": 0
     },
     "soccer-england": {
-      "events": 10,
-      "completed": 0,
+      "events": 23,
+      "completed": 13,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-france": {
-      "events": 9,
-      "completed": 1,
+      "events": 26,
+      "completed": 18,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-germany": {
-      "events": 9,
-      "completed": 1,
+      "events": 26,
+      "completed": 18,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-italy": {
-      "events": 10,
-      "completed": 0,
+      "events": 33,
+      "completed": 23,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-mexico": {
-      "events": 9,
-      "completed": 0,
+      "events": 30,
+      "completed": 21,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-mls": {
-      "events": 9,
-      "completed": 2,
+      "events": 59,
+      "completed": 52,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-spain": {
-      "events": 10,
-      "completed": 1,
+      "events": 29,
+      "completed": 20,
+      "validForecasts": 0,
+      "matchedFinalOutcomes": 0
+    },
+    "soccer-ucl": {
+      "events": 18,
+      "completed": 18,
+      "validForecasts": 0,
+      "matchedFinalOutcomes": 0
+    },
+    "soccer-uel": {
+      "events": 35,
+      "completed": 35,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
@@ -95,9 +108,10 @@
     }
   },
   "invalidRecords": [],
-  "validPregameForecasts": 22,
+  "validPregameForecasts": 48,
   "matchedFinalOutcomes": 0,
   "completeCoverageEstablished": false,
+  "sportsWithScoredForecasts": [],
   "liveModelSelfTrainingEnabled": false,
   "note": "A saved fixture is not a forecast. MMA/tennis provider coverage and independent final verification remain unproven."
 }
