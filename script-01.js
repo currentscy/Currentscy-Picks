@@ -392,7 +392,7 @@ async function v66BuildFiveLegs(comp,game,league,anchor){
   }catch(err){injuryError=String(err.message||err)}
   const rawInjuries=injuryFeed?.injuries||injuryFeed?.teams||injuryFeed?.items;
   if(!Array.isArray(rawInjuries)||!rawInjuries.length){
-   anchor.innerHTML='<div class="panel"><h2>🏈 V78 · Five-leg safety check</h2><p><strong>Selections withheld.</strong> Current player availability could not be verified from the live injury feed. Historical game logs are not proof that a player will suit up.</p><small>'+escapeHtml(injuryError||'No usable injury records')+' · no invented probabilities</small></div>';
+   anchor.innerHTML='<div class="panel"><h2>🏈 5 Leg Player Parlay · Safety Check</h2><p><strong>Selections withheld.</strong> Current player availability could not be verified from the live injury feed. Historical game logs are not proof that a player will suit up.</p><small>'+escapeHtml(injuryError||'No usable injury records')+' · no invented probabilities</small></div>';
    return;
   }
   const injuryRows=[];
@@ -439,7 +439,7 @@ async function v66BuildFiveLegs(comp,game,league,anchor){
    const chips=stats.map(([name,val])=>'<span class="v78-chip">'+escapeHtml(name)+': <b>'+escapeHtml(String(val))+'</b></span>').join('');
    return '<div class="v65leg v78-leg"><strong>'+(i+1)+'. '+escapeHtml(c.name)+' — '+escapeHtml(c.label)+'</strong><div class="v78-sub">'+escapeHtml(c.team)+' · '+escapeHtml(c.pos||'Player')+' · '+t.games+' verified games in sample</div><div class="v78-hit">'+c.hits+'/'+c.count+' hits · '+(100*c.hits/c.count).toFixed(0)+'% historical</div><div class="v78-stats">'+chips+'</div><small>2026 totals from available completed ESPN box scores · stability '+(100*c.v76score).toFixed(0)+'/100 (not probability) · active status unconfirmed</small></div>';
   }).join('');
-  anchor.innerHTML='<div class="panel"><h2>🏈 V78 · Provisional player research</h2><p class="desc">Injury feed checked. Players listed OUT, IR, suspended, doubtful or questionable are excluded when identified. <strong>Not a verified active roster:</strong> final inactives and projected snaps remain unavailable. These are research candidates, not finalized five-leg picks.</p>'+cards+(chosenLegs.length<5?'<p>Only '+chosenLegs.length+' candidates passed the filters; five-leg selection withheld.</p>':'<p>Five candidates found, but final active status must be confirmed before selection.</p>')+'<small>Missing box-score reports: '+failures+'</small></div>';
+  anchor.innerHTML='<div class="panel"><h2>🏈 5 Leg Player Parlay</h2><p class="desc">Injury feed checked. Players listed OUT, IR, suspended, doubtful or questionable are excluded when identified. <strong>Not a verified active roster:</strong> final inactives and projected snaps remain unavailable. These are research candidates, not finalized five-leg picks.</p>'+cards+(chosenLegs.length<5?'<p>Only '+chosenLegs.length+' candidates passed the filters; five-leg selection withheld.</p>':'<p>Five candidates found, but final active status must be confirmed before selection.</p>')+'<small>Missing box-score reports: '+failures+'</small></div>';
  }catch(e){anchor.innerHTML='<div class="panel"><h2>🏈 Selected game · five-leg research</h2><p class="desc">Insufficient verified data: '+escapeHtml(e.message)+'</p></div>'}
 }
 
