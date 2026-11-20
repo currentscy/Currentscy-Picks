@@ -18,7 +18,7 @@ function parsePlay(play){
  return {id:String(play.id||''),period:Number.isFinite(period)?period:null,half:period>=1&&period<=2?1:period>=3&&period<=4?2:null,clock,type,description,score,teamId:String(play.team?.id||'')};
 }
 function parseESPN(data){
- const plays=data?.plays||data?.drives?.previous?.flatMap(d=>d.plays||[])||[];
+ const plays=Array.isArray(data?.plays)&&data.plays.length?data.plays:[...(data?.drives?.previous||[]),...(data?.drives?.current?[data.drives.current]:[])].flatMap(d=>d.plays||[]);
  if(!Array.isArray(plays))throw Error('No usable play list in ESPN summary');
  const rows=plays.map(parsePlay).filter(p=>p.period&&p.description);
  return {plays:rows,firstHalf:rows.filter(p=>p.half===1).length,secondHalf:rows.filter(p=>p.half===2).length,coverageCharted:false,formationCharted:false,blitzCharted:false,personnelCharted:false};
@@ -45,7 +45,7 @@ function splits(plays){
 async function audit(league,eventId){
  const key=league+':'+eventId,hit=cache.get(key);
  if(hit&&Date.now()-hit.time<300000)return hit.value;
- const reports=await Promise.allSettled([espnGame(league,eventId),league==='ncaa'&&window.CurrentscyCFBDV103?window.CurrentscyCFBDV103.request('games',{year:seasonYear(chosen?.date)}):Promise.resolve(null)]);
+ const reports=await Promise.allSettled([espnGame(league,eventId),league==='ncaa'&&window.CurrentscyCFBDV103?window.CurrentscyCFBDV103.request('games',{year:seasonYear(typeof chosen!=='undefined'?chosen?.date:null)}):Promise.resolve(null)]);
  const espn=reports[0].status==='fulfilled'?reports[0].value:null;
  const cfbd=reports[1].status==='fulfilled'&&reports[1].value?{connected:true,records:reports[1].value.items.length,scope:'completed NCAA game metadata; not defensive coverage'}:{connected:false};
  const value={league,eventId,espn:espn?{connected:true,plays:espn.plays.length,firstHalf:espn.firstHalf,secondHalf:espn.secondHalf,playMix:splits(espn.plays)}:{connected:false,error:String(reports[0].reason?.message||reports[0].reason)},cfbd,coverageAssignments:false,coachingBehaviorCalibrated:false,limitations:['No verified defensive coverage calls','No personnel or receiver alignment charting','No score-adjusted halftime causal analysis','No coach-specific profile trained']};
