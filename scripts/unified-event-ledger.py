@@ -59,7 +59,19 @@ def collect(now=None,fetcher=get,back=2,forward=7):
     for e in data.get("events") or []:
      if not e.get("id"):continue
      row=normalize_event(e,sport,observed,url)
-     # MMA and tennis may use non-team competitors; preserve raw names and IDs.
+     # Individual sports may provide athlete identities instead of team objects.
+     if sport in ("ufc","tennis-atp","tennis-wta"):
+      participants=[]
+      for competition in e.get("competitions") or []:
+       for c in competition.get("competitors") or []:
+        entity=c.get("athlete") or c.get("team") or {}
+        ident=entity.get("id") or c.get("id")
+        if not ident:continue
+        participants.append({"sourceTeamId":str(ident),
+         "name":entity.get("displayName") or entity.get("fullName") or c.get("displayName"),
+         "homeAway":c.get("homeAway"),"score":str(c["score"]) if c.get("score") is not None else None,
+         "winner":c.get("winner") if isinstance(c.get("winner"),bool) else None})
+      if participants:row["teams"]=participants
      rows.append(row)
     events.extend(rows)
     checks.append({"sport":sport,"day":day,"ok":True,"count":len(rows),"sourceUrl":url})
