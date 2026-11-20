@@ -25,17 +25,21 @@ jobs:
         run: python -m unittest discover -s scripts -p 'test_stage2_reconcile.py'
       - name: Test Stage 3 pregame evaluation gates
         run: python -m unittest discover -s scripts -p 'test_stage3_evaluate.py'
+      - name: Test Stage 4 paired model audit
+        run: python -m unittest discover -s scripts -p 'test_stage4_audit.py'
       - name: Collect scoreboard snapshots
         run: python scripts/stage1_collect.py
       - name: Reconcile source identities and provenance
         run: python scripts/stage2_reconcile.py
       - name: Evaluate archived pregame predictions (no live activation)
         run: python scripts/stage3_evaluate.py
+      - name: Audit paired model results by sport and month (offline only)
+        run: python scripts/stage4_audit.py
       - name: Save latest evidence snapshot
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add research-ledger/stage1/latest.json research-ledger/stage2/latest.json research-ledger/stage3/evaluation.json
+          git add research-ledger/stage1/latest.json research-ledger/stage2/latest.json research-ledger/stage3/evaluation.json research-ledger/stage4/report.json
           if ! git diff --cached --quiet; then
             git commit -m "Refresh Stage 1 multi-sport scoreboard evidence"
             git push
