@@ -15,13 +15,18 @@ function parsePlay(play){
  const type=play.type?.text||play.type?.name||play.playType?.text||'';
  const description=play.text||play.description||'';
  const score=play.homeScore!==undefined&&play.awayScore!==undefined?{home:Number(play.homeScore),away:Number(play.awayScore)}:null;
- return {id:String(play.id||''),period:Number.isFinite(period)?period:null,half:period>=1&&period<=2?1:period>=3&&period<=4?2:null,clock,type,description,score,teamId:String(play.team?.id||'')};
+ return {id:String(play.id||''),period:Number.isFinite(period)?period:null,half:period>=1&&period<=2?1:period>=3&&period<=4?2:null,clock,type,description,score,teamId:String(play.team?.id||play.teamId||play.possession?.id||'')};
 }
 function parseESPN(data){
- const plays=Array.isArray(data?.plays)&&data.plays.length?data.plays:[...(data?.drives?.previous||[]),...(data?.drives?.current?[data.drives.current]:[])].flatMap(d=>d.plays||[]);
+ const previous=Array.isArray(data?.drives?.previous)?data.drives.previous:[];
+ const current=data?.drives?.current;
+ const drives=[...previous,...(current?[current]:[])];
+ const top=Array.isArray(data?.plays)?data.plays:[];
+ const plays=top.length?top:drives.flatMap(d=>(Array.isArray(d?.plays)?d.plays:[]).map(p=>({...p,team:p.team||d.team||d.teamId&&{id:d.teamId}})));
  if(!Array.isArray(plays))throw Error('No usable play list in ESPN summary');
  const rows=plays.map(parsePlay).filter(p=>p.period&&p.description);
- return {plays:rows,firstHalf:rows.filter(p=>p.half===1).length,secondHalf:rows.filter(p=>p.half===2).length,coverageCharted:false,formationCharted:false,blitzCharted:false,personnelCharted:false};
+ const attribution=rows.filter(p=>p.teamId&&[1,2].includes(p.half)).length;
+ return {plays:rows,teamAttributedHalfPlays:attribution,firstHalf:rows.filter(p=>p.half===1).length,secondHalf:rows.filter(p=>p.half===2).length,coverageCharted:false,formationCharted:false,blitzCharted:false,personnelCharted:false};
 }
 async function espnGame(league,eventId){
  if(!ESPN[league]||!/^\d{5,15}$/.test(String(eventId)))throw Error('Invalid league or game ID');
