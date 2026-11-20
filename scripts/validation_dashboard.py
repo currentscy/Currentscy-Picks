@@ -35,6 +35,7 @@ def audit(events,predictions,outcomes,coverage):
   p=valid[o["predictionId"]];g=games[p["gameKey"]]
   verified=when(o.get("verifiedAt"));start=when(g.get("scheduledStart"))
   if (type(o.get("result")) is not int or o["result"] not in (0,1)
+      or o.get("verified") is not True or not str(o.get("sourceUrl","")).startswith("https://")
       or not verified or verified<start or not g.get("completed")):
    invalid.append({"type":"outcome","id":o["predictionId"],"reason":"invalid or not final"});continue
   scored.add(o["predictionId"])
@@ -52,10 +53,12 @@ def audit(events,predictions,outcomes,coverage):
     "pregameForecastCaptured":bool(valid),
     "finalOutcomeMatched":bool(scored),
     "researchCoverageReported":bool(coverage.get("sports")),
-    "accuracyEvaluationReady":bool(scored) and not invalid},
+    "accuracyEvaluationReady":bool(scored) and not invalid,
+    "everySportScored":bool(bysport) and all(x["matchedFinalOutcomes"]>0 for x in bysport.values())},
    "bySport":bysport,"invalidRecords":invalid[:100],
    "validPregameForecasts":len(valid),"matchedFinalOutcomes":len(scored),
    "completeCoverageEstablished":False,
+   "sportsWithScoredForecasts":sorted(k for k,v in bysport.items() if v["matchedFinalOutcomes"]>0),
    "liveModelSelfTrainingEnabled":False,
    "note":"A saved fixture is not a forecast. MMA/tennis provider coverage and independent final verification remain unproven."}
 def main():
