@@ -1,0 +1,40 @@
+name: Website backup and coaching validation
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'v2-5-coaching-data.js'
+      - 'v4-0-coaching-math.js'
+      - 'scripts/test_coaching_math.js'
+      - 'scripts/verify_coaching_backtest.py'
+      - '.github/workflows/website-backup-and-coaching-checks.yml'
+permissions:
+  contents: read
+jobs:
+  validate-and-backup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check JavaScript syntax
+        run: |
+          node --check v2-5-coaching-data.js
+          node --check v4-0-coaching-math.js
+      - name: Test coaching math with synthetic fixtures
+        run: node scripts/test_coaching_math.js
+      - name: Run fail-closed backtest audit
+        run: python3 scripts/verify_coaching_backtest.py
+      - name: Package complete repository snapshot
+        run: |
+          mkdir -p /tmp/currentscy-backup
+          tar --exclude=.git -cf - . | (cd /tmp/currentscy-backup && tar -xf -)
+          cd /tmp/currentscy-backup
+          zip -qr "$GITHUB_WORKSPACE/Currentscy-Picks-Website-Backup.zip" .
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Currentscy-Picks-Website-Backup
+          path: Currentscy-Picks-Website-Backup.zip
+          retention-days: 30
