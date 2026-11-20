@@ -5,7 +5,7 @@ const response=await Promise.all(files.map(f=>fetch(f,{cache:'no-store'})));
 if(response.some(r=>!r.ok))throw Error('A website file could not be loaded');
 let html=(await Promise.all(response.map(r=>r.text()))).join('');
 html=html.replace(/(?:href|src)="assets\/(style-\d+\.css|script-\d+\.js)"/g,(match,file)=>match.replace('assets/',''));
-html=html.replace('</head>','<link rel="stylesheet" href="v77.css"><link rel="stylesheet" href="v78.css"></head>');
+html=html.replace('</head>','<link rel="stylesheet" href="v77.css"><link rel="stylesheet" href="v78.css"><link rel="stylesheet" href="v79.css"></head>');
 html=html.replace('</body>','<script src="v77.js"><'+'/script></body>');
 document.open();document.write(html);document.close();
 }catch(e){document.body.textContent='Unable to load Currentscy Picks: '+e.message;}})();
