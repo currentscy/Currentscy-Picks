@@ -35,7 +35,7 @@ v62TeamHistory=async function(team,league,cutoff){
   else errors.push(seasons[i]+': '+String(r.reason?.message||r.reason));
  }
  // Provider team search may use a different canonical name; try year-wide records.
- if(rows.length===0){
+ if(!rows.some(g=>parseGame(g,name,cutoff))){
   const all=await Promise.allSettled(seasons.map(season=>cfbd.request('games',{year:season})));
   for(let i=0;i<all.length;i++){
    const r=all[i];if(r.status==='fulfilled')rows.push(...r.value.items);
