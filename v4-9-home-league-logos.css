@@ -1,0 +1,17 @@
+/* V4.9 — homepage-only league identity. No matchup or simulation styles. */
+body[data-sport="home"] #homeIntro{text-align:center;padding:28px 10px 22px}
+body[data-sport="home"] #homeIntro h2{font-size:clamp(28px,6vw,43px);font-weight:800;letter-spacing:-1.4px;margin:0 0 8px}
+body[data-sport="home"] #homeIntro p{font-size:14px;color:#aeb5c1;line-height:1.5;margin:0 auto;max-width:380px}
+body[data-sport="home"] .sports-nav-wrap{border:0!important;box-shadow:none!important;background:transparent!important}
+body[data-sport="home"] #sports{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px!important;overflow:visible!important;margin:0!important;padding:8px 0 18px!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important}
+body[data-sport="home"] #sports .sport{position:relative;display:flex!important;flex-direction:column!important;gap:13px!important;min-width:0!important;min-height:142px;padding:20px 10px!important;border:1px solid #343c49!important;border-radius:18px!important;background:linear-gradient(155deg,#242934 0%,#131821 49%,#090c12 100%)!important;box-shadow:inset 0 1px 0 #ffffff1c,0 9px 20px #0006!important;color:#f7f8fb!important;font-size:17px!important;font-weight:750!important;letter-spacing:-.3px;white-space:normal!important;text-align:center;transition:transform .16s,border-color .16s,box-shadow .16s}
+body[data-sport="home"] #sports .sport::after{content:"";position:absolute;inset:auto 22px 0;height:2px;background:linear-gradient(90deg,transparent,#c88b36,transparent);opacity:.28}
+body[data-sport="home"] #sports .sport:active{transform:scale(.98)}
+body[data-sport="home"] #sports .sport:hover,body[data-sport="home"] #sports .sport:focus-visible{border-color:#b98b49!important;box-shadow:0 0 0 1px #c18c3b44,0 12px 24px #0008!important}
+body[data-sport="home"] #sports .sport em{display:none!important}
+body[data-sport="home"] #sports .sport .cp-league-logo{width:74px;height:57px;object-fit:contain;flex:0 0 57px;filter:drop-shadow(0 3px 7px #0009)}
+body[data-sport="home"] #sports .sport .cp-league-fallback{display:none;align-items:center;justify-content:center;min-width:74px;height:57px;font-size:21px;letter-spacing:-1px;font-weight:900;color:#f8f8f9;text-shadow:0 2px 8px #000}
+body[data-sport="home"] #sports .sport .cp-league-fallback.is-visible{display:flex}
+body[data-sport="home"] #sports .sport .cp-league-label{display:block;line-height:1.2}
+@media(min-width:800px){body[data-sport="home"] #sports{grid-template-columns:repeat(4,minmax(0,1fr))}body[data-sport="home"] #sports .sport{min-height:155px}}
+@media(max-width:390px){body[data-sport="home"] #sports .sport{min-height:125px;font-size:15px!important}body[data-sport="home"] #sports .sport .cp-league-logo{height:48px}}
