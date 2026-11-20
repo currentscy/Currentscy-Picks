@@ -1234,7 +1234,7 @@ async function analyzeSoccer(){
    timeline.innerHTML='<summary>Lineup changes & injury events</summary><p class="desc">Checking verified match events…</p>';
    summary.append(timeline);
    const requestedGame=String(gameAtStart),requestedLeague=String(league);
-   fetch(ESPN+'soccer/'+encodeURIComponent(requestedLeague)+'/summary?event='+encodeURIComponent(requestedGame))
+   fetch(root+'soccer/'+encodeURIComponent(requestedLeague)+'/summary?event='+encodeURIComponent(requestedGame))
     .then(res=>{if(!res.ok)throw Error('ESPN summary unavailable');return res.json()})
     .then(payload=>{
       if(sport!=='soccer'||String(chosen?.id)!==requestedGame||!timeline.isConnected)return;
