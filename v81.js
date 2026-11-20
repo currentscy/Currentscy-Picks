@@ -9,11 +9,6 @@ function refresh(){
   for(const h of detail.querySelectorAll('h1,h2,h3,h4')){
    if(/NBA\s*[·•-]?\s*Five game-specific player legs/i.test(h.textContent||''))h.textContent='🏀 NBA 5 Leg Parlay';
   }
-  const box=document.getElementById('v63BoxScore');
-  if(box)box.style.display='none';
- }else{
-  const box=document.getElementById('v63BoxScore');
-  if(box)box.style.display='';
  }
  const status=document.getElementById('dataStatus');
  if(status&&nba&&/NBA matchup research loaded/i.test(status.textContent||''))status.setAttribute('aria-hidden','true');
