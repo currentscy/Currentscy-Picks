@@ -1,6 +1,6 @@
-/* Currentscy Picks V96 — source-aware NFL evidence, never fabricate provider availability. */
+/* Currentscy Picks V97 — source-aware NFL evidence, never fabricate provider availability. */
 (()=>{'use strict';
-const VERSION='V96';
+const VERSION='V97';
 const providers=['nflverse','sportsdataio','sportradar','espn'];
 const sourceState={nflverse:'not-tested',sportsdataio:'not-connected',sportradar:'not-connected',espn:'not-tested'};
 const finite=n=>typeof n==='number'&&Number.isFinite(n);
@@ -75,7 +75,7 @@ function playerSummary({context,playerId,licensedPffSummary}={}){
   return {pffUsed:false,summary:null,reason:'Licensed public-display PFF summary unavailable'};
  return {pffUsed:true,summary:licensedPffSummary.summary.slice(0,500),observedAt:ev.observedAt};
 }
-window.CurrentscyNFLV96=Object.freeze({version:VERSION,providers,refresh,health,evaluateInputs,
+window.CurrentscyNFLV97=Object.freeze({version:VERSION,providers,refresh,health,evaluateInputs,
  pffEvidence,playerSummary});
 function init(){
  cleanVersion(document.body);
