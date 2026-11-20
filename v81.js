@@ -26,6 +26,16 @@ function refresh(){
   const match=/^How this matchup was evaluated$/i.test((summary.textContent||'').trim());
   if(match&&summary.closest('details'))summary.closest('details').classList.toggle('v81-hide-panel',nba);
  }
+ // Remove only a wrapper that became visually empty after the explanatory details were hidden.
+ for(const panel of detail?.querySelectorAll('.panel')||[]){
+  const children=[...panel.children];
+  const emptyAfterCleanup=children.length>0&&children.every(el=>
+   el.classList.contains('v81-hide-panel')||
+   (el.tagName==='DETAILS'&&el.classList.contains('v81-hide-panel'))||
+   (el.textContent||'').trim()===''&&el.children.length===0
+  );
+  panel.classList.toggle('v81-empty-wrapper',nba&&emptyAfterCleanup);
+ }
 }
 function schedule(){if(pending)return;pending=true;requestAnimationFrame(()=>{pending=false;refresh()})}
 function start(){refresh();new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true,characterData:true,attributes:true,attributeFilter:['class']})}
