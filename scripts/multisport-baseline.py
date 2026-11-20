@@ -48,6 +48,13 @@ def rate(team,sport,start,history):
   elif a["sourceTeamId"]==team:prior.append((t,1-outcome))
  prior.sort(reverse=True,key=lambda x:x[0])
  return [v for _,v in prior[:20]]
+def shadow_probability(p,sport):
+ config=load(Path("learning/shadow-config.json"),{}).get("models",{}).get(sport)
+ if not config:return None,None
+ offset=config.get("offset");slope=config.get("slope")
+ if type(offset) not in (float,int) or type(slope) not in (float,int):return None,None
+ z=offset+slope*math.log(p/(1-p))
+ return max(.02,min(.98,1/(1+math.exp(-z)))),config
 def forecast(event,history,now):
  start=when(event.get("scheduledStart"))
  if not start or (start-now).total_seconds()<1800 or event.get("completed"):return None
@@ -65,13 +72,17 @@ def forecast(event,history,now):
  z=.15+.65*(strength(hp,len(hw))-strength(ap,len(aw)))
  p=max(.25,min(.75,1/(1+math.exp(-z))))
  key=event["eventKey"]
+ shadow,cal=shadow_probability(p,sport)
  return {"predictionId":"research-home-win:"+key+":prior20-v1","gameKey":key,
   "market":"home-win","entityId":str(h["sourceTeamId"]),"modelVersion":"research-prior20-v1",
   "predictedAt":now.isoformat(),"sourceUrl":event.get("sourceUrl"),
   "baselineProbability":p,"homeTeamId":str(h["sourceTeamId"]),
   "awayTeamId":str(a["sourceTeamId"]),"homeHistoryCount":len(hw),"awayHistoryCount":len(aw),
   "captureMethod":"server-side historical results baseline; NOT website simulation",
-  "candidateProbability":None}
+  "candidateProbability":None,"shadowProbability":shadow,
+  "shadowModelVersion":cal.get("modelVersion") if cal else None,
+  "shadowTrainingGames":cal.get("trainedOnCount") if cal else 0,
+  "shadowTrainedThrough":cal.get("trainedThrough") if cal else None}
 def run(now=None):
  now=now or NOW()
  history=load(Path("unified-events.json"),{}).get("events",[])
