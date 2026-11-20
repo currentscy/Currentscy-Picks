@@ -1,6 +1,6 @@
 /* Currentscy Picks V97 — source-aware NFL evidence, never fabricate provider availability. */
 (()=>{'use strict';
-const VERSION='V97';
+const VERSION='V98';
 const providers=['nflverse','sportsdataio','sportradar','espn'];
 const sourceState={nflverse:'not-tested',sportsdataio:'not-connected',sportradar:'not-connected',espn:'not-tested'};
 const finite=n=>typeof n==='number'&&Number.isFinite(n);
@@ -79,8 +79,7 @@ window.CurrentscyNFLV97=Object.freeze({version:VERSION,providers,refresh,health,
  pffEvidence,playerSummary});
 function init(){
  cleanVersion(document.body);
- const observer=new MutationObserver(scheduleClean);
- observer.observe(document.body,{subtree:true,childList:true,characterData:true});
+ // Avoid DOM-wide mutation observers; they previously blocked sport navigation.
  refresh().catch(()=>{});
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
