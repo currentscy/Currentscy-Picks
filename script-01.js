@@ -497,28 +497,74 @@ async function v62AnalyzeTeamSport(){
  }catch(e){$('results').innerHTML='<div class="panel"><h2>Insufficient verified data</h2><p>'+escapeHtml(e.message)+'</p><p class="desc">No fabricated model percentages will be displayed.</p></div>'}
  finally{btn.disabled=false;btn.textContent='Run 100,000 '+sports[sport][1]+' team trials'}
 }
+// Injury adjustments use named, matched player history and reported availability.
+// Heuristic sensitivity is NOT a backtested probability or a verified replacement model.
+function nflInjuryEffect(history,record){
+ const result={factor:1,details:[],unmatched:[],verified:!!record?.complete};
+ if(!record?.complete||!record.players?.size)return result;
+ const players=pool(history),games=history.games.length;
+ const sum=(p,key)=>p.logs.reduce((n,l)=>n+(Number(l[key])||0),0);
+ const totals={attempts:players.reduce((n,p)=>n+sum(p,'attempts'),0),targets:players.reduce((n,p)=>n+sum(p,'targets'),0),rush:players.reduce((n,p)=>n+sum(p,'rush'),0)};
+ const normalize=x=>String(x||'').toLowerCase().replace(/[^a-z0-9]/g,'');
+ let reduction=0;
+ for(const injury of record.players.values()){
+  const status=String(injury.status||'');
+  if(!/\b(out|injured reserve|reserve\/injured|\bir\b|inactive|suspended|physically unable|\bpup\b|non.football injury|questionable|doubtful|game.time|limited)\b/i.test(status))continue;
+  const player=players.find(p=>String(p.id)===String(injury.id)||normalize(p.name)===normalize(injury.name));
+  if(!player){result.unmatched.push(injury.name);continue}
+  // Historical offensive participation is a proxy for importance, not replacement-adjusted EPA.
+  const passShare=totals.attempts>0?sum(player,'attempts')/totals.attempts:0;
+  const targetShare=totals.targets>0?sum(player,'targets')/totals.targets:0;
+  const rushShare=totals.rush>0?sum(player,'rush')/totals.rush:0;
+  const participation=Math.max(passShare,targetShare,rushShare);
+  const weight=Math.min(.11,participation*.12);
+  const severity=/\b(questionable|game.time|limited)\b/i.test(status)?.35:/\bdoubtful\b/i.test(status)?.75:1;
+  const impact=weight*severity;
+  if(impact<.002)continue;
+  reduction+=impact;
+  result.details.push({name:injury.name,status,impact,participation});
+ }
+ result.factor=1-Math.min(.18,reduction);
+ return result;
+}
 async function analyzeNFLTeams(){
- const btn=$('simulate');btn.disabled=true;btn.textContent='Loading recent NFL games…';
- $('results').innerHTML='<div class="panel">Checking completed game scores for both teams…</div>';
+ const btn=$('simulate');btn.disabled=true;btn.textContent='Loading NFL scores and injury reports…';
+ $('results').innerHTML='<div class="panel">Checking completed games and named player availability…</div>';
  try{
   const [away,home]=teamIds();if(!away||!home)throw Error('Missing matchup team IDs');
   const cutoff=new Date(chosen.date).getTime();
-  const [a,h]=await Promise.all([v61TeamScores(away,cutoff),v61TeamScores(home,cutoff)]);
-  btn.textContent='Running 100,000 historical trials…';await new Promise(r=>setTimeout(r,30));
-  const trials=100000;let aw=0,hw=0,ties=0,at=0,ht=0,totals=[];
-  // Blend independently sampled offense and opposing defense, rounded to whole points.
+  const teams=[{id:String(away.team.id),name:away.team.displayName},{id:String(home.team.id),name:home.team.displayName}];
+  const injuries=window.CurrentscyInjuries;
+  const [a,h,records,ah,hh]=await Promise.all([
+   v61TeamScores(away,cutoff),v61TeamScores(home,cutoff),
+   injuries?.load?injuries.load(teams).catch(()=>null):Promise.resolve(null),
+   teamHistory(away).catch(()=>null),teamHistory(home).catch(()=>null)
+  ]);
+  const ae=ah?nflInjuryEffect(ah,records?.get(String(away.team.id))):{factor:1,details:[],unmatched:[],verified:false};
+  const he=hh?nflInjuryEffect(hh,records?.get(String(home.team.id))):{factor:1,details:[],unmatched:[],verified:false};
+  btn.textContent='Running 100,000 injury-adjusted trials…';await new Promise(r=>setTimeout(r,30));
+  const trials=100000;let aw=0,hw=0,ties=0,at=0,ht=0;
   for(let i=0;i<trials;i++){
    const ar=a.scores[Math.floor(Math.random()*a.scores.length)],hr=h.scores[Math.floor(Math.random()*h.scores.length)];
-   const as=Math.max(0,Math.round((ar.scored+hr.allowed)/2));
-   const hs=Math.max(0,Math.round((hr.scored+ar.allowed)/2));
-   at+=as;ht+=hs;totals.push(as+hs);
+   const as=Math.max(0,Math.round((ar.scored+hr.allowed)/2*ae.factor));
+   const hs=Math.max(0,Math.round((hr.scored+ar.allowed)/2*he.factor));
+   at+=as;ht+=hs;
    if(as>hs)aw++;else if(hs>as)hw++;else ties++;
   }
   const fmt=v=>(100*v/trials).toFixed(1)+'%';
   const mean=v=>(v/trials).toFixed(1);
-  const last=team=>team.scores.slice(0,5).map(g=>'<div class="nfl-recent-row"><span>'+escapeHtml(g.opponent)+'</span><span class="nfl-score '+(g.scored>g.allowed?'nfl-w':g.scored<g.allowed?'nfl-l':'')+'">'+(g.scored>g.allowed?'W':g.scored<g.allowed?'L':'T')+' '+g.scored+'–'+g.allowed+'</span></div>').join('');
+  const detail=(team,e)=>{
+   const rows=e.details.map(p=>'<li>'+escapeHtml(p.name)+' — '+escapeHtml(p.status)+' · modeled offense sensitivity '+(p.impact*100).toFixed(1)+'%</li>').join('');
+   const unknown=e.unmatched.length?'<p class="desc">'+e.unmatched.length+' reported players could not be linked to prior offensive box scores; no numerical effect assigned.</p>':'';
+   return '<details style="margin-top:12px"><summary>'+escapeHtml(team)+' · modeled offensive availability '+(e.factor*100).toFixed(1)+'%</summary>'+
+    (rows?'<ul>'+rows+'</ul>':'<p class="desc">No matched injured offensive player with measurable historical usage.</p>')+
+    unknown+(!e.verified?'<p class="desc">Injury evidence incomplete: baseline retained.</p>':'')+'</details>';
+  };
   $('dataStatus').textContent='';
-  $('results').innerHTML='<div class="panel"><h2>🏈 NFL matchup</h2><div class="grid"><div class="tile"><small>'+escapeHtml(a.name)+' · sampled win share</small><b>'+fmt(aw)+'</b></div><div class="tile"><small>'+escapeHtml(h.name)+' · sampled win share</small><b>'+fmt(hw)+'</b></div><div class="tile"><small>Average sampled score</small><b>'+mean(at)+' – '+mean(ht)+'</b></div><div class="tile"><small>Tie frequency</small><b>'+fmt(ties)+'</b></div></div><small>Historical team-score resampling, not a validated win forecast.</small></div>';
+  $('results').innerHTML='<div class="panel"><h2>🏈 NFL matchup</h2><div class="grid"><div class="tile"><small>'+escapeHtml(a.name)+' · sampled win share</small><b>'+fmt(aw)+'</b></div><div class="tile"><small>'+escapeHtml(h.name)+' · sampled win share</small><b>'+fmt(hw)+'</b></div><div class="tile"><small>Average sampled score</small><b>'+mean(at)+' – '+mean(ht)+'</b></div><div class="tile"><small>Tie frequency</small><b>'+fmt(ties)+'</b></div></div>'+
+   '<h3>Injury adjustment used in these trials</h3><p class="desc">Named injured offensive players are matched to prior box scores; passing attempts, targets and rushing production estimate their usage. OUT/IR receives the full heuristic adjustment; questionable receives 35%. Total offensive reduction is capped at 18%. Defensive injuries and replacement-player performance are not quantified without verified position-specific evidence.</p>'+
+   detail(a.name,ae)+detail(h.name,he)+
+   '<small>100,000 historical team-score resamples with experimental availability adjustments. Win shares are not calibrated predictions. Unverified injuries are not treated as healthy or assigned invented numerical impacts.</small></div>';
  }catch(e){$('results').innerHTML='<div class="panel err">NFL analysis unavailable: '+escapeHtml(e.message)+'. No scores or probabilities have been invented.</div>'}
  finally{btn.disabled=false;btn.textContent='Re-run 100,000 NFL team trials'}
 }
