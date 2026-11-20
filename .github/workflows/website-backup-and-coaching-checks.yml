@@ -23,6 +23,8 @@ jobs:
         run: |
           node --check v2-5-coaching-data.js
           node --check v4-0-coaching-math.js
+      - name: Test ESPN attribution with synthetic fixtures
+        run: node scripts/test_espn_attribution.js
       - name: Test coaching math with synthetic fixtures
         run: node scripts/test_coaching_math.js
       - name: Run fail-closed backtest audit
