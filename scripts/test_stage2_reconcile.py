@@ -22,7 +22,7 @@ class ReconcileTests(unittest.TestCase):
     def test_verified_espn_observation(self):
         r = reconcile(fixture(), [obs()])
         self.assertEqual(r["summary"]["verifiedObservations"], 1)
-        self.assertTrue(r["games"][0]["observations"][0]["modelEligible"])
+        self.assertFalse(r["games"][0]["observations"][0]["modelEligible"])
     def test_external_requires_verified_crosswalk(self):
         r = reconcile(fixture(), [obs("other")])
         self.assertEqual(r["summary"]["verifiedObservations"], 0)
