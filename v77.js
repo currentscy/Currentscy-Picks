@@ -16,7 +16,7 @@ function relocate(){
 function cleanNbaPresentation(){
  const d=$('detail');if(!d||d.classList.contains('hidden'))return;
  const nba=!!$('v77-match-summary')?.querySelector('.grid')&&[...d.querySelectorAll('h2,h3')].some(h=>/NBA/i.test(h.textContent||''))||/NBA matchup research loaded/i.test($('dataStatus')?.textContent||'');
- if(!nba)return;
+ if(!nba){const status=$('dataStatus');if(status&&status.style.display==='none')status.style.display='';return;}
  const status=$('dataStatus');if(status&&/NBA matchup research loaded/i.test(status.textContent||''))status.style.display='none';
  const r=$('results');if(r)for(const panel of r.querySelectorAll('.panel')){
   for(const details of panel.querySelectorAll('details'))if(/How this matchup was evaluated/i.test(details.querySelector('summary')?.textContent||''))details.remove();
