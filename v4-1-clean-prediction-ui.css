@@ -1,0 +1,20 @@
+/* V4.1: keep research modules available to code, not as end-user cards.
+   Do not hide the game, live five-leg picks, injuries, or player statistics. */
+#cp-espn-test,
+#cp-defensive-data-readiness,
+#cp-ncaa-coaching-check,
+#cp-backtest-v37,
+#cp-step5-gate,
+#cp-nfl-match-summary,
+#v25-coverage-matchups,
+#v26-coach-matchups,
+#v25-coaching-data,
+#v25-coaching-profiles,
+#v27-dynamic-coaching,
+#v28-coaching-backtest,
+#v29-coaching-ingestion,
+#v30-espn-diagnostics,
+#v31-defensive-charting,
+#v32-coaching-activation {
+ display:none !important;
+}
