@@ -50,7 +50,7 @@ def rate(team,sport,start,history):
  return [v for _,v in prior[:20]]
 def forecast(event,history,now):
  start=when(event.get("scheduledStart"))
- if not start or start<=now or event.get("completed"):return None
+ if not start or (start-now).total_seconds()<1800 or event.get("completed"):return None
  h,a=sides(event)
  if not h or not a or h["sourceTeamId"]==a["sourceTeamId"]:return None
  # The dedicated NBA shared JS model owns NBA forecasts; never mix formulas.
