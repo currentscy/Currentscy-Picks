@@ -10,7 +10,7 @@ const dir=path.join(root,'research-ledger','stage3');
 const load=(name,otherwise)=>{try{return JSON.parse(fs.readFileSync(path.join(dir,name),'utf8'))}catch(e){if(e.code==='ENOENT')return otherwise;throw e}};
 const write=(name,obj)=>{fs.mkdirSync(dir,{recursive:true});const p=path.join(dir,name);const tmp=p+'.tmp';fs.writeFileSync(tmp,JSON.stringify(obj,null,2)+'\n');fs.renameSync(tmp,p)};
 const clock=()=>new Date();
-const day=d=>new Intl.DateTimeFormat('en-CA',{timeZone:'America/Los_Angeles',year:'numeric',month:'2-digit',day:'2-digit'}).format(d).replaceAll('-','');
+const day=d=>{const parts=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(d);const p=Object.fromEntries(parts.map(x=>[x.type,x.value]));return p.year+p.month+p.day};
 async function json(url){
  const res=await fetch(url,{headers:{'User-Agent':'CurrentscyPicksFeedback/1.0','Accept':'application/json'},signal:AbortSignal.timeout(12000)});
  if(!res.ok)throw Error('HTTP '+res.status+' '+url);
