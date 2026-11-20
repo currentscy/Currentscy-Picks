@@ -26,8 +26,9 @@ const build=(event)=>{
  const home=competitors.find(c=>c.homeAway==='home'),away=competitors.find(c=>c.homeAway==='away');
  if(!home?.team?.displayName||!away?.team?.displayName)return null;
  const hr=parseRecord(home),ar=parseRecord(away);
- // Missing records receive the neutral prior; do not discard a scheduled game.
- const homeEstimate=estimate(hr||{w:0,l:0},ar||{w:0,l:0});
+ // No reliable current-season records means no probability and no selection.
+ if(!hr||!ar)return null;
+ const homeEstimate=estimate(hr,ar);
  const homeFavored=homeEstimate>=.5;
  const edge=Math.abs(homeEstimate-.5);
  const pick=homeFavored?home:away;
@@ -88,7 +89,7 @@ function render(){
   const sub=document.createElement('small');sub.textContent='Record comparison: '+(x.record?x.record.w+'-'+x.record.l:'unavailable')+' vs '+(x.other?x.other.w+'-'+x.other.l:'unavailable')+' · Provisional model estimate: '+Math.round(x.estimate*100)+'% (NOT calibrated)';div.appendChild(sub);
   host.appendChild(div);
  });
- const footer=document.createElement('p');footer.className='v87-three-note';footer.textContent='Regularized record-and-home-court model, not a three-game simulation or guaranteed parlay. Calibration requires walk-forward testing against historical games. Shows only when at least three games today have not started; missing team records use a neutral prior, never a made-up record. Never fills missing legs with tomorrow's games.';host.appendChild(footer);
+ const footer=document.createElement('p');footer.className='v87-three-note';footer.textContent='Regularized record-and-home-court model, not a three-game simulation or guaranteed parlay. Calibration requires walk-forward testing against historical games. Shows only when at least three games today have not started; games without sufficient current-season records are excluded rather than assigned a probability. Never fills missing legs with tomorrow's games.';host.appendChild(footer);
 }
 let queued=false;function schedule(){if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;const nba=document.body.dataset.sport==='nba'&&!$('listing')?.classList.contains('hidden');if(nba){fetchToday();render()}else $('v87-daily-three')?.remove()})}
 function init(){
