@@ -6,12 +6,12 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: currentscy-stage1
+  group: currentscy-research-write
   cancel-in-progress: false
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
         with:
@@ -19,6 +19,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Test multi-sport pregame forecast gates
+        run: python -m unittest discover -s scripts -p 'test_multisport_baseline.py'
       - name: Test normalization and source provenance
         run: python -m unittest discover -s scripts -p 'test_stage1_collector.py'
       - name: Test Stage 2 source reconciliation
@@ -43,6 +45,8 @@ jobs:
         run: python scripts/multisport-refresh.py
       - name: Refresh legacy NFL and NCAA audit (same pipeline)
         run: python scripts/automatic-research.py
+      - name: Capture pregame non-NBA research baselines and final outcomes
+        run: python scripts/multisport-baseline.py
       - name: Preserve pregame and final-score source snapshots
         run: python scripts/stage5_archive.py
       - name: Reconcile source identities and provenance
