@@ -1,5 +1,10 @@
 import unittest
-from unified_event_ledger import merge
+import importlib.util
+from pathlib import Path
+spec=importlib.util.spec_from_file_location('unified_event_ledger',Path(__file__).with_name('unified-event-ledger.py'))
+module=importlib.util.module_from_spec(spec)
+spec.loader.exec_module(module)
+merge=module.merge
 class EventLedgerTests(unittest.TestCase):
  def test_persists_old_games(self):
   old=[{"eventKey":"nba:old","observedAt":"2026-11-19T00:00:00Z","firstObservedAt":"2026-11-19T00:00:00Z","lastObservedAt":"2026-11-19T00:00:00Z","observationCount":1}]
