@@ -5,5 +5,4 @@ body:has(#detail.v81-nba) .v81-hide-panel{display:none!important}
 
 #detail.v81-nba .panel.v81-empty-wrapper{display:none!important}
 
-#detail.v81-nba #v63BoxScore{display:none!important}
 #detail.v81-nba #results>.panel:empty{display:none!important}
