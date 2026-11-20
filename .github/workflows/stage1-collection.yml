@@ -47,6 +47,13 @@ jobs:
         run: python scripts/stage1_collect.py
       - name: Collect persistent multisport match and fight ledger
         run: python scripts/unified-event-ledger.py
+      - name: Bootstrap real historical final scores once
+        run: |
+          if [ ! -f research-ledger/history-bootstrap.json ]; then
+            python scripts/history-bootstrap.py
+          else
+            echo 'Historical result bootstrap already saved; skip backfill'
+          fi
       - name: Refresh legacy multisport research (same pipeline)
         run: python scripts/multisport-refresh.py
       - name: Refresh legacy NFL and NCAA audit (same pipeline)
