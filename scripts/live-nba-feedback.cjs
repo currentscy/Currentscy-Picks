@@ -9,6 +9,11 @@ const root=path.resolve(__dirname,'..');
 const dir=path.join(root,'research-ledger','stage3');
 const load=(name,otherwise)=>{try{return JSON.parse(fs.readFileSync(path.join(dir,name),'utf8'))}catch(e){if(e.code==='ENOENT')return otherwise;throw e}};
 const write=(name,obj)=>{fs.mkdirSync(dir,{recursive:true});const p=path.join(dir,name);const tmp=p+'.tmp';fs.writeFileSync(tmp,JSON.stringify(obj,null,2)+'\n');fs.renameSync(tmp,p)};
+const shadow=(()=>{try{return JSON.parse(fs.readFileSync(path.join(root,'research-ledger','learning','shadow-config.json'),'utf8')).models?.nba||null}catch{return null}})();
+function shadowEstimate(p){if(!shadow||!Number.isFinite(shadow.offset)||!Number.isFinite(shadow.slope))return null;
+ const z=shadow.offset+shadow.slope*Math.log(p/(1-p));
+ return Math.max(.02,Math.min(.98,1/(1+Math.exp(-z))));
+}
 const clock=()=>new Date();
 const day=d=>{const parts=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(d);const p=Object.fromEntries(parts.map(x=>[x.type,x.value]));return p.year+p.month+p.day};
 async function json(url){
@@ -89,7 +94,11 @@ async function run(){
        baselineProbability:forecast.homeProbability,homeTeamId:forecast.homeId,awayTeamId:forecast.awayId,
        homeRecord:forecast.homeRecord,awayRecord:forecast.awayRecord,
        captureMethod:'GitHub Actions server-side using exact NBA website shared model',
-       candidateProbability:null});
+       candidateProbability:null,
+       shadowProbability:shadowEstimate(forecast.homeProbability),
+       shadowModelVersion:shadow?'shadow-platt-grid-v1':null,
+       shadowTrainingGames:shadow?.trainedOnCount||0,
+       shadowTrainedThrough:shadow?.trainedThrough||null});
       known.add(id);created++;
      }
     }
