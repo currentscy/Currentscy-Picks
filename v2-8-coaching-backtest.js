@@ -23,7 +23,7 @@ function validateRows(rows){
 }
 function metric(rows,key){
  const errors=rows.map(r=>r[key]-r.actual);
- return {mae:avg(errors.map(Math.abs)),rmse:Math.sqrt(avg(errors.map(e=>e*e))),bias:avg(errors),count:rows.length};
+ return {mae:avg(errors.map(Math.abs)),rmse:errors.length?Math.sqrt(avg(errors.map(e=>e*e))):null,bias:avg(errors),count:rows.length};
 }
 function probabilityMetrics(rows,key){
  const eligible=rows.filter(r=>finite(r[key])&&r[key]>=0&&r[key]<=1&&[0,1].includes(r.hit));
