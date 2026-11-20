@@ -86,7 +86,6 @@ function render(){
  const status=$('status');
  if(status&&/\d+\s+games found\s*·\s*live source/i.test(status.textContent||''))status.style.display='none';
  else if(status)status.style.display='';
- if(items.length<3){host?.remove();return}
  if(!host){
   host=document.createElement('section');host.id='v87-daily-three';host.className='v87-daily-three';
   const parent=games.parentNode;parent.insertBefore(host,games);
@@ -95,7 +94,7 @@ function render(){
  if(host.dataset.date===day&&host.dataset.ids===items.map(x=>x.id+':'+x.estimate.toFixed(4)).join(','))return;
  host.dataset.date=day;host.dataset.ids=items.map(x=>x.id+':'+x.estimate.toFixed(4)).join(',');
  host.replaceChildren();
- const h=document.createElement('h2');h.textContent='🏀 NBA '+items.length+' Game Parlay';host.appendChild(h);
+ const h=document.createElement('h2');h.textContent='🏀 NBA 5 Game Parlay';host.appendChild(h);
  const note=document.createElement('p');note.className='v87-three-note';note.textContent='Ranked game-winner candidates from NBA games scheduled today (Pacific time) only. Updates daily and excludes games that have already started. Ranked by a conservative model that shrinks small-sample records toward average and accounts for home court. Model estimates are NOT historically calibrated. Injuries, lineups and defensive matchups are not verified.';host.appendChild(note);
  items.forEach((x,i)=>{
   const div=document.createElement('div');div.className='v87-three-leg';
@@ -104,7 +103,7 @@ function render(){
   const sub=document.createElement('small');sub.textContent='Record comparison: '+(x.record?x.record.w+'-'+x.record.l:'unavailable')+' vs '+(x.other?x.other.w+'-'+x.other.l:'unavailable')+' · Provisional model estimate: '+Math.round(x.estimate*100)+'% (NOT calibrated)';div.appendChild(sub);
   host.appendChild(div);
  });
- const footer=document.createElement('p');footer.className='v87-three-note';footer.textContent='Regularized record-and-home-court model, not a five-game simulation or guaranteed parlay. Calibration requires walk-forward testing against historical games. Shows only when at least three games today have not started and have usable records; games without sufficient current-season records are excluded rather than assigned a probability. Never fills missing selections with tomorrow's games.';host.appendChild(footer);
+ const footer=document.createElement('p');footer.className='v87-three-note';footer.textContent='Regularized record-and-home-court model, not a five-game simulation or guaranteed parlay. Calibration requires walk-forward testing against historical games. Games without sufficient current-season records are excluded rather than assigned a probability. Never fills missing selections with tomorrow's games.';host.appendChild(footer);
 }
 let queued=false;function schedule(){if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;const nba=document.body.dataset.sport==='nba'&&!$('listing')?.classList.contains('hidden');if(nba){fetchToday();render()}else $('v87-daily-three')?.remove()})}
 function init(){
