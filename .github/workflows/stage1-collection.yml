@@ -29,8 +29,14 @@ jobs:
         run: python -m unittest discover -s scripts -p 'test_stage4_audit.py'
       - name: Test Stage 5 evidence archive
         run: python -m unittest discover -s scripts -p 'test_stage5_archive.py'
+      - name: Test unified research consistency
+        run: python -m unittest discover -s scripts -p 'test_research_consistency.py'
       - name: Collect scoreboard snapshots
         run: python scripts/stage1_collect.py
+      - name: Refresh legacy multisport research (same pipeline)
+        run: python scripts/multisport-refresh.py
+      - name: Refresh legacy NFL and NCAA audit (same pipeline)
+        run: python scripts/automatic-research.py
       - name: Preserve pregame and final-score source snapshots
         run: python scripts/stage5_archive.py
       - name: Reconcile source identities and provenance
@@ -39,12 +45,15 @@ jobs:
         run: python scripts/stage3_evaluate.py
       - name: Audit paired model results by sport and month (offline only)
         run: python scripts/stage4_audit.py
+      - name: Cross-check all research layers
+        run: python scripts/research_consistency.py
       - name: Save latest evidence snapshot
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add research-ledger/stage1/latest.json research-ledger/stage2/latest.json research-ledger/stage3/evaluation.json research-ledger/stage4/report.json research-ledger/stage5/manifest.json research-ledger/stage5/snapshots/
+          git add research-ledger/
           if ! git diff --cached --quiet; then
-            git commit -m "Refresh Stage 1 multi-sport scoreboard evidence"
+            git commit -m "Refresh unified research and feedback evidence"
+            git pull --rebase
             git push
           fi
