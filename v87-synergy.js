@@ -45,12 +45,10 @@ function findOpponent(details,teams){
  const own=teams.find(t=>txt.includes(t.toLowerCase()));
  return own?teams.find(t=>t!==own):null;
 }
-let token=0;
 async function refresh(){
  const d=document.getElementById('detail'),title=clean(document.getElementById('matchTitle')?.textContent);
  if(!d||d.classList.contains('hidden')||!/\bNBA\b/i.test(document.getElementById('matchDate')?.textContent||''))return;
  const teams=title.split(/\s+vs\.?\s+/i).map(clean);if(teams.length!==2)return;
- const current=++token;
  for(const details of d.querySelectorAll('details')){
   const summary=details.querySelector('summary');
   if(!summary||!/matchup research/i.test(clean(summary.textContent)))continue;
@@ -62,7 +60,7 @@ async function refresh(){
   if(details.dataset.v87Key===key)continue;
   details.dataset.v87Key=key;
   const data=await load(player,opponent);
-  if(!details.isConnected||details.dataset.v87Key!==key||current!==token)return;
+  if(!details.isConnected||details.dataset.v87Key!==key)return;
   if(!data)continue; // Existing V84 text remains untouched without licensed evidence.
   let output=details.querySelector('.v87-research');
   if(!output){output=document.createElement('p');output.className='v87-research';details.appendChild(output)}
