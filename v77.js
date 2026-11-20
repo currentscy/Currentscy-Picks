@@ -14,11 +14,12 @@ function relocate(){
  if(!p.querySelector('.grid'))p.style.display='none';
 }
 function playerRows(){
+ const footer=document.querySelector('footer');if(footer&&footer.textContent.includes('Currentscy Picks V73'))footer.textContent=footer.textContent.replace('Currentscy Picks V73','Currentscy Picks V78');
  const d=$('detail');if(!d||d.classList.contains('hidden'))return;
  for(const heading of d.querySelectorAll('h2,h3')){
   if(!/Provisional player research/i.test(heading.textContent||''))continue;
   const panel=heading.closest('.panel');if(!panel)continue;
-  if(/V7[0-6]/.test(heading.textContent))heading.textContent=heading.textContent.replace(/V7[0-6]/,'V77');
+  if(/V7[0-6]/.test(heading.textContent))heading.textContent=heading.textContent.replace(/V7[0-7]/,'V78');
   // Do not fabricate 2026 season totals or expand historical sample denominators.
   for(const el of panel.querySelectorAll('p,small,div')){
    if(el.children.length)continue;
