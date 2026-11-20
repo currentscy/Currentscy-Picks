@@ -1,0 +1,12 @@
+const assert=require('node:assert/strict');
+const m=require('../v4-0-coaching-math.js');
+const games=Array.from({length:5},()=>({pass:28,run:22}));
+assert.equal(m.weightedRate(games).plays,250);
+const input={offense:{games,attributionVerified:true},defense:{games,attributionVerified:true},player:{targetShare:.25,targetsSample:45},context:{projectedPlays:65,gameScriptPassDelta:0,injuryShareMultiplier:1},provenance:{asOf:'2026-11-19T12:00:00Z',kickoff:'2026-11-22T18:00:00Z',sources:['https://example.com/a','https://example.com/b']}};
+const good=m.estimate(input);assert.equal(good.ready,true);assert.equal(good.adjustmentApplied,false);
+assert.ok(good.expectedTargets>0&&good.expectedTargets<20);
+assert.equal(m.estimate({...input,offense:{...input.offense,attributionVerified:false}}).ready,false);
+assert.equal(m.estimate({...input,provenance:{...input.provenance,asOf:'2026-11-23T00:00:00Z'}}).ready,false);
+assert.equal(m.estimate({...input,player:{...input.player,targetShare:2}}).ready,false);
+assert.equal(m.estimate({...input,context:{...input.context,gameScriptPassDelta:.5}}).ready,false);
+console.log('Coaching math unit tests passed (synthetic test fixtures, not live verification)');
