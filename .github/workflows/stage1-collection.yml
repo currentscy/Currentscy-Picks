@@ -85,6 +85,11 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: gpt-4.1-mini
         run: python scripts/ai-research-agent.py
+      - name: Test cross-layer integration health
+        run: python -m unittest discover -s scripts -p 'test_integration_health.py'
+      - name: Integrate and audit every research layer
+        if: always()
+        run: python scripts/integration_health.py
       - name: Publish verifiable workflow heartbeat
         if: always()
         env:
