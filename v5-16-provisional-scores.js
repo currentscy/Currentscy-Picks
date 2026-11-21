@@ -54,7 +54,7 @@ async function updateCard(card,path){
  const month=match?new Date(Date.parse(match[1]+' 1, 2020')).getMonth():NaN;
  const date=match?new Date(seasonYear(),month,+match[2]):new Date(NaN);
  if(!winner||!opponent||!Number.isFinite(date.getTime()))return;
- const key=day(date),board=await request(ROOT+path+'/scoreboard?dates='+key+'&limit=100');
+ const key=String(seasonYear())+String(month+1).padStart(2,'0')+String(+match[2]).padStart(2,'0'),board=await request(ROOT+path+'/scoreboard?dates='+key+'&limit=100');
  const event=(board?.events||[]).find(e=>{
  const c=e.competitions?.[0]?.competitors||[];
  return c.some(x=>normalize(x.team?.displayName)===normalize(winner))&&c.some(x=>normalize(x.team?.displayName)===normalize(opponent));
