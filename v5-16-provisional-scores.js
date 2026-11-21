@@ -49,7 +49,9 @@ async function updateCard(card,path){
  const teams=card.querySelector('.cp-pick-teams');if(!teams||card.dataset.cpProjection==='ready')return;
  const opponent=teams.querySelector('span')?.textContent.replace(/^vs\s*/,'').trim(),winner=teams.firstChild?.textContent?.trim();
  const meta=card.querySelector('.cp-pick-meta')?.textContent||'';
- const date=new Date(meta.replace(/\bPST\b|\bPDT\b/g,'')+' '+seasonYear());
+ const match=meta.match(/([A-Za-z]{3})\s+(\d{1,2}),?\s+(\d{1,2}):(\d{2})\s*([AP])M/);
+ const month=match?new Date(Date.parse(match[1]+' 1, 2020')).getMonth():NaN;
+ const date=match?new Date(seasonYear(),month,+match[2]):new Date(NaN);
  if(!winner||!opponent||!Number.isFinite(date.getTime()))return;
  const key=day(date),board=await request(ROOT+path+'/scoreboard?dates='+key+'&limit=100');
  const event=(board?.events||[]).find(e=>{
