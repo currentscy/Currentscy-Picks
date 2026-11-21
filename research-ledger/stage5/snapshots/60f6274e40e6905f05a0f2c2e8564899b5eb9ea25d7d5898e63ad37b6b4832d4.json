@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 5,
+  "gameKey": "ncaa-football:401864542",
+  "sport": "ncaa-football",
+  "phase": "postgame",
+  "scheduledStart": "2026-11-21T02:00Z",
+  "sourceObservedAt": "2026-11-21T07:23:43.879362+00:00",
+  "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261120&limit=300",
+  "teams": [
+    {
+      "sourceTeamId": "2751",
+      "homeAway": "home",
+      "score": "17"
+    },
+    {
+      "sourceTeamId": "167",
+      "homeAway": "away",
+      "score": "24"
+    }
+  ],
+  "completed": true
+}
