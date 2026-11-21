@@ -32,7 +32,7 @@ class Links(HTMLParser):
             self.href=None
 
 def fetch(url):
-    if not url.startswith(BASE + "/"): raise ValueError("Unapproved URL")
+    if not re.fullmatch(r"https?://(?:www\\.)?ufcstats\\.com/(?:statistics/fighters[^ ]*|fighter-details/[a-f0-9]+)", url): raise ValueError("Unapproved URL")
     req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; CurrentscyResearch/1.0)"})
     with urllib.request.urlopen(req,timeout=15) as response:
         if response.status != 200: raise ValueError("HTTP status not 200")
@@ -45,7 +45,7 @@ def fighter_links(page):
     p=Links();p.feed(page)
     result={}
     for url,name in p.links:
-        if re.fullmatch(r"https?://ufcstats.com/fighter-details/[a-f0-9]+",url):
+        if re.fullmatch(r"https?://(?:www\\.)?ufcstats\\.com/fighter-details/[a-f0-9]+",url):
             result.setdefault(url.split("/")[-1],{"id":url.split("/")[-1],"name":name,"url":url})
     return result
 
