@@ -2,23 +2,26 @@
 (()=>{'use strict';
 const TZ='America/Los_Angeles';
 const css=`
-#v59WeeklyPanel .row .sub,#v59WeeklyResults>.desc,#v87-daily-three>.v87-three-note{display:none!important}
-#v59WeeklyPanel,#v87-daily-three{padding:15px!important}
-#v59WeeklyPanel h2,#v87-daily-three h2{font-size:20px!important;line-height:1.2!important}
-#v59WeeklyResults,#v87-daily-three{font-size:14px}
-.cp-pick{border:1px solid #333945;border-radius:13px;padding:12px;margin:9px 0;background:#141820;color:#eef1f5}
-.cp-pick-head{display:flex;align-items:flex-start;gap:10px}
-.cp-pick-rank{flex:0 0 27px;display:grid;place-items:center;background:#27211a;color:#e8b96a;border-radius:8px;height:27px;font-weight:800}
-.cp-pick-main{min-width:0;flex:1}
-.cp-pick-teams{font-size:15px;font-weight:750;line-height:1.35;overflow-wrap:anywhere}
-.cp-pick-teams span{font-weight:400;color:#aeb6c3}
-.cp-pick-score{color:#e8b96a;font-weight:750;white-space:nowrap;font-size:13px}
-.cp-pick-meta{color:#aeb6c3;font-size:12px;margin-top:5px}
-.cp-pick-sub{color:#bfc5cf;font-size:12px;margin-top:7px}
-.cp-pick details{margin-top:8px;border-top:1px solid #303744;padding-top:8px;font-size:12px;color:#b6bdc9}
-.cp-pick summary{cursor:pointer;color:#d8b27b;font-weight:650}
-.cp-pick details p{margin:6px 0;line-height:1.5}
-#v59WeeklyResults .cp-pick,#v87-daily-three .cp-pick{max-width:100%}
+#v59WeeklyPanel,#v87-daily-three{padding:12px!important;margin-top:10px!important}
+#v59WeeklyPanel h2,#v87-daily-three h2{font-size:19px!important;line-height:1.2!important;margin:0 0 8px!important}
+#v59WeeklyResults,#v87-daily-three{font-size:13px}
+#v59WeeklyResults,#v87-daily-three{border-left:0!important;padding-left:0!important}
+#v59WeeklyResults>.desc,#v87-daily-three>.v87-three-note,#v59WeeklyPanel .row .sub{display:none!important}
+#v59WeeklyResults .cp-pick,#v87-daily-three .cp-pick{max-width:none!important}
+.cp-pick{box-sizing:border-box;width:100%;border:1px solid #30343d;border-radius:11px;padding:9px 10px;margin:6px 0;background:#151920;color:#f3f4f6;box-shadow:none}
+.cp-pick-head{display:grid;grid-template-columns:23px minmax(0,1fr) 91px;align-items:start;gap:8px}
+.cp-pick-rank{width:23px;height:23px;display:grid;place-items:center;background:#292319;color:#e2b46b;border-radius:6px;font-size:12px;font-weight:800}
+.cp-pick-main{min-width:0}
+.cp-pick-teams{font-size:13px;font-weight:750;line-height:1.22;overflow-wrap:normal;word-break:normal}
+.cp-pick-teams span{display:block;font-weight:450;color:#aeb6c3;margin-top:2px}
+.cp-pick-score{color:#e8bb74;font-weight:750;font-size:15px;line-height:1.1;text-align:right;white-space:nowrap}
+.cp-pick-score small{display:block;font-size:10px;font-weight:500;color:#b9a58a;margin-top:3px}
+.cp-pick-meta{color:#aeb6c3;font-size:11px;margin-top:5px;line-height:1.2}
+.cp-pick-sub{color:#aeb6c3;font-size:11px;margin-top:5px;line-height:1.2}
+.cp-pick details{margin-top:7px;border-top:1px solid #292f39;padding-top:6px;font-size:11px;color:#b6bdc9}
+.cp-pick summary{cursor:pointer;color:#d9b782;font-size:11px;font-weight:650;min-height:23px;display:flex;align-items:center}
+.cp-pick details p{margin:5px 0;line-height:1.4}
+@media(max-width:360px){.cp-pick-head{grid-template-columns:21px minmax(0,1fr) 77px;gap:6px}.cp-pick-score{font-size:13px}.cp-pick-teams{font-size:12px}}
 `;
 const style=document.createElement('style');style.textContent=css;document.head.appendChild(style);
 function text(node){return (node?.textContent||'').trim()}
@@ -32,14 +35,14 @@ function create({rank,winner,opponent,score,date,detail,sport}){
  const top=document.createElement('div');top.className='cp-pick-head';
  const badge=document.createElement('div');badge.className='cp-pick-rank';badge.textContent=rank;
  const main=document.createElement('div');main.className='cp-pick-main';
- const teams=document.createElement('div');teams.className='cp-pick-teams';teams.append(document.createTextNode(winner+' '));
+ const teams=document.createElement('div');teams.className='cp-pick-teams';teams.append(document.createTextNode(winner));
  const versus=document.createElement('span');versus.textContent='vs '+opponent;teams.append(versus);
  const meta=document.createElement('div');meta.className='cp-pick-meta';meta.textContent=date||'Pacific game time unavailable';
- const sub=document.createElement('div');sub.className='cp-pick-sub';sub.textContent='Projected score: awaiting verified simulation';
+ const sub=document.createElement('div');sub.className='cp-pick-sub';sub.textContent='Simulation pending';
  main.append(teams,meta,sub);
- const metric=document.createElement('div');metric.className='cp-pick-score';metric.textContent=score||'Not ranked';
+ const metric=document.createElement('div');metric.className='cp-pick-score';const match=(score||'').match(/([\\d.]+)\\/100/);if(match){metric.textContent=match[1];const unit=document.createElement('small');unit.textContent='Rank /100';metric.append(unit)}else metric.textContent=score||'Not ranked';
  top.append(badge,main,metric);card.append(top);
- const details=document.createElement('details');const summary=document.createElement('summary');summary.textContent='Matchup research & verification';details.append(summary);
+ const details=document.createElement('details');const summary=document.createElement('summary');summary.textContent='Matchup Analysis';details.append(summary);
  const p=document.createElement('p');p.textContent='Current ranking is provisional and is not a calibrated win probability. Position matchups, injuries, projected starters, and a game-specific simulation are not verified by this ranking feed.';details.append(p);
  if(detail){const original=document.createElement('p');original.textContent=detail;details.append(original)}
  const action=document.createElement('p');action.textContent='Select the game in '+sport+' matchups below for available game-level analysis.';details.append(action);card.append(details);
@@ -74,7 +77,7 @@ function transformNBA(){
   const raw=text(row),score=(raw.match(/Ranking score\s*([\d.]+)\s*\/100/i)||[])[1];
   const date=text(row.querySelector('p'));
   const card=create({rank:i+1,...line,score:score?'Rank '+score+'/100':'Ranking unavailable',date,detail:'Source: '+raw,sport:'NBA'});
-  if(/IN PROGRESS|STARTED/i.test(raw))card.querySelector('.cp-pick-sub').textContent='Started game · not a pregame forecast · projected score unavailable';
+  if(/IN PROGRESS|STARTED/i.test(raw))card.querySelector('.cp-pick-sub').textContent='Game started · no pregame simulation';
   return card;
  });
  host.dataset.cpFingerprint=fingerprint;
