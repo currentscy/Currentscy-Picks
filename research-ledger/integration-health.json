@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T08:15:08.680290+00:00",
+  "generatedAt": "2026-11-21T08:15:56.989666+00:00",
   "layers": {
     "stage1": {
       "name": "stage1",
       "state": "ready",
       "path": "stage1/latest.json",
-      "updatedAt": "2026-11-21T08:14:57.893059+00:00",
+      "updatedAt": "2026-11-21T08:15:51.870856+00:00",
       "ageHours": 0.0
     },
     "stage2": {
@@ -14,20 +14,20 @@
       "state": "ready",
       "path": "stage2/latest.json",
       "updatedAt": "2026-11-21T07:48:06.384516+00:00",
-      "ageHours": 0.45
+      "ageHours": 0.46
     },
     "stage3": {
       "name": "stage3",
       "state": "ready",
       "path": "stage3/evaluation.json",
-      "updatedAt": "2026-11-21T08:15:08.096864+00:00",
+      "updatedAt": "2026-11-21T08:15:56.167900+00:00",
       "ageHours": 0.0
     },
     "stage4": {
       "name": "stage4",
       "state": "ready",
       "path": "stage4/report.json",
-      "updatedAt": "2026-11-21T08:15:08.117339+00:00",
+      "updatedAt": "2026-11-21T08:15:56.196454+00:00",
       "ageHours": 0.0
     },
     "stage5": {
@@ -35,71 +35,69 @@
       "state": "ready",
       "path": "stage5/manifest.json",
       "updatedAt": "2026-11-21T07:47:50.743906+00:00",
-      "ageHours": 0.45
+      "ageHours": 0.47
     },
     "eventLedger": {
       "name": "eventLedger",
       "state": "ready",
       "path": "unified-events.json",
       "updatedAt": "2026-11-21T07:47:57.516355+00:00",
-      "ageHours": 0.45
+      "ageHours": 0.47
     },
     "coverage": {
       "name": "coverage",
       "state": "ready",
       "path": "unified-coverage.json",
       "updatedAt": "2026-11-21T07:47:57.516355+00:00",
-      "ageHours": 0.45
+      "ageHours": 0.47
     },
     "validation": {
       "name": "validation",
       "state": "ready",
       "path": "validation-dashboard.json",
-      "updatedAt": "2026-11-21T08:15:08.139870+00:00",
+      "updatedAt": "2026-11-21T08:15:56.228019+00:00",
       "ageHours": 0.0
     },
     "learning": {
       "name": "learning",
       "state": "ready",
       "path": "learning/report.json",
-      "updatedAt": "2026-11-21T08:15:08.448472+00:00",
+      "updatedAt": "2026-11-21T08:15:56.632519+00:00",
       "ageHours": 0.0
     },
     "forecastComparison": {
       "name": "forecastComparison",
       "state": "ready",
       "path": "forecast-vs-results.json",
-      "updatedAt": "2026-11-21T08:15:08.473591+00:00",
+      "updatedAt": "2026-11-21T08:15:56.665994+00:00",
       "ageHours": 0.0
     },
     "researchConsistency": {
       "name": "researchConsistency",
       "state": "ready",
       "path": "feedback-health.json",
-      "updatedAt": "2026-11-21T08:15:08.163458+00:00",
+      "updatedAt": "2026-11-21T08:15:56.260712+00:00",
       "ageHours": 0.0
     },
-    "ai": {
-      "name": "ai",
-      "state": "not-configured",
-      "path": "ai/latest.json",
-      "updatedAt": "2026-11-21T07:48:06.815657+00:00",
-      "ageHours": 0.45,
-      "error": null
+    "shadowML": {
+      "name": "shadowML",
+      "state": "ready",
+      "path": "learning/report.json",
+      "updatedAt": "2026-11-21T08:15:56.632519+00:00",
+      "ageHours": 0.0
     }
   },
   "metrics": {
     "savedForecasts": 59,
     "savedOutcomes": 9,
     "scoredForecasts": 9,
-    "shadowLearningScored": 9,
-    "aiResponding": false
+    "shadowLearningScored": 9
   },
   "workflow": {
-    "runId": "44881884356",
+    "runId": "44883963726",
     "lastStatus": "success"
   },
-  "allLayersHealthy": false,
+  "allLayersHealthy": true,
   "endToEndScoringVerified": true,
   "automaticProductionModelUpdates": false,
   "note": "A layer marked ready means a fresh report exists, not that its underlying data or model is accurate."
