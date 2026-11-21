@@ -29,6 +29,7 @@ html=html.replace('</head>','<link rel="stylesheet" href="v4-9-home-league-logos
 html=html.replace('</body>','<script src="v4-9-home-league-logos.js?v=5-4-1"><'+'/script></body>');
 html=html.replace('</body>','<script src="v5-4-team-font-colors.js?v=5-4-1"><'+'/script></body>');
 html=html.replace('</body>','<script src="v5-18-unified-top-five.js?v=5-18-2"><'+'/script></body>');
+html=html.replace('</head>','<link rel="stylesheet" href="unified-reference-theme.css?v=20261120-1"></head>');
 /* V4.1: do not load the generic NFL coaching outlook card. Research adapters remain loaded. */
 document.open();document.write(html);document.close();
 }catch(e){document.body.textContent='Unable to load Currentscy Picks: '+e.message;}})();
