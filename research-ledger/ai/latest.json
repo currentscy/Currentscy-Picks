@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T00:17:23.956111+00:00",
+  "generatedAt": "2026-11-21T00:29:57.641184+00:00",
   "status": "awaiting-server-api-key",
   "aiEnabled": false,
   "analysis": null,
@@ -8,20 +8,12 @@
   "model": null,
   "summary": {
     "scored": 0,
-    "awaitingFinal": 48,
+    "awaitingFinal": 49,
     "invalidOutcomeEvidence": 0,
     "bySport": {}
   },
   "recentScored": [],
   "recentPending": [
-    {
-      "gameKey": "nhl:401892768",
-      "sport": "nhl",
-      "start": "2026-11-22T17:30Z",
-      "predictedAt": "2026-11-20T23:37:03.216913+00:00",
-      "baselineHomeWin": 0.47415,
-      "modelVersion": "research-prior20-v1"
-    },
     {
       "gameKey": "nhl:401892769",
       "sport": "nhl",
@@ -108,6 +100,14 @@
       "start": "2026-11-24T03:00Z",
       "predictedAt": "2026-11-20T23:37:03.216913+00:00",
       "baselineHomeWin": 0.38735,
+      "modelVersion": "research-prior20-v1"
+    },
+    {
+      "gameKey": "nhl:401892780",
+      "sport": "nhl",
+      "start": "2026-11-25T01:00Z",
+      "predictedAt": "2026-11-21T00:29:57.184159+00:00",
+      "baselineHomeWin": 0.64912,
       "modelVersion": "research-prior20-v1"
     }
   ],

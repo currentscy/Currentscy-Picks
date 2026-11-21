@@ -942,5 +942,25 @@
     "awayHistoryCount": 16,
     "captureMethod": "server-side historical results baseline; NOT website simulation",
     "candidateProbability": null
+  },
+  {
+    "predictionId": "research-home-win:nhl:401892780:prior20-v1",
+    "gameKey": "nhl:401892780",
+    "market": "home-win",
+    "entityId": "6",
+    "modelVersion": "research-prior20-v1",
+    "predictedAt": "2026-11-21T00:29:57.184159+00:00",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261124&limit=300",
+    "baselineProbability": 0.6491153784149016,
+    "homeTeamId": "6",
+    "awayTeamId": "37",
+    "homeHistoryCount": 17,
+    "awayHistoryCount": 15,
+    "captureMethod": "server-side historical results baseline; NOT website simulation",
+    "candidateProbability": null,
+    "shadowProbability": null,
+    "shadowModelVersion": null,
+    "shadowTrainingGames": 0,
+    "shadowTrainedThrough": null
   }
 ]

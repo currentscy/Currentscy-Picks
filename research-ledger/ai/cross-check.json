@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T00:17:24.010636+00:00",
+  "generatedAt": "2026-11-21T00:29:57.688469+00:00",
   "providers": {
     "cloudflare": {
       "status": "not-configured"
@@ -15,24 +15,19 @@
   "availableProviders": [],
   "crossCheckComplete": false,
   "evidence": {
-    "savedForecasts": 48,
+    "savedForecasts": 49,
     "savedFinalOutcomes": 0,
     "evaluationSummary": {
-      "gamesAvailable": 951,
-      "validPregamePredictions": 48,
+      "gamesAvailable": 968,
+      "validPregamePredictions": 49,
       "scoredBaselinePredictions": 0,
       "scoredCandidatePredictions": 0,
       "pairedSample": 0,
-      "unscoredPredictions": 48,
+      "unscoredPredictions": 49,
       "rejectedRecords": 0
     },
     "learningBySport": {},
     "recentForecasts": [
-      {
-        "gameKey": "nhl:401892775",
-        "predictedAt": "2026-11-20T23:37:03.216913+00:00",
-        "baselineProbability": 0.526264461242334
-      },
       {
         "gameKey": "nhl:401892776",
         "predictedAt": "2026-11-20T23:37:03.216913+00:00",
@@ -52,6 +47,11 @@
         "gameKey": "nhl:401892779",
         "predictedAt": "2026-11-20T23:37:03.216913+00:00",
         "baselineProbability": 0.3873510559959527
+      },
+      {
+        "gameKey": "nhl:401892780",
+        "predictedAt": "2026-11-21T00:29:57.184159+00:00",
+        "baselineProbability": 0.6491153784149016
       }
     ]
   },

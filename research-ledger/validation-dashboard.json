@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T00:17:23.716181+00:00",
+  "generatedAt": "2026-11-21T00:29:57.439644+00:00",
   "fiveSteps": {
     "eventCollection": true,
     "pregameForecastCaptured": true,
@@ -11,13 +11,13 @@
   },
   "bySport": {
     "nba": {
-      "events": 258,
+      "events": 261,
       "completed": 226,
       "validForecasts": 22,
       "matchedFinalOutcomes": 0
     },
     "ncaa-football": {
-      "events": 113,
+      "events": 115,
       "completed": 49,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
@@ -29,9 +29,9 @@
       "matchedFinalOutcomes": 0
     },
     "nhl": {
-      "events": 264,
+      "events": 265,
       "completed": 238,
-      "validForecasts": 26,
+      "validForecasts": 27,
       "matchedFinalOutcomes": 0
     },
     "soccer-england": {
@@ -65,7 +65,7 @@
       "matchedFinalOutcomes": 0
     },
     "soccer-mls": {
-      "events": 59,
+      "events": 60,
       "completed": 52,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
@@ -77,7 +77,7 @@
       "matchedFinalOutcomes": 0
     },
     "soccer-ucl": {
-      "events": 18,
+      "events": 27,
       "completed": 18,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
@@ -95,7 +95,7 @@
       "matchedFinalOutcomes": 0
     },
     "tennis-wta": {
-      "events": 1,
+      "events": 2,
       "completed": 1,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
@@ -108,7 +108,7 @@
     }
   },
   "invalidRecords": [],
-  "validPregameForecasts": 48,
+  "validPregameForecasts": 49,
   "matchedFinalOutcomes": 0,
   "completeCoverageEstablished": false,
   "sportsWithScoredForecasts": [],
