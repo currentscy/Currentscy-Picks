@@ -18,7 +18,9 @@ def archive(events,previous,now):
   # Only record fields actually observed; do not infer injuries or lineups.
   fields={k:e.get(k) for k in ("eventKey","sport","scheduledStart","status","completed","teams","sourceUrl","observedAt","quality")}
   if not fields["observedAt"]:continue
-  digest=hashlib.sha256(json.dumps(fields,sort_keys=True).encode()).hexdigest()
+  # Repeated polls with unchanged state must not create endless snapshots.
+  state={k:v for k,v in fields.items() if k!="observedAt"}
+  digest=hashlib.sha256(json.dumps(state,sort_keys=True).encode()).hexdigest()
   if digest not in existing:
    existing[digest]={"snapshotId":digest,"capturedAt":now,"observation":fields}
  return list(existing.values())
