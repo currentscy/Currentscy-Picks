@@ -78413,5 +78413,145 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "97ca473b043be3b56aa37f4fb56823c25882991acd8c866cd3f204cb0ee3638e",
+    "capturedAt": "2026-11-21T14:26:53.827621+00:00",
+    "observation": {
+      "eventKey": "soccer-england:401879233",
+      "sport": "soccer-england",
+      "scheduledStart": "2026-11-21T12:30Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "382",
+          "name": "Manchester City",
+          "homeAway": "home",
+          "score": "1",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "370",
+          "name": "Fulham",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-21T14:26:40.968974+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "f2398ef299e1d404cb1644a00054b0348f869ebfd2993d4d03fa6eee4d1a5c2d",
+    "capturedAt": "2026-11-21T14:26:53.827621+00:00",
+    "observation": {
+      "eventKey": "soccer-spain:401882806",
+      "sport": "soccer-spain",
+      "scheduledStart": "2026-11-21T13:00Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "96",
+          "name": "Alav\u00e9s",
+          "homeAway": "home",
+          "score": "2",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "90",
+          "name": "Deportivo",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-21T14:26:40.968974+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "70df55a8f480ddc6a768645fa3132a597849b6f2287274bee497e64c750ff8cd",
+    "capturedAt": "2026-11-21T14:26:53.827621+00:00",
+    "observation": {
+      "eventKey": "soccer-italy:401874981",
+      "sport": "soccer-italy",
+      "scheduledStart": "2026-11-21T14:00Z",
+      "status": "STATUS_FIRST_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "112",
+          "name": "Lazio",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "113",
+          "name": "Lecce",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-21T14:26:40.968974+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "5612a8ec67504fde01785e3bba2b78451a7dc8638c4f95de0cfd1c08512bdf19",
+    "capturedAt": "2026-11-21T14:26:53.827621+00:00",
+    "observation": {
+      "eventKey": "soccer-italy:401875056",
+      "sport": "soccer-italy",
+      "scheduledStart": "2026-11-21T14:00Z",
+      "status": "STATUS_FIRST_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2572",
+          "name": "Como",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "2925",
+          "name": "Cagliari",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-21T14:26:40.968974+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]

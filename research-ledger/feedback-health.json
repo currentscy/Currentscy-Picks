@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-21T13:37:45.247569+00:00",
+  "asOf": "2026-11-21T14:26:53.732530+00:00",
   "pipeline": {
     "stage1Events": 214,
     "stage2Games": 214,
@@ -16,7 +16,13 @@
   },
   "verification": {
     "sameProviderGamesCompared": 188,
-    "sameProviderDisagreements": [],
+    "sameProviderDisagreements": [
+      {
+        "gameKey": "soccer-england:401879233",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      }
+    ],
     "unmatchedOutcomeIds": [],
     "independentProviderVerification": false,
     "injuriesVerified": false,
