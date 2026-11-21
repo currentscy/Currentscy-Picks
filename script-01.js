@@ -1412,7 +1412,13 @@ let ufcFights=[];
 function ufcNames(f){return (f.competitors||[]).map(x=>x.athlete?.displayName||x.athlete?.fullName||x.team?.displayName||x.displayName).filter(Boolean)}
 function ufcBoutName(f,i){const n=ufcNames(f);return n.length>=2?n.slice(0,2).join(' vs '):(f.name||f.shortName||'Bout '+(i+1))}
 function openUFCEvent(e){
- ufcEvent=e;chosen=e;$('listing').classList.add('hidden');$('detail').classList.remove('hidden');
+ ufcEvent=e;chosen=e;
+ // Clear shared sport panels before rendering the fight card. These containers
+ // are reused by football, basketball and soccer and can retain stale content.
+ for(const id of ['v68NcaaFive','v63BoxScore','v64NflFive','cpSoccerMatchSummary']){
+  const node=document.getElementById(id);if(node)node.replaceChildren();
+ }
+ for(const id of ['v59WeeklyPanel','v66WeeklyPlayerPanel'])document.getElementById(id)?.classList.add('hidden');$('listing').classList.add('hidden');$('detail').classList.remove('hidden');
  $('matchTitle').textContent=e.name||'UFC event';$('matchDate').textContent=dateText(e.date)+' · UFC';
  $('simulate').classList.add('hidden');$('simulate').textContent='Refresh fight card';
  $('dataStatus').textContent='Choose one fight below for an individual matchup view.';
