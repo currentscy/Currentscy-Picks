@@ -25,11 +25,20 @@ class Stage3MLTests(unittest.TestCase):
         w=train(data)
         self.assertGreater(sigmoid(sum(a*b for a,b in zip(w,(1.,1.,0.)))),.5)
     def test_holdout_cannot_trigger_deployment(self):
-        from datetime import datetime,timezone
-        data=[(datetime(2026,1,1,tzinfo=timezone.utc),str(i),
+        from datetime import datetime,timezone,timedelta
+        data=[(datetime(2026,1,1,tzinfo=timezone.utc)+timedelta(days=i),str(i),
                (1.,1. if i%2 else -1.,0.),i%2,.5) for i in range(100)]
         result=evaluate(data)
         self.assertEqual(result["holdoutRows"],30)
         self.assertFalse(result["productionModelChanged"])
         self.assertFalse(result["releaseApproved"])
+    def test_same_kickoff_is_never_split(self):
+        from datetime import datetime,timezone
+        data=[(datetime(2026,1,1,tzinfo=timezone.utc),str(i),
+               (1.,1. if i%2 else -1.,0.),i%2,.5) for i in range(100)]
+        result=evaluate(data)
+        self.assertEqual(result["status"],"insufficient_chronologically_separated_data")
+    def test_nonfinite_features_rejected(self):
+        p={"homeRecord":{"w":float("nan"),"l":2},"awayRecord":{"w":2,"l":8}}
+        self.assertIsNone(features(p))
 if __name__=="__main__":unittest.main()
