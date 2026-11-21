@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-21T07:34:13.974349+00:00",
-  "workflow": "Currentscy live NBA prediction feedback",
-  "runId": "44880827510",
+  "checkedAt": "2026-11-21T07:48:07.173836+00:00",
+  "workflow": "Currentscy Stage 1 multi-sport evidence collection",
+  "runId": "44881884356",
   "runAttempt": "1",
   "jobStatusAtCheckpoint": "success",
   "sourceRequestsSucceeded": 65,
@@ -11,7 +11,7 @@
   "savedPregameForecasts": 49,
   "savedFinalOutcomes": 9,
   "validPregameForecasts": 49,
-  "matchedFinalOutcomes": 1,
+  "matchedFinalOutcomes": 9,
   "sportsWithCoverageReports": 17,
   "endToEndValidated": true,
   "note": "A green job without real pregame forecasts and matched outcomes is not end-to-end validation."

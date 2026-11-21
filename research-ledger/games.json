@@ -1200,10 +1200,24 @@
     ]
   },
   "ncaa:401858303": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "150",
+        "name": "Duke Blue Devils",
+        "score": "10"
+      },
+      {
+        "id": "228",
+        "name": "Clemson Tigers",
+        "score": "20"
+      }
+    ],
     "firstObserved": "2026-11-20T19:16:01.146722+00:00",
     "gameId": "401858303",
     "kickoff": "2026-11-21T00:30:00+00:00",
     "league": "ncaa",
+    "outcomeObserved": "2026-11-21T07:48:04.442223+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
@@ -1687,10 +1701,24 @@
     ]
   },
   "ncaa:401858529": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "127",
+        "name": "Michigan State Spartans",
+        "score": "7"
+      },
+      {
+        "id": "2483",
+        "name": "Oregon Ducks",
+        "score": "45"
+      }
+    ],
     "firstObserved": "2026-11-20T19:16:01.146722+00:00",
     "gameId": "401858529",
     "kickoff": "2026-11-21T01:00:00+00:00",
     "league": "ncaa",
+    "outcomeObserved": "2026-11-21T07:48:04.442223+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
@@ -2609,10 +2637,24 @@
     ]
   },
   "ncaa:401864542": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "2751",
+        "name": "Wyoming Cowboys",
+        "score": "17"
+      },
+      {
+        "id": "167",
+        "name": "New Mexico Lobos",
+        "score": "24"
+      }
+    ],
     "firstObserved": "2026-11-20T19:16:01.146722+00:00",
     "gameId": "401864542",
     "kickoff": "2026-11-21T02:00:00+00:00",
     "league": "ncaa",
+    "outcomeObserved": "2026-11-21T07:48:04.442223+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
@@ -2666,10 +2708,24 @@
     ]
   },
   "ncaa:401864545": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "2005",
+        "name": "Air Force Falcons",
+        "score": "52"
+      },
+      {
+        "id": "2638",
+        "name": "UTEP Miners",
+        "score": "3"
+      }
+    ],
     "firstObserved": "2026-11-20T19:16:01.146722+00:00",
     "gameId": "401864545",
     "kickoff": "2026-11-21T01:00:00+00:00",
     "league": "ncaa",
+    "outcomeObserved": "2026-11-21T07:48:04.442223+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
@@ -2817,10 +2873,24 @@
     ]
   },
   "ncaa:401866468": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "2649",
+        "name": "Toledo Rockets",
+        "score": "19"
+      },
+      {
+        "id": "189",
+        "name": "Bowling Green Falcons",
+        "score": "0"
+      }
+    ],
     "firstObserved": "2026-11-20T19:16:01.146722+00:00",
     "gameId": "401866468",
     "kickoff": "2026-11-21T00:30:00+00:00",
     "league": "ncaa",
+    "outcomeObserved": "2026-11-21T07:48:04.442223+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {

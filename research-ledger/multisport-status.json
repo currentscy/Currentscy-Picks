@@ -1,7 +1,11 @@
 {
-  "lastRun": "2026-11-21T02:51:29.527015+00:00",
+  "lastRun": "2026-11-21T07:47:57.617471+00:00",
   "trackedGames": 370,
   "changes": [
+    {
+      "type": "game_updated",
+      "key": "ncaa:401858529"
+    },
     {
       "type": "game_updated",
       "key": "ncaa:401858303"
@@ -12,23 +16,11 @@
     },
     {
       "type": "game_updated",
-      "key": "ncaa:401858529"
-    },
-    {
-      "type": "game_updated",
       "key": "ncaa:401864545"
     },
     {
       "type": "game_updated",
       "key": "ncaa:401864542"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401856869"
-    },
-    {
-      "type": "game_updated",
-      "key": "nba:401909305"
     },
     {
       "type": "game_updated",
@@ -53,6 +45,14 @@
     {
       "type": "game_updated",
       "key": "nba:401909311"
+    },
+    {
+      "type": "game_updated",
+      "key": "nba:401909312"
+    },
+    {
+      "type": "game_updated",
+      "key": "nba:401909313"
     }
   ],
   "changeCount": 13,
