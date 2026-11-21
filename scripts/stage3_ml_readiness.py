@@ -79,10 +79,7 @@ def audit(games, forecasts, outcomes):
         "purpose": "Read-only training readiness; NOT proof of prediction accuracy",
         "sports": sports,
         "rejections": dict(reasons),
-        "verifiedWebsiteSimulatorForecasts": sum(
-            row["scored"] for row in by_sport.values()
-            if False
-        ),
+        "websiteSimulatorCaptureVerified": False,
         "gate": "Require genuine immutable website forecasts, authenticated pregame features, chronological train/test separation and out-of-sample improvement before release.",
         "productionModelChanged": False
     }
