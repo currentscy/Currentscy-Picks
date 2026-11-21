@@ -1,13 +1,13 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-11-21T20:00:51.400461+00:00",
+  "generatedAt": "2026-11-21T20:41:52.463333+00:00",
   "total": {
-    "scored": 9,
+    "scored": 10,
     "paired": 0,
     "baseline": {
-      "n": 9,
-      "brier": 0.207639,
-      "logLoss": 0.605334,
+      "n": 10,
+      "brier": 0.193125,
+      "logLoss": 0.573569,
       "calibrationBins": [
         {
           "range": [
@@ -23,9 +23,9 @@
             0.6,
             0.8
           ],
-          "n": 5,
-          "meanPrediction": 0.6788,
-          "observedRate": 0.8
+          "n": 6,
+          "meanPrediction": 0.6907,
+          "observedRate": 0.8333
         }
       ]
     },
@@ -36,12 +36,12 @@
   },
   "bySport": {
     "nba": {
-      "scored": 9,
+      "scored": 10,
       "paired": 0,
       "baseline": {
-        "n": 9,
-        "brier": 0.207639,
-        "logLoss": 0.605334,
+        "n": 10,
+        "brier": 0.193125,
+        "logLoss": 0.573569,
         "calibrationBins": [
           {
             "range": [
@@ -57,9 +57,9 @@
               0.6,
               0.8
             ],
-            "n": 5,
-            "meanPrediction": 0.6788,
-            "observedRate": 0.8
+            "n": 6,
+            "meanPrediction": 0.6907,
+            "observedRate": 0.8333
           }
         ]
       },
@@ -71,12 +71,12 @@
   },
   "byKickoffMonth": {
     "2026-11": {
-      "scored": 9,
+      "scored": 10,
       "paired": 0,
       "baseline": {
-        "n": 9,
-        "brier": 0.207639,
-        "logLoss": 0.605334,
+        "n": 10,
+        "brier": 0.193125,
+        "logLoss": 0.573569,
         "calibrationBins": [
           {
             "range": [
@@ -92,9 +92,9 @@
               0.6,
               0.8
             ],
-            "n": 5,
-            "meanPrediction": 0.6788,
-            "observedRate": 0.8
+            "n": 6,
+            "meanPrediction": 0.6907,
+            "observedRate": 0.8333
           }
         ]
       },
@@ -104,7 +104,7 @@
       "pairedLogLossDelta": null
     }
   },
-  "pendingOutcomes": 50,
+  "pendingOutcomes": 49,
   "rejected": [],
   "diagnostics": {
     "candidateCoverage": 0,
