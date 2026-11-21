@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: '22'
       - name: Run isolated readiness regression tests
-        run: node --test research-ledger/validation/build-readiness.test.mjs
+        run: node --test research-ledger/validation/*.test.mjs
       - name: Dry-run readiness report without publishing
         run: |
           node research-ledger/validation/build-readiness.mjs
