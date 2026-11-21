@@ -47,10 +47,6 @@ def build(now=None):
  learning=load("learning/report.json") or {}
  ai=load("ai/latest.json") or {}
  workflow=load("workflow-verification.json") or {}
- for key,value in (("savedForecasts",len(predictions)),("savedOutcomes",len(outcomes)),
-   ("scoredForecasts",(evaluation.get("summary") or {}).get("scoredBaselinePredictions",0)),
-   ("shadowLearningScored",learning.get("scoredPredictions",0))):
-  pass
  layers["ai"]["state"]=("connected" if ai.get("aiEnabled") is True and ai.get("status")=="ai-analysis-complete"
   else "api-error" if ai.get("status")=="ai-unavailable"
   else "not-configured" if ai.get("status")=="awaiting-server-api-key"
