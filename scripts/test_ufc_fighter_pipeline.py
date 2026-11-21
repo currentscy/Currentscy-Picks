@@ -9,6 +9,16 @@ ROSTER='<a href="'+URL+'">Test Fighter</a>'
 PROFILE='<i>SLpM:</i> 4.50 <i>Str. Acc.:</i> 45% <i>TD Def.:</i> 77%'
 
 class UFCPipelineTests(unittest.TestCase):
+    def test_split_roster_name_and_accent_matching(self):
+        roster = '<a href="'+URL+'">Jiří</a><a href="'+URL+'">Procházka</a>'
+        self.assertEqual(fighter_links(roster)[ID]["name"],"Jiří Procházka")
+        from ufc_fighter_pipeline import normalized_name
+        self.assertEqual(normalized_name("Jiří Procházka"), normalized_name("Jiri Prochazka"))
+    def test_colon_inside_metric_label(self):
+        page = '<i>SLpM:</i> 5.25 <i>TD Def.:</i> 80%'
+        metrics = parse_profile(page,{"id":ID,"name":"Test Fighter","url":URL},"2026-01-01T00:00:00+00:00")["metrics"]
+        self.assertEqual(metrics["strikesLandedPerMinute"],5.25)
+        self.assertEqual(metrics["takedownDefense"],0.8)
     def test_fighter_id(self):
         found=fighter_links(ROSTER)
         self.assertEqual(found[ID]["name"],"Test Fighter")
