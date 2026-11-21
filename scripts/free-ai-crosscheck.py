@@ -64,14 +64,14 @@ def run():
    if not answer.strip():raise ValueError("Empty model response")
    providers[name]={"status":"ok","analysis":answer}
   except urllib.error.HTTPError as exc:
-   providers[name]={"status":"error","httpStatus":exc.code}
+   providers[name]={"status":"error","httpStatus":exc.code,"diagnostic":("Authorization denied: check Worker secret matches GitHub secret and Cloudflare Access/WAF rules" if exc.code==403 else "Unauthorized: check Worker token" if exc.code==401 else "AI quota, binding or model unavailable" if exc.code in (429,503) else "Provider request failed")}
   except (ValueError,KeyError,IndexError,urllib.error.URLError,TimeoutError,OSError) as exc:
    providers[name]={"status":"error","errorType":type(exc).__name__}
  ok=[name for name,r in providers.items() if r["status"]=="ok"]
  report={"schemaVersion":1,"generatedAt":datetime.now(timezone.utc).isoformat(),
   "providers":providers,"availableProviders":ok,"crossCheckComplete":len(ok)==3,
   "evidence":evidence,"conclusion":"AI reviews are advisory and cannot prove model accuracy or override immutable forecasts.",
-  "productionModelChanged":False}
+  "productionModelChanged":False,"reviewOnly":True}
  OUT.parent.mkdir(parents=True,exist_ok=True)
  tmp=OUT.with_suffix(".tmp");tmp.write_text(json.dumps(report,indent=2)+"\n");tmp.replace(OUT)
  print(json.dumps({"providers":{k:v["status"] for k,v in providers.items()},"crossCheckComplete":len(ok)==3}))
