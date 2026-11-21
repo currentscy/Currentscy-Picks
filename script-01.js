@@ -1649,7 +1649,7 @@ async function v59Weekly(){
  const ph=1/(1+Math.exp(-diff));const favorite=ph>=.5?home:away;
  games.push({name:favorite.team?.displayName||favorite.team?.name||'Unknown',opponent:(ph>=.5?away:home).team?.displayName||'Unknown',p:Math.max(ph,1-ph),date:e.date,home:ph>=.5,records:hr.w+'-'+hr.l+' vs '+ar.w+'-'+ar.l});
  }
- games.sort((a,b)=>b.p-a.p);const top=games.slice(0,5);
+ const weekKey=d=>{const dt=new Date(d),p=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(dt),x=Object.fromEntries(p.map(y=>[y.type,y.value])),day=new Date(Date.UTC(+x.year,+x.month-1,+x.day));day.setUTCDate(day.getUTCDate()-day.getUTCDay());return day.toISOString().slice(0,10)};const firstWeek=games.length?weekKey(games.reduce((a,b)=>new Date(a.date)<new Date(b.date)?a:b).date):null;games=games.filter(g=>weekKey(g.date)===firstWeek);games.sort((a,b)=>b.p-a.p);const top=games.slice(0,5);
  if(top.length<5)throw Error('Only '+games.length+' upcoming games have usable verified team records. Cannot safely construct five legs.');
  target.innerHTML=''+top.map((g,i)=>`<div class="leg"><strong>${i+1}. ${escapeHtml(g.name)}</strong> over ${escapeHtml(g.opponent)}<br><b>Rank score ${(g.p*100).toFixed(1)}/100</b> · uncalibrated · ${escapeHtml(dateText(g.date))} · ${g.home?'Home':'Away'}<br><small>Current-season records (home vs away): ${escapeHtml(g.records)}</small></div>`).join('');
  }catch(e){target.textContent='Weekly ranking unavailable: '+e.message;}finally{btn.disabled=false;}
@@ -1683,7 +1683,7 @@ async function v68WeeklyWinners(){
    const winner=ph>=.5?home:away,loser=ph>=.5?away:home;
    ranked.push({winner:winner.team?.displayName||'Unknown',loser:loser.team?.displayName||'Unknown',score:Math.max(ph,1-ph),date:event.date,record:hr.w+'-'+hr.l+' vs '+ar.w+'-'+ar.l});
   }
-  ranked.sort((a,b)=>b.score-a.score);
+  const weekKey=d=>{const dt=new Date(d),p=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(dt),x=Object.fromEntries(p.map(y=>[y.type,y.value])),day=new Date(Date.UTC(+x.year,+x.month-1,+x.day));day.setUTCDate(day.getUTCDate()-day.getUTCDay());return day.toISOString().slice(0,10)};const earliest=ranked.length?weekKey(ranked.reduce((a,b)=>new Date(a.date)<new Date(b.date)?a:b).date):null;for(let i=ranked.length-1;i>=0;i--)if(weekKey(ranked[i].date)!==earliest)ranked.splice(i,1);ranked.sort((a,b)=>b.score-a.score);
   if(token!==v68RankingToken||sport!==league)return;
   if(ranked.length<5){target.innerHTML='<p class="desc">Only '+ranked.length+' upcoming NCAA games have usable team records. Five winners cannot be ranked reliably from the available feed. The NCAA schedule and existing game analysis are unchanged.</p>';return;}
   target.innerHTML='<p class="desc">Five strongest record-based matchup leans this week. These are ranking scores, <strong>not calibrated win probabilities</strong>. Injuries, lineups, and opponent schemes are not verified.</p>'+ranked.slice(0,5).map((g,i)=>'<div class="leg"><strong>'+(i+1)+'. '+escapeHtml(g.winner)+'</strong> over '+escapeHtml(g.loser)+'<br><small>Rank score '+(g.score*100).toFixed(1)+'/100 · '+escapeHtml(dateText(g.date))+' · Records '+escapeHtml(g.record)+'</small></div>').join('');
