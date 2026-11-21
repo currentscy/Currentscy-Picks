@@ -53,7 +53,7 @@ def parse_profile(page,identity,observed):
     # The labels are in the fighter-page statistics panel, not in the fight log.
     metrics={}
     for label,key in FIELDS.items():
-        match=re.search(r"(?is)<i[^>]*>\\s*"+re.escape(label)+r"\\s*</i>\\s*([^<]+)",page)
+        match=re.search(r"(?is)<i[^>]*>\\s*"+re.escape(label)+r"\s*</i>\s*([^<]+)",page)
         if not match: continue
         raw=plain(match.group(1)).strip().rstrip("%")
         try: val=float(raw)
@@ -95,7 +95,7 @@ def main():
         raise SystemExit("Usage: python scripts/ufc_fighter_pipeline.py 'Fighter One' 'Fighter Two'")
     result=collect(names)
     OUT.mkdir(parents=True,exist_ok=True)
-    (OUT/"latest.json").write_text(json.dumps(result,indent=2)+"\\n")
+    (OUT/"latest.json").write_text(json.dumps(result,indent=2)+"\n")
     print(json.dumps(result["quality"]))
     if result["failures"] or result["unmatchedNames"]: raise SystemExit(2)
 if __name__=="__main__":main()
