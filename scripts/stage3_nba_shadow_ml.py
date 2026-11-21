@@ -22,20 +22,20 @@ def features(p):
     if not isinstance(h,dict) or not isinstance(a,dict): return None
     try:
         hw,hl,aw,al=(float(h[k]) for h,k in ((h,"w"),(h,"l"),(a,"w"),(a,"l")))
-        if min(hw,hl,aw,al)<0 or hw+hl<=0 or aw+al<=0:return None
+        if not all(math.isfinite(v) for v in (hw,hl,aw,al)) or min(hw,hl,aw,al)<0 or hw+hl<=0 or aw+al<=0:return None
         return (1.,hw/(hw+hl)-aw/(aw+al),math.log1p(hw+hl)-math.log1p(aw+al))
     except (KeyError,ValueError,TypeError,OverflowError):return None
 
 def rows(games,predictions,outcomes):
     index={g.get("gameKey"):g for g in games if isinstance(g,dict)}
     finals={o.get("predictionId"):o for o in outcomes if isinstance(o,dict)}
-    seen=set();output=[]
+    seen=set();seen_games=set();output=[]
     for p in predictions:
         if not isinstance(p,dict) or p.get("predictionId") in seen:continue
         seen.add(p.get("predictionId"))
         if not str(p.get("gameKey","")).startswith("nba:"):continue
         game=index.get(p.get("gameKey")); outcome=finals.get(p.get("predictionId"))
-        if not game or not outcome:continue
+        if not game or not outcome or p.get("gameKey") in seen_games:continue
         start=timestamp(game.get("start") or game.get("scheduledStart"))
         before=timestamp(p.get("predictedAt"))
         verified=timestamp(outcome.get("verifiedAt"))
@@ -44,6 +44,7 @@ def rows(games,predictions,outcomes):
         x=features(p)
         prob=p.get("baselineProbability")
         if x is None or type(prob) not in (int,float) or not math.isfinite(prob) or not 0<prob<1:continue
+        seen_games.add(p["gameKey"])
         output.append((start,p["predictionId"],x,outcome["result"],prob))
     return sorted(output,key=lambda x:(x[0],x[1]))
 
@@ -70,7 +71,15 @@ def evaluate(data):
     if len(data)<MIN_TRAIN+MIN_HOLDOUT:
         return {"status":"insufficient_verified_training_data","eligibleRows":len(data),
                 "minimumRows":MIN_TRAIN+MIN_HOLDOUT,"productionModelChanged":False}
-    training=data[:-MIN_HOLDOUT]; holdout=data[-MIN_HOLDOUT:]
+    # Do not let simultaneous games straddle the train/holdout boundary.
+    ordered=sorted(data,key=lambda r:(r[0],r[1]))
+    boundary=ordered[-MIN_HOLDOUT][0]
+    training=[r for r in ordered if r[0]<boundary]
+    holdout=[r for r in ordered if r[0]>=boundary]
+    if len(training)<MIN_TRAIN or len(holdout)<MIN_HOLDOUT:
+        return {"status":"insufficient_chronologically_separated_data",
+                "trainingRows":len(training),"holdoutRows":len(holdout),
+                "productionModelChanged":False}
     weights=train(training)
     baseline=metrics(holdout,lambda r:r[4])
     candidate=metrics(holdout,lambda r:sigmoid(sum(w*x for w,x in zip(weights,r[2]))))
@@ -86,8 +95,9 @@ def main():
     observed=load("unified-events.json",{}).get("events",[])
     known={g.get("gameKey") for g in games}
     for e in observed:
-        if e.get("eventKey") not in known:
+        if e.get("eventKey") and e.get("eventKey") not in known:
             games.append({"gameKey":e.get("eventKey"),"start":e.get("scheduledStart")})
+            known.add(e["eventKey"])
     result=evaluate(rows(games,load("stage3/pregame-predictions.json",[]),
                          load("stage3/verified-outcomes.json",[])))
     print(json.dumps(result,indent=2))
