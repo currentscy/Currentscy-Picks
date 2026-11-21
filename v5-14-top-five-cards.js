@@ -52,7 +52,7 @@ function transformFootball(){
  const legs=[...host.querySelectorAll(':scope > .leg')];
  if(!legs.length)return;
  const fingerprint=sport+'|'+legs.map(text).join('|');
- if(host.dataset.cpFingerprint===fingerprint)return;
+ if(host.dataset.cpFingerprint===fingerprint&&host.querySelector('.cp-pick'))return;
  const cards=legs.slice(0,5).map((leg,i)=>{
   const strong=leg.querySelector('strong'),line=pickLine(text(strong)+(strong?.nextSibling?.textContent||''));
   const raw=text(leg);
