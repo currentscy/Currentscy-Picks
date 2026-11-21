@@ -1,8 +1,17 @@
 {
-  "lastRun": "2026-11-21T10:00:13.779084+00:00",
+  "lastRun": "2026-11-21T13:37:39.087117+00:00",
   "trackedGames": 370,
-  "changes": [],
-  "changeCount": 0,
+  "changes": [
+    {
+      "type": "game_updated",
+      "key": "soccer-epl:401879233"
+    },
+    {
+      "type": "game_updated",
+      "key": "soccer-laliga:401882806"
+    }
+  ],
+  "changeCount": 2,
   "sourceFailures": [],
   "failureCount": 0,
   "injuryFeedVerified": false,

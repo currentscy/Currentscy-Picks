@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-21T13:35:50.289624+00:00",
+  "asOf": "2026-11-21T13:37:45.247569+00:00",
   "pipeline": {
     "stage1Events": 214,
     "stage2Games": 214,
     "legacyMultisportGames": 370,
     "legacyFootballGames": 146,
-    "stage5Snapshots": 2747,
+    "stage5Snapshots": 2959,
     "unifiedEventHistory": 968,
     "sportsWithCoverageChecks": 17,
     "liveModelForecasts": 59,
