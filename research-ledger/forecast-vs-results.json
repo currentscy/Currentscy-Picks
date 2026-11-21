@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T02:51:38.216725+00:00",
+  "generatedAt": "2026-11-21T03:22:10.061924+00:00",
   "totalForecastsWithFixtures": 49,
-  "scored": 1,
+  "scored": 4,
   "games": [
     {
       "gameKey": "nhl:401892780",
@@ -691,8 +691,15 @@
       "homeWinProbability": 0.6923838917932342,
       "modelVersion": "nba-record-home-v1",
       "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "102",
+        "awayScore": "105",
+        "homeWon": false,
+        "verifiedAt": "2026-11-21T03:22:03.285Z",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=100",
+        "brier": 0.479395
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nba:401909307",
@@ -706,8 +713,15 @@
       "homeWinProbability": 0.6182873967272698,
       "modelVersion": "nba-record-home-v1",
       "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "128",
+        "awayScore": "119",
+        "homeWon": true,
+        "verifiedAt": "2026-11-21T03:22:03.285Z",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=100",
+        "brier": 0.145705
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nba:401909306",
@@ -721,8 +735,15 @@
       "homeWinProbability": 0.47071190141488634,
       "modelVersion": "nba-record-home-v1",
       "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "111",
+        "awayScore": "113",
+        "homeWon": false,
+        "verifiedAt": "2026-11-21T03:22:03.285Z",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=100",
+        "brier": 0.22157
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nba:401909305",

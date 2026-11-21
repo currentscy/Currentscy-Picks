@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T02:51:38.079638+00:00",
+  "generatedAt": "2026-11-21T03:22:09.517569+00:00",
   "fiveSteps": {
     "eventCollection": true,
     "pregameForecastCaptured": true,
     "finalOutcomeMatched": true,
     "researchCoverageReported": true,
-    "accuracyEvaluationReady": true,
+    "accuracyEvaluationReady": false,
     "everySportScored": false
   },
   "bySport": {
@@ -107,7 +107,23 @@
       "matchedFinalOutcomes": 0
     }
   },
-  "invalidRecords": [],
+  "invalidRecords": [
+    {
+      "type": "outcome",
+      "id": "nba-home-win:401909306:nba-record-home-v1",
+      "reason": "invalid or not final"
+    },
+    {
+      "type": "outcome",
+      "id": "nba-home-win:401909307:nba-record-home-v1",
+      "reason": "invalid or not final"
+    },
+    {
+      "type": "outcome",
+      "id": "nba-home-win:401909308:nba-record-home-v1",
+      "reason": "invalid or not final"
+    }
+  ],
   "validPregameForecasts": 49,
   "matchedFinalOutcomes": 1,
   "completeCoverageEstablished": false,
