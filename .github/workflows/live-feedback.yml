@@ -58,7 +58,7 @@ jobs:
             python scripts/validation_dashboard.py
           fi
           python scripts/research_consistency.py
-      - name: Learn from finalized pregame predictions (shadow mode)
+      - name: Test checkpoint-specific scoring and calibration\n        run: python -m unittest discover -s scripts -p 'test_checkpoint_evaluation.py'\n      - name: Evaluate checkpoint archives without changing live models\n        run: python scripts/checkpoint_evaluation.py\n      - name: Learn from finalized pregame predictions (shadow mode)
         run: |
           python scripts/learning_calibration.py
           python scripts/forecast_vs_results.py
