@@ -6,6 +6,7 @@ Run from repository root: python scripts/ufc_fighter_pipeline.py
 import datetime as dt
 import html
 import json
+import unicodedata
 import re
 import urllib.request
 from html.parser import HTMLParser
@@ -41,19 +42,27 @@ def fetch(url):
 def plain(s):
     return " ".join(html.unescape(re.sub(r"<[^>]*>"," ",s)).split())
 
+def normalized_name(name):
+    value = unicodedata.normalize("NFKD", name)
+    return " ".join("".join(ch for ch in value if not unicodedata.combining(ch)).casefold().split())
+
 def fighter_links(page):
     p=Links();p.feed(page)
     result={}
     for url,name in p.links:
         if re.fullmatch(r"https?://(?:www\.)?ufcstats\.com/fighter-details/[a-f0-9]+",url):
-            result.setdefault(url.split("/")[-1],{"id":url.split("/")[-1],"name":name,"url":url})
+            fid = url.split("/")[-1]
+            if fid not in result:
+                result[fid] = {"id":fid,"name":name,"url":url}
+            elif name and name not in result[fid]["name"].split():
+                result[fid]["name"] += " " + name
     return result
 
 def parse_profile(page,identity,observed):
     # The labels are in the fighter-page statistics panel, not in the fight log.
     metrics={}
     for label,key in FIELDS.items():
-        match=re.search(r"(?is)<i[^>]*>\s*"+re.escape(label)+r"\s*</i>\s*([^<]+)",page)
+        match=re.search(r"(?is)<i[^>]*>\s*"+re.escape(label)+r"\s*:?\s*</i>\s*([^<]+)",page)
         if not match: continue
         raw=plain(match.group(1)).strip().rstrip("%")
         try: val=float(raw)
@@ -69,7 +78,7 @@ def parse_profile(page,identity,observed):
 
 def collect(names,fetcher=fetch):
     now=dt.datetime.now(dt.timezone.utc).isoformat()
-    names={" ".join(n.casefold().split()):n for n in names if isinstance(n,str) and n.strip()}
+    names={normalized_name(n):n for n in names if isinstance(n,str) and n.strip()}
     rows=[];failures=[];matched=set()
     # UFCStats roster pages are alphabetic; no guessing IDs from display names.
     for letter in sorted({n[0].upper() for n in names}):
@@ -78,7 +87,7 @@ def collect(names,fetcher=fetch):
         except Exception as e:
             failures.append({"url":url,"error":str(e)});continue
         for ident in candidates.values():
-            key=" ".join(ident["name"].casefold().split())
+            key=normalized_name(ident["name"])
             if key not in names: continue
             matched.add(key)
             try: rows.append(parse_profile(fetcher(ident["url"]),ident,now))
