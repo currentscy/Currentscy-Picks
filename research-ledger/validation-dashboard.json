@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T02:29:42.848788+00:00",
+  "generatedAt": "2026-11-21T02:51:38.079638+00:00",
   "fiveSteps": {
     "eventCollection": true,
     "pregameForecastCaptured": true,
-    "finalOutcomeMatched": false,
+    "finalOutcomeMatched": true,
     "researchCoverageReported": true,
-    "accuracyEvaluationReady": false,
+    "accuracyEvaluationReady": true,
     "everySportScored": false
   },
   "bySport": {
     "nba": {
       "events": 261,
-      "completed": 226,
+      "completed": 227,
       "validForecasts": 22,
-      "matchedFinalOutcomes": 0
+      "matchedFinalOutcomes": 1
     },
     "ncaa-football": {
       "events": 115,
-      "completed": 49,
+      "completed": 50,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
@@ -107,17 +107,13 @@
       "matchedFinalOutcomes": 0
     }
   },
-  "invalidRecords": [
-    {
-      "type": "outcome",
-      "id": "nba-home-win:401909305:nba-record-home-v1",
-      "reason": "invalid or not final"
-    }
-  ],
+  "invalidRecords": [],
   "validPregameForecasts": 49,
-  "matchedFinalOutcomes": 0,
+  "matchedFinalOutcomes": 1,
   "completeCoverageEstablished": false,
-  "sportsWithScoredForecasts": [],
+  "sportsWithScoredForecasts": [
+    "nba"
+  ],
   "liveModelSelfTrainingEnabled": false,
   "note": "A saved fixture is not a forecast. MMA/tennis provider coverage and independent final verification remain unproven."
 }

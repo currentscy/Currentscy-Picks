@@ -530,10 +530,24 @@
     ]
   },
   "ncaa:401856869": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "2116",
+        "name": "UCF Knights",
+        "score": "48"
+      },
+      {
+        "id": "66",
+        "name": "Iowa State Cyclones",
+        "score": "17"
+      }
+    ],
     "firstObserved": "2026-11-20T19:16:01.146722+00:00",
     "gameId": "401856869",
     "kickoff": "2026-11-20T23:00:00+00:00",
     "league": "ncaa",
+    "outcomeObserved": "2026-11-21T02:51:36.167203+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
