@@ -1,10 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T00:09:50.403118+00:00",
+  "generatedAt": "2026-11-21T00:11:41.583959+00:00",
   "status": "ai-unavailable",
   "aiEnabled": false,
   "analysis": null,
-  "error": "HTTPError",
+  "error": {
+    "httpStatus": 429,
+    "category": "credit_balance_exhausted",
+    "nextAction": "Check API billing and credits"
+  },
   "model": null,
   "summary": {
     "scored": 0,
