@@ -41,3 +41,15 @@ body:not([data-sport="home"]) #detail .panel:first-child{border-top:2px solid va
 #matchTitle{overflow-wrap:anywhere}
 @media(max-width:550px){.wrap{padding:12px 10px 40px!important}body[data-sport="home"] #sports{gap:9px!important}body[data-sport="home"] #sports .sport{height:clamp(86px,21vw,112px)!important;min-height:86px!important;padding:9px 9px!important;border-radius:15px!important}body[data-sport="home"] #sports .sport::after{right:7px!important;font-size:22px!important}body[data-sport="home"] #homeIntro{padding:16px 4px 14px!important}.panel{padding:14px!important}}
 @media(max-width:360px){body[data-sport="home"] #sports .sport{gap:5px!important}body[data-sport="home"] #sports .sport .cp-league-label{font-size:13px!important}}
+
+/* Final unified homepage cards — image left, title/subtitle right. */
+body[data-sport="home"] #sports .sport .cp-league-label{display:flex!important;flex-direction:column!important;align-items:flex-start!important;justify-content:center!important;gap:5px!important}
+body[data-sport="home"] #sports .sport .cp-tile-subtitle{display:block!important;font-size:clamp(10px,2vw,15px)!important;font-weight:450!important;line-height:1.15!important;color:#c4cbd6!important;letter-spacing:0!important}
+body[data-sport="home"] #sports .sport em{display:none!important}
+body[data-sport="home"] #sports .sport .cp-league-fallback:not(.is-visible){display:none!important}
+body[data-sport="home"] #sports .sport .cp-league-fallback.is-visible{display:flex!important;align-items:center!important;justify-content:center!important}
+body:not([data-sport="home"]) #sports{display:flex!important;flex-flow:row nowrap!important;overflow-x:auto!important;overflow-y:hidden!important;gap:8px!important;max-width:100%!important;scrollbar-width:none!important}
+body:not([data-sport="home"]) #sports .sport{display:inline-flex!important;align-items:center!important;flex:0 0 auto!important;min-width:84px!important;max-width:145px!important;height:47px!important;padding:6px 10px!important;gap:7px!important;border-radius:12px!important;background:linear-gradient(#222731,#11151b)!important;box-shadow:none!important;white-space:normal!important}
+body:not([data-sport="home"]) #sports .sport .cp-league-logo{width:26px!important;height:30px!important;object-fit:contain!important}
+body:not([data-sport="home"]) #sports .sport .cp-league-label{font-size:12px!important;line-height:1.1!important}
+body:not([data-sport="home"]) #sports .sport .cp-tile-subtitle{display:none!important}
