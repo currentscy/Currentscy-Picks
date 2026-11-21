@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-21T16:06:39.006396+00:00",
+  "asOf": "2026-11-21T16:51:16.083710+00:00",
   "pipeline": {
     "stage1Events": 214,
     "stage2Games": 214,
@@ -34,6 +34,31 @@
       },
       {
         "gameKey": "soccer-italy:401875056",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "soccer-germany:401884728",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "soccer-germany:401884731",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "soccer-germany:401884732",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "soccer-germany:401884734",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "soccer-germany:401884735",
         "field": "completed",
         "reason": "collection disagreement or different polling times"
       }
