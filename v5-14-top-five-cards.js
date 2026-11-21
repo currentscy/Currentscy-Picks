@@ -23,7 +23,7 @@ const css=`
 .cp-pick details p{margin:5px 0;line-height:1.4}
 @media(max-width:360px){.cp-pick-head{grid-template-columns:21px minmax(0,1fr) 77px;gap:6px}.cp-pick-score{font-size:13px}.cp-pick-teams{font-size:12px}}
 `;
-const style=document.createElement('style');style.textContent=css;document.head.appendChild(style);
+const style=document.createElement('style');style.textContent=css+"\n/* Top-five is a compact ranked list, not five standalone bordered panels. */\n#v59WeeklyResults .cp-pick,#v87-daily-three .cp-pick{background:transparent!important;border:0!important;border-bottom:1px solid #30343d!important;border-radius:0!important;padding:10px 1px!important;margin:0!important;box-shadow:none!important}\n#v59WeeklyResults .cp-pick:last-child,#v87-daily-three .cp-pick:last-child{border-bottom:0!important}\n#v59WeeklyResults,#v87-daily-three{background:transparent!important;border-left:0!important}\n#v59WeeklyResults .cp-pick-head,#v87-daily-three .cp-pick-head{grid-template-columns:23px minmax(0,1fr) 80px!important;gap:7px!important}\n#v59WeeklyResults .cp-pick-teams,#v87-daily-three .cp-pick-teams{font-size:13px!important}\n#v59WeeklyResults .cp-pick-sub,#v87-daily-three .cp-pick-sub{margin-top:4px!important;white-space:normal}\n#v59WeeklyResults .cp-pick details,#v87-daily-three .cp-pick details{margin:3px 0 0 30px!important;padding:3px 0 0!important;border:0!important}\n#v59WeeklyResults .cp-pick details:not([open]) p,#v87-daily-three .cp-pick details:not([open]) p{display:none!important}\n#v59WeeklyResults .cp-pick summary,#v87-daily-three .cp-pick summary{min-height:22px!important}\n";document.head.appendChild(style);
 function text(node){return (node?.textContent||'').trim()}
 function pickLine(raw){
  const s=raw.replace(/^\d+\.\s*/,'');
@@ -43,8 +43,8 @@ function create({rank,winner,opponent,score,date,detail,sport}){
  const metric=document.createElement('div');metric.className='cp-pick-score';const match=(score||'').match(/([\\d.]+)\\/100/);if(match){metric.textContent=match[1];const unit=document.createElement('small');unit.textContent='Rank /100';metric.append(unit)}else metric.textContent=score||'Not ranked';
  top.append(badge,main,metric);card.append(top);
  const details=document.createElement('details');const summary=document.createElement('summary');summary.textContent='Matchup Analysis';details.append(summary);
- const p=document.createElement('p');p.textContent='Current ranking is provisional and is not a calibrated win probability. Position matchups, injuries, projected starters, and a game-specific simulation are not verified by this ranking feed.';details.append(p);
- if(detail){const original=document.createElement('p');original.textContent=detail;details.append(original)}
+ const p=document.createElement('p');p.textContent='Ranking is provisional, not a calibrated probability. Open the game below for full model output.';details.append(p);
+ 
  const action=document.createElement('p');action.textContent='Select the game in '+sport+' matchups below for available game-level analysis.';details.append(action);card.append(details);
  return card;
 }
