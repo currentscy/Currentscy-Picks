@@ -1429,17 +1429,20 @@ function openUFCEvent(e){
  analyzeUFC();
 }
 async function analyzeUFC(){
- if(!ufcEvent)return;const b=$('simulate');b.disabled=true;b.textContent='Loading fights…';
+ if(!ufcEvent||sport!=='ufc')return;const eventId=String(ufcEvent.id);const b=$('simulate');b.disabled=true;b.textContent='Loading fights…';
  try{
   let data=ufcEvent;const root='https://site.api.espn.com/apis/site/v2/sports/';
   try{const detail=await get(root+'mma/ufc/summary?event='+encodeURIComponent(ufcEvent.id));if(detail?.header?.competitions?.length||detail?.competitions?.length)data={...ufcEvent,...detail}}catch(e){}
-  ufcFights=data.header?.competitions||data.competitions||ufcEvent.competitions||[];
+  // Reject late responses from an earlier event or a different sport.
+  if(sport!=='ufc'||String(ufcEvent?.id)!==eventId)return;
+  const candidates=[data.header?.competitions,data.competitions,ufcEvent.competitions];
+  ufcFights=candidates.find(x=>Array.isArray(x)&&x.length>0)||[];
   if(!ufcFights.length){$('results').innerHTML='<div class="panel"><h2>No individual fights returned</h2><p class="desc">The event is available, but its fight card is missing from this feed.</p></div>';return}
   $('dataStatus').textContent=ufcFights.length+' individual bouts · ESPN event feed';
   $('results').innerHTML='<section class="panel v50-card" id="v50-card"><h2>🏆 Top 3 fighters to win</h2><p class="desc">Checking every matchup for opponent quality, sample size and verified statistics…</p></section><div class="panel"><h2>🥊 Choose a fight</h2>'+ufcFights.map((f,i)=>'<button class="game" data-bout="'+i+'"><span><strong>'+escapeHtml(ufcBoutName(f,i))+'</strong><small>'+escapeHtml(f.status?.type?.description||'Scheduled')+'</small></span><span>›</span></button>').join('')+'</div>';
   v50RankCard(ufcFights);
   document.querySelectorAll('[data-bout]').forEach(x=>x.onclick=()=>openUFCBout(+x.dataset.bout));
- }catch(e){$('results').innerHTML='<div class="panel err">UFC card unavailable: '+escapeHtml(e.message)+'</div>'}
+ }catch(e){if(sport==='ufc'&&String(ufcEvent?.id)===eventId)$('results').innerHTML='<div class="panel err">UFC card unavailable: '+escapeHtml(e.message)+'</div>'}
  finally{b.disabled=false;b.textContent='Refresh fight card'}
 }
 
