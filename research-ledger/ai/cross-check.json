@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-21T00:17:24.010636+00:00",
+  "providers": {
+    "cloudflare": {
+      "status": "not-configured"
+    },
+    "gemini": {
+      "status": "not-configured"
+    },
+    "groq": {
+      "status": "not-configured"
+    }
+  },
+  "availableProviders": [],
+  "crossCheckComplete": false,
+  "evidence": {
+    "savedForecasts": 48,
+    "savedFinalOutcomes": 0,
+    "evaluationSummary": {
+      "gamesAvailable": 951,
+      "validPregamePredictions": 48,
+      "scoredBaselinePredictions": 0,
+      "scoredCandidatePredictions": 0,
+      "pairedSample": 0,
+      "unscoredPredictions": 48,
+      "rejectedRecords": 0
+    },
+    "learningBySport": {},
+    "recentForecasts": [
+      {
+        "gameKey": "nhl:401892775",
+        "predictedAt": "2026-11-20T23:37:03.216913+00:00",
+        "baselineProbability": 0.526264461242334
+      },
+      {
+        "gameKey": "nhl:401892776",
+        "predictedAt": "2026-11-20T23:37:03.216913+00:00",
+        "baselineProbability": 0.6065794906848672
+      },
+      {
+        "gameKey": "nhl:401892777",
+        "predictedAt": "2026-11-20T23:37:03.216913+00:00",
+        "baselineProbability": 0.5745733441617801
+      },
+      {
+        "gameKey": "nhl:401892778",
+        "predictedAt": "2026-11-20T23:37:03.216913+00:00",
+        "baselineProbability": 0.546479953633083
+      },
+      {
+        "gameKey": "nhl:401892779",
+        "predictedAt": "2026-11-20T23:37:03.216913+00:00",
+        "baselineProbability": 0.3873510559959527
+      }
+    ]
+  },
+  "conclusion": "AI reviews are advisory and cannot prove model accuracy or override immutable forecasts.",
+  "productionModelChanged": false
+}
