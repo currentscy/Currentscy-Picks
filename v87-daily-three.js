@@ -2,7 +2,7 @@
 (()=>{'use strict';
 const ID='v87-daily-three', TZ='America/Los_Angeles', API='https://site.api.espn.com/apis/site/v2/sports/basketball/nba/';
 const byId=id=>document.getElementById(id);
-const dayKey=d=>new Intl.DateTimeFormat('en-CA',{timeZone:TZ,year:'numeric',month:'2-digit',day:'2-digit'}).format(d).replace(/\D/g,'');
+const dayKey=d=>{const p=Object.fromEntries(new Intl.DateTimeFormat('en-US',{timeZone:TZ,year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(d).map(x=>[x.type,x.value]));return p.year+p.month+p.day};
 const safeDate=d=>{const n=new Date(d);return Number.isFinite(n.getTime())?n:null};
 const model=()=>window.CurrentscyNBAModel;
 let cacheDay='', lastFetch=0, loading=false, games=[], error='', generation=0;
