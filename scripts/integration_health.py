@@ -21,6 +21,9 @@ def status(name,filename,timestamp,now,ttl):
  data=load(filename)
  if data is None:return {"name":name,"state":"missing","path":filename}
  observed=date(data.get(timestamp))
+ if name=="stage5" and not observed:
+  entries=data.get("entries",[])
+  observed=max((d for x in entries if isinstance(x,dict) for d in [date(x.get("sourceObservedAt"))] if d),default=None)
  if not observed:return {"name":name,"state":"invalid-timestamp","path":filename}
  age=(now-observed).total_seconds()/3600
  return {"name":name,"state":"ready" if -1<=age<=ttl else "stale",
@@ -28,17 +31,17 @@ def status(name,filename,timestamp,now,ttl):
 def build(now=None):
  now=now or dt.datetime.now(UTC)
  definitions=[
-  ("stage1","stage1/latest.json","generatedAt",12),
+  ("stage1","stage1/latest.json","collectedAt",12),
   ("stage2","stage2/latest.json","generatedAt",12),
   ("stage3","stage3/evaluation.json","generatedAt",2),
   ("stage4","stage4/report.json","generatedAt",12),
-  ("stage5","stage5/manifest.json","generatedAt",12),
+  ("stage5","stage5/manifest.json","sourceObservedAt",12),
   ("eventLedger","unified-events.json","updatedAt",12),
   ("coverage","unified-coverage.json","updatedAt",12),
   ("validation","validation-dashboard.json","generatedAt",2),
   ("learning","learning/report.json","generatedAt",2),
   ("forecastComparison","forecast-vs-results.json","generatedAt",2),
-  ("researchConsistency","feedback-health.json","generatedAt",12),
+  ("researchConsistency","feedback-health.json","asOf",12),
   ("ai","ai/latest.json","generatedAt",2)]
  layers={k:status(k,p,t,now,h) for k,p,t,h in definitions}
  predictions=load("stage3/pregame-predictions.json") or []
