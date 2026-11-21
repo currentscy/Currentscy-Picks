@@ -46,5 +46,13 @@ class ReconcileTests(unittest.TestCase):
         r = reconcile(fixture(), [a, b])
         self.assertEqual(r["summary"]["conflicts"], 1)
         self.assertTrue(all(not x["modelEligible"] for x in r["games"][0]["observations"]))
+    def test_future_effective_time_rejected(self):
+        o=obs()
+        o["effectiveAt"]="2026-11-20T11:00:00Z"
+        self.assertEqual(reconcile(fixture(),[o])["summary"]["rejectedObservations"],1)
+    def test_nonfinite_player_stat_rejected(self):
+        o=obs()
+        o.update(kind="player-stat",statName="yards",value=float("nan"))
+        self.assertEqual(reconcile(fixture(),[o])["summary"]["rejectedObservations"],1)
 if __name__ == "__main__":
     unittest.main()
