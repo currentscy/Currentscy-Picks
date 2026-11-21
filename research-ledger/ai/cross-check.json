@@ -1,9 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T00:29:57.688469+00:00",
+  "generatedAt": "2026-11-21T00:58:39.581545+00:00",
   "providers": {
     "cloudflare": {
-      "status": "not-configured"
+      "status": "error",
+      "httpStatus": 403
     },
     "gemini": {
       "status": "not-configured"
