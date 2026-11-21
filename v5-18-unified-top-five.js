@@ -3,7 +3,7 @@
 const css=`
 #v59WeeklyResults,#v87-daily-three{border-left:0!important;padding:0!important;margin:0!important}
 #v59WeeklyPanel,#v87-daily-three{max-width:100%;box-sizing:border-box}
-#v59WeeklyResults>.leg,#v87-daily-three>.v87-three-leg{display:none!important}
+#v59WeeklyResults.cp5-ready>.leg,#v87-daily-three.cp5-ready>.v87-three-leg{display:none!important}
 #v59WeeklyResults>.desc,#v87-daily-three>.v87-three-note{display:none!important}
 .cp5-list{margin:0!important;padding:0!important;border:0!important;background:transparent!important}
 .cp5-item{padding:11px 0 10px!important;border:0!important;border-bottom:1px solid #343a44!important;margin:0!important;background:transparent!important;box-shadow:none!important;min-height:0!important}
@@ -19,7 +19,7 @@ const css=`
 .cp5-details{margin:4px 0 0 33px;font-size:11px;color:#b6bfcb}
 .cp5-details summary{color:#cba979;cursor:pointer;min-height:26px;display:flex;align-items:center}
 .cp5-details p{line-height:1.45;margin:5px 0}
-#v59WeeklyResults>.cp-pick,#v87-daily-three>.cp-pick{display:none!important}
+#v59WeeklyResults.cp5-ready>.cp-pick,#v87-daily-three.cp5-ready>.cp-pick{display:none!important}
 #v59WeeklyResults>.cp5-list .cp5-item,#v87-daily-three>.cp5-list .cp5-item{display:block!important}
 #v87-daily-three{padding:12px!important}
 #v87-daily-three .v87-three-note{display:none!important}
@@ -62,11 +62,11 @@ function extract(host,sport){
 function refresh(){
  const sport=document.body?.dataset?.sport,host=sport==='nba'?document.getElementById('v87-daily-three'):document.getElementById('v59WeeklyResults');
  if(!host||!['nfl','ncaa','nba'].includes(sport))return;
- const data=extract(host,sport);if(!data||host.dataset.cp5Signature===data.signature)return;
+ const data=extract(host,sport);if(!data){host.classList.remove('cp5-ready');host.querySelector(':scope > .cp5-list')?.remove();delete host.dataset.cp5Signature;return;}if(host.dataset.cp5Signature===data.signature)return;
  host.dataset.cp5Signature=data.signature;
  host.querySelector(':scope > .cp5-list')?.remove();
  const list=el('div','cp5-list');data.parsed.forEach(p=>list.append(build(p)));
- host.append(list);
+ host.append(list);host.classList.toggle('cp5-ready',list.children.length>0);
 }
 let queued=false;
 function queue(){if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;refresh()})}
