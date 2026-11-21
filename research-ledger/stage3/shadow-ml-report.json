@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "sport": "nba",
+  "modelType": "pregame-record-logistic-shadow",
+  "trainingDataSource": "immutable pregame forecast records and verified outcomes",
+  "result": {
+    "status": "insufficient_verified_training_data",
+    "eligibleRows": 9,
+    "minimumRows": 90,
+    "productionModelChanged": false
+  },
+  "liveModelActivated": false,
+  "websitePredictionsModified": false
+}
