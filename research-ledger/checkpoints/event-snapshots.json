@@ -78308,5 +78308,40 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "10a9a945770467dd50c188c501828da01b7b425e9a81f51bca6809fd093038bc",
+    "capturedAt": "2026-11-21T12:32:07.803253+00:00",
+    "observation": {
+      "eventKey": "soccer-england:401879233",
+      "sport": "soccer-england",
+      "scheduledStart": "2026-11-21T12:30Z",
+      "status": "STATUS_FIRST_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "382",
+          "name": "Manchester City",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "370",
+          "name": "Fulham",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-21T12:32:03.727403+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
