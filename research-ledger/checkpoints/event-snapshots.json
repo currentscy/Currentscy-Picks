@@ -78343,5 +78343,75 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "3e34b6e8ce3e8997a49fc22dfb571417389f7418c5435c4cabc61ac4d653a4a3",
+    "capturedAt": "2026-11-21T13:35:50.413665+00:00",
+    "observation": {
+      "eventKey": "soccer-england:401879233",
+      "sport": "soccer-england",
+      "scheduledStart": "2026-11-21T12:30Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "382",
+          "name": "Manchester City",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "370",
+          "name": "Fulham",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-21T13:35:44.199740+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "27133209ae246e1a3cfe7a80ccff59d2ba4897fb91b6170eb56bdabf52412d74",
+    "capturedAt": "2026-11-21T13:35:50.413665+00:00",
+    "observation": {
+      "eventKey": "soccer-spain:401882806",
+      "sport": "soccer-spain",
+      "scheduledStart": "2026-11-21T13:00Z",
+      "status": "STATUS_FIRST_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "96",
+          "name": "Alav\u00e9s",
+          "homeAway": "home",
+          "score": "1",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "90",
+          "name": "Deportivo",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-21T13:35:44.199740+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
