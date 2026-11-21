@@ -78203,5 +78203,110 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "0d7aa7f7aace879caa72041b4ca0b89af313780388f52388fb4b9c9ff5406d3a",
+    "capturedAt": "2026-11-21T06:13:30.322936+00:00",
+    "observation": {
+      "eventKey": "ncaa-football:401864542",
+      "sport": "ncaa-football",
+      "scheduledStart": "2026-11-21T02:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "2751",
+          "name": "Wyoming Cowboys",
+          "homeAway": "home",
+          "score": "17",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "167",
+          "name": "New Mexico Lobos",
+          "homeAway": "away",
+          "score": "24",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261120&limit=300",
+      "observedAt": "2026-11-21T06:13:17.353487+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "1ba3eb8211ae43b7fecb57e0b6ed539d919ab47cca111380d19dab0c864ba57d",
+    "capturedAt": "2026-11-21T06:13:30.322936+00:00",
+    "observation": {
+      "eventKey": "nba:401909312",
+      "sport": "nba",
+      "scheduledStart": "2026-11-21T03:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "7",
+          "name": "Denver Nuggets",
+          "homeAway": "home",
+          "score": "133",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "10",
+          "name": "Houston Rockets",
+          "homeAway": "away",
+          "score": "124",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=300",
+      "observedAt": "2026-11-21T06:13:17.353487+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "68fc7a4d1756dcf153048ff584c52b6e65bad68db01e77a1b0fd78551e617bca",
+    "capturedAt": "2026-11-21T06:13:30.322936+00:00",
+    "observation": {
+      "eventKey": "nba:401909313",
+      "sport": "nba",
+      "scheduledStart": "2026-11-21T03:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "13",
+          "name": "Los Angeles Lakers",
+          "homeAway": "home",
+          "score": "106",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "23",
+          "name": "Sacramento Kings",
+          "homeAway": "away",
+          "score": "104",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=300",
+      "observedAt": "2026-11-21T06:13:17.353487+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]

@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T05:17:50.231024+00:00",
+  "generatedAt": "2026-11-21T06:13:30.786645+00:00",
   "status": "awaiting-server-api-key",
   "aiEnabled": false,
   "analysis": null,
   "error": null,
   "model": null,
   "summary": {
-    "scored": 7,
-    "awaitingFinal": 42,
+    "scored": 9,
+    "awaitingFinal": 40,
     "invalidOutcomeEvidence": 0,
     "bySport": {
       "nba": {
-        "scored": 7,
-        "brier": 0.221508,
-        "incorrectWinnerCount": 2,
+        "scored": 9,
+        "brier": 0.207639,
+        "incorrectWinnerCount": 3,
         "recentMisses": [
           {
             "gameKey": "nba:401909308",
@@ -35,6 +35,16 @@
             "modelVersion": "nba-record-home-v1",
             "homeWon": 0,
             "brier": 0.301153
+          },
+          {
+            "gameKey": "nba:401909312",
+            "sport": "nba",
+            "start": "2026-11-21T03:00Z",
+            "predictedAt": "2026-11-20T23:35:20.740Z",
+            "baselineHomeWin": 0.49434,
+            "modelVersion": "nba-record-home-v1",
+            "homeWon": 1,
+            "brier": 0.255691
           }
         ]
       }
@@ -110,6 +120,26 @@
       "modelVersion": "nba-record-home-v1",
       "homeWon": 0,
       "brier": 0.180465
+    },
+    {
+      "gameKey": "nba:401909312",
+      "sport": "nba",
+      "start": "2026-11-21T03:00Z",
+      "predictedAt": "2026-11-20T23:35:20.740Z",
+      "baselineHomeWin": 0.49434,
+      "modelVersion": "nba-record-home-v1",
+      "homeWon": 1,
+      "brier": 0.255691
+    },
+    {
+      "gameKey": "nba:401909313",
+      "sport": "nba",
+      "start": "2026-11-21T03:00Z",
+      "predictedAt": "2026-11-20T23:35:20.740Z",
+      "baselineHomeWin": 0.75,
+      "modelVersion": "nba-record-home-v1",
+      "homeWon": 1,
+      "brier": 0.0625
     }
   ],
   "recentPending": [

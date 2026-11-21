@@ -1,31 +1,31 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-11-21T05:17:49.741443+00:00",
+  "generatedAt": "2026-11-21T06:13:30.150640+00:00",
   "total": {
-    "scored": 7,
+    "scored": 9,
     "paired": 0,
     "baseline": {
-      "n": 7,
-      "brier": 0.221508,
-      "logLoss": 0.636542,
+      "n": 9,
+      "brier": 0.207639,
+      "logLoss": 0.605334,
       "calibrationBins": [
         {
           "range": [
             0.4,
             0.6
           ],
-          "n": 3,
-          "meanPrediction": 0.4814,
-          "observedRate": 0.0
+          "n": 4,
+          "meanPrediction": 0.4847,
+          "observedRate": 0.25
         },
         {
           "range": [
             0.6,
             0.8
           ],
-          "n": 4,
-          "meanPrediction": 0.661,
-          "observedRate": 0.75
+          "n": 5,
+          "meanPrediction": 0.6788,
+          "observedRate": 0.8
         }
       ]
     },
@@ -36,30 +36,30 @@
   },
   "bySport": {
     "nba": {
-      "scored": 7,
+      "scored": 9,
       "paired": 0,
       "baseline": {
-        "n": 7,
-        "brier": 0.221508,
-        "logLoss": 0.636542,
+        "n": 9,
+        "brier": 0.207639,
+        "logLoss": 0.605334,
         "calibrationBins": [
           {
             "range": [
               0.4,
               0.6
             ],
-            "n": 3,
-            "meanPrediction": 0.4814,
-            "observedRate": 0.0
+            "n": 4,
+            "meanPrediction": 0.4847,
+            "observedRate": 0.25
           },
           {
             "range": [
               0.6,
               0.8
             ],
-            "n": 4,
-            "meanPrediction": 0.661,
-            "observedRate": 0.75
+            "n": 5,
+            "meanPrediction": 0.6788,
+            "observedRate": 0.8
           }
         ]
       },
@@ -71,30 +71,30 @@
   },
   "byKickoffMonth": {
     "2026-11": {
-      "scored": 7,
+      "scored": 9,
       "paired": 0,
       "baseline": {
-        "n": 7,
-        "brier": 0.221508,
-        "logLoss": 0.636542,
+        "n": 9,
+        "brier": 0.207639,
+        "logLoss": 0.605334,
         "calibrationBins": [
           {
             "range": [
               0.4,
               0.6
             ],
-            "n": 3,
-            "meanPrediction": 0.4814,
-            "observedRate": 0.0
+            "n": 4,
+            "meanPrediction": 0.4847,
+            "observedRate": 0.25
           },
           {
             "range": [
               0.6,
               0.8
             ],
-            "n": 4,
-            "meanPrediction": 0.661,
-            "observedRate": 0.75
+            "n": 5,
+            "meanPrediction": 0.6788,
+            "observedRate": 0.8
           }
         ]
       },
@@ -104,7 +104,7 @@
       "pairedLogLossDelta": null
     }
   },
-  "pendingOutcomes": 42,
+  "pendingOutcomes": 40,
   "rejected": [],
   "diagnostics": {
     "candidateCoverage": 0,
