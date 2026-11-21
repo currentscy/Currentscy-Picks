@@ -6,6 +6,7 @@ Never equate two entities solely because their display names match.
 """
 import datetime as dt
 import json
+import math
 import os
 from pathlib import Path
 
@@ -93,8 +94,11 @@ def reconcile(stage1, observations=None):
             rejected.append({"index": n, "reason": "observation not independently verified"}); continue
         if kind == "injury" and text(o.get("status")) not in ALLOWED_STATUSES:
             rejected.append({"index": n, "reason": "injury status unsupported"}); continue
-        if kind == "player-stat" and (not text(o.get("statName")) or not isinstance(o.get("value"), (int, float)) or isinstance(o.get("value"), bool)):
+        if kind == "player-stat" and (not text(o.get("statName")) or type(o.get("value")) not in (int, float) or not math.isfinite(o["value"])):
             rejected.append({"index": n, "reason": "player stat missing numeric value/name"}); continue
+        # Future-dated or out-of-order evidence must not enter the linked record.
+        if source_time > as_of:
+            rejected.append({"index": n, "reason": "effective time after observation"}); continue
         # Preserve evidence and contradictory observations. Do not resolve conflicts by freshness alone.
         normalized = {"provider": provider, "providerEventId": source_id,
                       "kind": kind, "entityId": entity, "entityProvider": text(o.get("entityProvider")) or provider,
