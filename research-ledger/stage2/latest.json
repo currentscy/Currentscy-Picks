@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-21T00:29:57.340313+00:00",
-  "stage1CollectedAt": "2026-11-21T00:29:28.489494+00:00",
+  "generatedAt": "2026-11-21T01:05:12.853905+00:00",
+  "stage1CollectedAt": "2026-11-21T01:04:43.981855+00:00",
   "games": [
     {
       "gameKey": "nba:401909305",
@@ -13,12 +13,12 @@
         {
           "teamKey": "nba:espn:1",
           "homeAway": "home",
-          "score": "14"
+          "score": "51"
         },
         {
           "teamKey": "nba:espn:30",
           "homeAway": "away",
-          "score": "21"
+          "score": "57"
         }
       ],
       "observations": [],
@@ -28,25 +28,25 @@
         "provider": "espn",
         "eventId": "401909305",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
       "gameKey": "nba:401909306",
       "sport": "nba",
       "start": "2026-11-21T00:30Z",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "completed": false,
       "teams": [
         {
           "teamKey": "nba:espn:17",
           "homeAway": "home",
-          "score": "0"
+          "score": "25"
         },
         {
           "teamKey": "nba:espn:19",
           "homeAway": "away",
-          "score": "0"
+          "score": "36"
         }
       ],
       "observations": [],
@@ -56,25 +56,25 @@
         "provider": "espn",
         "eventId": "401909306",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
       "gameKey": "nba:401909307",
       "sport": "nba",
       "start": "2026-11-21T00:30Z",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "completed": false,
       "teams": [
         {
           "teamKey": "nba:espn:5",
           "homeAway": "home",
-          "score": "0"
+          "score": "29"
         },
         {
           "teamKey": "nba:espn:11",
           "homeAway": "away",
-          "score": "0"
+          "score": "27"
         }
       ],
       "observations": [],
@@ -84,25 +84,25 @@
         "provider": "espn",
         "eventId": "401909307",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
       "gameKey": "nba:401909308",
       "sport": "nba",
       "start": "2026-11-21T00:30Z",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "completed": false,
       "teams": [
         {
           "teamKey": "nba:espn:8",
           "homeAway": "home",
-          "score": "0"
+          "score": "19"
         },
         {
           "teamKey": "nba:espn:28",
           "homeAway": "away",
-          "score": "0"
+          "score": "20"
         }
       ],
       "observations": [],
@@ -112,7 +112,7 @@
         "provider": "espn",
         "eventId": "401909308",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -140,7 +140,7 @@
         "provider": "espn",
         "eventId": "401909309",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -168,7 +168,7 @@
         "provider": "espn",
         "eventId": "401909310",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -196,7 +196,7 @@
         "provider": "espn",
         "eventId": "401909311",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -224,7 +224,7 @@
         "provider": "espn",
         "eventId": "401909312",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -252,7 +252,7 @@
         "provider": "espn",
         "eventId": "401909313",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -280,7 +280,7 @@
         "provider": "espn",
         "eventId": "401909314",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -308,7 +308,7 @@
         "provider": "espn",
         "eventId": "401909315",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -336,7 +336,7 @@
         "provider": "espn",
         "eventId": "401909316",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -364,7 +364,7 @@
         "provider": "espn",
         "eventId": "401910023",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -392,7 +392,7 @@
         "provider": "espn",
         "eventId": "401910024",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -420,7 +420,7 @@
         "provider": "espn",
         "eventId": "401910025",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -448,7 +448,7 @@
         "provider": "espn",
         "eventId": "401910026",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -476,7 +476,7 @@
         "provider": "espn",
         "eventId": "401910027",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -504,7 +504,7 @@
         "provider": "espn",
         "eventId": "401910028",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -532,7 +532,7 @@
         "provider": "espn",
         "eventId": "401910029",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -560,7 +560,7 @@
         "provider": "espn",
         "eventId": "401910030",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -588,7 +588,7 @@
         "provider": "espn",
         "eventId": "401910031",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -616,7 +616,7 @@
         "provider": "espn",
         "eventId": "401910032",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -644,7 +644,7 @@
         "provider": "espn",
         "eventId": "401910033",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -672,7 +672,7 @@
         "provider": "espn",
         "eventId": "401910034",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -700,7 +700,7 @@
         "provider": "espn",
         "eventId": "401910035",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -728,7 +728,7 @@
         "provider": "espn",
         "eventId": "401910036",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -756,7 +756,7 @@
         "provider": "espn",
         "eventId": "401910037",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -784,7 +784,7 @@
         "provider": "espn",
         "eventId": "401910038",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -812,7 +812,7 @@
         "provider": "espn",
         "eventId": "401910039",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -840,7 +840,7 @@
         "provider": "espn",
         "eventId": "401910040",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -868,7 +868,7 @@
         "provider": "espn",
         "eventId": "401910041",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -896,7 +896,7 @@
         "provider": "espn",
         "eventId": "401910042",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -924,7 +924,7 @@
         "provider": "espn",
         "eventId": "401910043",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -952,7 +952,7 @@
         "provider": "espn",
         "eventId": "401910044",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -980,7 +980,7 @@
         "provider": "espn",
         "eventId": "401910045",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1008,7 +1008,7 @@
         "provider": "espn",
         "eventId": "401856746",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1036,7 +1036,7 @@
         "provider": "espn",
         "eventId": "401856747",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1064,7 +1064,7 @@
         "provider": "espn",
         "eventId": "401856748",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1092,7 +1092,7 @@
         "provider": "espn",
         "eventId": "401856749",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1120,7 +1120,7 @@
         "provider": "espn",
         "eventId": "401856750",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1148,7 +1148,7 @@
         "provider": "espn",
         "eventId": "401856751",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1176,7 +1176,7 @@
         "provider": "espn",
         "eventId": "401856752",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1204,7 +1204,7 @@
         "provider": "espn",
         "eventId": "401856753",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1232,7 +1232,7 @@
         "provider": "espn",
         "eventId": "401856754",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1260,7 +1260,7 @@
         "provider": "espn",
         "eventId": "401856755",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1288,7 +1288,7 @@
         "provider": "espn",
         "eventId": "401856865",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1316,7 +1316,7 @@
         "provider": "espn",
         "eventId": "401856866",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1344,7 +1344,7 @@
         "provider": "espn",
         "eventId": "401856867",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1372,7 +1372,7 @@
         "provider": "espn",
         "eventId": "401856868",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1400,7 +1400,7 @@
         "provider": "espn",
         "eventId": "401856869",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261120&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1428,7 +1428,7 @@
         "provider": "espn",
         "eventId": "401856870",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1456,7 +1456,7 @@
         "provider": "espn",
         "eventId": "401856871",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1484,7 +1484,7 @@
         "provider": "espn",
         "eventId": "401856872",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1512,14 +1512,14 @@
         "provider": "espn",
         "eventId": "401858302",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
       "gameKey": "ncaa-football:401858303",
       "sport": "ncaa-football",
       "start": "2026-11-21T00:30Z",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "completed": false,
       "teams": [
         {
@@ -1540,7 +1540,7 @@
         "provider": "espn",
         "eventId": "401858303",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261120&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1568,7 +1568,7 @@
         "provider": "espn",
         "eventId": "401858304",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1596,7 +1596,7 @@
         "provider": "espn",
         "eventId": "401858305",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1624,7 +1624,7 @@
         "provider": "espn",
         "eventId": "401858306",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1652,7 +1652,7 @@
         "provider": "espn",
         "eventId": "401858307",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1680,7 +1680,7 @@
         "provider": "espn",
         "eventId": "401858308",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1708,7 +1708,7 @@
         "provider": "espn",
         "eventId": "401858309",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1736,7 +1736,7 @@
         "provider": "espn",
         "eventId": "401858310",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1764,7 +1764,7 @@
         "provider": "espn",
         "eventId": "401858527",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1792,7 +1792,7 @@
         "provider": "espn",
         "eventId": "401858528",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1820,7 +1820,7 @@
         "provider": "espn",
         "eventId": "401858529",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261120&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1848,7 +1848,7 @@
         "provider": "espn",
         "eventId": "401858530",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1876,7 +1876,7 @@
         "provider": "espn",
         "eventId": "401858531",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1904,7 +1904,7 @@
         "provider": "espn",
         "eventId": "401858532",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1932,7 +1932,7 @@
         "provider": "espn",
         "eventId": "401858533",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1960,7 +1960,7 @@
         "provider": "espn",
         "eventId": "401858534",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -1988,7 +1988,7 @@
         "provider": "espn",
         "eventId": "401858535",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2016,7 +2016,7 @@
         "provider": "espn",
         "eventId": "401860918",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2044,7 +2044,7 @@
         "provider": "espn",
         "eventId": "401860919",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2072,7 +2072,7 @@
         "provider": "espn",
         "eventId": "401860920",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2100,7 +2100,7 @@
         "provider": "espn",
         "eventId": "401860925",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2128,7 +2128,7 @@
         "provider": "espn",
         "eventId": "401861968",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2156,7 +2156,7 @@
         "provider": "espn",
         "eventId": "401862831",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2184,7 +2184,7 @@
         "provider": "espn",
         "eventId": "401862832",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2212,7 +2212,7 @@
         "provider": "espn",
         "eventId": "401862833",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2240,7 +2240,7 @@
         "provider": "espn",
         "eventId": "401862834",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2268,7 +2268,7 @@
         "provider": "espn",
         "eventId": "401862835",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2296,7 +2296,7 @@
         "provider": "espn",
         "eventId": "401862836",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2324,7 +2324,7 @@
         "provider": "espn",
         "eventId": "401864541",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2352,7 +2352,7 @@
         "provider": "espn",
         "eventId": "401864542",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261120&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2380,7 +2380,7 @@
         "provider": "espn",
         "eventId": "401864543",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2408,7 +2408,7 @@
         "provider": "espn",
         "eventId": "401864544",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2436,20 +2436,20 @@
         "provider": "espn",
         "eventId": "401864545",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261120&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
       "gameKey": "ncaa-football:401866468",
       "sport": "ncaa-football",
       "start": "2026-11-21T00:30Z",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "completed": false,
       "teams": [
         {
           "teamKey": "ncaa-football:espn:2649",
           "homeAway": "home",
-          "score": "0"
+          "score": "6"
         },
         {
           "teamKey": "ncaa-football:espn:189",
@@ -2464,7 +2464,7 @@
         "provider": "espn",
         "eventId": "401866468",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261120&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2492,7 +2492,7 @@
         "provider": "espn",
         "eventId": "401866470",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2520,7 +2520,7 @@
         "provider": "espn",
         "eventId": "401866471",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2548,7 +2548,7 @@
         "provider": "espn",
         "eventId": "401869929",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2576,7 +2576,7 @@
         "provider": "espn",
         "eventId": "401869938",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2604,7 +2604,7 @@
         "provider": "espn",
         "eventId": "401869946",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2632,7 +2632,7 @@
         "provider": "espn",
         "eventId": "401869953",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2660,7 +2660,7 @@
         "provider": "espn",
         "eventId": "401869958",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2688,7 +2688,7 @@
         "provider": "espn",
         "eventId": "401871077",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2716,7 +2716,7 @@
         "provider": "espn",
         "eventId": "401871078",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2744,7 +2744,7 @@
         "provider": "espn",
         "eventId": "401871079",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2772,7 +2772,7 @@
         "provider": "espn",
         "eventId": "401871080",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2800,7 +2800,7 @@
         "provider": "espn",
         "eventId": "401871081",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2828,7 +2828,7 @@
         "provider": "espn",
         "eventId": "401871101",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2856,7 +2856,7 @@
         "provider": "espn",
         "eventId": "401873067",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2884,7 +2884,7 @@
         "provider": "espn",
         "eventId": "401873068",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2912,7 +2912,7 @@
         "provider": "espn",
         "eventId": "401873069",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2940,7 +2940,7 @@
         "provider": "espn",
         "eventId": "401873070",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2968,7 +2968,7 @@
         "provider": "espn",
         "eventId": "401873071",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -2996,7 +2996,7 @@
         "provider": "espn",
         "eventId": "401873072",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3024,7 +3024,7 @@
         "provider": "espn",
         "eventId": "401873073",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3052,7 +3052,7 @@
         "provider": "espn",
         "eventId": "401873074",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3080,7 +3080,7 @@
         "provider": "espn",
         "eventId": "401873075",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3108,7 +3108,7 @@
         "provider": "espn",
         "eventId": "401873076",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3136,7 +3136,7 @@
         "provider": "espn",
         "eventId": "401873077",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3164,7 +3164,7 @@
         "provider": "espn",
         "eventId": "401873078",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3192,7 +3192,7 @@
         "provider": "espn",
         "eventId": "401892754",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3220,7 +3220,7 @@
         "provider": "espn",
         "eventId": "401892755",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3248,7 +3248,7 @@
         "provider": "espn",
         "eventId": "401892756",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3276,7 +3276,7 @@
         "provider": "espn",
         "eventId": "401892757",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3304,7 +3304,7 @@
         "provider": "espn",
         "eventId": "401892758",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3332,7 +3332,7 @@
         "provider": "espn",
         "eventId": "401892759",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3360,7 +3360,7 @@
         "provider": "espn",
         "eventId": "401892760",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3388,7 +3388,7 @@
         "provider": "espn",
         "eventId": "401892761",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3416,7 +3416,7 @@
         "provider": "espn",
         "eventId": "401892762",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3444,7 +3444,7 @@
         "provider": "espn",
         "eventId": "401892763",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3472,7 +3472,7 @@
         "provider": "espn",
         "eventId": "401892764",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3500,7 +3500,7 @@
         "provider": "espn",
         "eventId": "401892765",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3528,7 +3528,7 @@
         "provider": "espn",
         "eventId": "401892766",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3556,7 +3556,7 @@
         "provider": "espn",
         "eventId": "401892767",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3584,7 +3584,7 @@
         "provider": "espn",
         "eventId": "401892768",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3612,7 +3612,7 @@
         "provider": "espn",
         "eventId": "401892769",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3640,7 +3640,7 @@
         "provider": "espn",
         "eventId": "401892770",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3668,7 +3668,7 @@
         "provider": "espn",
         "eventId": "401892771",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3696,7 +3696,7 @@
         "provider": "espn",
         "eventId": "401892772",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3724,7 +3724,7 @@
         "provider": "espn",
         "eventId": "401892773",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3752,7 +3752,7 @@
         "provider": "espn",
         "eventId": "401892774",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3780,7 +3780,7 @@
         "provider": "espn",
         "eventId": "401892775",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3808,7 +3808,7 @@
         "provider": "espn",
         "eventId": "401892776",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3836,7 +3836,7 @@
         "provider": "espn",
         "eventId": "401892777",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3864,7 +3864,7 @@
         "provider": "espn",
         "eventId": "401892778",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3892,7 +3892,7 @@
         "provider": "espn",
         "eventId": "401892779",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3920,7 +3920,7 @@
         "provider": "espn",
         "eventId": "401892780",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3948,7 +3948,7 @@
         "provider": "espn",
         "eventId": "401878754",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -3976,7 +3976,7 @@
         "provider": "espn",
         "eventId": "401878755",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4004,7 +4004,7 @@
         "provider": "espn",
         "eventId": "401878756",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4032,7 +4032,7 @@
         "provider": "espn",
         "eventId": "401879232",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4060,7 +4060,7 @@
         "provider": "espn",
         "eventId": "401879233",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4088,7 +4088,7 @@
         "provider": "espn",
         "eventId": "401879234",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4116,7 +4116,7 @@
         "provider": "espn",
         "eventId": "401879235",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4144,7 +4144,7 @@
         "provider": "espn",
         "eventId": "401879236",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4172,7 +4172,7 @@
         "provider": "espn",
         "eventId": "401879237",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4200,7 +4200,7 @@
         "provider": "espn",
         "eventId": "401879238",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4228,7 +4228,7 @@
         "provider": "espn",
         "eventId": "401876395",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261120&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4256,7 +4256,7 @@
         "provider": "espn",
         "eventId": "401876396",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4284,7 +4284,7 @@
         "provider": "espn",
         "eventId": "401876397",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4312,7 +4312,7 @@
         "provider": "espn",
         "eventId": "401876398",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4340,7 +4340,7 @@
         "provider": "espn",
         "eventId": "401876399",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4368,7 +4368,7 @@
         "provider": "espn",
         "eventId": "401876400",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4396,7 +4396,7 @@
         "provider": "espn",
         "eventId": "401876401",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4424,7 +4424,7 @@
         "provider": "espn",
         "eventId": "401876402",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4452,7 +4452,7 @@
         "provider": "espn",
         "eventId": "401876403",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4480,7 +4480,7 @@
         "provider": "espn",
         "eventId": "401884728",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4508,7 +4508,7 @@
         "provider": "espn",
         "eventId": "401884729",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4536,7 +4536,7 @@
         "provider": "espn",
         "eventId": "401884730",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4564,7 +4564,7 @@
         "provider": "espn",
         "eventId": "401884731",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4592,7 +4592,7 @@
         "provider": "espn",
         "eventId": "401884732",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4620,7 +4620,7 @@
         "provider": "espn",
         "eventId": "401884733",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4648,7 +4648,7 @@
         "provider": "espn",
         "eventId": "401884734",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4676,7 +4676,7 @@
         "provider": "espn",
         "eventId": "401884735",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4704,7 +4704,7 @@
         "provider": "espn",
         "eventId": "401884736",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261120&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4732,7 +4732,7 @@
         "provider": "espn",
         "eventId": "401874960",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4760,7 +4760,7 @@
         "provider": "espn",
         "eventId": "401874967",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4788,7 +4788,7 @@
         "provider": "espn",
         "eventId": "401874981",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4816,7 +4816,7 @@
         "provider": "espn",
         "eventId": "401874989",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4844,7 +4844,7 @@
         "provider": "espn",
         "eventId": "401875001",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4872,7 +4872,7 @@
         "provider": "espn",
         "eventId": "401875008",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4900,7 +4900,7 @@
         "provider": "espn",
         "eventId": "401875009",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4928,7 +4928,7 @@
         "provider": "espn",
         "eventId": "401875047",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4956,7 +4956,7 @@
         "provider": "espn",
         "eventId": "401875056",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -4984,7 +4984,7 @@
         "provider": "espn",
         "eventId": "401875067",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5012,7 +5012,7 @@
         "provider": "espn",
         "eventId": "401877046",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5040,7 +5040,7 @@
         "provider": "espn",
         "eventId": "401877047",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5068,7 +5068,7 @@
         "provider": "espn",
         "eventId": "401877048",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5096,7 +5096,7 @@
         "provider": "espn",
         "eventId": "401877049",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5124,7 +5124,7 @@
         "provider": "espn",
         "eventId": "401877050",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5152,7 +5152,7 @@
         "provider": "espn",
         "eventId": "401877051",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5180,7 +5180,7 @@
         "provider": "espn",
         "eventId": "401877052",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261120&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5208,14 +5208,14 @@
         "provider": "espn",
         "eventId": "401877053",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261120&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
       "gameKey": "soccer-mexico:401877054",
       "sport": "soccer-mexico",
       "start": "2026-11-21T01:00Z",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_FIRST_HALF",
       "completed": false,
       "teams": [
         {
@@ -5236,7 +5236,7 @@
         "provider": "espn",
         "eventId": "401877054",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261120&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5264,7 +5264,7 @@
         "provider": "espn",
         "eventId": "401933728",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5292,7 +5292,7 @@
         "provider": "espn",
         "eventId": "401933729",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5320,7 +5320,7 @@
         "provider": "espn",
         "eventId": "401933730",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5348,7 +5348,7 @@
         "provider": "espn",
         "eventId": "401933731",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5376,7 +5376,7 @@
         "provider": "espn",
         "eventId": "401933732",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5404,7 +5404,7 @@
         "provider": "espn",
         "eventId": "401933733",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5432,7 +5432,7 @@
         "provider": "espn",
         "eventId": "401933738",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5460,7 +5460,7 @@
         "provider": "espn",
         "eventId": "401933739",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5488,7 +5488,7 @@
         "provider": "espn",
         "eventId": "401882797",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5516,7 +5516,7 @@
         "provider": "espn",
         "eventId": "401882798",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5544,7 +5544,7 @@
         "provider": "espn",
         "eventId": "401882799",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5572,7 +5572,7 @@
         "provider": "espn",
         "eventId": "401882800",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5600,7 +5600,7 @@
         "provider": "espn",
         "eventId": "401882801",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5628,7 +5628,7 @@
         "provider": "espn",
         "eventId": "401882802",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5656,7 +5656,7 @@
         "provider": "espn",
         "eventId": "401882803",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5684,7 +5684,7 @@
         "provider": "espn",
         "eventId": "401882804",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5712,7 +5712,7 @@
         "provider": "espn",
         "eventId": "401882805",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261120&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5740,7 +5740,7 @@
         "provider": "espn",
         "eventId": "401882806",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5768,7 +5768,7 @@
         "provider": "espn",
         "eventId": "401915294",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5796,7 +5796,7 @@
         "provider": "espn",
         "eventId": "401915295",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5824,7 +5824,7 @@
         "provider": "espn",
         "eventId": "401915296",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5852,7 +5852,7 @@
         "provider": "espn",
         "eventId": "401915297",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5880,7 +5880,7 @@
         "provider": "espn",
         "eventId": "401915298",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5908,7 +5908,7 @@
         "provider": "espn",
         "eventId": "401915299",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5936,7 +5936,7 @@
         "provider": "espn",
         "eventId": "401915300",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5964,7 +5964,7 @@
         "provider": "espn",
         "eventId": "401915379",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     },
     {
@@ -5992,7 +5992,7 @@
         "provider": "espn",
         "eventId": "401915380",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-21T00:29:28.489494+00:00"
+        "observedAt": "2026-11-21T01:04:43.981855+00:00"
       }
     }
   ],
