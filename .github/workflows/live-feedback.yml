@@ -60,6 +60,8 @@ jobs:
             python scripts/validation_dashboard.py
           fi
           python scripts/research_consistency.py
+      - name: Test multi-sport checkpoint archive and immutable forecast bridge
+        run: python -m unittest discover -s scripts -p 'test_checkpoint_archive.py'
       - name: Archive multi-sport observations and existing NBA checkpoint forecasts
         run: python scripts/checkpoint_archive.py
       - name: Test checkpoint-specific scoring and calibration
