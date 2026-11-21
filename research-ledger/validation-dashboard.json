@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T19:12:07.229563+00:00",
+  "generatedAt": "2026-11-21T19:28:26.856988+00:00",
   "fiveSteps": {
     "eventCollection": true,
     "pregameForecastCaptured": true,
@@ -36,25 +36,25 @@
     },
     "soccer-england": {
       "events": 23,
-      "completed": 13,
+      "completed": 20,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-france": {
       "events": 26,
-      "completed": 18,
+      "completed": 19,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-germany": {
       "events": 26,
-      "completed": 18,
+      "completed": 24,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-italy": {
       "events": 33,
-      "completed": 23,
+      "completed": 26,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
@@ -72,7 +72,7 @@
     },
     "soccer-spain": {
       "events": 29,
-      "completed": 20,
+      "completed": 22,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
@@ -102,7 +102,7 @@
     },
     "ufc": {
       "events": 12,
-      "completed": 0,
+      "completed": 9,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     }
