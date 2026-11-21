@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 5,
+  "gameKey": "soccer-ucl:401915298",
+  "sport": "soccer-ucl",
+  "phase": "pregame",
+  "scheduledStart": "2026-11-24T20:00Z",
+  "sourceObservedAt": "2026-11-21T01:19:30.510616+00:00",
+  "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
+  "teams": [
+    {
+      "sourceTeamId": "86",
+      "homeAway": "home",
+      "score": null
+    },
+    {
+      "sourceTeamId": "148",
+      "homeAway": "away",
+      "score": null
+    }
+  ],
+  "completed": false
+}
