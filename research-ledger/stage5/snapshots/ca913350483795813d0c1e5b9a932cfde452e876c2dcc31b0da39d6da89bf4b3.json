@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 5,
+  "gameKey": "soccer-mls:401933738",
+  "sport": "soccer-mls",
+  "phase": "pregame",
+  "scheduledStart": "2026-11-25T03:00Z",
+  "sourceObservedAt": "2026-11-21T01:52:11.427990+00:00",
+  "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261124&limit=300",
+  "teams": [
+    {
+      "sourceTeamId": "191",
+      "homeAway": "home",
+      "score": null
+    },
+    {
+      "sourceTeamId": "6077",
+      "homeAway": "away",
+      "score": null
+    }
+  ],
+  "completed": false
+}
