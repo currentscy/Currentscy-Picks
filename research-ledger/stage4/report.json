@@ -1,22 +1,22 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-11-21T20:41:52.463333+00:00",
+  "generatedAt": "2026-11-21T21:24:29.181590+00:00",
   "total": {
-    "scored": 10,
+    "scored": 11,
     "paired": 0,
     "baseline": {
-      "n": 10,
-      "brier": 0.193125,
-      "logLoss": 0.573569,
+      "n": 11,
+      "brier": 0.195327,
+      "logLoss": 0.578493,
       "calibrationBins": [
         {
           "range": [
             0.4,
             0.6
           ],
-          "n": 4,
-          "meanPrediction": 0.4847,
-          "observedRate": 0.25
+          "n": 5,
+          "meanPrediction": 0.4945,
+          "observedRate": 0.4
         },
         {
           "range": [
@@ -67,25 +67,49 @@
       "pairedCandidate": null,
       "pairedBrierDelta": null,
       "pairedLogLossDelta": null
-    }
-  },
-  "byKickoffMonth": {
-    "2026-11": {
-      "scored": 10,
+    },
+    "nhl": {
+      "scored": 1,
       "paired": 0,
       "baseline": {
-        "n": 10,
-        "brier": 0.193125,
-        "logLoss": 0.573569,
+        "n": 1,
+        "brier": 0.217346,
+        "logLoss": 0.627741,
         "calibrationBins": [
           {
             "range": [
               0.4,
               0.6
             ],
-            "n": 4,
-            "meanPrediction": 0.4847,
-            "observedRate": 0.25
+            "n": 1,
+            "meanPrediction": 0.5338,
+            "observedRate": 1.0
+          }
+        ]
+      },
+      "pairedBaseline": null,
+      "pairedCandidate": null,
+      "pairedBrierDelta": null,
+      "pairedLogLossDelta": null
+    }
+  },
+  "byKickoffMonth": {
+    "2026-11": {
+      "scored": 11,
+      "paired": 0,
+      "baseline": {
+        "n": 11,
+        "brier": 0.195327,
+        "logLoss": 0.578493,
+        "calibrationBins": [
+          {
+            "range": [
+              0.4,
+              0.6
+            ],
+            "n": 5,
+            "meanPrediction": 0.4945,
+            "observedRate": 0.4
           },
           {
             "range": [
@@ -104,7 +128,7 @@
       "pairedLogLossDelta": null
     }
   },
-  "pendingOutcomes": 49,
+  "pendingOutcomes": 48,
   "rejected": [],
   "diagnostics": {
     "candidateCoverage": 0,
