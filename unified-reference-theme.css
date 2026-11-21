@@ -1,0 +1,43 @@
+/* Unified reference-matched home, sport and matchup presentation. No data/logic modifications. */
+:root{--cp-gold:#e9b64e;--cp-bg:#080a0e;--cp-card:#171b23;--cp-accent:#e9b64e}
+body{background:#080a0e!important;color:#f8f9fc!important;font-family:system-ui,-apple-system,"Segoe UI",sans-serif!important}
+body::before{display:none!important}
+header{background:linear-gradient(110deg,#08090c,#14161c)!important;border:1px solid #a9793159!important;border-radius:17px!important;box-shadow:0 6px 24px #0009!important}
+header h1 span{color:var(--cp-gold)!important}
+header .badge{border:1px solid var(--cp-gold)!important;background:#0b0c0f!important;box-shadow:none!important}
+body[data-sport="nfl"]{--cp-accent:#289aff}
+body[data-sport="nba"]{--cp-accent:#b55bfa}
+body[data-sport="ncaa"]{--cp-accent:#e13e55}
+body[data-sport="nhl"]{--cp-accent:#b7d7ec}
+body[data-sport="mlb"]{--cp-accent:#397de0}
+body[data-sport="soccer"]{--cp-accent:#43ce5d}
+body[data-sport="tennis"]{--cp-accent:#a7e23b}
+body[data-sport="ufc"]{--cp-accent:#f3454c}
+.panel,#detail .panel,#results .panel{background:linear-gradient(145deg,#1d222b,#11151b)!important;border:1px solid #3c4552!important;border-radius:17px!important;box-shadow:0 5px 20px #0006!important}
+body[data-sport="home"] #homeIntro{padding:24px 5px 20px!important}
+body[data-sport="home"] #homeIntro h2{font-size:clamp(29px,6.5vw,48px)!important;font-weight:850!important;letter-spacing:-1.4px!important}
+body[data-sport="home"] #homeIntro p{font-size:clamp(12px,2.7vw,17px)!important;color:#b6bdc8!important;max-width:680px!important}
+body[data-sport="home"] #sports{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px!important;background:none!important;border:0!important;box-shadow:none!important;padding:6px 0 20px!important;height:auto!important;overflow:visible!important}
+body[data-sport="home"] #sports .sport{--tile:#348bff;display:flex!important;position:relative!important;flex-direction:row!important;justify-content:flex-start!important;align-items:center!important;text-align:left!important;min-width:0!important;width:100%!important;height:clamp(94px,15vw,132px)!important;min-height:94px!important;max-height:none!important;padding:12px clamp(8px,2.6vw,20px)!important;gap:clamp(6px,1.8vw,15px)!important;border:1px solid color-mix(in srgb,var(--tile) 70%,#58616d)!important;border-radius:18px!important;background:radial-gradient(ellipse at 0% 0%,color-mix(in srgb,var(--tile) 24%,transparent),transparent 70%),linear-gradient(135deg,#202530,#0e1117)!important;box-shadow:inset 2px 0 0 var(--tile),0 5px 16px #0007!important;font-size:clamp(14px,2.8vw,22px)!important;white-space:normal!important;overflow:hidden!important}
+body[data-sport="home"] #sports .sport:nth-child(2){--tile:#b24af5}
+body[data-sport="home"] #sports .sport:nth-child(3){--tile:#ed4153}
+body[data-sport="home"] #sports .sport:nth-child(4){--tile:#b6c4d4}
+body[data-sport="home"] #sports .sport:nth-child(5){--tile:#3b88fa}
+body[data-sport="home"] #sports .sport:nth-child(6){--tile:#49d75a}
+body[data-sport="home"] #sports .sport:nth-child(7){--tile:#b1e535}
+body[data-sport="home"] #sports .sport:nth-child(8){--tile:#ef404d}
+body[data-sport="home"] #sports .sport::after{content:"›"!important;position:absolute!important;inset:auto 10px auto auto!important;width:auto!important;height:auto!important;background:none!important;color:#f4ca73!important;opacity:1!important;font-size:27px!important;line-height:1!important}
+body[data-sport="home"] #sports .sport .cp-league-logo{width:clamp(36px,8vw,69px)!important;max-width:69px!important;height:clamp(42px,9vw,70px)!important;max-height:70px!important;flex:0 0 clamp(36px,8vw,69px)!important;object-fit:contain!important;margin:0!important}
+body[data-sport="home"] #sports .sport .cp-league-label{font-size:clamp(14px,2.9vw,23px)!important;font-weight:800!important;line-height:1.15!important;min-width:0!important;padding-right:10px!important}
+body[data-sport="home"] #sports .sport .cp-league-fallback.is-visible{width:clamp(36px,8vw,69px)!important;flex:0 0 clamp(36px,8vw,69px)!important}
+body:not([data-sport="home"]) #sports{border:0!important;box-shadow:none!important;background:transparent!important;border-radius:14px!important}
+body:not([data-sport="home"]) #sports .sport.active{border-color:var(--cp-accent)!important;box-shadow:inset 0 0 0 1px var(--cp-accent),0 0 11px color-mix(in srgb,var(--cp-accent) 40%,transparent)!important}
+body:not([data-sport="home"]) #detail .panel:first-child{border-top:2px solid var(--cp-accent)!important}
+.game{background:linear-gradient(150deg,#1d232d,#10141b)!important;border-color:#3b4553!important;border-radius:13px!important}
+.game:hover,.game:focus-visible{border-color:var(--cp-accent)!important}
+.cp5-num{color:#f2ca77!important;background:#302515!important}
+.cp5-metric{color:var(--cp-accent)!important}
+.cp5-item{border-color:#39414d!important}
+#matchTitle{overflow-wrap:anywhere}
+@media(max-width:550px){.wrap{padding:12px 10px 40px!important}body[data-sport="home"] #sports{gap:9px!important}body[data-sport="home"] #sports .sport{height:clamp(86px,21vw,112px)!important;min-height:86px!important;padding:9px 9px!important;border-radius:15px!important}body[data-sport="home"] #sports .sport::after{right:7px!important;font-size:22px!important}body[data-sport="home"] #homeIntro{padding:16px 4px 14px!important}.panel{padding:14px!important}}
+@media(max-width:360px){body[data-sport="home"] #sports .sport{gap:5px!important}body[data-sport="home"] #sports .sport .cp-league-label{font-size:13px!important}}
