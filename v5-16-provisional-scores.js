@@ -43,6 +43,7 @@ function setScore(card,model,winner,opponent,as,bs,a,b){
  const reason=a.pf-b.pa>b.pf-a.pa?winner+' scoring profile versus '+opponent+' points allowed':opponent+' scoring profile versus '+winner+' points allowed';
  note.textContent='Matchup factor: '+reason+' (recent completed games)';
  if(!note.parentNode)sub.after(note);
+ const details=card.querySelector('details');if(details){[...details.querySelectorAll('p')].forEach(p=>{if(!p.classList.contains('cp-projection-evidence'))p.remove()})}
  detail(card,'Offensive scoring: '+winner+' '+a.pf.toFixed(1)+' PPG; '+opponent+' '+b.pf.toFixed(1)+' PPG. Defensive points allowed: '+winner+' '+a.pa.toFixed(1)+'; '+opponent+' '+b.pa.toFixed(1)+'. Samples: '+a.n+' and '+b.n+' current-season completed games before this matchup. Model: recent scoring blend v1, home adjustment and shrinkage. Projected edge: '+predictedWinner+'. No verified player assignments, injuries, or Monte Carlo output in these inputs. Not a calibrated win probability.');
 }
 async function updateCard(card,path){
