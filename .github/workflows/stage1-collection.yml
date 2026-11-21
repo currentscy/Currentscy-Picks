@@ -33,6 +33,8 @@ jobs:
         run: python -m unittest discover -s scripts -p 'test_stage1_collector.py'
       - name: Test Stage 2 source reconciliation
         run: python -m unittest discover -s scripts -p 'test_stage2_reconcile.py'
+      - name: Test Stage 2 evidence readiness gate
+        run: python -m unittest discover -s scripts -p 'test_stage2_quality_gate.py'
       - name: Test Stage 3 pregame evaluation gates
         run: python -m unittest discover -s scripts -p 'test_stage3_evaluate.py'
       - name: Test Stage 4 paired model audit
@@ -66,6 +68,8 @@ jobs:
         run: python scripts/stage5_archive.py
       - name: Reconcile source identities and provenance
         run: python scripts/stage2_reconcile.py
+      - name: Report Stage 2 independent evidence readiness
+        run: python scripts/stage2_quality_gate.py
       - name: Evaluate archived pregame predictions (no live activation)
         run: python scripts/stage3_evaluate.py
       - name: Audit paired model results by sport and month (offline only)
