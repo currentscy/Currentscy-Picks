@@ -44,6 +44,8 @@ jobs:
         run: node scripts/live-nba-feedback.cjs
       - name: Test immutable forecast settlement
         run: python -m unittest discover -s scripts -p 'test_settle_archived_forecasts.py'
+      - name: Refresh source-attributed multi-sport scoreboard before settlement
+        run: python scripts/stage1_collect.py
       - name: Settle archived forecasts from completed multi-sport scoreboards
         run: python scripts/settle-archived-forecasts.py
       - name: Score live forecasts when source evidence is available
