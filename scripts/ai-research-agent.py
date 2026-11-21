@@ -119,7 +119,21 @@ def run():
       "analysis":analysis,"model":model})
   except (urllib.error.URLError,TimeoutError,ValueError,KeyError) as exc:
    report["status"]="ai-unavailable"
-   report["error"]=type(exc).__name__
+   if isinstance(exc,urllib.error.HTTPError):
+    status=exc.code
+    try:
+     payload=json.loads(exc.read(4096).decode("utf-8"))
+     err=payload.get("error",{})
+     category=str(err.get("code") or err.get("type") or "api_error")
+     # Never persist raw error messages; they can contain user/account details.
+     category="".join(c for c in category if c.isalnum() or c in "_-")[:70]
+    except (ValueError,UnicodeDecodeError):category="api_error"
+    report["error"]={"httpStatus":status,"category":category,
+      "nextAction":("Check API billing and credits" if status==429 else
+                    "Check key permissions and project access" if status in (401,403) else
+                    "Check API model access or request format" if status==400 else
+                    "Retry or inspect protected workflow logs")}
+   else:report["error"]={"category":type(exc).__name__}
  else:report["status"]="awaiting-server-api-key"
  OUT.parent.mkdir(parents=True,exist_ok=True)
  tmp=OUT.with_suffix(".tmp");tmp.write_text(json.dumps(report,indent=2)+"\n");tmp.replace(OUT)
