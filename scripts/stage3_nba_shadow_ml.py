@@ -7,6 +7,7 @@ substitute for verified player/matchup inputs.
 """
 import json
 import math
+import os
 from pathlib import Path
 from stage3_ml_readiness import load, timestamp
 
@@ -100,5 +101,14 @@ def main():
             known.add(e["eventKey"])
     result=evaluate(rows(games,load("stage3/pregame-predictions.json",[]),
                          load("stage3/verified-outcomes.json",[])))
-    print(json.dumps(result,indent=2))
+    output=ROOT/"research-ledger"/"stage3"/"shadow-ml-report.json"
+    output.parent.mkdir(parents=True,exist_ok=True)
+    report={"schemaVersion":1,"sport":"nba","modelType":"pregame-record-logistic-shadow",
+            "trainingDataSource":"immutable pregame forecast records and verified outcomes",
+            "result":result,"liveModelActivated":False,
+            "websitePredictionsModified":False}
+    temp=output.with_suffix(".tmp")
+    temp.write_text(json.dumps(report,indent=2)+"\n")
+    os.replace(temp,output)
+    print(json.dumps(report,indent=2))
 if __name__=="__main__":main()
