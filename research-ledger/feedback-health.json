@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-21T15:20:49.663817+00:00",
+  "asOf": "2026-11-21T16:06:39.006396+00:00",
   "pipeline": {
     "stage1Events": 214,
     "stage2Games": 214,
@@ -24,6 +24,16 @@
       },
       {
         "gameKey": "soccer-spain:401882806",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "soccer-italy:401874981",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "soccer-italy:401875056",
         "field": "completed",
         "reason": "collection disagreement or different polling times"
       }

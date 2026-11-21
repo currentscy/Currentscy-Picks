@@ -79043,5 +79043,460 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "7a01115e37b8bb46f4590c35c50d32b15adb083db6ce17dd260a561aa5e6f481",
+    "capturedAt": "2026-11-21T16:06:39.107101+00:00",
+    "observation": {
+      "eventKey": "soccer-italy:401874981",
+      "sport": "soccer-italy",
+      "scheduledStart": "2026-11-21T14:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "112",
+          "name": "Lazio",
+          "homeAway": "home",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "113",
+          "name": "Lecce",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-21T16:06:29.767379+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "bb2dcd68916426d491aa073745603566b65b60cf221585022d7ffa9850aec3b0",
+    "capturedAt": "2026-11-21T16:06:39.107101+00:00",
+    "observation": {
+      "eventKey": "soccer-italy:401875056",
+      "sport": "soccer-italy",
+      "scheduledStart": "2026-11-21T14:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "2572",
+          "name": "Como",
+          "homeAway": "home",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "2925",
+          "name": "Cagliari",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-21T16:06:29.767379+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "f9d7f31644353ac00b584c43d4b8e3ad2f86a5e2605645491ffd000fce030ec8",
+    "capturedAt": "2026-11-21T16:06:39.107101+00:00",
+    "observation": {
+      "eventKey": "soccer-germany:401884728",
+      "sport": "soccer-germany",
+      "scheduledStart": "2026-11-21T14:30Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "10388",
+          "name": "SV Elversberg",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "126",
+          "name": "SC Freiburg",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-21T16:06:29.767379+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "8d437b5c4d9123af4473f96614b922bc9fcd24037c1f2c7f09ff15f0be5f789b",
+    "capturedAt": "2026-11-21T16:06:39.107101+00:00",
+    "observation": {
+      "eventKey": "soccer-germany:401884731",
+      "sport": "soccer-germany",
+      "scheduledStart": "2026-11-21T14:30Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "268",
+          "name": "Borussia M\u00f6nchengladbach",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "124",
+          "name": "Borussia Dortmund",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-21T16:06:29.767379+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "e95632e839ef3b37063ff5a4a4379325fceced91c20d1bbef81d16d69ecda84f",
+    "capturedAt": "2026-11-21T16:06:39.107101+00:00",
+    "observation": {
+      "eventKey": "soccer-germany:401884732",
+      "sport": "soccer-germany",
+      "scheduledStart": "2026-11-21T14:30Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "598",
+          "name": "1. FC Union Berlin",
+          "homeAway": "home",
+          "score": "1",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "11420",
+          "name": "RB Leipzig",
+          "homeAway": "away",
+          "score": "3",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-21T16:06:29.767379+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "5d3462289c18db08a2fa2a238f8d5935ab8b1be30b225f5074595af1c0db90a1",
+    "capturedAt": "2026-11-21T16:06:39.107101+00:00",
+    "observation": {
+      "eventKey": "soccer-germany:401884734",
+      "sport": "soccer-germany",
+      "scheduledStart": "2026-11-21T14:30Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "125",
+          "name": "Eintracht Frankfurt",
+          "homeAway": "home",
+          "score": "1",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "7911",
+          "name": "TSG Hoffenheim",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-21T16:06:29.767379+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "99fd693055bdf06eae914d044889f0686f7186dd54cbf485bfd4ddeaee09bbb2",
+    "capturedAt": "2026-11-21T16:06:39.107101+00:00",
+    "observation": {
+      "eventKey": "soccer-germany:401884735",
+      "sport": "soccer-germany",
+      "scheduledStart": "2026-11-21T14:30Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "131",
+          "name": "Bayer Leverkusen",
+          "homeAway": "home",
+          "score": "4",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "3307",
+          "name": "SC Paderborn 07",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-21T16:06:29.767379+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "9a44f13828a378071b475bda683219fd7002a2197fd9dd44f9409a51127205a1",
+    "capturedAt": "2026-11-21T16:06:39.107101+00:00",
+    "observation": {
+      "eventKey": "soccer-england:401878754",
+      "sport": "soccer-england",
+      "scheduledStart": "2026-11-21T15:00Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "367",
+          "name": "Tottenham Hotspur",
+          "homeAway": "home",
+          "score": "1",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "373",
+          "name": "Ipswich Town",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-21T16:06:29.767379+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "7893b8d0412dd9766d37e9663f4a0f50d80d10fea0fa66b844cdc6759c70c7a5",
+    "capturedAt": "2026-11-21T16:06:39.107101+00:00",
+    "observation": {
+      "eventKey": "soccer-england:401878756",
+      "sport": "soccer-england",
+      "scheduledStart": "2026-11-21T15:00Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "362",
+          "name": "Aston Villa",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "366",
+          "name": "Sunderland",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-21T16:06:29.767379+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "acc8313cc5643edf6f5407492abdd0d6d7d54fca8ffb4b1cb56e008c88f5f080",
+    "capturedAt": "2026-11-21T16:06:39.107101+00:00",
+    "observation": {
+      "eventKey": "soccer-england:401879235",
+      "sport": "soccer-england",
+      "scheduledStart": "2026-11-21T15:00Z",
+      "status": "STATUS_HALFTIME",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "388",
+          "name": "Coventry City",
+          "homeAway": "home",
+          "score": "2",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "384",
+          "name": "Crystal Palace",
+          "homeAway": "away",
+          "score": "2",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-21T16:06:29.767379+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "a109908b78a213cf0e3a523f42dc0b85b0313fe3ebefb6c9fddb10a0a783ccaa",
+    "capturedAt": "2026-11-21T16:06:39.107101+00:00",
+    "observation": {
+      "eventKey": "soccer-england:401879236",
+      "sport": "soccer-england",
+      "scheduledStart": "2026-11-21T15:00Z",
+      "status": "STATUS_HALFTIME",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "363",
+          "name": "Chelsea",
+          "homeAway": "home",
+          "score": "1",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "357",
+          "name": "Leeds United",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-21T16:06:29.767379+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "206f98ea57c247597c515cca4c297e9a3b948d5c41500f565e6338b7a9c847a6",
+    "capturedAt": "2026-11-21T16:06:39.107101+00:00",
+    "observation": {
+      "eventKey": "soccer-england:401879238",
+      "sport": "soccer-england",
+      "scheduledStart": "2026-11-21T15:00Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "349",
+          "name": "AFC Bournemouth",
+          "homeAway": "home",
+          "score": "2",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "393",
+          "name": "Nottingham Forest",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-21T16:06:29.767379+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "3618466bdb26c47339c9a3eddccbc06397734621336ca61781deb897c37eaaee",
+    "capturedAt": "2026-11-21T16:06:39.107101+00:00",
+    "observation": {
+      "eventKey": "soccer-spain:401882799",
+      "sport": "soccer-spain",
+      "scheduledStart": "2026-11-21T15:15Z",
+      "status": "STATUS_HALFTIME",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "101",
+          "name": "Rayo Vallecano",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "94",
+          "name": "Valencia",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-21T16:06:29.767379+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
