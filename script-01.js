@@ -1651,7 +1651,7 @@ async function v59Weekly(){
  }
  games.sort((a,b)=>b.p-a.p);const top=games.slice(0,5);
  if(top.length<5)throw Error('Only '+games.length+' upcoming games have usable verified team records. Cannot safely construct five legs.');
- target.innerHTML=''+top.map((g,i)=>`<div class="leg"><strong>${i+1}. ${escapeHtml(g.name)}</strong> over ${escapeHtml(g.opponent)}<br><b>Rank score ${(g.p*100).toFixed(1)}/100</b> · uncalibrated · ${escapeHtml(dateText(g.date))} · ${g.home?'Home':'Away'}<br><small>Current-season records (home vs away): ${escapeHtml(g.records)}</small></div>`).join('')+'<p class="desc">No combined five-leg probability is displayed: these outcomes have not been jointly calibrated or validated.</p>';
+ target.innerHTML=''+top.map((g,i)=>`<div class="leg"><strong>${i+1}. ${escapeHtml(g.name)}</strong> over ${escapeHtml(g.opponent)}<br><b>Rank score ${(g.p*100).toFixed(1)}/100</b> · uncalibrated · ${escapeHtml(dateText(g.date))} · ${g.home?'Home':'Away'}<br><small>Current-season records (home vs away): ${escapeHtml(g.records)}</small></div>`).join('');
  }catch(e){target.textContent='Weekly ranking unavailable: '+e.message;}finally{btn.disabled=false;}
 }
 
