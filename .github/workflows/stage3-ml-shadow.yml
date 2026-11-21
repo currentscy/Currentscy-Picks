@@ -1,0 +1,31 @@
+name: Stage 3 ML shadow verification
+on:
+  push:
+    branches: [stage3-ml-validation]
+    paths:
+      - 'scripts/stage3_ml_readiness.py'
+      - 'scripts/stage3_nba_shadow_ml.py'
+      - 'scripts/test_stage3_nba_shadow_ml.py'
+      - '.github/workflows/stage3-ml-shadow.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Syntax and deterministic unit tests
+        run: |
+          python -m compileall -q scripts
+          python -m unittest discover -s scripts -p 'test_stage3_nba_shadow_ml.py' -v
+          python -m unittest discover -s scripts -p 'test_stage3_evaluate.py' -v
+          python -m unittest discover -s scripts -p 'test_learning_calibration.py' -v
+      - name: Audit real training eligibility
+        run: |
+          python scripts/stage3_ml_readiness.py
+          python scripts/stage3_nba_shadow_ml.py
