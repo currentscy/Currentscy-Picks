@@ -42,7 +42,11 @@ jobs:
           python -m unittest discover -s scripts -p 'test_research_consistency.py'
       - name: Capture actual pregame NBA model forecasts and completed outcomes
         run: node scripts/live-nba-feedback.cjs
-      - name: Test immutable forecast settlement\n        run: python -m unittest discover -s scripts -p 'test_settle_archived_forecasts.py'\n      - name: Settle archived forecasts from completed multi-sport scoreboards\n        run: python scripts/settle-archived-forecasts.py\n      - name: Score live forecasts when source evidence is available
+      - name: Test immutable forecast settlement
+        run: python -m unittest discover -s scripts -p 'test_settle_archived_forecasts.py'
+      - name: Settle archived forecasts from completed multi-sport scoreboards
+        run: python scripts/settle-archived-forecasts.py
+      - name: Score live forecasts when source evidence is available
         run: |
           if [ -f research-ledger/stage2/latest.json ]; then
             python scripts/stage3_evaluate.py
