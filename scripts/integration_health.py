@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Evidence-first integration report for every research/forecast/AI layer.
+"""Evidence-first integration report for every research and forecast layer.
 
 Only reports observed outputs. Never fabricates successful model activation.
 """
@@ -42,24 +42,17 @@ def build(now=None):
   ("learning","learning/report.json","generatedAt",2),
   ("forecastComparison","forecast-vs-results.json","generatedAt",2),
   ("researchConsistency","feedback-health.json","asOf",12),
-  ("ai","ai/latest.json","generatedAt",2)]
+  ("shadowML","learning/report.json","generatedAt",2)]
  layers={k:status(k,p,t,now,h) for k,p,t,h in definitions}
  predictions=load("stage3/pregame-predictions.json") or []
  outcomes=load("stage3/verified-outcomes.json") or []
  evaluation=load("stage3/evaluation.json") or {}
  learning=load("learning/report.json") or {}
- ai=load("ai/latest.json") or {}
  workflow=load("workflow-verification.json") or {}
- layers["ai"]["state"]=("connected" if ai.get("aiEnabled") is True and ai.get("status")=="ai-analysis-complete"
-  else "api-error" if ai.get("status")=="ai-unavailable"
-  else "not-configured" if ai.get("status")=="awaiting-server-api-key"
-  else layers["ai"]["state"])
- layers["ai"]["error"]=ai.get("error")
  return {"schemaVersion":1,"generatedAt":now.isoformat(),"layers":layers,
   "metrics":{"savedForecasts":len(predictions),"savedOutcomes":len(outcomes),
    "scoredForecasts":(evaluation.get("summary") or {}).get("scoredBaselinePredictions",0),
-   "shadowLearningScored":learning.get("scoredPredictions",0),
-   "aiResponding":layers["ai"]["state"]=="connected"},
+   "shadowLearningScored":learning.get("scoredPredictions",0)},
   "workflow":{"runId":workflow.get("runId"),"lastStatus":workflow.get("jobStatusAtCheckpoint")},
   "allLayersHealthy":all(x["state"] in ("ready","connected") for x in layers.values()),
   "endToEndScoringVerified":(evaluation.get("summary") or {}).get("scoredBaselinePredictions",0)>0,
