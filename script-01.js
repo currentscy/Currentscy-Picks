@@ -1412,6 +1412,9 @@ let ufcFights=[];
 function ufcNames(f){return (f.competitors||[]).map(x=>x.athlete?.displayName||x.athlete?.fullName||x.team?.displayName||x.displayName).filter(Boolean)}
 function ufcBoutName(f,i){const n=ufcNames(f);return n.length>=2?n.slice(0,2).join(' vs '):(f.name||f.shortName||'Bout '+(i+1))}
 function openUFCEvent(e){
+ // Invalidate any pending soccer rendering and remove its summary before the
+ // shared detail panel is reused for UFC. UFC never displays soccer trials.
+ document.getElementById('cpSoccerMatchSummary')?.remove();
  ufcEvent=e;chosen=e;
  // Clear shared sport panels before rendering the fight card. These containers
  // are reused by football, basketball and soccer and can retain stale content.
@@ -1590,6 +1593,7 @@ function v49ResearchPicks(a,b,e){
 }
 let ufcSelectionToken=0;
 async function openUFCBout(i){
+ document.getElementById('cpSoccerMatchSummary')?.remove();
  const token=++ufcSelectionToken,f=ufcFights[i];if(!f)return;
  const c=f.competitors||[];
  $('matchTitle').textContent=ufcBoutName(f,i);$('matchDate').textContent=dateText(ufcEvent.date)+' · UFC';
