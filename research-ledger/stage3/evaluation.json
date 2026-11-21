@@ -1,27 +1,27 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-11-21T04:18:18.497669+00:00",
+  "generatedAt": "2026-11-21T05:17:49.718623+00:00",
   "summary": {
     "gamesAvailable": 968,
     "validPregamePredictions": 49,
-    "scoredBaselinePredictions": 6,
+    "scoredBaselinePredictions": 7,
     "scoredCandidatePredictions": 0,
     "pairedSample": 0,
-    "unscoredPredictions": 43,
+    "unscoredPredictions": 42,
     "rejectedRecords": 0
   },
   "baseline": {
-    "n": 6,
-    "brier": 0.228349,
-    "logLoss": 0.650456,
+    "n": 7,
+    "brier": 0.221508,
+    "logLoss": 0.636542,
     "calibrationBins": [
       {
         "range": [
           0.4,
           0.6
         ],
-        "n": 2,
-        "meanPrediction": 0.5097,
+        "n": 3,
+        "meanPrediction": 0.4814,
         "observedRate": 0.0
       },
       {

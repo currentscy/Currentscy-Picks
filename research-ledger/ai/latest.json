@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T04:18:19.046192+00:00",
+  "generatedAt": "2026-11-21T05:17:50.231024+00:00",
   "status": "awaiting-server-api-key",
   "aiEnabled": false,
   "analysis": null,
   "error": null,
   "model": null,
   "summary": {
-    "scored": 6,
-    "awaitingFinal": 43,
+    "scored": 7,
+    "awaitingFinal": 42,
     "invalidOutcomeEvidence": 0,
     "bySport": {
       "nba": {
-        "scored": 6,
-        "brier": 0.228349,
+        "scored": 7,
+        "brier": 0.221508,
         "incorrectWinnerCount": 2,
         "recentMisses": [
           {
@@ -100,6 +100,16 @@
       "modelVersion": "nba-record-home-v1",
       "homeWon": 1,
       "brier": 0.112933
+    },
+    {
+      "gameKey": "nba:401909311",
+      "sport": "nba",
+      "start": "2026-11-21T02:30Z",
+      "predictedAt": "2026-11-20T23:35:20.740Z",
+      "baselineHomeWin": 0.42481,
+      "modelVersion": "nba-record-home-v1",
+      "homeWon": 0,
+      "brier": 0.180465
     }
   ],
   "recentPending": [

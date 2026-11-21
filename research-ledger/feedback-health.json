@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-21T04:18:18.568102+00:00",
+  "asOf": "2026-11-21T05:17:49.791779+00:00",
   "pipeline": {
     "stage1Events": 214,
     "stage2Games": 214,
@@ -10,9 +10,9 @@
     "unifiedEventHistory": 968,
     "sportsWithCoverageChecks": 17,
     "liveModelForecasts": 49,
-    "ESPNFinalOutcomes": 6,
-    "stage3Scored": 6,
-    "stage4Scored": 6
+    "ESPNFinalOutcomes": 7,
+    "stage3Scored": 7,
+    "stage4Scored": 7
   },
   "verification": {
     "sameProviderGamesCompared": 188,
@@ -53,7 +53,17 @@
         "reason": "collection disagreement or different polling times"
       },
       {
+        "gameKey": "ncaa-football:401858529",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
         "gameKey": "ncaa-football:401864545",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "nba:401909311",
         "field": "completed",
         "reason": "collection disagreement or different polling times"
       }
