@@ -58,6 +58,8 @@ jobs:
             python scripts/validation_dashboard.py
           fi
           python scripts/research_consistency.py
+      - name: Archive multi-sport observations and existing NBA checkpoint forecasts
+        run: python scripts/checkpoint_archive.py
       - name: Test checkpoint-specific scoring and calibration
         run: python -m unittest discover -s scripts -p 'test_checkpoint_evaluation.py'
       - name: Evaluate checkpoint archives without changing live models
