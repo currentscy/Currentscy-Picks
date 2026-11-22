@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {normalizeHistory,collectUpcomingGame} from './collect-both-teams.mjs';
-const game={gameKey:'nba:future',sport:'nba',start:'2026-11-25T01:00:00Z',teams:[{teamKey:'nba:espn:1'},{teamKey:'nba:espn:2'}]};
+const game={gameKey:'nba:future',sport:'nba',season:'2026',start:'2026-11-25T01:00:00Z',teams:[{teamKey:'nba:espn:1'},{teamKey:'nba:espn:2'}]};
 const row=id=>({teamId:id,playerId:'player'+id,sourceEventId:'past'+id,sourceUrl:'https://example.org',historicalGameStart:'2026-11-19T01:00:00Z',season:'2026',stats:{PTS:'20'}});
 const asOf='2026-11-21T20:00:00Z';
 test('requires both teams to have player evidence',()=>{assert.equal(normalizeHistory(game,[row('1')],asOf).ok,false);assert.equal(normalizeHistory(game,[row('1'),row('2')],asOf).ok,true)});
@@ -10,7 +10,7 @@ test('rejects wrong teams and missing player identity',()=>{assert.equal(normali
 test('does not invent confirmed lineups or injuries',()=>{const r=normalizeHistory(game,[row('1'),row('2')],asOf);assert.ok(r.observations.every(o=>o.lineupStatus==='unknown'&&o.injuryStatus==='unverified'&&o.confirmedForUpcomingGame===false))});
 test('collects separate historical player stats from both teams',async()=>{
  const fetcher=async url=>({ok:true,json:async()=>{
-  if(url.endsWith('/schedule')){const team=url.match(/teams\/(\d+)\/schedule/)[1];return {events:[{id:'past'+team,date:'2026-11-19T01:00:00Z',competitions:[{status:{type:{completed:true}}}]}]};}
+  if(url.endsWith('/schedule')){const team=url.match(/teams\/(\d+)\/schedule/)[1];return {events:[{id:'past'+team,season:{year:2026},date:'2026-11-19T01:00:00Z',competitions:[{status:{type:{completed:true}}}]}]};}
   const team=url.match(/event=past(\d+)/)[1];return {boxscore:{players:[{team:{id:team},statistics:[{keys:['PTS'],athletes:[{athlete:{id:'player'+team},stats:['20']}]}]}]}]}};
  }});
  const r=await collectUpcomingGame(game,{fetcher,asOf,maxHistory:1});
