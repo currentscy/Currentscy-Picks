@@ -96408,5 +96408,320 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "56d8835788fdb6bc47c60492093c1c9107b948e9214cfe8d4f1a98eaf604b582",
+    "capturedAt": "2026-11-22T05:43:01.243994+00:00",
+    "observation": {
+      "eventKey": "ncaa-football:401856872",
+      "sport": "ncaa-football",
+      "scheduledStart": "2026-11-22T02:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2628",
+          "name": "TCU Horned Frogs",
+          "homeAway": "home",
+          "score": "17",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "254",
+          "name": "Utah Utes",
+          "homeAway": "away",
+          "score": "31",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-22T05:42:49.556225+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "e02c6e91eb84c62bd22676f8c525dd2844acd79661bfe672ad57463981be2483",
+    "capturedAt": "2026-11-22T05:43:01.243994+00:00",
+    "observation": {
+      "eventKey": "ncaa-football:401860925",
+      "sport": "ncaa-football",
+      "scheduledStart": "2026-11-22T02:30Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "68",
+          "name": "Boise State Broncos",
+          "homeAway": "home",
+          "score": "20",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "21",
+          "name": "San Diego State Aztecs",
+          "homeAway": "away",
+          "score": "13",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-22T05:42:49.556225+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "728d527bbc322c94b95841d55626973fe117647eecb335b1b7d3f3b443b2d516",
+    "capturedAt": "2026-11-22T05:43:01.243994+00:00",
+    "observation": {
+      "eventKey": "nba:401910028",
+      "sport": "nba",
+      "scheduledStart": "2026-11-22T03:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "23",
+          "name": "Sacramento Kings",
+          "homeAway": "home",
+          "score": "97",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "2",
+          "name": "Boston Celtics",
+          "homeAway": "away",
+          "score": "96",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-22T05:42:49.556225+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "df66daa8caeda5401959d1621dba99d2f8b66e27dbe0492b5f400b252d80b6f8",
+    "capturedAt": "2026-11-22T05:43:01.243994+00:00",
+    "observation": {
+      "eventKey": "nhl:401892766",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-22T03:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "22",
+          "name": "Vancouver Canucks",
+          "homeAway": "home",
+          "score": "3",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "30",
+          "name": "Minnesota Wild",
+          "homeAway": "away",
+          "score": "3",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-22T05:42:49.556225+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "dc037d2443a06d19f01e973ba192e73f7f11c01044868f6a6f540c8557cd8df4",
+    "capturedAt": "2026-11-22T05:43:01.243994+00:00",
+    "observation": {
+      "eventKey": "nhl:401892767",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-22T03:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "18",
+          "name": "San Jose Sharks",
+          "homeAway": "home",
+          "score": "4",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "124292",
+          "name": "Seattle Kraken",
+          "homeAway": "away",
+          "score": "3",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-22T05:42:49.556225+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "494f4a9e6a5ebd08fe1cf7a1086bd87880b94268c7bacc1574b883d9386fe3e4",
+    "capturedAt": "2026-11-22T05:43:01.243994+00:00",
+    "observation": {
+      "eventKey": "soccer-mexico:401877048",
+      "sport": "soccer-mexico",
+      "scheduledStart": "2026-11-22T03:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "232",
+          "name": "Tigres UANL",
+          "homeAway": "home",
+          "score": "1",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "227",
+          "name": "Am\u00e9rica",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-22T05:42:49.556225+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "3e4f5448af09d815431c05a47f95b696a368ca19d52515739471a33d71f9718b",
+    "capturedAt": "2026-11-22T05:43:01.243994+00:00",
+    "observation": {
+      "eventKey": "ncaa-football:401856870",
+      "sport": "ncaa-football",
+      "scheduledStart": "2026-11-22T03:30Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "9",
+          "name": "Arizona State Sun Devils",
+          "homeAway": "home",
+          "score": "24",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "197",
+          "name": "Oklahoma State Cowboys",
+          "homeAway": "away",
+          "score": "14",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-22T05:42:49.556225+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "f3be88ab38a9ff0eb20409547d1c802c1b87b1cec63a7336411ee81672dbba05",
+    "capturedAt": "2026-11-22T05:43:01.243994+00:00",
+    "observation": {
+      "eventKey": "ncaa-football:401860919",
+      "sport": "ncaa-football",
+      "scheduledStart": "2026-11-22T03:30Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "204",
+          "name": "Oregon State Beavers",
+          "homeAway": "home",
+          "score": "10",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "328",
+          "name": "Utah State Aggies",
+          "homeAway": "away",
+          "score": "17",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-22T05:42:49.556225+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "0462960d3f01c423336f979b59e146c23003d1e48ee82c3f686c4e1f7e858d73",
+    "capturedAt": "2026-11-22T05:43:01.243994+00:00",
+    "observation": {
+      "eventKey": "ncaa-football:401864541",
+      "sport": "ncaa-football",
+      "scheduledStart": "2026-11-22T03:30Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2440",
+          "name": "Nevada Wolf Pack",
+          "homeAway": "home",
+          "score": "13",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "62",
+          "name": "Hawai'i Rainbow Warriors",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-22T05:42:49.556225+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
