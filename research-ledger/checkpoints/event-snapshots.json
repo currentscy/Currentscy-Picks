@@ -97108,5 +97108,40 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "fae5d16a4827b2a690583923b91b165033593560b34634df1b111f4ea9ad20ae",
+    "capturedAt": "2026-11-22T12:52:04.596971+00:00",
+    "observation": {
+      "eventKey": "soccer-italy:401875008",
+      "sport": "soccer-italy",
+      "scheduledStart": "2026-11-22T11:30Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "111",
+          "name": "Juventus",
+          "homeAway": "home",
+          "score": "2",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "17530",
+          "name": "Venezia",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T12:51:56.644068+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
