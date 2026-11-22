@@ -100698,5 +100698,285 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "5a0d81bf8040aa70e7427ec4982f413fdee64b5def4c29dcf8d1fd1562cef43f",
+    "capturedAt": "2026-11-22T23:18:18.696697+00:00",
+    "observation": {
+      "eventKey": "nba:401910029",
+      "sport": "nba",
+      "scheduledStart": "2026-11-22T20:30Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "1",
+          "name": "Atlanta Hawks",
+          "homeAway": "home",
+          "score": "107",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "8",
+          "name": "Detroit Pistons",
+          "homeAway": "away",
+          "score": "97",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T23:18:13.640991+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "f18c626309b1081d81d72b567c8edf801269941fffbe6dd79f81d5104403ab80",
+    "capturedAt": "2026-11-22T23:18:18.696697+00:00",
+    "observation": {
+      "eventKey": "soccer-mls:401933731",
+      "sport": "soccer-mls",
+      "scheduledStart": "2026-11-22T21:00Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "18986",
+          "name": "Nashville SC",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "18267",
+          "name": "FC Cincinnati",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T23:18:13.640991+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "141471d9349ab1149d3ffb2f224f4a7ec5623ff4f99f239eb6aafae6e36f1f63",
+    "capturedAt": "2026-11-22T23:18:18.696697+00:00",
+    "observation": {
+      "eventKey": "nfl:401873074",
+      "sport": "nfl",
+      "scheduledStart": "2026-11-22T21:05Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "24",
+          "name": "Los Angeles Chargers",
+          "homeAway": "home",
+          "score": "17",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "20",
+          "name": "New York Jets",
+          "homeAway": "away",
+          "score": "27",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T23:18:13.640991+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "246083b51922319aaf003685d41c2f1cb8f84936eb292c1667d07a7460f11fa6",
+    "capturedAt": "2026-11-22T23:18:18.696697+00:00",
+    "observation": {
+      "eventKey": "nfl:401873069",
+      "sport": "nfl",
+      "scheduledStart": "2026-11-22T21:25Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "19",
+          "name": "New York Giants",
+          "homeAway": "home",
+          "score": "20",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "30",
+          "name": "Jacksonville Jaguars",
+          "homeAway": "away",
+          "score": "6",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T23:18:13.640991+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "3fd7d611aac83bf18e016a5b1346b4f41ef844e01c0fe9c598c10c4115232d5a",
+    "capturedAt": "2026-11-22T23:18:18.696697+00:00",
+    "observation": {
+      "eventKey": "nfl:401873075",
+      "sport": "nfl",
+      "scheduledStart": "2026-11-22T21:25Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "7",
+          "name": "Denver Broncos",
+          "homeAway": "home",
+          "score": "17",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "13",
+          "name": "Las Vegas Raiders",
+          "homeAway": "away",
+          "score": "10",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T23:18:13.640991+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "1207d0d577cb30648a6034f8d540b494ba25888011c4801d668109e897ab1aa0",
+    "capturedAt": "2026-11-22T23:18:18.696697+00:00",
+    "observation": {
+      "eventKey": "nhl:401892769",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-22T22:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "20",
+          "name": "Tampa Bay Lightning",
+          "homeAway": "home",
+          "score": "1",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "2",
+          "name": "Buffalo Sabres",
+          "homeAway": "away",
+          "score": "2",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T23:18:13.640991+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "6830d28ce6cc866004b5c696cbe06bc6c62426dc7d089722c21b98b1bb92bc91",
+    "capturedAt": "2026-11-22T23:18:18.696697+00:00",
+    "observation": {
+      "eventKey": "nba:401910030",
+      "sport": "nba",
+      "scheduledStart": "2026-11-22T23:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "14",
+          "name": "Miami Heat",
+          "homeAway": "home",
+          "score": "11",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "25",
+          "name": "Oklahoma City Thunder",
+          "homeAway": "away",
+          "score": "5",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T23:18:13.640991+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "637097f33288b9ef548e3089a14798c3272d140b3179c7b0a72c2b0ca30d48b8",
+    "capturedAt": "2026-11-22T23:18:18.696697+00:00",
+    "observation": {
+      "eventKey": "soccer-mexico:401877047",
+      "sport": "soccer-mexico",
+      "scheduledStart": "2026-11-22T23:07Z",
+      "status": "STATUS_FIRST_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "219",
+          "name": "Guadalajara",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "218",
+          "name": "Cruz Azul",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T23:18:13.640991+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
