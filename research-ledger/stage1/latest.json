@@ -1,768 +1,12 @@
 {
   "schemaVersion": 1,
-  "collectedAt": "2026-11-21T23:39:22.621855+00:00",
+  "collectedAt": "2026-11-22T00:24:44.262370+00:00",
   "window": {
     "daysBack": 1,
     "daysForward": 3
   },
   "sourcePolicy": "Unofficial ESPN public endpoint; coverage and permission must be independently reviewed before redistribution",
   "events": [
-    {
-      "eventKey": "soccer-germany:401884736",
-      "sourceEventId": "401884736",
-      "sport": "soccer-germany",
-      "scheduledStart": "2026-11-20T19:30Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
-      "teams": [
-        {
-          "sourceTeamId": "132",
-          "name": "Bayern Munich",
-          "homeAway": "home",
-          "score": "1",
-          "winner": false
-        },
-        {
-          "sourceTeamId": "122",
-          "name": "FC Cologne",
-          "homeAway": "away",
-          "score": "1",
-          "winner": false
-        }
-      ],
-      "source": "ESPN unofficial site scoreboard",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261120&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
-      "verifiedInjuries": null,
-      "verifiedLineups": null,
-      "playerStatistics": null,
-      "quality": {
-        "scoreboardObserved": true,
-        "injuriesVerified": false,
-        "lineupsVerified": false,
-        "playerStatisticsVerified": false
-      }
-    },
-    {
-      "eventKey": "soccer-france:401876395",
-      "sourceEventId": "401876395",
-      "sport": "soccer-france",
-      "scheduledStart": "2026-11-20T19:45Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
-      "teams": [
-        {
-          "sourceTeamId": "170",
-          "name": "Troyes",
-          "homeAway": "home",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "sourceTeamId": "3236",
-          "name": "Le Havre AC",
-          "homeAway": "away",
-          "score": "1",
-          "winner": false
-        }
-      ],
-      "source": "ESPN unofficial site scoreboard",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261120&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
-      "verifiedInjuries": null,
-      "verifiedLineups": null,
-      "playerStatistics": null,
-      "quality": {
-        "scoreboardObserved": true,
-        "injuriesVerified": false,
-        "lineupsVerified": false,
-        "playerStatisticsVerified": false
-      }
-    },
-    {
-      "eventKey": "soccer-spain:401882805",
-      "sourceEventId": "401882805",
-      "sport": "soccer-spain",
-      "scheduledStart": "2026-11-20T20:00Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
-      "teams": [
-        {
-          "sourceTeamId": "93",
-          "name": "Athletic Club",
-          "homeAway": "home",
-          "score": "0",
-          "winner": false
-        },
-        {
-          "sourceTeamId": "88",
-          "name": "Espanyol",
-          "homeAway": "away",
-          "score": "1",
-          "winner": true
-        }
-      ],
-      "source": "ESPN unofficial site scoreboard",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261120&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
-      "verifiedInjuries": null,
-      "verifiedLineups": null,
-      "playerStatistics": null,
-      "quality": {
-        "scoreboardObserved": true,
-        "injuriesVerified": false,
-        "lineupsVerified": false,
-        "playerStatisticsVerified": false
-      }
-    },
-    {
-      "eventKey": "ncaa-football:401856869",
-      "sourceEventId": "401856869",
-      "sport": "ncaa-football",
-      "scheduledStart": "2026-11-20T23:00Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "sourceTeamId": "2116",
-          "name": "UCF Knights",
-          "homeAway": "home",
-          "score": "48",
-          "winner": true
-        },
-        {
-          "sourceTeamId": "66",
-          "name": "Iowa State Cyclones",
-          "homeAway": "away",
-          "score": "17",
-          "winner": false
-        }
-      ],
-      "source": "ESPN unofficial site scoreboard",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261120&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
-      "verifiedInjuries": null,
-      "verifiedLineups": null,
-      "playerStatistics": null,
-      "quality": {
-        "scoreboardObserved": true,
-        "injuriesVerified": false,
-        "lineupsVerified": false,
-        "playerStatisticsVerified": false
-      }
-    },
-    {
-      "eventKey": "nba:401909305",
-      "sourceEventId": "401909305",
-      "sport": "nba",
-      "scheduledStart": "2026-11-21T00:00Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "sourceTeamId": "1",
-          "name": "Atlanta Hawks",
-          "homeAway": "home",
-          "score": "111",
-          "winner": true
-        },
-        {
-          "sourceTeamId": "30",
-          "name": "Charlotte Hornets",
-          "homeAway": "away",
-          "score": "97",
-          "winner": false
-        }
-      ],
-      "source": "ESPN unofficial site scoreboard",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
-      "verifiedInjuries": null,
-      "verifiedLineups": null,
-      "playerStatistics": null,
-      "quality": {
-        "scoreboardObserved": true,
-        "injuriesVerified": false,
-        "lineupsVerified": false,
-        "playerStatisticsVerified": false
-      }
-    },
-    {
-      "eventKey": "nba:401909306",
-      "sourceEventId": "401909306",
-      "sport": "nba",
-      "scheduledStart": "2026-11-21T00:30Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "sourceTeamId": "17",
-          "name": "Brooklyn Nets",
-          "homeAway": "home",
-          "score": "111",
-          "winner": false
-        },
-        {
-          "sourceTeamId": "19",
-          "name": "Orlando Magic",
-          "homeAway": "away",
-          "score": "113",
-          "winner": true
-        }
-      ],
-      "source": "ESPN unofficial site scoreboard",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
-      "verifiedInjuries": null,
-      "verifiedLineups": null,
-      "playerStatistics": null,
-      "quality": {
-        "scoreboardObserved": true,
-        "injuriesVerified": false,
-        "lineupsVerified": false,
-        "playerStatisticsVerified": false
-      }
-    },
-    {
-      "eventKey": "nba:401909307",
-      "sourceEventId": "401909307",
-      "sport": "nba",
-      "scheduledStart": "2026-11-21T00:30Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "sourceTeamId": "5",
-          "name": "Cleveland Cavaliers",
-          "homeAway": "home",
-          "score": "128",
-          "winner": true
-        },
-        {
-          "sourceTeamId": "11",
-          "name": "Indiana Pacers",
-          "homeAway": "away",
-          "score": "119",
-          "winner": false
-        }
-      ],
-      "source": "ESPN unofficial site scoreboard",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
-      "verifiedInjuries": null,
-      "verifiedLineups": null,
-      "playerStatistics": null,
-      "quality": {
-        "scoreboardObserved": true,
-        "injuriesVerified": false,
-        "lineupsVerified": false,
-        "playerStatisticsVerified": false
-      }
-    },
-    {
-      "eventKey": "nba:401909308",
-      "sourceEventId": "401909308",
-      "sport": "nba",
-      "scheduledStart": "2026-11-21T00:30Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "sourceTeamId": "8",
-          "name": "Detroit Pistons",
-          "homeAway": "home",
-          "score": "102",
-          "winner": false
-        },
-        {
-          "sourceTeamId": "28",
-          "name": "Toronto Raptors",
-          "homeAway": "away",
-          "score": "105",
-          "winner": true
-        }
-      ],
-      "source": "ESPN unofficial site scoreboard",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
-      "verifiedInjuries": null,
-      "verifiedLineups": null,
-      "playerStatistics": null,
-      "quality": {
-        "scoreboardObserved": true,
-        "injuriesVerified": false,
-        "lineupsVerified": false,
-        "playerStatisticsVerified": false
-      }
-    },
-    {
-      "eventKey": "ncaa-football:401858303",
-      "sourceEventId": "401858303",
-      "sport": "ncaa-football",
-      "scheduledStart": "2026-11-21T00:30Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "sourceTeamId": "150",
-          "name": "Duke Blue Devils",
-          "homeAway": "home",
-          "score": "10",
-          "winner": false
-        },
-        {
-          "sourceTeamId": "228",
-          "name": "Clemson Tigers",
-          "homeAway": "away",
-          "score": "20",
-          "winner": true
-        }
-      ],
-      "source": "ESPN unofficial site scoreboard",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261120&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
-      "verifiedInjuries": null,
-      "verifiedLineups": null,
-      "playerStatistics": null,
-      "quality": {
-        "scoreboardObserved": true,
-        "injuriesVerified": false,
-        "lineupsVerified": false,
-        "playerStatisticsVerified": false
-      }
-    },
-    {
-      "eventKey": "ncaa-football:401866468",
-      "sourceEventId": "401866468",
-      "sport": "ncaa-football",
-      "scheduledStart": "2026-11-21T00:30Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "sourceTeamId": "2649",
-          "name": "Toledo Rockets",
-          "homeAway": "home",
-          "score": "19",
-          "winner": true
-        },
-        {
-          "sourceTeamId": "189",
-          "name": "Bowling Green Falcons",
-          "homeAway": "away",
-          "score": "0",
-          "winner": false
-        }
-      ],
-      "source": "ESPN unofficial site scoreboard",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261120&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
-      "verifiedInjuries": null,
-      "verifiedLineups": null,
-      "playerStatistics": null,
-      "quality": {
-        "scoreboardObserved": true,
-        "injuriesVerified": false,
-        "lineupsVerified": false,
-        "playerStatisticsVerified": false
-      }
-    },
-    {
-      "eventKey": "nba:401909309",
-      "sourceEventId": "401909309",
-      "sport": "nba",
-      "scheduledStart": "2026-11-21T01:00Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "sourceTeamId": "4",
-          "name": "Chicago Bulls",
-          "homeAway": "home",
-          "score": "94",
-          "winner": false
-        },
-        {
-          "sourceTeamId": "27",
-          "name": "Washington Wizards",
-          "homeAway": "away",
-          "score": "98",
-          "winner": true
-        }
-      ],
-      "source": "ESPN unofficial site scoreboard",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
-      "verifiedInjuries": null,
-      "verifiedLineups": null,
-      "playerStatistics": null,
-      "quality": {
-        "scoreboardObserved": true,
-        "injuriesVerified": false,
-        "lineupsVerified": false,
-        "playerStatisticsVerified": false
-      }
-    },
-    {
-      "eventKey": "nba:401909310",
-      "sourceEventId": "401909310",
-      "sport": "nba",
-      "scheduledStart": "2026-11-21T01:00Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "sourceTeamId": "25",
-          "name": "Oklahoma City Thunder",
-          "homeAway": "home",
-          "score": "126",
-          "winner": true
-        },
-        {
-          "sourceTeamId": "3",
-          "name": "New Orleans Pelicans",
-          "homeAway": "away",
-          "score": "120",
-          "winner": false
-        }
-      ],
-      "source": "ESPN unofficial site scoreboard",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
-      "verifiedInjuries": null,
-      "verifiedLineups": null,
-      "playerStatistics": null,
-      "quality": {
-        "scoreboardObserved": true,
-        "injuriesVerified": false,
-        "lineupsVerified": false,
-        "playerStatisticsVerified": false
-      }
-    },
-    {
-      "eventKey": "ncaa-football:401858529",
-      "sourceEventId": "401858529",
-      "sport": "ncaa-football",
-      "scheduledStart": "2026-11-21T01:00Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "sourceTeamId": "127",
-          "name": "Michigan State Spartans",
-          "homeAway": "home",
-          "score": "7",
-          "winner": false
-        },
-        {
-          "sourceTeamId": "2483",
-          "name": "Oregon Ducks",
-          "homeAway": "away",
-          "score": "45",
-          "winner": true
-        }
-      ],
-      "source": "ESPN unofficial site scoreboard",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261120&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
-      "verifiedInjuries": null,
-      "verifiedLineups": null,
-      "playerStatistics": null,
-      "quality": {
-        "scoreboardObserved": true,
-        "injuriesVerified": false,
-        "lineupsVerified": false,
-        "playerStatisticsVerified": false
-      }
-    },
-    {
-      "eventKey": "ncaa-football:401864545",
-      "sourceEventId": "401864545",
-      "sport": "ncaa-football",
-      "scheduledStart": "2026-11-21T01:00Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "sourceTeamId": "2005",
-          "name": "Air Force Falcons",
-          "homeAway": "home",
-          "score": "52",
-          "winner": true
-        },
-        {
-          "sourceTeamId": "2638",
-          "name": "UTEP Miners",
-          "homeAway": "away",
-          "score": "3",
-          "winner": false
-        }
-      ],
-      "source": "ESPN unofficial site scoreboard",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261120&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
-      "verifiedInjuries": null,
-      "verifiedLineups": null,
-      "playerStatistics": null,
-      "quality": {
-        "scoreboardObserved": true,
-        "injuriesVerified": false,
-        "lineupsVerified": false,
-        "playerStatisticsVerified": false
-      }
-    },
-    {
-      "eventKey": "soccer-mexico:401877054",
-      "sourceEventId": "401877054",
-      "sport": "soccer-mexico",
-      "scheduledStart": "2026-11-21T01:00Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
-      "teams": [
-        {
-          "sourceTeamId": "231",
-          "name": "Puebla",
-          "homeAway": "home",
-          "score": "1",
-          "winner": false
-        },
-        {
-          "sourceTeamId": "15720",
-          "name": "Atlético de San Luis",
-          "homeAway": "away",
-          "score": "1",
-          "winner": false
-        }
-      ],
-      "source": "ESPN unofficial site scoreboard",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261120&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
-      "verifiedInjuries": null,
-      "verifiedLineups": null,
-      "playerStatistics": null,
-      "quality": {
-        "scoreboardObserved": true,
-        "injuriesVerified": false,
-        "lineupsVerified": false,
-        "playerStatisticsVerified": false
-      }
-    },
-    {
-      "eventKey": "ncaa-football:401864542",
-      "sourceEventId": "401864542",
-      "sport": "ncaa-football",
-      "scheduledStart": "2026-11-21T02:00Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "sourceTeamId": "2751",
-          "name": "Wyoming Cowboys",
-          "homeAway": "home",
-          "score": "17",
-          "winner": false
-        },
-        {
-          "sourceTeamId": "167",
-          "name": "New Mexico Lobos",
-          "homeAway": "away",
-          "score": "24",
-          "winner": true
-        }
-      ],
-      "source": "ESPN unofficial site scoreboard",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261120&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
-      "verifiedInjuries": null,
-      "verifiedLineups": null,
-      "playerStatistics": null,
-      "quality": {
-        "scoreboardObserved": true,
-        "injuriesVerified": false,
-        "lineupsVerified": false,
-        "playerStatisticsVerified": false
-      }
-    },
-    {
-      "eventKey": "nba:401909311",
-      "sourceEventId": "401909311",
-      "sport": "nba",
-      "scheduledStart": "2026-11-21T02:30Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "sourceTeamId": "26",
-          "name": "Utah Jazz",
-          "homeAway": "home",
-          "score": "101",
-          "winner": false
-        },
-        {
-          "sourceTeamId": "21",
-          "name": "Phoenix Suns",
-          "homeAway": "away",
-          "score": "111",
-          "winner": true
-        }
-      ],
-      "source": "ESPN unofficial site scoreboard",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
-      "verifiedInjuries": null,
-      "verifiedLineups": null,
-      "playerStatistics": null,
-      "quality": {
-        "scoreboardObserved": true,
-        "injuriesVerified": false,
-        "lineupsVerified": false,
-        "playerStatisticsVerified": false
-      }
-    },
-    {
-      "eventKey": "nba:401909312",
-      "sourceEventId": "401909312",
-      "sport": "nba",
-      "scheduledStart": "2026-11-21T03:00Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "sourceTeamId": "7",
-          "name": "Denver Nuggets",
-          "homeAway": "home",
-          "score": "133",
-          "winner": true
-        },
-        {
-          "sourceTeamId": "10",
-          "name": "Houston Rockets",
-          "homeAway": "away",
-          "score": "124",
-          "winner": false
-        }
-      ],
-      "source": "ESPN unofficial site scoreboard",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
-      "verifiedInjuries": null,
-      "verifiedLineups": null,
-      "playerStatistics": null,
-      "quality": {
-        "scoreboardObserved": true,
-        "injuriesVerified": false,
-        "lineupsVerified": false,
-        "playerStatisticsVerified": false
-      }
-    },
-    {
-      "eventKey": "nba:401909313",
-      "sourceEventId": "401909313",
-      "sport": "nba",
-      "scheduledStart": "2026-11-21T03:00Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "sourceTeamId": "13",
-          "name": "Los Angeles Lakers",
-          "homeAway": "home",
-          "score": "106",
-          "winner": true
-        },
-        {
-          "sourceTeamId": "23",
-          "name": "Sacramento Kings",
-          "homeAway": "away",
-          "score": "104",
-          "winner": false
-        }
-      ],
-      "source": "ESPN unofficial site scoreboard",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
-      "verifiedInjuries": null,
-      "verifiedLineups": null,
-      "playerStatistics": null,
-      "quality": {
-        "scoreboardObserved": true,
-        "injuriesVerified": false,
-        "lineupsVerified": false,
-        "playerStatisticsVerified": false
-      }
-    },
-    {
-      "eventKey": "soccer-mexico:401877053",
-      "sourceEventId": "401877053",
-      "sport": "soccer-mexico",
-      "scheduledStart": "2026-11-21T03:00Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
-      "teams": [
-        {
-          "sourceTeamId": "17851",
-          "name": "FC Juárez",
-          "homeAway": "home",
-          "score": "3",
-          "winner": false
-        },
-        {
-          "sourceTeamId": "216",
-          "name": "Atlas",
-          "homeAway": "away",
-          "score": "3",
-          "winner": false
-        }
-      ],
-      "source": "ESPN unofficial site scoreboard",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261120&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
-      "verifiedInjuries": null,
-      "verifiedLineups": null,
-      "playerStatistics": null,
-      "quality": {
-        "scoreboardObserved": true,
-        "injuriesVerified": false,
-        "lineupsVerified": false,
-        "playerStatisticsVerified": false
-      }
-    },
-    {
-      "eventKey": "soccer-mexico:401877052",
-      "sourceEventId": "401877052",
-      "sport": "soccer-mexico",
-      "scheduledStart": "2026-11-21T03:10Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
-      "teams": [
-        {
-          "sourceTeamId": "10125",
-          "name": "Tijuana",
-          "homeAway": "home",
-          "score": "1",
-          "winner": true
-        },
-        {
-          "sourceTeamId": "226",
-          "name": "Atlante",
-          "homeAway": "away",
-          "score": "0",
-          "winner": false
-        }
-      ],
-      "source": "ESPN unofficial site scoreboard",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261120&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
-      "verifiedInjuries": null,
-      "verifiedLineups": null,
-      "playerStatistics": null,
-      "quality": {
-        "scoreboardObserved": true,
-        "injuriesVerified": false,
-        "lineupsVerified": false,
-        "playerStatisticsVerified": false
-      }
-    },
     {
       "eventKey": "soccer-england:401879233",
       "sourceEventId": "401879233",
@@ -788,7 +32,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -824,7 +68,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -860,7 +104,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -896,7 +140,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -932,7 +176,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -968,7 +212,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1004,7 +248,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1040,7 +284,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1076,7 +320,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1112,7 +356,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1148,7 +392,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1184,7 +428,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1220,7 +464,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1256,7 +500,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1292,7 +536,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1328,7 +572,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1364,7 +608,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1400,7 +644,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1436,7 +680,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1472,7 +716,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1508,7 +752,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1544,7 +788,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1580,7 +824,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1616,7 +860,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1652,7 +896,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1688,7 +932,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1724,7 +968,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1760,7 +1004,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1796,7 +1040,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1832,7 +1076,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1868,7 +1112,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1904,7 +1148,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1940,7 +1184,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -1976,7 +1220,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2012,7 +1256,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2048,7 +1292,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2084,7 +1328,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2120,7 +1364,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2156,7 +1400,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2192,7 +1436,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2228,7 +1472,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2264,7 +1508,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2300,7 +1544,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2336,7 +1580,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2352,7 +1596,7 @@
       "sourceEventId": "401862833",
       "sport": "ncaa-football",
       "scheduledStart": "2026-11-21T19:30Z",
-      "status": "STATUS_DELAYED",
+      "status": "STATUS_IN_PROGRESS",
       "completed": false,
       "teams": [
         {
@@ -2372,7 +1616,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2408,7 +1652,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2444,7 +1688,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2480,7 +1724,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2516,7 +1760,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2552,7 +1796,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2588,7 +1832,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2624,7 +1868,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2660,7 +1904,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2696,7 +1940,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2732,7 +1976,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2748,27 +1992,27 @@
       "sourceEventId": "401856747",
       "sport": "ncaa-football",
       "scheduledStart": "2026-11-21T20:30Z",
-      "status": "STATUS_IN_PROGRESS",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "sourceTeamId": "2",
           "name": "Auburn Tigers",
           "homeAway": "home",
-          "score": "52",
-          "winner": null
+          "score": "59",
+          "winner": true
         },
         {
           "sourceTeamId": "2535",
           "name": "Samford Bulldogs",
           "homeAway": "away",
           "score": "17",
-          "winner": null
+          "winner": false
         }
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2784,14 +2028,14 @@
       "sourceEventId": "401856754",
       "sport": "ncaa-football",
       "scheduledStart": "2026-11-21T20:30Z",
-      "status": "STATUS_END_PERIOD",
+      "status": "STATUS_IN_PROGRESS",
       "completed": false,
       "teams": [
         {
           "sourceTeamId": "2633",
           "name": "Tennessee Volunteers",
           "homeAway": "home",
-          "score": "13",
+          "score": "27",
           "winner": null
         },
         {
@@ -2804,7 +2048,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2820,27 +2064,27 @@
       "sourceEventId": "401856755",
       "sport": "ncaa-football",
       "scheduledStart": "2026-11-21T20:30Z",
-      "status": "STATUS_IN_PROGRESS",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "sourceTeamId": "251",
           "name": "Texas Longhorns",
           "homeAway": "home",
           "score": "45",
-          "winner": null
+          "winner": true
         },
         {
           "sourceTeamId": "8",
           "name": "Arkansas Razorbacks",
           "homeAway": "away",
           "score": "3",
-          "winner": null
+          "winner": false
         }
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2856,27 +2100,27 @@
       "sourceEventId": "401856871",
       "sport": "ncaa-football",
       "scheduledStart": "2026-11-21T20:30Z",
-      "status": "STATUS_IN_PROGRESS",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "sourceTeamId": "239",
           "name": "Baylor Bears",
           "homeAway": "home",
           "score": "10",
-          "winner": null
+          "winner": false
         },
         {
           "sourceTeamId": "2641",
           "name": "Texas Tech Red Raiders",
           "homeAway": "away",
-          "score": "17",
-          "winner": null
+          "score": "20",
+          "winner": true
         }
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2892,27 +2136,27 @@
       "sourceEventId": "401858304",
       "sport": "ncaa-football",
       "scheduledStart": "2026-11-21T20:30Z",
-      "status": "STATUS_IN_PROGRESS",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "sourceTeamId": "52",
           "name": "Florida State Seminoles",
           "homeAway": "home",
           "score": "10",
-          "winner": null
+          "winner": false
         },
         {
           "sourceTeamId": "152",
           "name": "NC State Wolfpack",
           "homeAway": "away",
           "score": "28",
-          "winner": null
+          "winner": true
         }
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2928,27 +2172,27 @@
       "sourceEventId": "401858528",
       "sport": "ncaa-football",
       "scheduledStart": "2026-11-21T20:30Z",
-      "status": "STATUS_IN_PROGRESS",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "sourceTeamId": "130",
           "name": "Michigan Wolverines",
           "homeAway": "home",
-          "score": "10",
-          "winner": null
+          "score": "18",
+          "winner": true
         },
         {
           "sourceTeamId": "26",
           "name": "UCLA Bruins",
           "homeAway": "away",
-          "score": "3",
-          "winner": null
+          "score": "16",
+          "winner": false
         }
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -2964,27 +2208,27 @@
       "sourceEventId": "401858532",
       "sport": "ncaa-football",
       "scheduledStart": "2026-11-21T20:30Z",
-      "status": "STATUS_IN_PROGRESS",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "sourceTeamId": "213",
           "name": "Penn State Nittany Lions",
           "homeAway": "home",
           "score": "24",
-          "winner": null
+          "winner": false
         },
         {
           "sourceTeamId": "164",
           "name": "Rutgers Scarlet Knights",
           "homeAway": "away",
-          "score": "17",
-          "winner": null
+          "score": "25",
+          "winner": true
         }
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3000,27 +2244,27 @@
       "sourceEventId": "401858535",
       "sport": "ncaa-football",
       "scheduledStart": "2026-11-21T20:30Z",
-      "status": "STATUS_IN_PROGRESS",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "sourceTeamId": "264",
           "name": "Washington Huskies",
           "homeAway": "home",
-          "score": "17",
-          "winner": null
+          "score": "27",
+          "winner": true
         },
         {
           "sourceTeamId": "84",
           "name": "Indiana Hoosiers",
           "homeAway": "away",
           "score": "24",
-          "winner": null
+          "winner": false
         }
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3036,27 +2280,27 @@
       "sourceEventId": "401861968",
       "sport": "ncaa-football",
       "scheduledStart": "2026-11-21T20:30Z",
-      "status": "STATUS_IN_PROGRESS",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "sourceTeamId": "41",
           "name": "UConn Huskies",
           "homeAway": "home",
-          "score": "26",
-          "winner": null
+          "score": "29",
+          "winner": true
         },
         {
           "sourceTeamId": "295",
           "name": "Old Dominion Monarchs",
           "homeAway": "away",
-          "score": "14",
-          "winner": null
+          "score": "21",
+          "winner": false
         }
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3092,7 +2336,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3108,27 +2352,27 @@
       "sourceEventId": "401856752",
       "sport": "ncaa-football",
       "scheduledStart": "2026-11-21T20:45Z",
-      "status": "STATUS_IN_PROGRESS",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "sourceTeamId": "201",
           "name": "Oklahoma Sooners",
           "homeAway": "home",
-          "score": "14",
-          "winner": null
+          "score": "28",
+          "winner": true
         },
         {
           "sourceTeamId": "245",
           "name": "Texas A&M Aggies",
           "homeAway": "away",
           "score": "7",
-          "winner": null
+          "winner": false
         }
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3144,27 +2388,27 @@
       "sourceEventId": "401864543",
       "sport": "ncaa-football",
       "scheduledStart": "2026-11-21T21:00Z",
-      "status": "STATUS_IN_PROGRESS",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "sourceTeamId": "2449",
           "name": "North Dakota State Bison",
           "homeAway": "home",
           "score": "31",
-          "winner": null
+          "winner": true
         },
         {
           "sourceTeamId": "2459",
           "name": "Northern Illinois Huskies",
           "homeAway": "away",
-          "score": "11",
-          "winner": null
+          "score": "25",
+          "winner": false
         }
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3180,27 +2424,27 @@
       "sourceEventId": "401869953",
       "sport": "ncaa-football",
       "scheduledStart": "2026-11-21T21:00Z",
-      "status": "STATUS_IN_PROGRESS",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "sourceTeamId": "2653",
           "name": "Troy Trojans",
           "homeAway": "home",
           "score": "7",
-          "winner": null
+          "winner": false
         },
         {
           "sourceTeamId": "290",
           "name": "Georgia Southern Eagles",
           "homeAway": "away",
-          "score": "31",
-          "winner": null
+          "score": "45",
+          "winner": true
         }
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3216,27 +2460,27 @@
       "sourceEventId": "401869958",
       "sport": "ncaa-football",
       "scheduledStart": "2026-11-21T21:00Z",
-      "status": "STATUS_IN_PROGRESS",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "sourceTeamId": "276",
           "name": "Marshall Thundering Herd",
           "homeAway": "home",
-          "score": "21",
-          "winner": null
+          "score": "28",
+          "winner": true
         },
         {
           "sourceTeamId": "2247",
           "name": "Georgia State Panthers",
           "homeAway": "away",
-          "score": "21",
-          "winner": null
+          "score": "27",
+          "winner": false
         }
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3259,20 +2503,20 @@
           "sourceTeamId": "2572",
           "name": "Southern Miss Golden Eagles",
           "homeAway": "home",
-          "score": "29",
+          "score": "35",
           "winner": null
         },
         {
           "sourceTeamId": "6",
           "name": "South Alabama Jaguars",
           "homeAway": "away",
-          "score": "25",
+          "score": "40",
           "winner": null
         }
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3308,7 +2552,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3324,14 +2568,14 @@
       "sourceEventId": "401877050",
       "sport": "soccer-mexico",
       "scheduledStart": "2026-11-21T22:50Z",
-      "status": "STATUS_FIRST_HALF",
+      "status": "STATUS_SECOND_HALF",
       "completed": false,
       "teams": [
         {
           "sourceTeamId": "234",
           "name": "Pachuca",
           "homeAway": "home",
-          "score": "0",
+          "score": "1",
           "winner": false
         },
         {
@@ -3344,7 +2588,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3367,7 +2611,7 @@
           "sourceTeamId": "326",
           "name": "Texas State Bobcats",
           "homeAway": "home",
-          "score": "14",
+          "score": "21",
           "winner": null
         },
         {
@@ -3380,7 +2624,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3403,20 +2647,20 @@
           "sourceTeamId": "26",
           "name": "Florida Panthers",
           "homeAway": "home",
-          "score": "1",
+          "score": "2",
           "winner": null
         },
         {
           "sourceTeamId": "2",
           "name": "Buffalo Sabres",
           "homeAway": "away",
-          "score": "1",
+          "score": "2",
           "winner": null
         }
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3439,20 +2683,20 @@
           "sourceTeamId": "27",
           "name": "Nashville Predators",
           "homeAway": "home",
-          "score": "0",
+          "score": "3",
           "winner": null
         },
         {
           "sourceTeamId": "16",
           "name": "Pittsburgh Penguins",
           "homeAway": "away",
-          "score": "1",
+          "score": "2",
           "winner": null
         }
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3468,14 +2712,14 @@
       "sourceEventId": "401877051",
       "sport": "soccer-mexico",
       "scheduledStart": "2026-11-21T23:00Z",
-      "status": "STATUS_FIRST_HALF",
+      "status": "STATUS_SECOND_HALF",
       "completed": false,
       "teams": [
         {
           "sourceTeamId": "225",
           "name": "Santos",
           "homeAway": "home",
-          "score": "0",
+          "score": "1",
           "winner": false
         },
         {
@@ -3488,7 +2732,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3504,7 +2748,7 @@
       "sourceEventId": "401933739",
       "sport": "soccer-mls",
       "scheduledStart": "2026-11-21T23:00Z",
-      "status": "STATUS_FIRST_HALF",
+      "status": "STATUS_SECOND_HALF",
       "completed": false,
       "teams": [
         {
@@ -3524,7 +2768,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3547,20 +2791,20 @@
           "sourceTeamId": "30",
           "name": "USC Trojans",
           "homeAway": "home",
-          "score": "3",
+          "score": "13",
           "winner": null
         },
         {
           "sourceTeamId": "120",
           "name": "Maryland Terrapins",
           "homeAway": "away",
-          "score": "0",
+          "score": "7",
           "winner": null
         }
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3576,7 +2820,7 @@
       "sourceEventId": "401856865",
       "sport": "ncaa-football",
       "scheduledStart": "2026-11-22T00:00Z",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "completed": false,
       "teams": [
         {
@@ -3596,7 +2840,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3612,7 +2856,7 @@
       "sourceEventId": "401858302",
       "sport": "ncaa-football",
       "scheduledStart": "2026-11-22T00:00Z",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "completed": false,
       "teams": [
         {
@@ -3626,13 +2870,13 @@
           "sourceTeamId": "259",
           "name": "Virginia Tech Hokies",
           "homeAway": "away",
-          "score": "0",
+          "score": "7",
           "winner": null
         }
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3648,7 +2892,7 @@
       "sourceEventId": "401864544",
       "sport": "ncaa-football",
       "scheduledStart": "2026-11-22T00:00Z",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "completed": false,
       "teams": [
         {
@@ -3662,13 +2906,13 @@
           "sourceTeamId": "2439",
           "name": "UNLV Rebels",
           "homeAway": "away",
-          "score": "0",
+          "score": "7",
           "winner": null
         }
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3684,14 +2928,14 @@
       "sourceEventId": "401869938",
       "sport": "ncaa-football",
       "scheduledStart": "2026-11-22T00:00Z",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "completed": false,
       "teams": [
         {
           "sourceTeamId": "2348",
           "name": "Louisiana Tech Bulldogs",
           "homeAway": "home",
-          "score": "0",
+          "score": "7",
           "winner": null
         },
         {
@@ -3704,7 +2948,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3720,7 +2964,7 @@
       "sourceEventId": "401892758",
       "sport": "nhl",
       "scheduledStart": "2026-11-22T00:00Z",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "completed": false,
       "teams": [
         {
@@ -3734,13 +2978,13 @@
           "sourceTeamId": "23",
           "name": "Washington Capitals",
           "homeAway": "away",
-          "score": "0",
+          "score": "1",
           "winner": null
         }
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3756,7 +3000,7 @@
       "sourceEventId": "401892759",
       "sport": "nhl",
       "scheduledStart": "2026-11-22T00:00Z",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "completed": false,
       "teams": [
         {
@@ -3776,7 +3020,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3792,7 +3036,7 @@
       "sourceEventId": "401892760",
       "sport": "nhl",
       "scheduledStart": "2026-11-22T00:00Z",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "completed": false,
       "teams": [
         {
@@ -3812,7 +3056,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3828,7 +3072,7 @@
       "sourceEventId": "401892761",
       "sport": "nhl",
       "scheduledStart": "2026-11-22T00:00Z",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "completed": false,
       "teams": [
         {
@@ -3842,13 +3086,13 @@
           "sourceTeamId": "8",
           "name": "Los Angeles Kings",
           "homeAway": "away",
-          "score": "0",
+          "score": "1",
           "winner": null
         }
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3864,14 +3108,14 @@
       "sourceEventId": "401892762",
       "sport": "nhl",
       "scheduledStart": "2026-11-22T00:00Z",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "completed": false,
       "teams": [
         {
           "sourceTeamId": "5",
           "name": "Detroit Red Wings",
           "homeAway": "home",
-          "score": "0",
+          "score": "1",
           "winner": null
         },
         {
@@ -3884,7 +3128,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3900,14 +3144,14 @@
       "sourceEventId": "401892763",
       "sport": "nhl",
       "scheduledStart": "2026-11-22T00:00Z",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "completed": false,
       "teams": [
         {
           "sourceTeamId": "19",
           "name": "St. Louis Blues",
           "homeAway": "home",
-          "score": "0",
+          "score": "3",
           "winner": null
         },
         {
@@ -3920,7 +3164,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3936,14 +3180,14 @@
       "sourceEventId": "401892764",
       "sport": "nhl",
       "scheduledStart": "2026-11-22T00:00Z",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "completed": false,
       "teams": [
         {
           "sourceTeamId": "28",
           "name": "Winnipeg Jets",
           "homeAway": "home",
-          "score": "0",
+          "score": "1",
           "winner": null
         },
         {
@@ -3956,7 +3200,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -3992,7 +3236,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4028,7 +3272,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4064,7 +3308,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4100,7 +3344,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4136,7 +3380,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4172,7 +3416,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4208,7 +3452,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4244,7 +3488,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4280,7 +3524,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4316,7 +3560,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4352,7 +3596,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4388,7 +3632,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4424,7 +3668,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4460,7 +3704,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4496,7 +3740,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4532,7 +3776,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4568,7 +3812,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4604,7 +3848,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4640,7 +3884,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4676,7 +3920,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4712,7 +3956,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4748,7 +3992,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4784,7 +4028,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4820,7 +4064,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4856,7 +4100,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4892,7 +4136,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4928,7 +4172,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -4964,7 +4208,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5000,7 +4244,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5036,7 +4280,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5072,7 +4316,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5108,7 +4352,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5144,7 +4388,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5180,7 +4424,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5216,7 +4460,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5252,7 +4496,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5288,7 +4532,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5324,7 +4568,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5360,7 +4604,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5396,7 +4640,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5432,7 +4676,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5468,7 +4712,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5504,7 +4748,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5540,7 +4784,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5576,7 +4820,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5612,7 +4856,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5648,7 +4892,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5684,7 +4928,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5720,7 +4964,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5756,7 +5000,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5792,7 +5036,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5828,7 +5072,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5864,7 +5108,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5900,7 +5144,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5936,7 +5180,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -5972,7 +5216,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6008,7 +5252,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6044,7 +5288,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6080,7 +5324,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6116,7 +5360,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6152,7 +5396,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6188,7 +5432,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6224,7 +5468,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6260,7 +5504,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6296,7 +5540,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6332,7 +5576,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261122&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6368,7 +5612,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261123&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6404,7 +5648,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261123&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6440,7 +5684,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261123&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6476,7 +5720,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6512,7 +5756,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6548,7 +5792,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6584,7 +5828,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6620,7 +5864,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6656,7 +5900,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6692,7 +5936,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6728,7 +5972,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6764,7 +6008,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6800,7 +6044,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6836,7 +6080,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6872,7 +6116,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6908,7 +6152,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261123&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6944,7 +6188,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261123&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -6980,7 +6224,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -7016,7 +6260,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -7052,7 +6296,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -7088,7 +6332,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -7124,7 +6368,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -7160,7 +6404,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -7196,7 +6440,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -7232,7 +6476,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -7268,7 +6512,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -7304,7 +6548,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -7340,7 +6584,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -7376,7 +6620,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -7412,7 +6656,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -7448,7 +6692,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -7484,7 +6728,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261124&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -7520,7 +6764,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261124&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -7556,7 +6800,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261124&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -7592,7 +6836,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261124&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -7628,7 +6872,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261124&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -7664,7 +6908,7 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261124&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -7700,7 +6944,1195 @@
       ],
       "source": "ESPN unofficial site scoreboard",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261124&limit=300",
-      "observedAt": "2026-11-21T23:39:22.621855+00:00",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "soccer-ucl:401915293",
+      "sourceEventId": "401915293",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-25T17:45Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "494",
+          "name": "Slavia Prague",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "102",
+          "name": "Villarreal",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "soccer-ucl:401915378",
+      "sourceEventId": "401915378",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-25T17:45Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "21922",
+          "name": "Sabah FK",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "83",
+          "name": "Barcelona",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "soccer-ucl:401915291",
+      "sourceEventId": "401915291",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-25T20:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "1068",
+          "name": "Atlético Madrid",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "510",
+          "name": "Viking FK",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "soccer-ucl:401915292",
+      "sourceEventId": "401915292",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-25T20:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "570",
+          "name": "Club Brugge",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "364",
+          "name": "Liverpool",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "soccer-ucl:401915373",
+      "sourceEventId": "401915373",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-25T20:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2250",
+          "name": "Sporting CP",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "360",
+          "name": "Manchester United",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "soccer-ucl:401915374",
+      "sourceEventId": "401915374",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-25T20:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "160",
+          "name": "Paris Saint-Germain",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "104",
+          "name": "AS Roma",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "soccer-ucl:401915375",
+      "sourceEventId": "401915375",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-25T20:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "493",
+          "name": "Shakhtar Donetsk",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "436",
+          "name": "Fenerbahce",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "soccer-ucl:401915376",
+      "sourceEventId": "401915376",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-25T20:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "110",
+          "name": "Internazionale",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "134",
+          "name": "VfB Stuttgart",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "soccer-ucl:401915377",
+      "sourceEventId": "401915377",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-25T20:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "166",
+          "name": "Lille",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "132",
+          "name": "Bayern Munich",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nba:401909317",
+      "sourceEventId": "401909317",
+      "sport": "nba",
+      "scheduledStart": "2026-11-25T22:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "20",
+          "name": "Philadelphia 76ers",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "14",
+          "name": "Miami Heat",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nba:401909318",
+      "sourceEventId": "401909318",
+      "sport": "nba",
+      "scheduledStart": "2026-11-26T00:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "30",
+          "name": "Charlotte Hornets",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "4",
+          "name": "Chicago Bulls",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nhl:401892781",
+      "sourceEventId": "401892781",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T00:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "1",
+          "name": "Boston Bruins",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "28",
+          "name": "Winnipeg Jets",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nhl:401892782",
+      "sourceEventId": "401892782",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T00:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2",
+          "name": "Buffalo Sabres",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "13",
+          "name": "New York Rangers",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nhl:401892783",
+      "sourceEventId": "401892783",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T00:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "20",
+          "name": "Tampa Bay Lightning",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "7",
+          "name": "Carolina Hurricanes",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nhl:401892784",
+      "sourceEventId": "401892784",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T00:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "26",
+          "name": "Florida Panthers",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "14",
+          "name": "Ottawa Senators",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nhl:401892785",
+      "sourceEventId": "401892785",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T00:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "12",
+          "name": "New York Islanders",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "19",
+          "name": "St. Louis Blues",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nhl:401892786",
+      "sourceEventId": "401892786",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T00:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "16",
+          "name": "Pittsburgh Penguins",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "3",
+          "name": "Calgary Flames",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nhl:401892787",
+      "sourceEventId": "401892787",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T00:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "23",
+          "name": "Washington Capitals",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "15",
+          "name": "Philadelphia Flyers",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nhl:401892788",
+      "sourceEventId": "401892788",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T00:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "29",
+          "name": "Columbus Blue Jackets",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "11",
+          "name": "New Jersey Devils",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nba:401909319",
+      "sourceEventId": "401909319",
+      "sport": "nba",
+      "scheduledStart": "2026-11-26T00:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "18",
+          "name": "New York Knicks",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "5",
+          "name": "Cleveland Cavaliers",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nba:401909320",
+      "sourceEventId": "401909320",
+      "sport": "nba",
+      "scheduledStart": "2026-11-26T00:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "25",
+          "name": "Oklahoma City Thunder",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "16",
+          "name": "Minnesota Timberwolves",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nhl:401892789",
+      "sourceEventId": "401892789",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T00:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "5",
+          "name": "Detroit Red Wings",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "22",
+          "name": "Vancouver Canucks",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nba:401909321",
+      "sourceEventId": "401909321",
+      "sport": "nba",
+      "scheduledStart": "2026-11-26T01:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "29",
+          "name": "Memphis Grizzlies",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "12",
+          "name": "LA Clippers",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nba:401909322",
+      "sourceEventId": "401909322",
+      "sport": "nba",
+      "scheduledStart": "2026-11-26T01:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "15",
+          "name": "Milwaukee Bucks",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "17",
+          "name": "Brooklyn Nets",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nfl:401873079",
+      "sourceEventId": "401873079",
+      "sport": "nfl",
+      "scheduledStart": "2026-11-26T01:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "14",
+          "name": "Los Angeles Rams",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "9",
+          "name": "Green Bay Packers",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nhl:401892790",
+      "sourceEventId": "401892790",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T01:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "9",
+          "name": "Dallas Stars",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "27",
+          "name": "Nashville Predators",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nhl:401892791",
+      "sourceEventId": "401892791",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T01:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "30",
+          "name": "Minnesota Wild",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "129764",
+          "name": "Utah Mammoth",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nba:401909323",
+      "sourceEventId": "401909323",
+      "sport": "nba",
+      "scheduledStart": "2026-11-26T01:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "10",
+          "name": "Houston Rockets",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "21",
+          "name": "Phoenix Suns",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nhl:401892792",
+      "sourceEventId": "401892792",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T02:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "17",
+          "name": "Colorado Avalanche",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "10",
+          "name": "Montreal Canadiens",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nhl:401892794",
+      "sourceEventId": "401892794",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T02:40Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "124292",
+          "name": "Seattle Kraken",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "4",
+          "name": "Chicago Blackhawks",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nba:401909324",
+      "sourceEventId": "401909324",
+      "sport": "nba",
+      "scheduledStart": "2026-11-26T03:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "9",
+          "name": "Golden State Warriors",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "23",
+          "name": "Sacramento Kings",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nba:401909325",
+      "sourceEventId": "401909325",
+      "sport": "nba",
+      "scheduledStart": "2026-11-26T03:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "22",
+          "name": "Portland Trail Blazers",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "24",
+          "name": "San Antonio Spurs",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
+      "verifiedInjuries": null,
+      "verifiedLineups": null,
+      "playerStatistics": null,
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    },
+    {
+      "eventKey": "nhl:401892793",
+      "sourceEventId": "401892793",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T03:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "25",
+          "name": "Anaheim Ducks",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "18",
+          "name": "San Jose Sharks",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "source": "ESPN unofficial site scoreboard",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-22T00:24:44.262370+00:00",
       "verifiedInjuries": null,
       "verifiedLineups": null,
       "playerStatistics": null,
@@ -7713,12 +8145,6 @@
     }
   ],
   "checks": [
-    {
-      "sport": "nfl",
-      "date": "20261120",
-      "ok": true,
-      "eventsReturned": 0
-    },
     {
       "sport": "nfl",
       "date": "20261121",
@@ -7744,10 +8170,10 @@
       "eventsReturned": 0
     },
     {
-      "sport": "ncaa-football",
-      "date": "20261120",
+      "sport": "nfl",
+      "date": "20261125",
       "ok": true,
-      "eventsReturned": 6
+      "eventsReturned": 1
     },
     {
       "sport": "ncaa-football",
@@ -7774,10 +8200,10 @@
       "eventsReturned": 2
     },
     {
-      "sport": "nba",
-      "date": "20261120",
+      "sport": "ncaa-football",
+      "date": "20261125",
       "ok": true,
-      "eventsReturned": 9
+      "eventsReturned": 0
     },
     {
       "sport": "nba",
@@ -7804,10 +8230,10 @@
       "eventsReturned": 3
     },
     {
-      "sport": "nhl",
-      "date": "20261120",
+      "sport": "nba",
+      "date": "20261125",
       "ok": true,
-      "eventsReturned": 0
+      "eventsReturned": 9
     },
     {
       "sport": "nhl",
@@ -7834,10 +8260,10 @@
       "eventsReturned": 1
     },
     {
-      "sport": "soccer-england",
-      "date": "20261120",
+      "sport": "nhl",
+      "date": "20261125",
       "ok": true,
-      "eventsReturned": 0
+      "eventsReturned": 14
     },
     {
       "sport": "soccer-england",
@@ -7864,10 +8290,10 @@
       "eventsReturned": 0
     },
     {
-      "sport": "soccer-spain",
-      "date": "20261120",
+      "sport": "soccer-england",
+      "date": "20261125",
       "ok": true,
-      "eventsReturned": 1
+      "eventsReturned": 0
     },
     {
       "sport": "soccer-spain",
@@ -7894,8 +8320,8 @@
       "eventsReturned": 0
     },
     {
-      "sport": "soccer-italy",
-      "date": "20261120",
+      "sport": "soccer-spain",
+      "date": "20261125",
       "ok": true,
       "eventsReturned": 0
     },
@@ -7924,10 +8350,10 @@
       "eventsReturned": 0
     },
     {
-      "sport": "soccer-germany",
-      "date": "20261120",
+      "sport": "soccer-italy",
+      "date": "20261125",
       "ok": true,
-      "eventsReturned": 1
+      "eventsReturned": 0
     },
     {
       "sport": "soccer-germany",
@@ -7954,10 +8380,10 @@
       "eventsReturned": 0
     },
     {
-      "sport": "soccer-france",
-      "date": "20261120",
+      "sport": "soccer-germany",
+      "date": "20261125",
       "ok": true,
-      "eventsReturned": 1
+      "eventsReturned": 0
     },
     {
       "sport": "soccer-france",
@@ -7984,8 +8410,8 @@
       "eventsReturned": 0
     },
     {
-      "sport": "soccer-mls",
-      "date": "20261120",
+      "sport": "soccer-france",
+      "date": "20261125",
       "ok": true,
       "eventsReturned": 0
     },
@@ -8014,10 +8440,10 @@
       "eventsReturned": 1
     },
     {
-      "sport": "soccer-mexico",
-      "date": "20261120",
+      "sport": "soccer-mls",
+      "date": "20261125",
       "ok": true,
-      "eventsReturned": 3
+      "eventsReturned": 0
     },
     {
       "sport": "soccer-mexico",
@@ -8044,8 +8470,8 @@
       "eventsReturned": 0
     },
     {
-      "sport": "soccer-ucl",
-      "date": "20261120",
+      "sport": "soccer-mexico",
+      "date": "20261125",
       "ok": true,
       "eventsReturned": 0
     },
@@ -8074,10 +8500,10 @@
       "eventsReturned": 9
     },
     {
-      "sport": "soccer-uel",
-      "date": "20261120",
+      "sport": "soccer-ucl",
+      "date": "20261125",
       "ok": true,
-      "eventsReturned": 0
+      "eventsReturned": 9
     },
     {
       "sport": "soccer-uel",
@@ -8102,10 +8528,16 @@
       "date": "20261124",
       "ok": true,
       "eventsReturned": 0
+    },
+    {
+      "sport": "soccer-uel",
+      "date": "20261125",
+      "ok": true,
+      "eventsReturned": 0
     }
   ],
   "summary": {
-    "eventCount": 214,
+    "eventCount": 226,
     "successfulRequests": 65,
     "failedRequests": 0,
     "injuryRecordsVerified": 0,
