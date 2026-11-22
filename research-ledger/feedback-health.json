@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-22T15:24:22.561368+00:00",
+  "asOf": "2026-11-22T16:20:24.295332+00:00",
   "pipeline": {
     "stage1Events": 226,
     "stage2Games": 226,
@@ -19,6 +19,26 @@
     "sameProviderDisagreements": [
       {
         "gameKey": "soccer-spain:401882804",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "soccer-england:401879234",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "soccer-france:401876397",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "soccer-italy:401874960",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "soccer-italy:401875047",
         "field": "completed",
         "reason": "collection disagreement or different polling times"
       }
