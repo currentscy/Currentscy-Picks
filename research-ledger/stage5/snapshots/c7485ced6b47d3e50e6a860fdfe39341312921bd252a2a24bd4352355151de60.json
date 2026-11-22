@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 5,
+  "gameKey": "nba:401910025",
+  "sport": "nba",
+  "phase": "postgame",
+  "scheduledStart": "2026-11-22T01:00Z",
+  "sourceObservedAt": "2026-11-22T13:36:59.442017+00:00",
+  "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121&limit=300",
+  "teams": [
+    {
+      "sourceTeamId": "6",
+      "homeAway": "home",
+      "score": "110"
+    },
+    {
+      "sourceTeamId": "12",
+      "homeAway": "away",
+      "score": "100"
+    }
+  ],
+  "completed": true
+}
