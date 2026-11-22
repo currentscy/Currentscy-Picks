@@ -97913,5 +97913,215 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "78b924915b56fb3b77db93ee51ba6d9504b4524cc19d531530d6206f3f71081d",
+    "capturedAt": "2026-11-22T17:06:30.384394+00:00",
+    "observation": {
+      "eventKey": "soccer-germany:401884733",
+      "sport": "soccer-germany",
+      "scheduledStart": "2026-11-22T14:30Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "3841",
+          "name": "FC Augsburg",
+          "homeAway": "home",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "2950",
+          "name": "Mainz",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T17:06:24.577242+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "469a6798cb7cf2108dd97592947481c6d94e0d490300ae0b9c65836a408f18c9",
+    "capturedAt": "2026-11-22T17:06:30.384394+00:00",
+    "observation": {
+      "eventKey": "soccer-spain:401882800",
+      "sport": "soccer-spain",
+      "scheduledStart": "2026-11-22T15:15Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "87",
+          "name": "Racing Santander",
+          "homeAway": "home",
+          "score": "3",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "89",
+          "name": "Real Sociedad",
+          "homeAway": "away",
+          "score": "2",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T17:06:24.577242+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "5eae39e037d70d3c37ecec1b1bfa71636008ca7e7bf19b01c6e028d4f4047042",
+    "capturedAt": "2026-11-22T17:06:30.384394+00:00",
+    "observation": {
+      "eventKey": "soccer-france:401876401",
+      "sport": "soccer-france",
+      "scheduledStart": "2026-11-22T16:15Z",
+      "status": "STATUS_HALFTIME",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "273",
+          "name": "Lorient",
+          "homeAway": "home",
+          "score": "1",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "169",
+          "name": "Stade Rennais",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T17:06:24.577242+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "7cfcda683be7629bd695bbfa129ea53d644cb72a49de0b68c8e4456df2888e1f",
+    "capturedAt": "2026-11-22T17:06:30.384394+00:00",
+    "observation": {
+      "eventKey": "soccer-england:401878755",
+      "sport": "soccer-england",
+      "scheduledStart": "2026-11-22T16:30Z",
+      "status": "STATUS_FIRST_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "364",
+          "name": "Liverpool",
+          "homeAway": "home",
+          "score": "2",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "360",
+          "name": "Manchester United",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T17:06:24.577242+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "960afb9074f8eff40f3fc60288ec7cf197d196763d9c3e50a2bb2c08c3883e4f",
+    "capturedAt": "2026-11-22T17:06:30.384394+00:00",
+    "observation": {
+      "eventKey": "soccer-germany:401884730",
+      "sport": "soccer-germany",
+      "scheduledStart": "2026-11-22T16:30Z",
+      "status": "STATUS_FIRST_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "137",
+          "name": "Werder Bremen",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "127",
+          "name": "Hamburg SV",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T17:06:24.577242+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "de52dedbd4b0d8c9edae05ac73a0f358c06af134d9a70f9bb970d467168c7d33",
+    "capturedAt": "2026-11-22T17:06:30.384394+00:00",
+    "observation": {
+      "eventKey": "soccer-italy:401874989",
+      "sport": "soccer-italy",
+      "scheduledStart": "2026-11-22T17:00Z",
+      "status": "STATUS_FIRST_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "103",
+          "name": "AC Milan",
+          "homeAway": "home",
+          "score": "1",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "4057",
+          "name": "Frosinone",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T17:06:24.577242+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
