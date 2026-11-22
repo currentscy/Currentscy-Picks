@@ -12,6 +12,7 @@ export function normalizeHistory(game,history,asOf) {
  for(const item of history||[]) {
   if(!ids.has(String(item.teamId))) {errors.push('historical team not in matchup');continue;}
   if(!nonempty(item.playerId)) {errors.push('historical player ID missing');continue;}
+  if(!nonempty(item.season)||!nonempty(game.season)||String(item.season)!==String(game.season)){errors.push('historical season missing or does not match upcoming game');continue;}
   if(!nonempty(item.sourceEventId)||!nonempty(item.sourceUrl)) {errors.push('historical game provenance missing');continue;}
   if(!Number.isFinite(stamp(item.historicalGameStart))||stamp(item.historicalGameStart)>=stamp(game.start)||stamp(item.historicalGameStart)>=stamp(asOf)){errors.push('historical game occurs after cutoff');continue;}
   const participantId=teams.find(t=>String(t.teamKey).split(':').at(-1)===String(item.teamId)).teamKey;
@@ -30,7 +31,7 @@ export async function collectUpcomingGame(game,{fetcher=fetch,asOf=new Date().to
   const teamId=String(team.teamKey).split(':').at(-1);
   try {
    const schedule=await json(fetcher,base+route+'/teams/'+encodeURIComponent(teamId)+'/schedule');
-   const candidates=(schedule.events||[]).filter(e=>stamp(e.date)<stamp(asOf)&&stamp(e.date)<stamp(game.start)&&e.competitions?.[0]?.status?.type?.completed===true).sort((a,b)=>stamp(b.date)-stamp(a.date)).slice(0,maxHistory);
+   const candidates=(schedule.events||[]).filter(e=>String(e.season?.year||'')===String(game.season||'')&&stamp(e.date)<stamp(asOf)&&stamp(e.date)<stamp(game.start)&&e.competitions?.[0]?.status?.type?.completed===true).sort((a,b)=>stamp(b.date)-stamp(a.date)).slice(0,maxHistory);
    for(const prior of candidates) {
     const url=base+route+'/summary?event='+encodeURIComponent(prior.id);
     try {
