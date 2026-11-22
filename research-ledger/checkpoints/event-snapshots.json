@@ -97143,5 +97143,75 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "4a35c53420974177f87eaaf9b48ee0de36128668089418fcaf5a852605cae8c6",
+    "capturedAt": "2026-11-22T13:45:08.514780+00:00",
+    "observation": {
+      "eventKey": "soccer-italy:401875008",
+      "sport": "soccer-italy",
+      "scheduledStart": "2026-11-22T11:30Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "111",
+          "name": "Juventus",
+          "homeAway": "home",
+          "score": "4",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "17530",
+          "name": "Venezia",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T13:45:03.695200+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "78dd8e13a9e1a3d8979061b55846121c0dab757205b0168c13922371c9d757a3",
+    "capturedAt": "2026-11-22T13:45:08.514780+00:00",
+    "observation": {
+      "eventKey": "soccer-spain:401882804",
+      "sport": "soccer-spain",
+      "scheduledStart": "2026-11-22T13:00Z",
+      "status": "STATUS_FIRST_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "83",
+          "name": "Barcelona",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "102",
+          "name": "Villarreal",
+          "homeAway": "away",
+          "score": "2",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T13:45:03.695200+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
