@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-22T21:05:43.962258+00:00",
+  "asOf": "2026-11-22T21:45:25.284097+00:00",
   "pipeline": {
     "stage1Events": 226,
     "stage2Games": 226,
@@ -28,12 +28,42 @@
         "reason": "collection disagreement or different polling times"
       },
       {
+        "gameKey": "nfl:401873068",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
         "gameKey": "nfl:401873070",
         "field": "completed",
         "reason": "collection disagreement or different polling times"
       },
       {
+        "gameKey": "nfl:401873071",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "nfl:401873072",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
         "gameKey": "nfl:401873073",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "nfl:401873076",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "soccer-france:401876400",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "soccer-italy:401875001",
         "field": "completed",
         "reason": "collection disagreement or different polling times"
       }
