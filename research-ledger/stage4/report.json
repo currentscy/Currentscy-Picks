@@ -1,31 +1,31 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-11-22T00:24:48.978908+00:00",
+  "generatedAt": "2026-11-22T01:47:09.818893+00:00",
   "total": {
-    "scored": 12,
+    "scored": 14,
     "paired": 0,
     "baseline": {
-      "n": 12,
-      "brier": 0.21518,
-      "logLoss": 0.619808,
+      "n": 14,
+      "brier": 0.205404,
+      "logLoss": 0.600226,
       "calibrationBins": [
         {
           "range": [
             0.4,
             0.6
           ],
-          "n": 5,
-          "meanPrediction": 0.4945,
-          "observedRate": 0.4
+          "n": 6,
+          "meanPrediction": 0.5118,
+          "observedRate": 0.5
         },
         {
           "range": [
             0.6,
             0.8
           ],
-          "n": 7,
-          "meanPrediction": 0.6861,
-          "observedRate": 0.7143
+          "n": 8,
+          "meanPrediction": 0.6798,
+          "observedRate": 0.75
         }
       ]
     },
@@ -69,20 +69,20 @@
       "pairedLogLossDelta": null
     },
     "nhl": {
-      "scored": 2,
+      "scored": 4,
       "paired": 0,
       "baseline": {
-        "n": 2,
-        "brier": 0.325453,
-        "logLoss": 0.851005,
+        "n": 4,
+        "brier": 0.236101,
+        "logLoss": 0.666869,
         "calibrationBins": [
           {
             "range": [
               0.4,
               0.6
             ],
-            "n": 1,
-            "meanPrediction": 0.5338,
+            "n": 2,
+            "meanPrediction": 0.5662,
             "observedRate": 1.0
           },
           {
@@ -90,9 +90,9 @@
               0.6,
               0.8
             ],
-            "n": 1,
-            "meanPrediction": 0.6585,
-            "observedRate": 0.0
+            "n": 2,
+            "meanPrediction": 0.6473,
+            "observedRate": 0.5
           }
         ]
       },
@@ -104,30 +104,30 @@
   },
   "byKickoffMonth": {
     "2026-11": {
-      "scored": 12,
+      "scored": 14,
       "paired": 0,
       "baseline": {
-        "n": 12,
-        "brier": 0.21518,
-        "logLoss": 0.619808,
+        "n": 14,
+        "brier": 0.205404,
+        "logLoss": 0.600226,
         "calibrationBins": [
           {
             "range": [
               0.4,
               0.6
             ],
-            "n": 5,
-            "meanPrediction": 0.4945,
-            "observedRate": 0.4
+            "n": 6,
+            "meanPrediction": 0.5118,
+            "observedRate": 0.5
           },
           {
             "range": [
               0.6,
               0.8
             ],
-            "n": 7,
-            "meanPrediction": 0.6861,
-            "observedRate": 0.7143
+            "n": 8,
+            "meanPrediction": 0.6798,
+            "observedRate": 0.75
           }
         ]
       },
@@ -137,7 +137,7 @@
       "pairedLogLossDelta": null
     }
   },
-  "pendingOutcomes": 47,
+  "pendingOutcomes": 45,
   "rejected": [],
   "diagnostics": {
     "candidateCoverage": 0,

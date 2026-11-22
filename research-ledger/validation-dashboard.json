@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T00:24:49.015048+00:00",
+  "generatedAt": "2026-11-22T01:47:09.846794+00:00",
   "fiveSteps": {
     "eventCollection": true,
     "pregameForecastCaptured": true,
@@ -121,6 +121,16 @@
     {
       "type": "outcome",
       "id": "research-home-win:nhl:401892755:prior20-v1",
+      "reason": "invalid or not final"
+    },
+    {
+      "type": "outcome",
+      "id": "research-home-win:nhl:401892756:prior20-v1",
+      "reason": "invalid or not final"
+    },
+    {
+      "type": "outcome",
+      "id": "research-home-win:nhl:401892757:prior20-v1",
       "reason": "invalid or not final"
     }
   ],

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T00:24:49.557687+00:00",
+  "generatedAt": "2026-11-22T01:47:10.251248+00:00",
   "totalForecastsWithFixtures": 59,
-  "scored": 12,
+  "scored": 14,
   "games": [
     {
       "gameKey": "nhl:401892780",
@@ -691,8 +691,15 @@
       "homeWinProbability": 0.6361275336160592,
       "modelVersion": "research-prior20-v1",
       "captureMethod": "server-side historical results baseline; NOT website simulation",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "4",
+        "awayScore": "3",
+        "homeWon": true,
+        "verifiedAt": "2026-11-22T01:47:03.839270+00:00",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
+        "brier": 0.132403
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nhl:401892756",
@@ -706,8 +713,15 @@
       "homeWinProbability": 0.5986326115986987,
       "modelVersion": "research-prior20-v1",
       "captureMethod": "server-side historical results baseline; NOT website simulation",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "4",
+        "awayScore": "3",
+        "homeWon": true,
+        "verifiedAt": "2026-11-22T01:47:03.839270+00:00",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
+        "brier": 0.161096
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nhl:401892755",
