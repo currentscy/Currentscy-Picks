@@ -96968,5 +96968,110 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "d383bf16b99f7aafe9e653fe7f823eabf44f074a6345d016b8eac2dd75716f65",
+    "capturedAt": "2026-11-22T07:57:19.042564+00:00",
+    "observation": {
+      "eventKey": "ncaa-football:401856870",
+      "sport": "ncaa-football",
+      "scheduledStart": "2026-11-22T03:30Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "9",
+          "name": "Arizona State Sun Devils",
+          "homeAway": "home",
+          "score": "27",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "197",
+          "name": "Oklahoma State Cowboys",
+          "homeAway": "away",
+          "score": "30",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-22T07:57:07.793613+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "d5466da678e525910447f13029e09a54a318ddfb21cacec0f6d02a3b6c7a3095",
+    "capturedAt": "2026-11-22T07:57:19.042564+00:00",
+    "observation": {
+      "eventKey": "ncaa-football:401860919",
+      "sport": "ncaa-football",
+      "scheduledStart": "2026-11-22T03:30Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "204",
+          "name": "Oregon State Beavers",
+          "homeAway": "home",
+          "score": "31",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "328",
+          "name": "Utah State Aggies",
+          "homeAway": "away",
+          "score": "24",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-22T07:57:07.793613+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "1d8ba004cf4eb6e36e15052fec03e81306fce20e584f98e343921b4e9a913b35",
+    "capturedAt": "2026-11-22T07:57:19.042564+00:00",
+    "observation": {
+      "eventKey": "ncaa-football:401864541",
+      "sport": "ncaa-football",
+      "scheduledStart": "2026-11-22T03:30Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "2440",
+          "name": "Nevada Wolf Pack",
+          "homeAway": "home",
+          "score": "16",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "62",
+          "name": "Hawai'i Rainbow Warriors",
+          "homeAway": "away",
+          "score": "8",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300",
+      "observedAt": "2026-11-22T07:57:07.793613+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
