@@ -27,11 +27,22 @@ export async function collectUpcomingGame(game,{fetcher=fetch,asOf=new Date().to
  const route=ROUTES[game?.sport];
  if(!route)return {ok:false,errors:['no verified team-schedule route for sport'],coverage:[],observations:[]};
  const history=[],failures=[];
+ let verifiedSeason=game.season?String(game.season):null;
+ if(!verifiedSeason){
+  const eventId=game.source?.eventId||String(game.gameKey||'').split(':').at(-1);
+  try{
+   const event=await json(fetcher,base+route+'/summary?event='+encodeURIComponent(eventId));
+   const season=event.header?.season?.year||event.season?.year;
+   if(!season)throw Error('upcoming event season missing');
+   verifiedSeason=String(season);
+  }catch(e){return {ok:false,errors:['cannot verify upcoming game season: '+String(e.message||e)],coverage:[],observations:[],sourceFailures:[],asOf};}
+ }
+ const verifiedGame={...game,season:verifiedSeason};
  for(const team of game.teams||[]) {
   const teamId=String(team.teamKey).split(':').at(-1);
   try {
    const schedule=await json(fetcher,base+route+'/teams/'+encodeURIComponent(teamId)+'/schedule');
-   const candidates=(schedule.events||[]).filter(e=>String(e.season?.year||'')===String(game.season||'')&&stamp(e.date)<stamp(asOf)&&stamp(e.date)<stamp(game.start)&&e.competitions?.[0]?.status?.type?.completed===true).sort((a,b)=>stamp(b.date)-stamp(a.date)).slice(0,maxHistory);
+   const candidates=(schedule.events||[]).filter(e=>String(e.season?.year||'')===verifiedSeason&&stamp(e.date)<stamp(asOf)&&stamp(e.date)<stamp(game.start)&&e.competitions?.[0]?.status?.type?.completed===true).sort((a,b)=>stamp(b.date)-stamp(a.date)).slice(0,maxHistory);
    for(const prior of candidates) {
     const url=base+route+'/summary?event='+encodeURIComponent(prior.id);
     try {
@@ -40,13 +51,13 @@ export async function collectUpcomingGame(game,{fetcher=fetch,asOf=new Date().to
       if(String(group.team?.id)!==teamId)continue;
       for(const cat of group.statistics||[])for(const athlete of cat.athletes||[]) {
        if(!athlete.athlete?.id||!athlete.stats?.length)continue;
-       history.push({teamId,playerId:String(athlete.athlete.id),playerName:athlete.athlete.displayName,sourceEventId:String(prior.id),sourceUrl:url,historicalGameStart:prior.date,season:String(prior.season?.year||game.season||''),stats:Object.fromEntries(athlete.stats.map((v,i)=>[String(cat.keys?.[i]||cat.labels?.[i]||'stat_'+i),v]))});
+       history.push({teamId,playerId:String(athlete.athlete.id),playerName:athlete.athlete.displayName,sourceEventId:String(prior.id),sourceUrl:url,historicalGameStart:prior.date,season:String(prior.season?.year||''),stats:Object.fromEntries(athlete.stats.map((v,i)=>[String(cat.keys?.[i]||cat.labels?.[i]||'stat_'+i),v]))});
       }
      }
     }catch(e){failures.push({teamId,eventId:prior.id,reason:String(e.message||e)});}
    }
   }catch(e){failures.push({teamId,reason:String(e.message||e)});}
  }
- const result=normalizeHistory(game,history,asOf);
+ const result=normalizeHistory(verifiedGame,history,asOf);
  return {...result,errors:[...result.errors,...failures.map(x=>'source failure: '+x.reason)],sourceFailures:failures,ok:result.ok&&failures.length===0,asOf,injuriesVerified:false,lineupsVerified:false};
 }
