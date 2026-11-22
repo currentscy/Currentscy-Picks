@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-22T14:36:06.693086+00:00",
+  "asOf": "2026-11-22T15:24:22.561368+00:00",
   "pipeline": {
     "stage1Events": 226,
     "stage2Games": 226,
@@ -16,7 +16,13 @@
   },
   "verification": {
     "sameProviderGamesCompared": 194,
-    "sameProviderDisagreements": [],
+    "sameProviderDisagreements": [
+      {
+        "gameKey": "soccer-spain:401882804",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      }
+    ],
     "unmatchedOutcomeIds": [],
     "independentProviderVerification": false,
     "injuriesVerified": false,
