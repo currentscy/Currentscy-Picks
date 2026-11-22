@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T06:43:34.583712+00:00",
+  "generatedAt": "2026-11-22T07:49:19.712583+00:00",
   "fiveSteps": {
     "eventCollection": true,
     "pregameForecastCaptured": true,
     "finalOutcomeMatched": true,
     "researchCoverageReported": true,
-    "accuracyEvaluationReady": false,
+    "accuracyEvaluationReady": true,
     "everySportScored": false
   },
   "bySport": {
     "nba": {
       "events": 270,
-      "completed": 236,
+      "completed": 241,
       "validForecasts": 32,
-      "matchedFinalOutcomes": 10
+      "matchedFinalOutcomes": 15
     },
     "ncaa-football": {
       "events": 115,
-      "completed": 95,
+      "completed": 113,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
@@ -30,9 +30,9 @@
     },
     "nhl": {
       "events": 279,
-      "completed": 242,
+      "completed": 252,
       "validForecasts": 41,
-      "matchedFinalOutcomes": 4
+      "matchedFinalOutcomes": 14
     },
     "soccer-england": {
       "events": 23,
@@ -60,7 +60,7 @@
     },
     "soccer-mexico": {
       "events": 30,
-      "completed": 26,
+      "completed": 28,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
@@ -107,85 +107,9 @@
       "matchedFinalOutcomes": 0
     }
   },
-  "invalidRecords": [
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892762:prior20-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "nba-home-win:401910024:nba-record-home-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "nba-home-win:401910025:nba-record-home-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "nba-home-win:401910026:nba-record-home-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "nba-home-win:401910027:nba-record-home-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892758:prior20-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892759:prior20-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892760:prior20-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892761:prior20-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892763:prior20-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892764:prior20-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892765:prior20-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "nba-home-win:401910028:nba-record-home-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892766:prior20-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892767:prior20-v1",
-      "reason": "invalid or not final"
-    }
-  ],
+  "invalidRecords": [],
   "validPregameForecasts": 73,
-  "matchedFinalOutcomes": 14,
+  "matchedFinalOutcomes": 29,
   "completeCoverageEstablished": false,
   "sportsWithScoredForecasts": [
     "nba",

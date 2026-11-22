@@ -1,54 +1,18 @@
 {
-  "lastRun": "2026-11-22T01:49:56.277918+00:00",
+  "lastRun": "2026-11-22T07:49:13.962718+00:00",
   "trackedGames": 412,
   "changes": [
     {
-      "type": "new_game",
-      "key": "nfl:401873087"
-    },
-    {
-      "type": "new_game",
-      "key": "nfl:401873088"
-    },
-    {
-      "type": "new_game",
-      "key": "nfl:401873089"
-    },
-    {
-      "type": "new_game",
-      "key": "nfl:401873084"
-    },
-    {
-      "type": "new_game",
-      "key": "nfl:401873090"
-    },
-    {
-      "type": "new_game",
-      "key": "nfl:401873085"
-    },
-    {
-      "type": "new_game",
-      "key": "nfl:401873093"
-    },
-    {
-      "type": "new_game",
-      "key": "nfl:401873092"
-    },
-    {
-      "type": "new_game",
-      "key": "nfl:401873091"
-    },
-    {
-      "type": "new_game",
-      "key": "nfl:401873086"
+      "type": "game_updated",
+      "key": "ncaa:401856753"
     },
     {
       "type": "game_updated",
-      "key": "ncaa:401860920"
+      "key": "ncaa:401856872"
     },
     {
       "type": "game_updated",
-      "key": "ncaa:401858534"
+      "key": "ncaa:401858307"
     },
     {
       "type": "game_updated",
@@ -56,7 +20,27 @@
     },
     {
       "type": "game_updated",
+      "key": "ncaa:401856751"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401860925"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401858534"
+    },
+    {
+      "type": "game_updated",
       "key": "ncaa:401856865"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401858306"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401860920"
     },
     {
       "type": "game_updated",
@@ -65,22 +49,6 @@
     {
       "type": "game_updated",
       "key": "ncaa:401869938"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401856753"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401858307"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401856751"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401858306"
     },
     {
       "type": "game_updated",
@@ -96,167 +64,71 @@
     },
     {
       "type": "game_updated",
-      "key": "ncaa:401856746"
+      "key": "ncaa:401856870"
     },
     {
       "type": "game_updated",
-      "key": "ncaa:401858528"
+      "key": "ncaa:401860919"
     },
     {
       "type": "game_updated",
-      "key": "ncaa:401856755"
+      "key": "ncaa:401864541"
     },
     {
       "type": "game_updated",
-      "key": "ncaa:401858535"
+      "key": "ncaa:401856761"
     },
     {
       "type": "game_updated",
-      "key": "ncaa:401856754"
+      "key": "ncaa:401856758"
     },
     {
       "type": "game_updated",
-      "key": "ncaa:401856866"
+      "key": "ncaa:401856764"
     },
     {
       "type": "game_updated",
-      "key": "ncaa:401858310"
+      "key": "ncaa:401856760"
     },
     {
       "type": "game_updated",
-      "key": "ncaa:401856871"
+      "key": "ncaa:401858312"
     },
     {
       "type": "game_updated",
-      "key": "ncaa:401858531"
+      "key": "ncaa:401858316"
     },
     {
       "type": "game_updated",
-      "key": "ncaa:401858527"
+      "key": "ncaa:401860926"
     },
     {
       "type": "game_updated",
-      "key": "ncaa:401856868"
+      "key": "ncaa:401860929"
     },
     {
       "type": "game_updated",
-      "key": "ncaa:401856752"
+      "key": "ncaa:401858538"
     },
     {
       "type": "game_updated",
-      "key": "ncaa:401856748"
+      "key": "ncaa:401856765"
     },
     {
       "type": "game_updated",
-      "key": "ncaa:401856749"
+      "key": "ncaa:401856757"
     },
     {
       "type": "game_updated",
-      "key": "ncaa:401856867"
+      "key": "ncaa:401858541"
     },
     {
       "type": "game_updated",
-      "key": "ncaa:401858309"
+      "key": "ncaa:401860928"
     },
     {
       "type": "game_updated",
-      "key": "ncaa:401858530"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401858533"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401862831"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401862834"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401862835"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401858305"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401856750"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401871080"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401862832"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401871079"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401871081"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401862833"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401869929"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401869946"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401871077"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401871078"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401856747"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401858304"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401858532"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401861968"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401864543"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401869953"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401869958"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401871101"
-    },
-    {
-      "type": "game_updated",
-      "key": "nba:401910023"
+      "key": "ncaa:401860927"
     },
     {
       "type": "game_updated",
@@ -275,60 +147,8 @@
       "key": "nba:401910027"
     },
     {
-      "type": "new_game",
-      "key": "nba:401910054"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910051"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910052"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910053"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910055"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910056"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910057"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910058"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910059"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910060"
-    },
-    {
       "type": "game_updated",
-      "key": "nhl:401892754"
-    },
-    {
-      "type": "game_updated",
-      "key": "nhl:401892755"
-    },
-    {
-      "type": "game_updated",
-      "key": "nhl:401892756"
-    },
-    {
-      "type": "game_updated",
-      "key": "nhl:401892757"
+      "key": "nba:401910028"
     },
     {
       "type": "game_updated",
@@ -359,51 +179,19 @@
       "key": "nhl:401892764"
     },
     {
-      "type": "new_game",
-      "key": "nhl:401892823"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892824"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-epl:401879229"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-epl:401879231"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-epl:401879230"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-epl:401879228"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-epl:401879224"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-epl:401878753"
+      "type": "game_updated",
+      "key": "nhl:401892765"
     },
     {
       "type": "game_updated",
-      "key": "soccer-laliga:401882797"
+      "key": "nhl:401892766"
     },
     {
       "type": "game_updated",
-      "key": "soccer-laliga:401882798"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-laliga:401882787"
+      "key": "nhl:401892767"
     }
   ],
-  "changeCount": 118,
+  "changeCount": 47,
   "sourceFailures": [],
   "failureCount": 0,
   "injuryFeedVerified": false,
