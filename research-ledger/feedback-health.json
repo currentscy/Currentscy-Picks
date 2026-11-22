@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-22T03:38:36.480400+00:00",
+  "asOf": "2026-11-22T04:43:23.147336+00:00",
   "pipeline": {
     "stage1Events": 226,
     "stage2Games": 226,
@@ -10,9 +10,9 @@
     "unifiedEventHistory": 1001,
     "sportsWithCoverageChecks": 17,
     "liveModelForecasts": 73,
-    "ESPNFinalOutcomes": 25,
-    "stage3Scored": 25,
-    "stage4Scored": 25
+    "ESPNFinalOutcomes": 26,
+    "stage3Scored": 26,
+    "stage4Scored": 26
   },
   "verification": {
     "sameProviderGamesCompared": 194,
@@ -24,6 +24,11 @@
       },
       {
         "gameKey": "ncaa-football:401858534",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "ncaa-football:401856865",
         "field": "completed",
         "reason": "collection disagreement or different polling times"
       },
@@ -83,6 +88,36 @@
         "reason": "collection disagreement or different polling times"
       },
       {
+        "gameKey": "ncaa-football:401856751",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "ncaa-football:401856753",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "ncaa-football:401858306",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "ncaa-football:401858307",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "ncaa-football:401858308",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "ncaa-football:401860918",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
         "gameKey": "nba:401910025",
         "field": "completed",
         "reason": "collection disagreement or different polling times"
@@ -94,6 +129,16 @@
       },
       {
         "gameKey": "nba:401910027",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "ncaa-football:401862836",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "nhl:401892765",
         "field": "completed",
         "reason": "collection disagreement or different polling times"
       }

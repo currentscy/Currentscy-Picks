@@ -4,11 +4,11 @@
     "nba": {
       "early": {
         "metrics": {
-          "count": 19,
-          "brier": 0.20944353007560346,
-          "logLoss": 0.6074363172657707,
-          "actualWinRate": 0.6842105263157895,
-          "meanPredicted": 0.581574841245088
+          "count": 20,
+          "brier": 0.21147804438889567,
+          "logLoss": 0.6117352420649438,
+          "actualWinRate": 0.7,
+          "meanPredicted": 0.5774894092608622
         },
         "calibrationBins": [
           {
@@ -45,11 +45,11 @@
               0.5
             ],
             "metrics": {
-              "count": 3,
-              "brier": 0.24137205277739857,
-              "logLoss": 0.6755978718839558,
-              "actualWinRate": 0.6666666666666666,
-              "meanPredicted": 0.46084470279685524
+              "count": 4,
+              "brier": 0.24356249366841107,
+              "logLoss": 0.6800521072252745,
+              "actualWinRate": 0.75,
+              "meanPredicted": 0.4706000774877849
             }
           },
           {
@@ -212,5 +212,5 @@
   "rejected": {},
   "liveModelPromoted": false,
   "limitations": "No causal injury/lineup attribution without matched same-state counterfactuals; no model promotion or automatic live deployment.",
-  "generatedAt": "2026-11-22T03:38:36.731981+00:00"
+  "generatedAt": "2026-11-22T04:43:23.400260+00:00"
 }
