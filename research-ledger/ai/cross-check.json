@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T07:57:19.502853+00:00",
+  "generatedAt": "2026-11-22T08:50:53.131909+00:00",
   "providers": {
     "cloudflare": {
       "status": "error",
@@ -17,15 +17,15 @@
   "availableProviders": [],
   "crossCheckComplete": false,
   "evidence": {
-    "savedForecasts": 73,
+    "savedForecasts": 76,
     "savedFinalOutcomes": 29,
     "evaluationSummary": {
       "gamesAvailable": 1001,
-      "validPregamePredictions": 73,
+      "validPregamePredictions": 76,
       "scoredBaselinePredictions": 29,
       "scoredCandidatePredictions": 0,
       "pairedSample": 0,
-      "unscoredPredictions": 44,
+      "unscoredPredictions": 47,
       "rejectedRecords": 0
     },
     "learningBySport": {
@@ -40,21 +40,6 @@
     },
     "recentForecasts": [
       {
-        "gameKey": "nhl:401892790",
-        "predictedAt": "2026-11-22T01:50:08.138913+00:00",
-        "baselineProbability": 0.5763762588010395
-      },
-      {
-        "gameKey": "nhl:401892791",
-        "predictedAt": "2026-11-22T01:50:08.138913+00:00",
-        "baselineProbability": 0.6847336458753362
-      },
-      {
-        "gameKey": "nhl:401892792",
-        "predictedAt": "2026-11-22T01:50:08.138913+00:00",
-        "baselineProbability": 0.47881604790696547
-      },
-      {
         "gameKey": "nhl:401892793",
         "predictedAt": "2026-11-22T01:50:08.138913+00:00",
         "baselineProbability": 0.5703756123316672
@@ -63,6 +48,21 @@
         "gameKey": "nhl:401892794",
         "predictedAt": "2026-11-22T01:50:08.138913+00:00",
         "baselineProbability": 0.6078660293953069
+      },
+      {
+        "gameKey": "nba:401909314",
+        "predictedAt": "2026-11-22T08:50:48.510Z",
+        "baselineProbability": 0.4764771287088745
+      },
+      {
+        "gameKey": "nba:401909315",
+        "predictedAt": "2026-11-22T08:50:48.510Z",
+        "baselineProbability": 0.41859655437385
+      },
+      {
+        "gameKey": "nba:401909316",
+        "predictedAt": "2026-11-22T08:50:48.510Z",
+        "baselineProbability": 0.5834465011103399
       }
     ]
   },

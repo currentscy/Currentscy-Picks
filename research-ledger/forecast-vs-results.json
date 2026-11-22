@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T07:57:19.360808+00:00",
-  "totalForecastsWithFixtures": 73,
+  "generatedAt": "2026-11-22T08:50:53.001072+00:00",
+  "totalForecastsWithFixtures": 76,
   "scored": 29,
   "games": [
     {
@@ -215,6 +215,21 @@
       "status": "awaiting-verified-final"
     },
     {
+      "gameKey": "nba:401909316",
+      "sport": "nba",
+      "home": "Denver Nuggets",
+      "away": "Dallas Mavericks",
+      "scheduledStart": "2026-11-25T03:00Z",
+      "predictedAt": "2026-11-22T08:50:48.510Z",
+      "predictedWinner": "Denver Nuggets",
+      "predictedWinnerProbability": 0.5834,
+      "homeWinProbability": 0.5834465011103399,
+      "modelVersion": "nba-record-home-v1",
+      "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+      "result": null,
+      "status": "awaiting-verified-final"
+    },
+    {
       "gameKey": "nhl:401892780",
       "sport": "nhl",
       "home": "Edmonton Oilers",
@@ -226,6 +241,36 @@
       "homeWinProbability": 0.6491153784149016,
       "modelVersion": "research-prior20-v1",
       "captureMethod": "server-side historical results baseline; NOT website simulation",
+      "result": null,
+      "status": "awaiting-verified-final"
+    },
+    {
+      "gameKey": "nba:401909315",
+      "sport": "nba",
+      "home": "Washington Wizards",
+      "away": "Boston Celtics",
+      "scheduledStart": "2026-11-25T01:00Z",
+      "predictedAt": "2026-11-22T08:50:48.510Z",
+      "predictedWinner": "Boston Celtics",
+      "predictedWinnerProbability": 0.5814,
+      "homeWinProbability": 0.41859655437385,
+      "modelVersion": "nba-record-home-v1",
+      "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+      "result": null,
+      "status": "awaiting-verified-final"
+    },
+    {
+      "gameKey": "nba:401909314",
+      "sport": "nba",
+      "home": "Orlando Magic",
+      "away": "Detroit Pistons",
+      "scheduledStart": "2026-11-25T00:00Z",
+      "predictedAt": "2026-11-22T08:50:48.510Z",
+      "predictedWinner": "Detroit Pistons",
+      "predictedWinnerProbability": 0.5235,
+      "homeWinProbability": 0.4764771287088745,
+      "modelVersion": "nba-record-home-v1",
+      "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
       "result": null,
       "status": "awaiting-verified-final"
     },
