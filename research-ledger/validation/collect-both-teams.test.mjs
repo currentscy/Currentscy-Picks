@@ -17,3 +17,19 @@ test('collects separate historical player stats from both teams',async()=>{
  assert.equal(r.ok,true);assert.equal(r.observations.length,2);assert.equal(r.coverage.length,2);
 });
 test('failed source fetch fails closed',async()=>{const r=await collectUpcomingGame(game,{fetcher:async()=>({ok:false,status:503}),asOf});assert.equal(r.ok,false);assert.equal(r.sourceFailures.length,2)});
+
+test('resolves missing season from upcoming event and rejects cross-season history',async()=>{
+ const noSeason={...game,season:undefined,source:{eventId:'future'}};
+ const fetcher=async url=>({ok:true,json:async()=>{
+  if(url.includes('summary?event=future'))return {header:{season:{year:2026}}};
+  if(url.endsWith('/schedule')){const id=url.match(/teams\\/(\\d+)\\/schedule/)[1];return {events:[{id:'past'+id,season:{year:2025},date:'2026-11-19T01:00:00Z',competitions:[{status:{type:{completed:true}}}]}]};}
+  throw Error('unexpected '+url);
+ }});
+ const r=await collectUpcomingGame(noSeason,{fetcher,asOf,maxHistory:1});
+ assert.equal(r.ok,false);
+ assert.ok(r.errors.includes('missing player evidence for one or both teams'));
+});
+test('fails closed when upcoming season cannot be verified',async()=>{
+ const r=await collectUpcomingGame({...game,season:undefined},{asOf,fetcher:async()=>({ok:true,json:async()=>({header:{}})})});
+ assert.equal(r.ok,false);assert.match(r.errors[0],/cannot verify upcoming game season/);
+});
