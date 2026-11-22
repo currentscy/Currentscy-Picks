@@ -1,7 +1,119 @@
 {
-  "lastRun": "2026-11-21T19:28:17.046141+00:00",
-  "trackedGames": 370,
+  "lastRun": "2026-11-22T01:49:56.277918+00:00",
+  "trackedGames": 412,
   "changes": [
+    {
+      "type": "new_game",
+      "key": "nfl:401873087"
+    },
+    {
+      "type": "new_game",
+      "key": "nfl:401873088"
+    },
+    {
+      "type": "new_game",
+      "key": "nfl:401873089"
+    },
+    {
+      "type": "new_game",
+      "key": "nfl:401873084"
+    },
+    {
+      "type": "new_game",
+      "key": "nfl:401873090"
+    },
+    {
+      "type": "new_game",
+      "key": "nfl:401873085"
+    },
+    {
+      "type": "new_game",
+      "key": "nfl:401873093"
+    },
+    {
+      "type": "new_game",
+      "key": "nfl:401873092"
+    },
+    {
+      "type": "new_game",
+      "key": "nfl:401873091"
+    },
+    {
+      "type": "new_game",
+      "key": "nfl:401873086"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401860920"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401858534"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401858302"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401856865"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401864544"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401869938"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401856753"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401858307"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401856751"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401858306"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401858308"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401860918"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401862836"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401856746"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401858528"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401856755"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401858535"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401856754"
+    },
     {
       "type": "game_updated",
       "key": "ncaa:401856866"
@@ -12,7 +124,23 @@
     },
     {
       "type": "game_updated",
+      "key": "ncaa:401856871"
+    },
+    {
+      "type": "game_updated",
       "key": "ncaa:401858531"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401858527"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401856868"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401856752"
     },
     {
       "type": "game_updated",
@@ -56,19 +184,11 @@
     },
     {
       "type": "game_updated",
-      "key": "ncaa:401856868"
-    },
-    {
-      "type": "game_updated",
       "key": "ncaa:401856750"
     },
     {
       "type": "game_updated",
       "key": "ncaa:401871080"
-    },
-    {
-      "type": "game_updated",
-      "key": "ncaa:401856746"
     },
     {
       "type": "game_updated",
@@ -84,7 +204,115 @@
     },
     {
       "type": "game_updated",
+      "key": "ncaa:401862833"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401869929"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401869946"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401871077"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401871078"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401856747"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401858304"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401858532"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401861968"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401864543"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401869953"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401869958"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401871101"
+    },
+    {
+      "type": "game_updated",
       "key": "nba:401910023"
+    },
+    {
+      "type": "game_updated",
+      "key": "nba:401910024"
+    },
+    {
+      "type": "game_updated",
+      "key": "nba:401910025"
+    },
+    {
+      "type": "game_updated",
+      "key": "nba:401910026"
+    },
+    {
+      "type": "game_updated",
+      "key": "nba:401910027"
+    },
+    {
+      "type": "new_game",
+      "key": "nba:401910054"
+    },
+    {
+      "type": "new_game",
+      "key": "nba:401910051"
+    },
+    {
+      "type": "new_game",
+      "key": "nba:401910052"
+    },
+    {
+      "type": "new_game",
+      "key": "nba:401910053"
+    },
+    {
+      "type": "new_game",
+      "key": "nba:401910055"
+    },
+    {
+      "type": "new_game",
+      "key": "nba:401910056"
+    },
+    {
+      "type": "new_game",
+      "key": "nba:401910057"
+    },
+    {
+      "type": "new_game",
+      "key": "nba:401910058"
+    },
+    {
+      "type": "new_game",
+      "key": "nba:401910059"
+    },
+    {
+      "type": "new_game",
+      "key": "nba:401910060"
     },
     {
       "type": "game_updated",
@@ -92,39 +320,75 @@
     },
     {
       "type": "game_updated",
-      "key": "soccer-epl:401879233"
+      "key": "nhl:401892755"
     },
     {
       "type": "game_updated",
-      "key": "soccer-epl:401879238"
+      "key": "nhl:401892756"
     },
     {
       "type": "game_updated",
-      "key": "soccer-epl:401878756"
+      "key": "nhl:401892757"
     },
     {
       "type": "game_updated",
-      "key": "soccer-epl:401879236"
+      "key": "nhl:401892758"
     },
     {
       "type": "game_updated",
-      "key": "soccer-epl:401879235"
+      "key": "nhl:401892759"
     },
     {
       "type": "game_updated",
-      "key": "soccer-epl:401878754"
+      "key": "nhl:401892760"
     },
     {
       "type": "game_updated",
-      "key": "soccer-epl:401879232"
+      "key": "nhl:401892761"
     },
     {
       "type": "game_updated",
-      "key": "soccer-laliga:401882806"
+      "key": "nhl:401892762"
     },
     {
       "type": "game_updated",
-      "key": "soccer-laliga:401882799"
+      "key": "nhl:401892763"
+    },
+    {
+      "type": "game_updated",
+      "key": "nhl:401892764"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892823"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892824"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-epl:401879229"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-epl:401879231"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-epl:401879230"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-epl:401879228"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-epl:401879224"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-epl:401878753"
     },
     {
       "type": "game_updated",
@@ -132,46 +396,14 @@
     },
     {
       "type": "game_updated",
-      "key": "soccer-bundesliga:401884732"
+      "key": "soccer-laliga:401882798"
     },
     {
-      "type": "game_updated",
-      "key": "soccer-bundesliga:401884735"
-    },
-    {
-      "type": "game_updated",
-      "key": "soccer-bundesliga:401884731"
-    },
-    {
-      "type": "game_updated",
-      "key": "soccer-bundesliga:401884734"
-    },
-    {
-      "type": "game_updated",
-      "key": "soccer-bundesliga:401884728"
-    },
-    {
-      "type": "game_updated",
-      "key": "soccer-bundesliga:401884729"
-    },
-    {
-      "type": "game_updated",
-      "key": "soccer-seriea:401875056"
-    },
-    {
-      "type": "game_updated",
-      "key": "soccer-seriea:401874981"
-    },
-    {
-      "type": "game_updated",
-      "key": "soccer-seriea:401874967"
-    },
-    {
-      "type": "game_updated",
-      "key": "soccer-ligue1:401876398"
+      "type": "new_game",
+      "key": "soccer-laliga:401882787"
     }
   ],
-  "changeCount": 42,
+  "changeCount": 118,
   "sourceFailures": [],
   "failureCount": 0,
   "injuryFeedVerified": false,
