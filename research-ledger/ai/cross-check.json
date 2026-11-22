@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T05:43:01.713266+00:00",
+  "generatedAt": "2026-11-22T06:43:35.290462+00:00",
   "providers": {
     "cloudflare": {
       "status": "error",
@@ -18,14 +18,14 @@
   "crossCheckComplete": false,
   "evidence": {
     "savedForecasts": 73,
-    "savedFinalOutcomes": 27,
+    "savedFinalOutcomes": 29,
     "evaluationSummary": {
       "gamesAvailable": 1001,
       "validPregamePredictions": 73,
-      "scoredBaselinePredictions": 27,
+      "scoredBaselinePredictions": 29,
       "scoredCandidatePredictions": 0,
       "pairedSample": 0,
-      "unscoredPredictions": 46,
+      "unscoredPredictions": 44,
       "rejectedRecords": 0
     },
     "learningBySport": {
@@ -34,7 +34,7 @@
         "promotionEligible": false
       },
       "nhl": {
-        "n": 12,
+        "n": 14,
         "promotionEligible": false
       }
     },
