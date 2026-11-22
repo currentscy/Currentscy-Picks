@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T01:50:08.605417+00:00",
+  "generatedAt": "2026-11-22T02:38:41.186732+00:00",
   "fiveSteps": {
     "eventCollection": true,
     "pregameForecastCaptured": true,
     "finalOutcomeMatched": true,
     "researchCoverageReported": true,
-    "accuracyEvaluationReady": true,
+    "accuracyEvaluationReady": false,
     "everySportScored": false
   },
   "bySport": {
@@ -107,7 +107,13 @@
       "matchedFinalOutcomes": 0
     }
   },
-  "invalidRecords": [],
+  "invalidRecords": [
+    {
+      "type": "outcome",
+      "id": "research-home-win:nhl:401892762:prior20-v1",
+      "reason": "invalid or not final"
+    }
+  ],
   "validPregameForecasts": 73,
   "matchedFinalOutcomes": 14,
   "completeCoverageEstablished": false,

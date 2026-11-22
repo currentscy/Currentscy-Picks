@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T01:50:08.743023+00:00",
+  "generatedAt": "2026-11-22T02:38:41.710569+00:00",
   "totalForecastsWithFixtures": 73,
-  "scored": 14,
+  "scored": 15,
   "games": [
     {
       "gameKey": "nhl:401892793",
@@ -826,8 +826,15 @@
       "homeWinProbability": 0.5012391703743653,
       "modelVersion": "research-prior20-v1",
       "captureMethod": "server-side historical results baseline; NOT website simulation",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "2",
+        "awayScore": "3",
+        "homeWon": false,
+        "verifiedAt": "2026-11-22T02:38:31.048212+00:00",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261121&limit=300",
+        "brier": 0.251241
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nhl:401892761",
