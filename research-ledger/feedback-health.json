@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-22T19:28:19.665551+00:00",
+  "asOf": "2026-11-22T19:29:53.977590+00:00",
   "pipeline": {
     "stage1Events": 226,
     "stage2Games": 226,
     "legacyMultisportGames": 412,
     "legacyFootballGames": 157,
-    "stage5Snapshots": 3801,
+    "stage5Snapshots": 4019,
     "unifiedEventHistory": 1001,
     "sportsWithCoverageChecks": 17,
     "liveModelForecasts": 76,
@@ -16,68 +16,7 @@
   },
   "verification": {
     "sameProviderGamesCompared": 194,
-    "sameProviderDisagreements": [
-      {
-        "gameKey": "soccer-spain:401882804",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "soccer-england:401879234",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "soccer-france:401876397",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "soccer-italy:401874960",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "soccer-italy:401875047",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "soccer-germany:401884733",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "soccer-spain:401882800",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "soccer-france:401876401",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "soccer-england:401878755",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "soccer-germany:401884730",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "soccer-italy:401874989",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "soccer-spain:401882801",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      }
-    ],
+    "sameProviderDisagreements": [],
     "unmatchedOutcomeIds": [],
     "independentProviderVerification": false,
     "injuriesVerified": false,

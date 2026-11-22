@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 5,
+  "gameKey": "soccer-germany:401884728",
+  "sport": "soccer-germany",
+  "phase": "postgame",
+  "scheduledStart": "2026-11-21T14:30Z",
+  "sourceObservedAt": "2026-11-22T19:29:31.140457+00:00",
+  "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=300",
+  "teams": [
+    {
+      "sourceTeamId": "10388",
+      "homeAway": "home",
+      "score": "0"
+    },
+    {
+      "sourceTeamId": "126",
+      "homeAway": "away",
+      "score": "1"
+    }
+  ],
+  "completed": true
+}
