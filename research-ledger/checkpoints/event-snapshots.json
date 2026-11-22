@@ -99613,5 +99613,425 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "e3266fe39ef1976b136a58a22fb1898809b5accf3793a9bc79e9959facbd4c22",
+    "capturedAt": "2026-11-22T21:05:44.044634+00:00",
+    "observation": {
+      "eventKey": "nfl:401873067",
+      "sport": "nfl",
+      "scheduledStart": "2026-11-22T18:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "12",
+          "name": "Kansas City Chiefs",
+          "homeAway": "home",
+          "score": "34",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "22",
+          "name": "Arizona Cardinals",
+          "homeAway": "away",
+          "score": "7",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T21:05:36.497884+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "cf220c522508eb95be983fd0c5d86cba2aca937b23a82d5f563595af59c2a05f",
+    "capturedAt": "2026-11-22T21:05:44.044634+00:00",
+    "observation": {
+      "eventKey": "nfl:401873068",
+      "sport": "nfl",
+      "scheduledStart": "2026-11-22T18:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "29",
+          "name": "Carolina Panthers",
+          "homeAway": "home",
+          "score": "32",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "33",
+          "name": "Baltimore Ravens",
+          "homeAway": "away",
+          "score": "33",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T21:05:36.497884+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "8d8d2a9bb8ac174ef3939920c9188499bf96f38cd0240cb49db20436b3123d1c",
+    "capturedAt": "2026-11-22T21:05:44.044634+00:00",
+    "observation": {
+      "eventKey": "nfl:401873070",
+      "sport": "nfl",
+      "scheduledStart": "2026-11-22T18:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "2",
+          "name": "Buffalo Bills",
+          "homeAway": "home",
+          "score": "26",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "15",
+          "name": "Miami Dolphins",
+          "homeAway": "away",
+          "score": "9",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T21:05:36.497884+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "3614aab91b050f843ce0d5631e83d4426e885a8325ce015d5205b06e4bfd3338",
+    "capturedAt": "2026-11-22T21:05:44.044634+00:00",
+    "observation": {
+      "eventKey": "nfl:401873071",
+      "sport": "nfl",
+      "scheduledStart": "2026-11-22T18:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "3",
+          "name": "Chicago Bears",
+          "homeAway": "home",
+          "score": "21",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "18",
+          "name": "New Orleans Saints",
+          "homeAway": "away",
+          "score": "13",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T21:05:36.497884+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "835a75dd1d15c488d7711b47b4fd00a56b7f4f0b6bfa47c27bf9875493741097",
+    "capturedAt": "2026-11-22T21:05:44.044634+00:00",
+    "observation": {
+      "eventKey": "nfl:401873072",
+      "sport": "nfl",
+      "scheduledStart": "2026-11-22T18:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "8",
+          "name": "Detroit Lions",
+          "homeAway": "home",
+          "score": "31",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "27",
+          "name": "Tampa Bay Buccaneers",
+          "homeAway": "away",
+          "score": "21",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T21:05:36.497884+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "052ba8fe7b24a89c20b4abee5d6f98cd73c1e1ef31b4131b7c38166b82d81220",
+    "capturedAt": "2026-11-22T21:05:44.044634+00:00",
+    "observation": {
+      "eventKey": "nfl:401873073",
+      "sport": "nfl",
+      "scheduledStart": "2026-11-22T18:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "6",
+          "name": "Dallas Cowboys",
+          "homeAway": "home",
+          "score": "51",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "10",
+          "name": "Tennessee Titans",
+          "homeAway": "away",
+          "score": "30",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T21:05:36.497884+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "257222a569b0b5d6544933cece684392ccf49b658614c3919e81119b26e04ad2",
+    "capturedAt": "2026-11-22T21:05:44.044634+00:00",
+    "observation": {
+      "eventKey": "nfl:401873076",
+      "sport": "nfl",
+      "scheduledStart": "2026-11-22T18:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "21",
+          "name": "Philadelphia Eagles",
+          "homeAway": "home",
+          "score": "19",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "23",
+          "name": "Pittsburgh Steelers",
+          "homeAway": "away",
+          "score": "16",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T21:05:36.497884+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "c77b66616763aa7c03dbbca6cfabf5e2be37ed28d6e150d02a6855b6073bf4c3",
+    "capturedAt": "2026-11-22T21:05:44.044634+00:00",
+    "observation": {
+      "eventKey": "soccer-france:401876400",
+      "sport": "soccer-france",
+      "scheduledStart": "2026-11-22T19:45Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "176",
+          "name": "Marseille",
+          "homeAway": "home",
+          "score": "2",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "2697",
+          "name": "Le Mans",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T21:05:36.497884+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "a6b7140492d585f022b22cad8e79b19f6da14ddf9df5f3ae3246fdacec4b746e",
+    "capturedAt": "2026-11-22T21:05:44.044634+00:00",
+    "observation": {
+      "eventKey": "soccer-italy:401875001",
+      "sport": "soccer-italy",
+      "scheduledStart": "2026-11-22T19:45Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "105",
+          "name": "Atalanta",
+          "homeAway": "home",
+          "score": "1",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "110",
+          "name": "Internazionale",
+          "homeAway": "away",
+          "score": "3",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T21:05:36.497884+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "b251954d446bbf89a9611fa865d70b69ff0a8b9459aba21d9548b580958dcb94",
+    "capturedAt": "2026-11-22T21:05:44.044634+00:00",
+    "observation": {
+      "eventKey": "soccer-spain:401882803",
+      "sport": "soccer-spain",
+      "scheduledStart": "2026-11-22T20:00Z",
+      "status": "STATUS_HALFTIME",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2922",
+          "name": "Getafe",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "1068",
+          "name": "Atl\u00e9tico Madrid",
+          "homeAway": "away",
+          "score": "2",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T21:05:36.497884+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "200cf12c164a3dfa6bbb5d8e7dc2d146bf0e599f42b66ca7ce44f94ef44bcbb7",
+    "capturedAt": "2026-11-22T21:05:44.044634+00:00",
+    "observation": {
+      "eventKey": "nba:401910029",
+      "sport": "nba",
+      "scheduledStart": "2026-11-22T20:30Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "1",
+          "name": "Atlanta Hawks",
+          "homeAway": "home",
+          "score": "29",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "8",
+          "name": "Detroit Pistons",
+          "homeAway": "away",
+          "score": "26",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T21:05:36.497884+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "259a5a9da0985806a4fbcd25cb54f9704eb6e2a83dc71b599a54cbd47ed4e312",
+    "capturedAt": "2026-11-22T21:05:44.044634+00:00",
+    "observation": {
+      "eventKey": "nfl:401873074",
+      "sport": "nfl",
+      "scheduledStart": "2026-11-22T21:05Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "24",
+          "name": "Los Angeles Chargers",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "20",
+          "name": "New York Jets",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-22T21:05:36.497884+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]

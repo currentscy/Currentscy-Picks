@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-22T20:21:17.416184+00:00",
+  "asOf": "2026-11-22T21:05:43.962258+00:00",
   "pipeline": {
     "stage1Events": 226,
     "stage2Games": 226,
@@ -19,6 +19,21 @@
     "sameProviderDisagreements": [
       {
         "gameKey": "nhl:401892768",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "nfl:401873067",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "nfl:401873070",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "nfl:401873073",
         "field": "completed",
         "reason": "collection disagreement or different polling times"
       }
