@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T19:49:22.145074+00:00",
+  "generatedAt": "2026-11-23T20:35:38.900976+00:00",
   "layers": {
     "stage1": {
       "name": "stage1",
       "state": "ready",
       "path": "stage1/latest.json",
-      "updatedAt": "2026-11-23T19:49:16.619821+00:00",
+      "updatedAt": "2026-11-23T20:35:33.100639+00:00",
       "ageHours": 0.0
     },
     "stage2": {
@@ -14,20 +14,20 @@
       "state": "ready",
       "path": "stage2/latest.json",
       "updatedAt": "2026-11-23T19:40:18.018754+00:00",
-      "ageHours": 0.15
+      "ageHours": 0.92
     },
     "stage3": {
       "name": "stage3",
       "state": "ready",
       "path": "stage3/evaluation.json",
-      "updatedAt": "2026-11-23T19:49:20.851961+00:00",
+      "updatedAt": "2026-11-23T20:35:38.069720+00:00",
       "ageHours": 0.0
     },
     "stage4": {
       "name": "stage4",
       "state": "ready",
       "path": "stage4/report.json",
-      "updatedAt": "2026-11-23T19:49:20.892481+00:00",
+      "updatedAt": "2026-11-23T20:35:38.097565+00:00",
       "ageHours": 0.0
     },
     "stage5": {
@@ -35,55 +35,55 @@
       "state": "ready",
       "path": "stage5/manifest.json",
       "updatedAt": "2026-11-23T19:39:48.744554+00:00",
-      "ageHours": 0.16
+      "ageHours": 0.93
     },
     "eventLedger": {
       "name": "eventLedger",
       "state": "ready",
       "path": "unified-events.json",
       "updatedAt": "2026-11-23T19:40:01.828878+00:00",
-      "ageHours": 0.16
+      "ageHours": 0.93
     },
     "coverage": {
       "name": "coverage",
       "state": "ready",
       "path": "unified-coverage.json",
       "updatedAt": "2026-11-23T19:40:01.828878+00:00",
-      "ageHours": 0.16
+      "ageHours": 0.93
     },
     "validation": {
       "name": "validation",
       "state": "ready",
       "path": "validation-dashboard.json",
-      "updatedAt": "2026-11-23T19:49:20.937732+00:00",
+      "updatedAt": "2026-11-23T20:35:38.128570+00:00",
       "ageHours": 0.0
     },
     "learning": {
       "name": "learning",
       "state": "ready",
       "path": "learning/report.json",
-      "updatedAt": "2026-11-23T19:49:21.542015+00:00",
+      "updatedAt": "2026-11-23T20:35:38.561335+00:00",
       "ageHours": 0.0
     },
     "forecastComparison": {
       "name": "forecastComparison",
       "state": "ready",
       "path": "forecast-vs-results.json",
-      "updatedAt": "2026-11-23T19:49:21.588639+00:00",
+      "updatedAt": "2026-11-23T20:35:38.595711+00:00",
       "ageHours": 0.0
     },
     "researchConsistency": {
       "name": "researchConsistency",
       "state": "ready",
       "path": "feedback-health.json",
-      "updatedAt": "2026-11-23T19:49:20.989538+00:00",
+      "updatedAt": "2026-11-23T20:35:38.163363+00:00",
       "ageHours": 0.0
     },
     "shadowML": {
       "name": "shadowML",
       "state": "ready",
       "path": "learning/report.json",
-      "updatedAt": "2026-11-23T19:49:21.542015+00:00",
+      "updatedAt": "2026-11-23T20:35:38.561335+00:00",
       "ageHours": 0.0
     }
   },
@@ -94,7 +94,7 @@
     "shadowLearningScored": 41
   },
   "workflow": {
-    "runId": "45251229309",
+    "runId": "45252865513",
     "lastStatus": "success"
   },
   "allLayersHealthy": true,
