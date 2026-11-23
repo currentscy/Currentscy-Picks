@@ -104638,5 +104638,40 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "f547f478f3b81013c0b8405754de348df9af8ffa8df93770615b8eb384f32844",
+    "capturedAt": "2026-11-23T04:34:35.633774+00:00",
+    "observation": {
+      "eventKey": "nfl:401873077",
+      "sport": "nfl",
+      "scheduledStart": "2026-11-23T01:20Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "25",
+          "name": "San Francisco 49ers",
+          "homeAway": "home",
+          "score": "35",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "16",
+          "name": "Minnesota Vikings",
+          "homeAway": "away",
+          "score": "10",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-23T04:34:29.273670+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]

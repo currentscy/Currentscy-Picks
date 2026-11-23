@@ -404,7 +404,7 @@
     "verifiedAt": "2026-11-23T04:24:08.066212+00:00",
     "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=300",
     "verificationMethod": "ESPN scoreboard marked completed; single-provider final, not independently corroborated",
-    "homeScore": 3.0,
-    "awayScore": 6.0
+    "homeScore": 3,
+    "awayScore": 6
   }
 ]
