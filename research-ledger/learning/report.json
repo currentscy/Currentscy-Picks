@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T02:20:48.935297+00:00",
-  "scoredPredictions": 34,
+  "generatedAt": "2026-11-23T02:58:16.705483+00:00",
+  "scoredPredictions": 38,
   "bySport": {
     "nba": {
-      "n": 18,
+      "n": 20,
       "trainCount": 0,
-      "holdoutCount": 18,
+      "holdoutCount": 20,
       "actualArchivedShadow": {
         "n": 0,
         "baseline": null,
         "shadow": null
       },
       "originalBrier": {
-        "n": 18,
-        "brier": 0.207815,
-        "logLoss": 0.605345,
+        "n": 20,
+        "brier": 0.204816,
+        "logLoss": 0.599571,
         "calibrationBins": [
           {
             "range": [
@@ -31,9 +31,9 @@
               0.4,
               0.6
             ],
-            "n": 9,
-            "meanPrediction": 0.5075,
-            "observedRate": 0.6667
+            "n": 11,
+            "meanPrediction": 0.4919,
+            "observedRate": 0.5455
           },
           {
             "range": [
@@ -52,18 +52,18 @@
       "activeAdjustment": null
     },
     "nhl": {
-      "n": 16,
+      "n": 18,
       "trainCount": 0,
-      "holdoutCount": 16,
+      "holdoutCount": 18,
       "actualArchivedShadow": {
         "n": 0,
         "baseline": null,
         "shadow": null
       },
       "originalBrier": {
-        "n": 16,
-        "brier": 0.272954,
-        "logLoss": 0.74124,
+        "n": 18,
+        "brier": 0.26391,
+        "logLoss": 0.722221,
         "calibrationBins": [
           {
             "range": [
@@ -79,18 +79,18 @@
               0.4,
               0.6
             ],
-            "n": 11,
-            "meanPrediction": 0.5232,
-            "observedRate": 0.6364
+            "n": 12,
+            "meanPrediction": 0.5188,
+            "observedRate": 0.6667
           },
           {
             "range": [
               0.6,
               0.8
             ],
-            "n": 4,
-            "meanPrediction": 0.6364,
-            "observedRate": 0.25
+            "n": 5,
+            "meanPrediction": 0.6453,
+            "observedRate": 0.4
           }
         ]
       },
