@@ -96,6 +96,23 @@ def reconcile(stage1, observations=None):
             rejected.append({"index": n, "reason": "injury status unsupported"}); continue
         if kind == "player-stat" and (not text(o.get("statName")) or type(o.get("value")) not in (int, float) or not math.isfinite(o["value"])):
             rejected.append({"index": n, "reason": "player stat missing numeric value/name"}); continue
+        # Historical NBA box scores are valid only for a known team in this
+        # matchup, from a different, already-started game in the same season.
+        historical_id = text(o.get("historicalEventId"))
+        if historical_id:
+            team_id = text(o.get("teamId"))
+            game_start = iso(index[game_key].get("start"))
+            historical_start = iso(o.get("sourceGameStart"))
+            expected_season = (game_start[:4] if game_start else "")
+            if (kind != "player-stat" or provider != "espn"
+                    or not team_id or not any(t["teamKey"] == f"{index[game_key]['sport']}:espn:{team_id}" for t in index[game_key]["teams"])
+                    or historical_id == source_id or not historical_start
+                    or not game_start or historical_start >= game_start
+                    or historical_start > as_of
+                    or not isinstance(o.get("sourceSeason"), int)
+                    or o["sourceSeason"] != (int(historical_start[:4]) + (1 if int(historical_start[5:7]) >= 10 else 0))
+                    or o["sourceSeason"] != (int(game_start[:4]) + (1 if int(game_start[5:7]) >= 10 else 0))):
+                rejected.append({"index": n, "reason": "historical NBA player evidence team, event, season, or time mismatch"}); continue
         # Future-dated or out-of-order evidence must not enter the linked record.
         if source_time > as_of:
             rejected.append({"index": n, "reason": "effective time after observation"}); continue
@@ -104,12 +121,14 @@ def reconcile(stage1, observations=None):
                       "kind": kind, "entityId": entity, "entityProvider": text(o.get("entityProvider")) or provider,
                       "status": o.get("status"), "statName": o.get("statName"), "value": o.get("value"),
                       "sourceUrl": source_url, "observedAt": as_of, "effectiveAt": source_time,
-                      "verified": True, "modelEligible": False}
+                      "verified": True, "modelEligible": False,
+                      "teamId": o.get("teamId"), "historicalEventId": historical_id or None,
+                      "sourceSeason": o.get("sourceSeason"), "sourceGameStart": o.get("sourceGameStart") }
         # Stage 2 only links evidence; supplied verification flags are not proof.
         # No model activation without authenticated sources and pregame gating.
         normalized["modelEligible"] = False
         # Historical stats are not model features until time-gated.
-        dedup = (game_key, provider, source_id, kind, entity, text(o.get("statName")), source_time, source_url)
+        dedup = (game_key, provider, source_id, kind, entity, text(o.get("statName")), source_time, source_url, historical_id)
         if dedup in seen:
             continue
         seen[dedup] = normalized
