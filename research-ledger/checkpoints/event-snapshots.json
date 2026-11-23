@@ -104743,5 +104743,40 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "fa4f33b8e3511a1a0ebfd6b03d44766dab0ab1a838d437d75e39f2c31de858b3",
+    "capturedAt": "2026-11-23T19:49:21.139384+00:00",
+    "observation": {
+      "eventKey": "soccer-italy:401875009",
+      "sport": "soccer-italy",
+      "scheduledStart": "2026-11-23T19:45Z",
+      "status": "STATUS_FIRST_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "4007",
+          "name": "Monza",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "109",
+          "name": "Fiorentina",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261123&limit=300",
+      "observedAt": "2026-11-23T19:49:16.619821+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
