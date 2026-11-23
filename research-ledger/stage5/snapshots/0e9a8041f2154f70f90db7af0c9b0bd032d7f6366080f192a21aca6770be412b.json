@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 5,
+  "gameKey": "soccer-mexico:401877047",
+  "sport": "soccer-mexico",
+  "phase": "postgame",
+  "scheduledStart": "2026-11-22T23:07Z",
+  "sourceObservedAt": "2026-11-23T08:06:53.145236+00:00",
+  "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261122&limit=300",
+  "teams": [
+    {
+      "sourceTeamId": "219",
+      "homeAway": "home",
+      "score": "1"
+    },
+    {
+      "sourceTeamId": "218",
+      "homeAway": "away",
+      "score": "0"
+    }
+  ],
+  "completed": true
+}

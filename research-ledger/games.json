@@ -5148,10 +5148,24 @@
     ]
   },
   "nfl:401873077": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "25",
+        "name": "San Francisco 49ers",
+        "score": "35"
+      },
+      {
+        "id": "16",
+        "name": "Minnesota Vikings",
+        "score": "10"
+      }
+    ],
     "firstObserved": "2026-11-22T01:50:06.005179+00:00",
     "gameId": "401873077",
     "kickoff": "2026-11-23T01:20:00+00:00",
     "league": "nfl",
+    "outcomeObserved": "2026-11-23T08:07:18.774806+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
