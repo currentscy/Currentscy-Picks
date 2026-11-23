@@ -103518,5 +103518,110 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "ba0608ab7292bf4a9c4a2e7447ee47eed75ab3e1ef1377852304f57bc6362482",
+    "capturedAt": "2026-11-23T03:03:38.883444+00:00",
+    "observation": {
+      "eventKey": "nba:401910034",
+      "sport": "nba",
+      "scheduledStart": "2026-11-23T01:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "18",
+          "name": "New York Knicks",
+          "homeAway": "home",
+          "score": "89",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "11",
+          "name": "Indiana Pacers",
+          "homeAway": "away",
+          "score": "78",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-23T03:03:26.185141+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "b024f415ba76c6bec55a86f26ed05cc215ee982403dfccab3737b7f1dcba7c03",
+    "capturedAt": "2026-11-23T03:03:38.883444+00:00",
+    "observation": {
+      "eventKey": "soccer-mexico:401877046",
+      "sport": "soccer-mexico",
+      "scheduledStart": "2026-11-23T01:10Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "222",
+          "name": "Quer\u00e9taro",
+          "homeAway": "home",
+          "score": "2",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "229",
+          "name": "Necaxa",
+          "homeAway": "away",
+          "score": "2",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-23T03:03:26.185141+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "9bca6a7a8c58d5e9f1893aab4e94dae790256468730b3e7495652596a40ed63b",
+    "capturedAt": "2026-11-23T03:03:38.883444+00:00",
+    "observation": {
+      "eventKey": "nba:401910035",
+      "sport": "nba",
+      "scheduledStart": "2026-11-23T01:30Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "9",
+          "name": "Golden State Warriors",
+          "homeAway": "home",
+          "score": "53",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "2",
+          "name": "Boston Celtics",
+          "homeAway": "away",
+          "score": "58",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
+      "observedAt": "2026-11-23T03:03:26.185141+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
