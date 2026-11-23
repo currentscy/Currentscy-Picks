@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T13:58:34.232702+00:00",
+  "updatedAt": "2026-11-23T19:40:01.828878+00:00",
   "sports": {
     "nfl": {
       "requestsSucceeded": 5,
@@ -26,8 +26,8 @@
     "ncaa-basketball": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 27,
-      "historicalEvents": 27,
+      "eventsObservedThisRun": 28,
+      "historicalEvents": 29,
       "coverageVerifiedComplete": false
     },
     "nhl": {
@@ -130,7 +130,7 @@
     }
   },
   "errors": [],
-  "totalHistoricalEvents": 1050,
+  "totalHistoricalEvents": 1052,
   "allEventsCaptured": false,
   "allPredictionsCaptured": false,
   "note": "Unofficial ESPN schedule feeds are incomplete for some fights and tennis matches; absence of events is not evidence of full coverage."
