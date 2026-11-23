@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-22T23:58:59.247669+00:00",
+  "asOf": "2026-11-23T01:07:08.660658+00:00",
   "pipeline": {
-    "stage1Events": 226,
+    "stage1Events": 137,
     "stage2Games": 226,
     "legacyMultisportGames": 412,
     "legacyFootballGames": 157,
@@ -10,12 +10,12 @@
     "unifiedEventHistory": 1001,
     "sportsWithCoverageChecks": 17,
     "liveModelForecasts": 76,
-    "ESPNFinalOutcomes": 31,
-    "stage3Scored": 31,
-    "stage4Scored": 31
+    "ESPNFinalOutcomes": 32,
+    "stage3Scored": 32,
+    "stage4Scored": 32
   },
   "verification": {
-    "sameProviderGamesCompared": 194,
+    "sameProviderGamesCompared": 94,
     "sameProviderDisagreements": [
       {
         "gameKey": "nhl:401892768",
@@ -79,6 +79,21 @@
       },
       {
         "gameKey": "nfl:401873074",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "nfl:401873069",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "nfl:401873075",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "nhl:401892769",
         "field": "completed",
         "reason": "collection disagreement or different polling times"
       }

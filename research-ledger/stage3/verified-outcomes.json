@@ -308,5 +308,15 @@
     "verificationMethod": "ESPN completed scoreboard and numeric final score (single provider; not independently corroborated)",
     "homeScore": 107,
     "awayScore": 97
+  },
+  {
+    "predictionId": "research-home-win:nhl:401892769:prior20-v1",
+    "result": 0,
+    "verified": true,
+    "verifiedAt": "2026-11-23T01:06:55.006869+00:00",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=300",
+    "verificationMethod": "ESPN scoreboard marked completed; single-provider final, not independently corroborated",
+    "homeScore": 2.0,
+    "awayScore": 6.0
   }
 ]
