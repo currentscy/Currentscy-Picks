@@ -104988,5 +104988,145 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "a64b82b1bc4083af7097e872033aa7ef6cc23bc3591d40e137a8566da5119f83",
+    "capturedAt": "2026-11-23T22:26:44.754076+00:00",
+    "observation": {
+      "eventKey": "soccer-italy:401875009",
+      "sport": "soccer-italy",
+      "scheduledStart": "2026-11-23T19:45Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "4007",
+          "name": "Monza",
+          "homeAway": "home",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "109",
+          "name": "Fiorentina",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261123&limit=300",
+      "observedAt": "2026-11-23T22:26:37.583219+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "4384554a941933afd1ed180b34b4e9741f85df8f77f92657cda62782dd14e00c",
+    "capturedAt": "2026-11-23T22:26:44.754076+00:00",
+    "observation": {
+      "eventKey": "soccer-england:401879237",
+      "sport": "soccer-england",
+      "scheduledStart": "2026-11-23T20:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "337",
+          "name": "Brentford",
+          "homeAway": "home",
+          "score": "4",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "368",
+          "name": "Everton",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261123&limit=300",
+      "observedAt": "2026-11-23T22:26:37.583219+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "e2828d5077c8ccd802dc1ccab2efe6db8499fe2e7173b3fde45e121517960097",
+    "capturedAt": "2026-11-23T22:26:44.754076+00:00",
+    "observation": {
+      "eventKey": "soccer-spain:401882802",
+      "sport": "soccer-spain",
+      "scheduledStart": "2026-11-23T20:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "1538",
+          "name": "Levante",
+          "homeAway": "home",
+          "score": "1",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "3751",
+          "name": "Elche",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261123&limit=300",
+      "observedAt": "2026-11-23T22:26:37.583219+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "8eb4bb4844b6ed0c1172a96c8f2122737159374d7715563ea5d35405d3636986",
+    "capturedAt": "2026-11-23T22:26:44.754076+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401921708",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-23T22:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "252",
+          "name": "BYU Cougars",
+          "homeAway": "home",
+          "score": "12",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "264",
+          "name": "Washington Huskies",
+          "homeAway": "away",
+          "score": "20",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261123&limit=300",
+      "observedAt": "2026-11-23T22:26:37.583219+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
