@@ -104883,5 +104883,110 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "21fb134b765d0070b3c807480f84e48589048af28976d5ad6c1a3c96dfb2e113",
+    "capturedAt": "2026-11-23T21:28:07.639758+00:00",
+    "observation": {
+      "eventKey": "soccer-italy:401875009",
+      "sport": "soccer-italy",
+      "scheduledStart": "2026-11-23T19:45Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "4007",
+          "name": "Monza",
+          "homeAway": "home",
+          "score": "3",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "109",
+          "name": "Fiorentina",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261123&limit=300",
+      "observedAt": "2026-11-23T21:27:54.433197+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "2c926b5278fde5a62ddaa5f089da24c2ee8db69bab99f592724ea73475be5a10",
+    "capturedAt": "2026-11-23T21:28:07.639758+00:00",
+    "observation": {
+      "eventKey": "soccer-england:401879237",
+      "sport": "soccer-england",
+      "scheduledStart": "2026-11-23T20:00Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "337",
+          "name": "Brentford",
+          "homeAway": "home",
+          "score": "2",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "368",
+          "name": "Everton",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261123&limit=300",
+      "observedAt": "2026-11-23T21:27:54.433197+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "0dd5505554cdcf114c2d0bd92bba5f83e6162ab3ed05428f9db4b5f85a53868f",
+    "capturedAt": "2026-11-23T21:28:07.639758+00:00",
+    "observation": {
+      "eventKey": "soccer-spain:401882802",
+      "sport": "soccer-spain",
+      "scheduledStart": "2026-11-23T20:00Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "1538",
+          "name": "Levante",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "3751",
+          "name": "Elche",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261123&limit=300",
+      "observedAt": "2026-11-23T21:27:54.433197+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
