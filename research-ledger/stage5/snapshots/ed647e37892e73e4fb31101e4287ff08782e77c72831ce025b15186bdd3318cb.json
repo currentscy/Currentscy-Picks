@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 5,
+  "gameKey": "nfl:401873077",
+  "sport": "nfl",
+  "phase": "postgame",
+  "scheduledStart": "2026-11-23T01:20Z",
+  "sourceObservedAt": "2026-11-23T13:57:59.306547+00:00",
+  "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
+  "teams": [
+    {
+      "sourceTeamId": "25",
+      "homeAway": "home",
+      "score": "35"
+    },
+    {
+      "sourceTeamId": "16",
+      "homeAway": "away",
+      "score": "10"
+    }
+  ],
+  "completed": true
+}
