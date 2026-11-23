@@ -1778,6 +1778,12 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300"
     },
     {
+      "gameKey": "ncaa-football:401856879",
+      "sport": "ncaa-football",
+      "start": "2026-11-27T01:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261126&limit=300"
+    },
+    {
       "gameKey": "ncaa-football:401858206",
       "sport": "ncaa-football",
       "start": "2026-09-05T01:00Z",
@@ -2394,6 +2400,24 @@
       "sport": "nfl",
       "start": "2026-11-26T01:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261125&limit=300"
+    },
+    {
+      "gameKey": "nfl:401873080",
+      "sport": "nfl",
+      "start": "2026-11-26T21:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "nfl:401873081",
+      "sport": "nfl",
+      "start": "2026-11-26T18:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "nfl:401873082",
+      "sport": "nfl",
+      "start": "2026-11-27T01:20Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=300"
     },
     {
       "gameKey": "nfl:401873301",
@@ -5706,6 +5730,114 @@
       "sport": "soccer-ucl",
       "start": "2026-10-20T16:45Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261020&limit=300"
+    },
+    {
+      "gameKey": "soccer-uel:401915501",
+      "sport": "soccer-uel",
+      "start": "2026-11-26T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "soccer-uel:401915502",
+      "sport": "soccer-uel",
+      "start": "2026-11-26T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "soccer-uel:401915503",
+      "sport": "soccer-uel",
+      "start": "2026-11-26T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "soccer-uel:401915504",
+      "sport": "soccer-uel",
+      "start": "2026-11-26T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "soccer-uel:401915505",
+      "sport": "soccer-uel",
+      "start": "2026-11-26T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "soccer-uel:401915506",
+      "sport": "soccer-uel",
+      "start": "2026-11-26T17:45Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "soccer-uel:401915507",
+      "sport": "soccer-uel",
+      "start": "2026-11-26T17:45Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "soccer-uel:401915508",
+      "sport": "soccer-uel",
+      "start": "2026-11-26T17:45Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "soccer-uel:401915512",
+      "sport": "soccer-uel",
+      "start": "2026-11-26T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "soccer-uel:401915513",
+      "sport": "soccer-uel",
+      "start": "2026-11-26T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "soccer-uel:401915514",
+      "sport": "soccer-uel",
+      "start": "2026-11-26T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "soccer-uel:401915515",
+      "sport": "soccer-uel",
+      "start": "2026-11-26T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "soccer-uel:401915516",
+      "sport": "soccer-uel",
+      "start": "2026-11-26T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "soccer-uel:401915517",
+      "sport": "soccer-uel",
+      "start": "2026-11-26T17:45Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "soccer-uel:401915518",
+      "sport": "soccer-uel",
+      "start": "2026-11-26T17:45Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "soccer-uel:401915519",
+      "sport": "soccer-uel",
+      "start": "2026-11-26T17:45Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "soccer-uel:401915520",
+      "sport": "soccer-uel",
+      "start": "2026-11-26T17:45Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "soccer-uel:401915521",
+      "sport": "soccer-uel",
+      "start": "2026-11-26T17:45Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300"
     },
     {
       "gameKey": "soccer-uel:401915522",

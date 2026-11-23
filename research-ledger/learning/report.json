@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T01:07:09.124747+00:00",
-  "scoredPredictions": 32,
+  "generatedAt": "2026-11-23T01:56:46.883956+00:00",
+  "scoredPredictions": 33,
   "bySport": {
     "nba": {
-      "n": 16,
+      "n": 17,
       "trainCount": 0,
-      "holdoutCount": 16,
+      "holdoutCount": 17,
       "actualArchivedShadow": {
         "n": 0,
         "baseline": null,
         "shadow": null
       },
       "originalBrier": {
-        "n": 16,
-        "brier": 0.206138,
-        "logLoss": 0.601588,
+        "n": 17,
+        "brier": 0.205673,
+        "logLoss": 0.600858,
         "calibrationBins": [
           {
             "range": [
@@ -31,9 +31,9 @@
               0.4,
               0.6
             ],
-            "n": 7,
-            "meanPrediction": 0.501,
-            "observedRate": 0.5714
+            "n": 8,
+            "meanPrediction": 0.5077,
+            "observedRate": 0.625
           },
           {
             "range": [
