@@ -18,6 +18,7 @@ SPORTS = {
     "nfl": ("football", "nfl"),
     "ncaa-football": ("football", "college-football"),
     "nba": ("basketball", "nba"),
+    "ncaa-basketball": ("basketball", "mens-college-basketball"),
     "nhl": ("hockey", "nhl"),
     "soccer-england": ("soccer", "eng.1"),
     "soccer-spain": ("soccer", "esp.1"),
