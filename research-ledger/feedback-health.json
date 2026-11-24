@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-23T23:26:06.329918+00:00",
+  "asOf": "2026-11-24T00:23:13.043499+00:00",
   "pipeline": {
-    "stage1Events": 165,
+    "stage1Events": 170,
     "stage2Games": 165,
     "legacyMultisportGames": 429,
     "legacyFootballGames": 158,
@@ -15,7 +15,7 @@
     "stage4Scored": 41
   },
   "verification": {
-    "sameProviderGamesCompared": 94,
+    "sameProviderGamesCompared": 100,
     "sameProviderDisagreements": [
       {
         "gameKey": "soccer-italy:401875009",
