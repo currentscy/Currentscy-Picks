@@ -1874,6 +1874,12 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300"
     },
     {
+      "gameKey": "ncaa-basketball:401921710",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-24T22:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300"
+    },
+    {
       "gameKey": "ncaa-basketball:401921827",
       "sport": "ncaa-basketball",
       "start": "2026-11-27T19:00Z",
@@ -5460,6 +5466,30 @@
       "sport": "soccer-mexico",
       "start": "2026-11-21T01:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261120&limit=300"
+    },
+    {
+      "gameKey": "soccer-mexico:401931982",
+      "sport": "soccer-mexico",
+      "start": "2026-11-27T01:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "soccer-mexico:401931986",
+      "sport": "soccer-mexico",
+      "start": "2026-11-26T01:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261125&limit=300"
+    },
+    {
+      "gameKey": "soccer-mexico:401931995",
+      "sport": "soccer-mexico",
+      "start": "2026-11-27T03:10Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "soccer-mexico:401931998",
+      "sport": "soccer-mexico",
+      "start": "2026-11-26T03:10Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261125&limit=300"
     },
     {
       "gameKey": "soccer-mls:401933535",

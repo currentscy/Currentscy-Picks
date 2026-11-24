@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T01:54:00.180163+00:00",
+  "updatedAt": "2026-11-24T07:58:20.607382+00:00",
   "sports": {
     "nfl": {
       "requestsSucceeded": 5,
@@ -26,8 +26,8 @@
     "ncaa-basketball": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 31,
-      "historicalEvents": 36,
+      "eventsObservedThisRun": 32,
+      "historicalEvents": 37,
       "coverageVerifiedComplete": false
     },
     "nhl": {
@@ -82,8 +82,8 @@
     "soccer-mexico": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 0,
-      "historicalEvents": 30,
+      "eventsObservedThisRun": 4,
+      "historicalEvents": 34,
       "coverageVerifiedComplete": false
     },
     "soccer-ucl": {
@@ -130,7 +130,7 @@
     }
   },
   "errors": [],
-  "totalHistoricalEvents": 1106,
+  "totalHistoricalEvents": 1111,
   "allEventsCaptured": false,
   "allPredictionsCaptured": false,
   "note": "Unofficial ESPN schedule feeds are incomplete for some fights and tennis matches; absence of events is not evidence of full coverage."

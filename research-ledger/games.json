@@ -5219,10 +5219,24 @@
     ]
   },
   "nfl:401873078": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "28",
+        "name": "Washington Commanders",
+        "score": "22"
+      },
+      {
+        "id": "4",
+        "name": "Cincinnati Bengals",
+        "score": "20"
+      }
+    ],
     "firstObserved": "2026-11-23T01:56:44.912247+00:00",
     "gameId": "401873078",
     "kickoff": "2026-11-24T01:15:00+00:00",
     "league": "nfl",
+    "outcomeObserved": "2026-11-24T07:58:31.488876+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
