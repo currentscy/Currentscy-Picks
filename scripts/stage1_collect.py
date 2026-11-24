@@ -193,7 +193,18 @@ def main():
     history_tmp = DEST / 'nfl-history.json.tmp'
     history_tmp.write_text(json.dumps(history, ensure_ascii=False) + '\n')
     os.replace(history_tmp, DEST / 'nfl-history.json')
-    print(json.dumps({'nflHistoricalGames': len(history['games']), 'nflSourceErrors': len(history['errors'])}))
+    audit = {"season": history["season"], "observedAt": history["observedAt"],
+             "gameCount": len(history["games"]), "playerRows": sum(len(g["players"]) for g in history["games"]),
+             "teamGameCounts": history.get("teamGameCounts", {}), "errors": history["errors"][:20],
+             "samples": [{"eventId": g["eventId"], "sourceUrl": g["sourceUrl"], "observedAt": g["observedAt"],
+                          "teams": g["teams"], "playerCounts": {t["sourceTeamId"]: sum(p["teamId"] == t["sourceTeamId"] for p in g["players"]) for t in g["teams"]},
+                          "samplePlayers": g["players"][:2]} for g in history["games"][:3]]}
+    audit["upcomingCoverage"] = [{"eventKey": g["eventKey"], "teams": [{"id": t["sourceTeamId"], "name": t["name"], "games": history.get("teamGameCounts", {}).get(t["sourceTeamId"], 0)} for t in g["teams"]]} for g in data["events"] if g["sport"] == "nfl" and g["status"] == "STATUS_SCHEDULED"]
+    audit["ready"] = bool(audit["upcomingCoverage"]) and all(len(g["teams"]) == 2 and all(t["games"] > 0 for t in g["teams"]) for g in audit["upcomingCoverage"])
+    (DEST / "nfl-history-audit.json").write_text(json.dumps(audit, indent=2) + "\\n")
+    print(json.dumps(audit))
+    if not audit["ready"]:
+        print("NFL player evidence incomplete; prediction activation blocked")
     path = DEST / "latest.json"
     temp = DEST / "latest.json.tmp"
     temp.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
