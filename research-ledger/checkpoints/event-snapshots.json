@@ -109068,5 +109068,75 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "80043e124489db5fe76045d82d4c6e32207b71bd231d9562e6cee215dd4b8643",
+    "capturedAt": "2026-11-24T23:25:02.250965+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401921710",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-24T22:00Z",
+      "status": "STATUS_HALFTIME",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "12",
+          "name": "Arizona Wildcats",
+          "homeAway": "home",
+          "score": "48",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "2507",
+          "name": "Providence Friars",
+          "homeAway": "away",
+          "score": "26",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-24T23:24:55.786167+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "a06ede62235b3db8c25b9fd0e57d2752d4497a915276e7cbed81d385608f27b2",
+    "capturedAt": "2026-11-24T23:25:02.250965+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401921716",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-25T22:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "-1",
+          "name": "TBD",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "252",
+          "name": "BYU Cougars",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-24T23:24:55.786167+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
