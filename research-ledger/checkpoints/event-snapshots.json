@@ -109943,5 +109943,75 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "ef38cf735b653f95e314660b1616711ea357c41364be31ac50a153c93504126e",
+    "capturedAt": "2026-11-24T08:12:27.101804+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401909743",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-24T04:55Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "12",
+          "name": "Arizona Wildcats",
+          "homeAway": "home",
+          "score": "96",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "36",
+          "name": "Colorado State Rams",
+          "homeAway": "away",
+          "score": "83",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261123&limit=300",
+      "observedAt": "2026-11-24T08:12:21.319746+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "278ec262bd8eeebec3658af2835ac1f8430bdd2ff08a827d1018d89c3e18bf4d",
+    "capturedAt": "2026-11-24T08:12:27.101804+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401921710",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-24T22:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "12",
+          "name": "Arizona Wildcats",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "2507",
+          "name": "Providence Friars",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-24T08:12:21.319746+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
