@@ -120,12 +120,16 @@ def nfl_history(now, events, fetcher=request_json):
     out = {"season": season, "observedAt": now.isoformat(), "games": [], "errors": []}
     targets = {t["sourceTeamId"] for g in events if g["sport"] == "nfl" and g["status"] == "STATUS_SCHEDULED" for t in g["teams"]}
     counts = {}
-    try:
-        schedule = fetcher(url)
-    except (OSError, ValueError, TypeError) as exc:
-        out["errors"].append({"sourceUrl": url, "error": type(exc).__name__})
-        return out
-    for e in sorted(schedule.get("events", []), key=lambda x: x.get("date", ""), reverse=True):
+    historical = {}
+    for week in range(1, 19):
+        weekly = base + "scoreboard?" + urllib.parse.urlencode({"dates": season, "seasontype": 2, "week": week, "limit": 100})
+        try:
+            for event in fetcher(weekly).get("events", []):
+                if event.get("id"):
+                    historical[str(event["id"])] = event
+        except (OSError, ValueError, TypeError) as exc:
+            out["errors"].append({"sourceUrl": weekly, "error": type(exc).__name__, "httpStatus": getattr(exc, "code", None)})
+    for e in sorted(historical.values(), key=lambda x: x.get("date", ""), reverse=True):
         if (e.get("season") or {}).get("year") != season or (e.get("season") or {}).get("type") != 2:
             continue
         if not (e.get("status") or {}).get("type", {}).get("completed"):
@@ -164,7 +168,7 @@ def nfl_history(now, events, fetcher=request_json):
             for tid in ids:
                 counts[tid] = counts.get(tid, 0) + 1
         except (OSError, ValueError, TypeError, KeyError) as exc:
-            out["errors"].append({"sourceUrl": source, "error": type(exc).__name__})
+            out["errors"].append({"sourceUrl": source, "error": type(exc).__name__, "httpStatus": getattr(exc, "code", None)})
         if len(out["games"]) + len(out["errors"]) >= 96:
             break
     out["teamGameCounts"] = counts
