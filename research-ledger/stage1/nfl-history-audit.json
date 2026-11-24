@@ -1,0 +1,291 @@
+{
+  "season": 2026,
+  "observedAt": "2026-11-24T04:57:28.231653+00:00",
+  "gameCount": 53,
+  "playerRows": 4427,
+  "teamGameCounts": {
+    "13": 3,
+    "7": 6,
+    "2": 6,
+    "15": 2,
+    "3": 6,
+    "18": 2,
+    "6": 6,
+    "10": 1,
+    "8": 6,
+    "27": 3,
+    "12": 6,
+    "22": 6,
+    "23": 6,
+    "21": 6,
+    "4": 1,
+    "25": 1,
+    "14": 6,
+    "1": 2,
+    "9": 6,
+    "16": 3,
+    "20": 2,
+    "17": 3,
+    "11": 2,
+    "19": 1,
+    "28": 2,
+    "29": 3,
+    "26": 3,
+    "24": 3,
+    "33": 1,
+    "5": 1,
+    "30": 1
+  },
+  "errors": [],
+  "samples": [
+    {
+      "eventId": "401873075",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873075",
+      "observedAt": "2026-11-24T04:57:32.477158+00:00",
+      "teams": [
+        {
+          "sourceTeamId": "7",
+          "name": "Denver Broncos",
+          "homeAway": "home",
+          "score": "38",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "13",
+          "name": "Las Vegas Raiders",
+          "homeAway": "away",
+          "score": "24",
+          "winner": false
+        }
+      ],
+      "playerCounts": {
+        "7": 41,
+        "13": 33
+      },
+      "samplePlayers": [
+        {
+          "teamId": "13",
+          "playerId": "4837248",
+          "name": "Fernando Mendoza",
+          "category": "passing",
+          "stats": {
+            "completions/passingAttempts": "18/37",
+            "passingYards": "267",
+            "yardsPerPassAttempt": "7.2",
+            "passingTouchdowns": "3",
+            "interceptions": "1",
+            "sacks-sackYardsLost": "5-40",
+            "adjQBR": "43.3",
+            "QBRating": "88.5"
+          }
+        },
+        {
+          "teamId": "13",
+          "playerId": "4890973",
+          "name": "Ashton Jeanty",
+          "category": "rushing",
+          "stats": {
+            "rushingAttempts": "11",
+            "rushingYards": "79",
+            "yardsPerRushAttempt": "7.2",
+            "rushingTouchdowns": "0",
+            "longRushing": "46"
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "401873070",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873070",
+      "observedAt": "2026-11-24T04:57:32.681581+00:00",
+      "teams": [
+        {
+          "sourceTeamId": "2",
+          "name": "Buffalo Bills",
+          "homeAway": "home",
+          "score": "26",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "15",
+          "name": "Miami Dolphins",
+          "homeAway": "away",
+          "score": "9",
+          "winner": false
+        }
+      ],
+      "playerCounts": {
+        "2": 48,
+        "15": 40
+      },
+      "samplePlayers": [
+        {
+          "teamId": "15",
+          "playerId": "4433971",
+          "name": "Kyle McCord",
+          "category": "passing",
+          "stats": {
+            "completions/passingAttempts": "12/33",
+            "passingYards": "102",
+            "yardsPerPassAttempt": "3.1",
+            "passingTouchdowns": "0",
+            "interceptions": "1",
+            "sacks-sackYardsLost": "2-16",
+            "adjQBR": "24.4",
+            "QBRating": "32.6"
+          }
+        },
+        {
+          "teamId": "15",
+          "playerId": "4711533",
+          "name": "Ollie Gordon II",
+          "category": "rushing",
+          "stats": {
+            "rushingAttempts": "11",
+            "rushingYards": "69",
+            "yardsPerRushAttempt": "6.3",
+            "rushingTouchdowns": "0",
+            "longRushing": "24"
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "401873071",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873071",
+      "observedAt": "2026-11-24T04:57:32.888940+00:00",
+      "teams": [
+        {
+          "sourceTeamId": "3",
+          "name": "Chicago Bears",
+          "homeAway": "home",
+          "score": "21",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "18",
+          "name": "New Orleans Saints",
+          "homeAway": "away",
+          "score": "13",
+          "winner": false
+        }
+      ],
+      "playerCounts": {
+        "3": 40,
+        "18": 44
+      },
+      "samplePlayers": [
+        {
+          "teamId": "18",
+          "playerId": "4360689",
+          "name": "Tyler Shough",
+          "category": "passing",
+          "stats": {
+            "completions/passingAttempts": "25/42",
+            "passingYards": "222",
+            "yardsPerPassAttempt": "5.3",
+            "passingTouchdowns": "1",
+            "interceptions": "1",
+            "sacks-sackYardsLost": "6-35",
+            "adjQBR": "64.5",
+            "QBRating": "71.7"
+          }
+        },
+        {
+          "teamId": "18",
+          "playerId": "4880281",
+          "name": "Jordyn Tyson",
+          "category": "passing",
+          "stats": {
+            "completions/passingAttempts": "0/1",
+            "passingYards": "0",
+            "yardsPerPassAttempt": "0.0",
+            "passingTouchdowns": "0",
+            "interceptions": "0",
+            "sacks-sackYardsLost": "0-0",
+            "adjQBR": "15.8",
+            "QBRating": "39.6"
+          }
+        }
+      ]
+    }
+  ],
+  "upcomingCoverage": [
+    {
+      "eventKey": "nfl:401873079",
+      "teams": [
+        {
+          "id": "14",
+          "name": "Los Angeles Rams",
+          "games": 6
+        },
+        {
+          "id": "9",
+          "name": "Green Bay Packers",
+          "games": 6
+        }
+      ]
+    },
+    {
+      "eventKey": "nfl:401873081",
+      "teams": [
+        {
+          "id": "8",
+          "name": "Detroit Lions",
+          "games": 6
+        },
+        {
+          "id": "3",
+          "name": "Chicago Bears",
+          "games": 6
+        }
+      ]
+    },
+    {
+      "eventKey": "nfl:401873080",
+      "teams": [
+        {
+          "id": "6",
+          "name": "Dallas Cowboys",
+          "games": 6
+        },
+        {
+          "id": "21",
+          "name": "Philadelphia Eagles",
+          "games": 6
+        }
+      ]
+    },
+    {
+      "eventKey": "nfl:401873082",
+      "teams": [
+        {
+          "id": "2",
+          "name": "Buffalo Bills",
+          "games": 6
+        },
+        {
+          "id": "12",
+          "name": "Kansas City Chiefs",
+          "games": 6
+        }
+      ]
+    },
+    {
+      "eventKey": "nfl:401873083",
+      "teams": [
+        {
+          "id": "23",
+          "name": "Pittsburgh Steelers",
+          "games": 6
+        },
+        {
+          "id": "7",
+          "name": "Denver Broncos",
+          "games": 6
+        }
+      ]
+    }
+  ],
+  "ready": true
+}\n
