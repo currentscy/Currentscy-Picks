@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T01:51:47.589696+00:00",
+  "generatedAt": "2026-11-24T01:54:18.813429+00:00",
   "providers": {
     "cloudflare": {
       "status": "error",
@@ -17,15 +17,15 @@
   "availableProviders": [],
   "crossCheckComplete": false,
   "evidence": {
-    "savedForecasts": 85,
+    "savedForecasts": 100,
     "savedFinalOutcomes": 41,
     "evaluationSummary": {
-      "gamesAvailable": 1052,
-      "validPregamePredictions": 85,
+      "gamesAvailable": 1106,
+      "validPregamePredictions": 100,
       "scoredBaselinePredictions": 41,
       "scoredCandidatePredictions": 0,
       "pairedSample": 0,
-      "unscoredPredictions": 44,
+      "unscoredPredictions": 59,
       "rejectedRecords": 0
     },
     "learningBySport": {
@@ -40,29 +40,29 @@
     },
     "recentForecasts": [
       {
-        "gameKey": "nba:401909321",
-        "predictedAt": "2026-11-23T08:36:30.883Z",
-        "baselineProbability": 0.7183260372626245
+        "gameKey": "nhl:401892805",
+        "predictedAt": "2026-11-24T01:54:18.236506+00:00",
+        "baselineProbability": 0.517154253905436
       },
       {
-        "gameKey": "nba:401909322",
-        "predictedAt": "2026-11-23T08:36:30.883Z",
-        "baselineProbability": 0.4759212433406167
+        "gameKey": "nhl:401892806",
+        "predictedAt": "2026-11-24T01:54:18.236506+00:00",
+        "baselineProbability": 0.46680969248320686
       },
       {
-        "gameKey": "nba:401909323",
-        "predictedAt": "2026-11-23T08:36:30.883Z",
-        "baselineProbability": 0.6254762074441732
+        "gameKey": "nhl:401892807",
+        "predictedAt": "2026-11-24T01:54:18.236506+00:00",
+        "baselineProbability": 0.5825221615586056
       },
       {
-        "gameKey": "nba:401909324",
-        "predictedAt": "2026-11-23T08:36:30.883Z",
-        "baselineProbability": 0.712938467139451
+        "gameKey": "nhl:401892808",
+        "predictedAt": "2026-11-24T01:54:18.236506+00:00",
+        "baselineProbability": 0.5763762588010395
       },
       {
-        "gameKey": "nba:401909325",
-        "predictedAt": "2026-11-23T08:36:30.883Z",
-        "baselineProbability": 0.46565966402721015
+        "gameKey": "nhl:401892809",
+        "predictedAt": "2026-11-24T01:54:18.236506+00:00",
+        "baselineProbability": 0.6154097242057229
       }
     ]
   },

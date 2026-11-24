@@ -3596,6 +3596,44 @@
       }
     ]
   },
+  "ncaa:401866470": {
+    "firstObserved": "2026-11-24T01:54:14.886862+00:00",
+    "gameId": "401866470",
+    "kickoff": "2026-11-25T00:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "2199",
+        "name": "Eastern Michigan Eagles",
+        "score": "0"
+      },
+      {
+        "id": "2309",
+        "name": "Kent State Golden Flashes",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401866471": {
+    "firstObserved": "2026-11-24T01:54:14.886862+00:00",
+    "gameId": "401866471",
+    "kickoff": "2026-11-25T00:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "2711",
+        "name": "Western Michigan Broncos",
+        "score": "0"
+      },
+      {
+        "id": "193",
+        "name": "Miami (OH) RedHawks",
+        "score": "0"
+      }
+    ]
+  },
   "ncaa:401869928": {
     "completed": true,
     "finalTeams": [

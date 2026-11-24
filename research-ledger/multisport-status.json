@@ -1,8 +1,149 @@
 {
-  "lastRun": "2026-11-23T19:40:01.912156+00:00",
-  "trackedGames": 429,
-  "changes": [],
-  "changeCount": 0,
+  "lastRun": "2026-11-24T01:54:00.262286+00:00",
+  "trackedGames": 447,
+  "changes": [
+    {
+      "type": "game_updated",
+      "key": "nfl:401873078"
+    },
+    {
+      "type": "game_updated",
+      "key": "nba:401910036"
+    },
+    {
+      "type": "game_updated",
+      "key": "nba:401910037"
+    },
+    {
+      "type": "game_updated",
+      "key": "nba:401910038"
+    },
+    {
+      "type": "game_updated",
+      "key": "nba:401910039"
+    },
+    {
+      "type": "game_updated",
+      "key": "nba:401910040"
+    },
+    {
+      "type": "game_updated",
+      "key": "nba:401910041"
+    },
+    {
+      "type": "game_updated",
+      "key": "nba:401910042"
+    },
+    {
+      "type": "game_updated",
+      "key": "nba:401910043"
+    },
+    {
+      "type": "new_game",
+      "key": "nba:401910068"
+    },
+    {
+      "type": "new_game",
+      "key": "nba:401910069"
+    },
+    {
+      "type": "new_game",
+      "key": "nba:401910070"
+    },
+    {
+      "type": "new_game",
+      "key": "nba:401910071"
+    },
+    {
+      "type": "new_game",
+      "key": "nba:401910072"
+    },
+    {
+      "type": "new_game",
+      "key": "nba:401910073"
+    },
+    {
+      "type": "new_game",
+      "key": "nba:401910075"
+    },
+    {
+      "type": "new_game",
+      "key": "nba:401910074"
+    },
+    {
+      "type": "game_updated",
+      "key": "nhl:401892773"
+    },
+    {
+      "type": "game_updated",
+      "key": "nhl:401892774"
+    },
+    {
+      "type": "game_updated",
+      "key": "nhl:401892775"
+    },
+    {
+      "type": "game_updated",
+      "key": "nhl:401892776"
+    },
+    {
+      "type": "game_updated",
+      "key": "nhl:401892777"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892831"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892833"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892834"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892832"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892835"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892836"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892837"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892838"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892839"
+    },
+    {
+      "type": "game_updated",
+      "key": "soccer-epl:401879237"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-epl:401879221"
+    },
+    {
+      "type": "game_updated",
+      "key": "soccer-laliga:401882802"
+    },
+    {
+      "type": "game_updated",
+      "key": "soccer-seriea:401875009"
+    }
+  ],
+  "changeCount": 35,
   "sourceFailures": [],
   "failureCount": 0,
   "injuryFeedVerified": false,

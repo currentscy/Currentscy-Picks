@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T01:51:46.828893+00:00",
+  "generatedAt": "2026-11-24T01:54:18.600830+00:00",
   "fiveSteps": {
     "eventCollection": true,
     "pregameForecastCaptured": true,
@@ -11,56 +11,56 @@
   },
   "bySport": {
     "nba": {
-      "events": 270,
+      "events": 281,
       "completed": 248,
       "validForecasts": 44,
       "matchedFinalOutcomes": 22
     },
     "ncaa-basketball": {
-      "events": 29,
-      "completed": 4,
+      "events": 36,
+      "completed": 5,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "ncaa-football": {
-      "events": 116,
+      "events": 129,
       "completed": 113,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "nfl": {
-      "events": 27,
+      "events": 28,
       "completed": 22,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "nhl": {
-      "events": 279,
+      "events": 294,
       "completed": 257,
-      "validForecasts": 41,
+      "validForecasts": 56,
       "matchedFinalOutcomes": 19
     },
     "soccer-england": {
-      "events": 23,
-      "completed": 22,
+      "events": 24,
+      "completed": 23,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-france": {
-      "events": 26,
+      "events": 27,
       "completed": 26,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-germany": {
-      "events": 26,
+      "events": 27,
       "completed": 26,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-italy": {
-      "events": 33,
-      "completed": 32,
+      "events": 34,
+      "completed": 33,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
@@ -71,14 +71,14 @@
       "matchedFinalOutcomes": 0
     },
     "soccer-mls": {
-      "events": 60,
+      "events": 62,
       "completed": 58,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-spain": {
-      "events": 29,
-      "completed": 28,
+      "events": 30,
+      "completed": 29,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
@@ -114,7 +114,7 @@
     }
   },
   "invalidRecords": [],
-  "validPregameForecasts": 85,
+  "validPregameForecasts": 100,
   "matchedFinalOutcomes": 41,
   "completeCoverageEstablished": false,
   "sportsWithScoredForecasts": [
