@@ -107788,5 +107788,75 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "a76e2a73bea5a87976bdbab6daf874bd0e121d80c647e4c0a5753edb8395172a",
+    "capturedAt": "2026-11-24T19:22:39.196474+00:00",
+    "observation": {
+      "eventKey": "soccer-ucl:401915300",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-24T17:45Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "432",
+          "name": "Galatasaray",
+          "homeAway": "home",
+          "score": "1",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "362",
+          "name": "Aston Villa",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-24T19:22:34.414583+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "cfa721343583f770b6154d1a8d1ce5b059b3704907dc0f4ef6dcf10e9453f1ba",
+    "capturedAt": "2026-11-24T19:22:39.196474+00:00",
+    "observation": {
+      "eventKey": "soccer-ucl:401915380",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-24T17:45Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2980",
+          "name": "Bodo/Glimt",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "4411",
+          "name": "LASK Linz",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-24T19:22:34.414583+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
