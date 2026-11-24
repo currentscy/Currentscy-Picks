@@ -406,5 +406,175 @@
     "verificationMethod": "ESPN scoreboard marked completed; single-provider final, not independently corroborated",
     "homeScore": 3,
     "awayScore": 6
+  },
+  {
+    "predictionId": "nba-home-win:401910036:nba-record-home-v1",
+    "result": 0,
+    "verified": true,
+    "verifiedAt": "2026-11-24T14:59:23.535Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+    "verificationMethod": "ESPN completed scoreboard and numeric final score (single provider; not independently corroborated)",
+    "homeScore": 111,
+    "awayScore": 117
+  },
+  {
+    "predictionId": "nba-home-win:401910037:nba-record-home-v1",
+    "result": 0,
+    "verified": true,
+    "verifiedAt": "2026-11-24T14:59:23.535Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+    "verificationMethod": "ESPN completed scoreboard and numeric final score (single provider; not independently corroborated)",
+    "homeScore": 111,
+    "awayScore": 128
+  },
+  {
+    "predictionId": "nba-home-win:401910038:nba-record-home-v1",
+    "result": 1,
+    "verified": true,
+    "verifiedAt": "2026-11-24T14:59:23.535Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+    "verificationMethod": "ESPN completed scoreboard and numeric final score (single provider; not independently corroborated)",
+    "homeScore": 125,
+    "awayScore": 120
+  },
+  {
+    "predictionId": "nba-home-win:401910039:nba-record-home-v1",
+    "result": 0,
+    "verified": true,
+    "verifiedAt": "2026-11-24T14:59:23.535Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+    "verificationMethod": "ESPN completed scoreboard and numeric final score (single provider; not independently corroborated)",
+    "homeScore": 111,
+    "awayScore": 116
+  },
+  {
+    "predictionId": "nba-home-win:401910040:nba-record-home-v1",
+    "result": 1,
+    "verified": true,
+    "verifiedAt": "2026-11-24T14:59:23.535Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+    "verificationMethod": "ESPN completed scoreboard and numeric final score (single provider; not independently corroborated)",
+    "homeScore": 142,
+    "awayScore": 116
+  },
+  {
+    "predictionId": "nba-home-win:401910041:nba-record-home-v1",
+    "result": 1,
+    "verified": true,
+    "verifiedAt": "2026-11-24T14:59:23.535Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+    "verificationMethod": "ESPN completed scoreboard and numeric final score (single provider; not independently corroborated)",
+    "homeScore": 122,
+    "awayScore": 108
+  },
+  {
+    "predictionId": "nba-home-win:401910042:nba-record-home-v1",
+    "result": 0,
+    "verified": true,
+    "verifiedAt": "2026-11-24T14:59:23.535Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+    "verificationMethod": "ESPN completed scoreboard and numeric final score (single provider; not independently corroborated)",
+    "homeScore": 119,
+    "awayScore": 123
+  },
+  {
+    "predictionId": "nba-home-win:401910043:nba-record-home-v1",
+    "result": 1,
+    "verified": true,
+    "verifiedAt": "2026-11-24T14:59:23.535Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+    "verificationMethod": "ESPN completed scoreboard and numeric final score (single provider; not independently corroborated)",
+    "homeScore": 116,
+    "awayScore": 104
+  },
+  {
+    "predictionId": "nba-home-win:401910044:nba-record-home-v1",
+    "result": 1,
+    "verified": true,
+    "verifiedAt": "2026-11-24T14:59:23.535Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+    "verificationMethod": "ESPN completed scoreboard and numeric final score (single provider; not independently corroborated)",
+    "homeScore": 109,
+    "awayScore": 94
+  },
+  {
+    "predictionId": "nba-home-win:401910045:nba-record-home-v1",
+    "result": 0,
+    "verified": true,
+    "verifiedAt": "2026-11-24T14:59:23.535Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+    "verificationMethod": "ESPN completed scoreboard and numeric final score (single provider; not independently corroborated)",
+    "homeScore": 107,
+    "awayScore": 123
+  },
+  {
+    "predictionId": "research-home-win:nhl:401892773:prior20-v1",
+    "result": 1,
+    "verified": true,
+    "verifiedAt": "2026-11-24T14:59:24.529306+00:00",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
+    "verificationMethod": "ESPN scoreboard marked completed; single-provider final, not independently corroborated",
+    "homeScore": 3.0,
+    "awayScore": 2.0
+  },
+  {
+    "predictionId": "research-home-win:nhl:401892774:prior20-v1",
+    "result": 0,
+    "verified": true,
+    "verifiedAt": "2026-11-24T14:59:24.529306+00:00",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
+    "verificationMethod": "ESPN scoreboard marked completed; single-provider final, not independently corroborated",
+    "homeScore": 1.0,
+    "awayScore": 2.0
+  },
+  {
+    "predictionId": "research-home-win:nhl:401892775:prior20-v1",
+    "result": 1,
+    "verified": true,
+    "verifiedAt": "2026-11-24T14:59:24.529306+00:00",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
+    "verificationMethod": "ESPN scoreboard marked completed; single-provider final, not independently corroborated",
+    "homeScore": 2.0,
+    "awayScore": 1.0
+  },
+  {
+    "predictionId": "research-home-win:nhl:401892776:prior20-v1",
+    "result": 0,
+    "verified": true,
+    "verifiedAt": "2026-11-24T14:59:24.529306+00:00",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
+    "verificationMethod": "ESPN scoreboard marked completed; single-provider final, not independently corroborated",
+    "homeScore": 2.0,
+    "awayScore": 4.0
+  },
+  {
+    "predictionId": "research-home-win:nhl:401892777:prior20-v1",
+    "result": 1,
+    "verified": true,
+    "verifiedAt": "2026-11-24T14:59:24.529306+00:00",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
+    "verificationMethod": "ESPN scoreboard marked completed; single-provider final, not independently corroborated",
+    "homeScore": 4.0,
+    "awayScore": 2.0
+  },
+  {
+    "predictionId": "research-home-win:nhl:401892778:prior20-v1",
+    "result": 1,
+    "verified": true,
+    "verifiedAt": "2026-11-24T14:59:24.529306+00:00",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
+    "verificationMethod": "ESPN scoreboard marked completed; single-provider final, not independently corroborated",
+    "homeScore": 3.0,
+    "awayScore": 2.0
+  },
+  {
+    "predictionId": "research-home-win:nhl:401892779:prior20-v1",
+    "result": 0,
+    "verified": true,
+    "verifiedAt": "2026-11-24T14:59:24.529306+00:00",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
+    "verificationMethod": "ESPN scoreboard marked completed; single-provider final, not independently corroborated",
+    "homeScore": 2.0,
+    "awayScore": 5.0
   }
 ]

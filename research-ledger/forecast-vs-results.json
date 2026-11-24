@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T05:42:45.204621+00:00",
-  "totalForecastsWithFixtures": 76,
-  "scored": 40,
+  "generatedAt": "2026-11-24T14:59:33.888228+00:00",
+  "totalForecastsWithFixtures": 85,
+  "scored": 49,
   "games": [
     {
       "gameKey": "nhl:401892793",
@@ -16,6 +16,36 @@
       "homeWinProbability": 0.5703756123316672,
       "modelVersion": "research-prior20-v1",
       "captureMethod": "server-side historical results baseline; NOT website simulation",
+      "result": null,
+      "status": "awaiting-verified-final"
+    },
+    {
+      "gameKey": "nba:401909325",
+      "sport": "nba",
+      "home": "Portland Trail Blazers",
+      "away": "San Antonio Spurs",
+      "scheduledStart": "2026-11-26T03:00Z",
+      "predictedAt": "2026-11-24T14:59:24.304Z",
+      "predictedWinner": "San Antonio Spurs",
+      "predictedWinnerProbability": 0.5323,
+      "homeWinProbability": 0.46772149975320126,
+      "modelVersion": "nba-record-home-v1",
+      "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+      "result": null,
+      "status": "awaiting-verified-final"
+    },
+    {
+      "gameKey": "nba:401909324",
+      "sport": "nba",
+      "home": "Golden State Warriors",
+      "away": "Sacramento Kings",
+      "scheduledStart": "2026-11-26T03:00Z",
+      "predictedAt": "2026-11-24T14:59:24.304Z",
+      "predictedWinner": "Golden State Warriors",
+      "predictedWinnerProbability": 0.7199,
+      "homeWinProbability": 0.7198770132313521,
+      "modelVersion": "nba-record-home-v1",
+      "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
       "result": null,
       "status": "awaiting-verified-final"
     },
@@ -50,6 +80,21 @@
       "status": "awaiting-verified-final"
     },
     {
+      "gameKey": "nba:401909323",
+      "sport": "nba",
+      "home": "Houston Rockets",
+      "away": "Phoenix Suns",
+      "scheduledStart": "2026-11-26T01:30Z",
+      "predictedAt": "2026-11-24T14:59:24.304Z",
+      "predictedWinner": "Houston Rockets",
+      "predictedWinnerProbability": 0.623,
+      "homeWinProbability": 0.6230255236939329,
+      "modelVersion": "nba-record-home-v1",
+      "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+      "result": null,
+      "status": "awaiting-verified-final"
+    },
+    {
       "gameKey": "nhl:401892791",
       "sport": "nhl",
       "home": "Minnesota Wild",
@@ -80,6 +125,36 @@
       "status": "awaiting-verified-final"
     },
     {
+      "gameKey": "nba:401909322",
+      "sport": "nba",
+      "home": "Milwaukee Bucks",
+      "away": "Brooklyn Nets",
+      "scheduledStart": "2026-11-26T01:00Z",
+      "predictedAt": "2026-11-24T14:59:24.304Z",
+      "predictedWinner": "Milwaukee Bucks",
+      "predictedWinnerProbability": 0.5087,
+      "homeWinProbability": 0.5087314730468263,
+      "modelVersion": "nba-record-home-v1",
+      "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+      "result": null,
+      "status": "awaiting-verified-final"
+    },
+    {
+      "gameKey": "nba:401909321",
+      "sport": "nba",
+      "home": "Memphis Grizzlies",
+      "away": "LA Clippers",
+      "scheduledStart": "2026-11-26T01:00Z",
+      "predictedAt": "2026-11-24T14:59:24.304Z",
+      "predictedWinner": "Memphis Grizzlies",
+      "predictedWinnerProbability": 0.7338,
+      "homeWinProbability": 0.7338083318313174,
+      "modelVersion": "nba-record-home-v1",
+      "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+      "result": null,
+      "status": "awaiting-verified-final"
+    },
+    {
       "gameKey": "nhl:401892789",
       "sport": "nhl",
       "home": "Detroit Red Wings",
@@ -91,6 +166,36 @@
       "homeWinProbability": 0.6119466698691415,
       "modelVersion": "research-prior20-v1",
       "captureMethod": "server-side historical results baseline; NOT website simulation",
+      "result": null,
+      "status": "awaiting-verified-final"
+    },
+    {
+      "gameKey": "nba:401909320",
+      "sport": "nba",
+      "home": "Oklahoma City Thunder",
+      "away": "Minnesota Timberwolves",
+      "scheduledStart": "2026-11-26T00:30Z",
+      "predictedAt": "2026-11-24T14:59:24.304Z",
+      "predictedWinner": "Minnesota Timberwolves",
+      "predictedWinnerProbability": 0.5173,
+      "homeWinProbability": 0.48272971812187165,
+      "modelVersion": "nba-record-home-v1",
+      "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+      "result": null,
+      "status": "awaiting-verified-final"
+    },
+    {
+      "gameKey": "nba:401909319",
+      "sport": "nba",
+      "home": "New York Knicks",
+      "away": "Cleveland Cavaliers",
+      "scheduledStart": "2026-11-26T00:30Z",
+      "predictedAt": "2026-11-24T14:59:24.304Z",
+      "predictedWinner": "New York Knicks",
+      "predictedWinnerProbability": 0.6139,
+      "homeWinProbability": 0.6139187346242351,
+      "modelVersion": "nba-record-home-v1",
+      "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
       "result": null,
       "status": "awaiting-verified-final"
     },
@@ -215,6 +320,36 @@
       "status": "awaiting-verified-final"
     },
     {
+      "gameKey": "nba:401909318",
+      "sport": "nba",
+      "home": "Charlotte Hornets",
+      "away": "Chicago Bulls",
+      "scheduledStart": "2026-11-26T00:00Z",
+      "predictedAt": "2026-11-24T14:59:24.304Z",
+      "predictedWinner": "Charlotte Hornets",
+      "predictedWinnerProbability": 0.5382,
+      "homeWinProbability": 0.5382458635901196,
+      "modelVersion": "nba-record-home-v1",
+      "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+      "result": null,
+      "status": "awaiting-verified-final"
+    },
+    {
+      "gameKey": "nba:401909317",
+      "sport": "nba",
+      "home": "Philadelphia 76ers",
+      "away": "Miami Heat",
+      "scheduledStart": "2026-11-25T22:00Z",
+      "predictedAt": "2026-11-24T14:59:24.304Z",
+      "predictedWinner": "Philadelphia 76ers",
+      "predictedWinnerProbability": 0.6234,
+      "homeWinProbability": 0.6233579336160759,
+      "modelVersion": "nba-record-home-v1",
+      "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+      "result": null,
+      "status": "awaiting-verified-final"
+    },
+    {
       "gameKey": "nba:401909316",
       "sport": "nba",
       "home": "Denver Nuggets",
@@ -286,8 +421,15 @@
       "homeWinProbability": 0.3873510559959527,
       "modelVersion": "research-prior20-v1",
       "captureMethod": "server-side historical results baseline; NOT website simulation",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "2",
+        "awayScore": "5",
+        "homeWon": false,
+        "verifiedAt": "2026-11-24T14:59:24.529306+00:00",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
+        "brier": 0.150041
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nba:401910045",
@@ -301,8 +443,15 @@
       "homeWinProbability": 0.26155045516266373,
       "modelVersion": "nba-record-home-v1",
       "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "107",
+        "awayScore": "123",
+        "homeWon": false,
+        "verifiedAt": "2026-11-24T14:59:23.535Z",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+        "brier": 0.068409
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nba:401910044",
@@ -316,8 +465,15 @@
       "homeWinProbability": 0.75,
       "modelVersion": "nba-record-home-v1",
       "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "109",
+        "awayScore": "94",
+        "homeWon": true,
+        "verifiedAt": "2026-11-24T14:59:23.535Z",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+        "brier": 0.0625
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nhl:401892778",
@@ -331,8 +487,15 @@
       "homeWinProbability": 0.546479953633083,
       "modelVersion": "research-prior20-v1",
       "captureMethod": "server-side historical results baseline; NOT website simulation",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "3",
+        "awayScore": "2",
+        "homeWon": true,
+        "verifiedAt": "2026-11-24T14:59:24.529306+00:00",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
+        "brier": 0.20568
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nba:401910043",
@@ -346,8 +509,15 @@
       "homeWinProbability": 0.7096605661996621,
       "modelVersion": "nba-record-home-v1",
       "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "116",
+        "awayScore": "104",
+        "homeWon": true,
+        "verifiedAt": "2026-11-24T14:59:23.535Z",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+        "brier": 0.084297
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nba:401910042",
@@ -361,8 +531,15 @@
       "homeWinProbability": 0.45596212516466605,
       "modelVersion": "nba-record-home-v1",
       "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "119",
+        "awayScore": "123",
+        "homeWon": false,
+        "verifiedAt": "2026-11-24T14:59:23.535Z",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+        "brier": 0.207901
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nba:401910041",
@@ -376,8 +553,15 @@
       "homeWinProbability": 0.4502316484684404,
       "modelVersion": "nba-record-home-v1",
       "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "122",
+        "awayScore": "108",
+        "homeWon": true,
+        "verifiedAt": "2026-11-24T14:59:23.535Z",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+        "brier": 0.302245
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nhl:401892777",
@@ -391,8 +575,15 @@
       "homeWinProbability": 0.5745733441617801,
       "modelVersion": "research-prior20-v1",
       "captureMethod": "server-side historical results baseline; NOT website simulation",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "4",
+        "awayScore": "2",
+        "homeWon": true,
+        "verifiedAt": "2026-11-24T14:59:24.529306+00:00",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
+        "brier": 0.180988
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nhl:401892776",
@@ -406,8 +597,15 @@
       "homeWinProbability": 0.6065794906848672,
       "modelVersion": "research-prior20-v1",
       "captureMethod": "server-side historical results baseline; NOT website simulation",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "2",
+        "awayScore": "4",
+        "homeWon": false,
+        "verifiedAt": "2026-11-24T14:59:24.529306+00:00",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
+        "brier": 0.367939
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nhl:401892775",
@@ -421,8 +619,15 @@
       "homeWinProbability": 0.526264461242334,
       "modelVersion": "research-prior20-v1",
       "captureMethod": "server-side historical results baseline; NOT website simulation",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "2",
+        "awayScore": "1",
+        "homeWon": true,
+        "verifiedAt": "2026-11-24T14:59:24.529306+00:00",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
+        "brier": 0.224425
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nhl:401892774",
@@ -436,8 +641,15 @@
       "homeWinProbability": 0.6180139471232684,
       "modelVersion": "research-prior20-v1",
       "captureMethod": "server-side historical results baseline; NOT website simulation",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "1",
+        "awayScore": "2",
+        "homeWon": false,
+        "verifiedAt": "2026-11-24T14:59:24.529306+00:00",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
+        "brier": 0.381941
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nba:401910040",
@@ -451,8 +663,15 @@
       "homeWinProbability": 0.7330056037138057,
       "modelVersion": "nba-record-home-v1",
       "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "142",
+        "awayScore": "116",
+        "homeWon": true,
+        "verifiedAt": "2026-11-24T14:59:23.535Z",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+        "brier": 0.071286
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nba:401910039",
@@ -466,8 +685,15 @@
       "homeWinProbability": 0.6873267648548305,
       "modelVersion": "nba-record-home-v1",
       "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "111",
+        "awayScore": "116",
+        "homeWon": false,
+        "verifiedAt": "2026-11-24T14:59:23.535Z",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+        "brier": 0.472418
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nba:401910038",
@@ -481,8 +707,15 @@
       "homeWinProbability": 0.42895889395221654,
       "modelVersion": "nba-record-home-v1",
       "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "125",
+        "awayScore": "120",
+        "homeWon": true,
+        "verifiedAt": "2026-11-24T14:59:23.535Z",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+        "brier": 0.326088
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nhl:401892773",
@@ -496,8 +729,15 @@
       "homeWinProbability": 0.6547425358112449,
       "modelVersion": "research-prior20-v1",
       "captureMethod": "server-side historical results baseline; NOT website simulation",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "3",
+        "awayScore": "2",
+        "homeWon": true,
+        "verifiedAt": "2026-11-24T14:59:24.529306+00:00",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
+        "brier": 0.119203
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nba:401910037",
@@ -511,8 +751,15 @@
       "homeWinProbability": 0.6179284234037826,
       "modelVersion": "nba-record-home-v1",
       "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "111",
+        "awayScore": "128",
+        "homeWon": false,
+        "verifiedAt": "2026-11-24T14:59:23.535Z",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+        "brier": 0.381836
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nba:401910036",
@@ -526,8 +773,15 @@
       "homeWinProbability": 0.3628789315420978,
       "modelVersion": "nba-record-home-v1",
       "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "111",
+        "awayScore": "117",
+        "homeWon": false,
+        "verifiedAt": "2026-11-24T14:59:23.535Z",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+        "brier": 0.131681
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nba:401910035",
@@ -541,15 +795,8 @@
       "homeWinProbability": 0.4622122471862427,
       "modelVersion": "nba-record-home-v1",
       "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
-      "result": {
-        "homeScore": "88",
-        "awayScore": "87",
-        "homeWon": true,
-        "verifiedAt": "2026-11-23T04:24:07.507Z",
-        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
-        "brier": 0.289216
-      },
-      "status": "scored"
+      "result": null,
+      "status": "awaiting-verified-final"
     },
     {
       "gameKey": "nhl:401892772",
@@ -563,15 +810,8 @@
       "homeWinProbability": 0.5281818573863765,
       "modelVersion": "research-prior20-v1",
       "captureMethod": "server-side historical results baseline; NOT website simulation",
-      "result": {
-        "homeScore": "3",
-        "awayScore": "6",
-        "homeWon": false,
-        "verifiedAt": "2026-11-23T04:24:08.066212+00:00",
-        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=300",
-        "brier": 0.278976
-      },
-      "status": "scored"
+      "result": null,
+      "status": "awaiting-verified-final"
     },
     {
       "gameKey": "nba:401910034",
@@ -585,15 +825,8 @@
       "homeWinProbability": 0.6544111162019277,
       "modelVersion": "nba-record-home-v1",
       "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
-      "result": {
-        "homeScore": "113",
-        "awayScore": "106",
-        "homeWon": true,
-        "verifiedAt": "2026-11-23T04:24:07.507Z",
-        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
-        "brier": 0.119432
-      },
-      "status": "scored"
+      "result": null,
+      "status": "awaiting-verified-final"
     },
     {
       "gameKey": "nhl:401892771",
@@ -607,15 +840,8 @@
       "homeWinProbability": 0.6810194382517528,
       "modelVersion": "research-prior20-v1",
       "captureMethod": "server-side historical results baseline; NOT website simulation",
-      "result": {
-        "homeScore": "1",
-        "awayScore": "0",
-        "homeWon": true,
-        "verifiedAt": "2026-11-23T03:20:14.004037+00:00",
-        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=300",
-        "brier": 0.101749
-      },
-      "status": "scored"
+      "result": null,
+      "status": "awaiting-verified-final"
     },
     {
       "gameKey": "nhl:401892770",
@@ -629,15 +855,8 @@
       "homeWinProbability": 0.46955283450944696,
       "modelVersion": "research-prior20-v1",
       "captureMethod": "server-side historical results baseline; NOT website simulation",
-      "result": {
-        "homeScore": "5",
-        "awayScore": "4",
-        "homeWon": true,
-        "verifiedAt": "2026-11-23T03:20:14.004037+00:00",
-        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=300",
-        "brier": 0.281374
-      },
-      "status": "scored"
+      "result": null,
+      "status": "awaiting-verified-final"
     },
     {
       "gameKey": "nba:401910033",
@@ -651,15 +870,8 @@
       "homeWinProbability": 0.4121884727408568,
       "modelVersion": "nba-record-home-v1",
       "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
-      "result": {
-        "homeScore": "114",
-        "awayScore": "116",
-        "homeWon": false,
-        "verifiedAt": "2026-11-23T03:20:11.776Z",
-        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
-        "brier": 0.169899
-      },
-      "status": "scored"
+      "result": null,
+      "status": "awaiting-verified-final"
     },
     {
       "gameKey": "nba:401910032",
@@ -673,15 +885,8 @@
       "homeWinProbability": 0.4309892987289582,
       "modelVersion": "nba-record-home-v1",
       "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
-      "result": {
-        "homeScore": "145",
-        "awayScore": "151",
-        "homeWon": false,
-        "verifiedAt": "2026-11-23T03:20:11.776Z",
-        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
-        "brier": 0.185752
-      },
-      "status": "scored"
+      "result": null,
+      "status": "awaiting-verified-final"
     },
     {
       "gameKey": "nba:401910031",
@@ -695,15 +900,8 @@
       "homeWinProbability": 0.5057954469415695,
       "modelVersion": "nba-record-home-v1",
       "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
-      "result": {
-        "homeScore": "116",
-        "awayScore": "96",
-        "homeWon": true,
-        "verifiedAt": "2026-11-23T02:20:33.237Z",
-        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
-        "brier": 0.244238
-      },
-      "status": "scored"
+      "result": null,
+      "status": "awaiting-verified-final"
     },
     {
       "gameKey": "nba:401910030",

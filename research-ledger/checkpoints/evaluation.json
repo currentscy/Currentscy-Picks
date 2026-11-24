@@ -4,11 +4,11 @@
     "nba": {
       "early": {
         "metrics": {
-          "count": 35,
-          "brier": 0.2332640927123508,
-          "logLoss": 0.6581591670681312,
-          "actualWinRate": 0.6857142857142857,
-          "meanPredicted": 0.543128066386676
+          "count": 52,
+          "brier": 0.22890618017249414,
+          "logLoss": 0.6484182578770056,
+          "actualWinRate": 0.6346153846153846,
+          "meanPredicted": 0.5457882793201606
         },
         "calibrationBins": [
           {
@@ -31,11 +31,11 @@
               0.3
             ],
             "metrics": {
-              "count": 1,
-              "brier": 0.4909148130648266,
-              "logLoss": 1.2061522883477633,
-              "actualWinRate": 1.0,
-              "meanPredicted": 0.29934686679868006
+              "count": 2,
+              "brier": 0.2796617268303116,
+              "logLoss": 0.7546773944167545,
+              "actualWinRate": 0.5,
+              "meanPredicted": 0.2804486609806719
             }
           },
           {
@@ -44,11 +44,11 @@
               0.4
             ],
             "metrics": {
-              "count": 1,
-              "brier": 0.44132146643268044,
-              "logLoss": 1.0915978596815945,
-              "actualWinRate": 1.0,
-              "meanPredicted": 0.3356796959051451
+              "count": 3,
+              "brier": 0.2410144753236649,
+              "logLoss": 0.6774522110061176,
+              "actualWinRate": 0.3333333333333333,
+              "meanPredicted": 0.3619698944810652
             }
           },
           {
@@ -57,11 +57,11 @@
               0.5
             ],
             "metrics": {
-              "count": 10,
-              "brier": 0.23802982824916005,
-              "logLoss": 0.6688983947362497,
-              "actualWinRate": 0.6,
-              "meanPredicted": 0.46265372436442104
+              "count": 13,
+              "brier": 0.24742560978602185,
+              "logLoss": 0.6878544304835155,
+              "actualWinRate": 0.6153846153846154,
+              "meanPredicted": 0.458591531633041
             }
           },
           {
@@ -70,11 +70,11 @@
               0.6
             ],
             "metrics": {
-              "count": 13,
-              "brier": 0.22794995263945478,
-              "logLoss": 0.6487394331083954,
-              "actualWinRate": 0.6923076923076923,
-              "meanPredicted": 0.5369674956126724
+              "count": 16,
+              "brier": 0.22340268855932938,
+              "logLoss": 0.6396218263841181,
+              "actualWinRate": 0.75,
+              "meanPredicted": 0.5392434501251211
             }
           },
           {
@@ -83,11 +83,11 @@
               0.7
             ],
             "metrics": {
-              "count": 7,
-              "brier": 0.24227708632349132,
-              "logLoss": 0.6770319509435921,
-              "actualWinRate": 0.5714285714285714,
-              "meanPredicted": 0.6467134430138267
+              "count": 12,
+              "brier": 0.28493965469474797,
+              "logLoss": 0.7652273500526837,
+              "actualWinRate": 0.4166666666666667,
+              "meanPredicted": 0.6426321052478984
             }
           },
           {
@@ -96,11 +96,11 @@
               0.8
             ],
             "metrics": {
-              "count": 3,
-              "brier": 0.06413989812193971,
-              "logLoss": 0.29200015499281706,
+              "count": 6,
+              "brier": 0.06841711480559155,
+              "logLoss": 0.3028754947814376,
               "actualWinRate": 1.0,
-              "meanPredicted": 0.7467823243746986
+              "meanPredicted": 0.7388355238395938
             }
           },
           {
@@ -224,5 +224,5 @@
   "rejected": {},
   "liveModelPromoted": false,
   "limitations": "No causal injury/lineup attribution without matched same-state counterfactuals; no model promotion or automatic live deployment.",
-  "generatedAt": "2026-11-23T05:42:45.099963+00:00"
+  "generatedAt": "2026-11-24T14:59:33.763677+00:00"
 }

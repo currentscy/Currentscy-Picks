@@ -1,48 +1,48 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T05:42:45.177519+00:00",
-  "scoredPredictions": 41,
+  "generatedAt": "2026-11-24T14:59:33.857440+00:00",
+  "scoredPredictions": 58,
   "bySport": {
     "nba": {
-      "n": 22,
-      "trainCount": 0,
-      "holdoutCount": 22,
+      "n": 32,
+      "trainCount": 2,
+      "holdoutCount": 30,
       "actualArchivedShadow": {
         "n": 0,
         "baseline": null,
         "shadow": null
       },
       "originalBrier": {
-        "n": 22,
-        "brier": 0.204772,
-        "logLoss": 0.599417,
+        "n": 32,
+        "brier": 0.206676,
+        "logLoss": 0.601884,
         "calibrationBins": [
           {
             "range": [
               0.2,
               0.4
             ],
-            "n": 1,
-            "meanPrediction": 0.2993,
-            "observedRate": 1.0
+            "n": 3,
+            "meanPrediction": 0.3079,
+            "observedRate": 0.3333
           },
           {
             "range": [
               0.4,
               0.6
             ],
-            "n": 12,
-            "meanPrediction": 0.4894,
-            "observedRate": 0.5833
+            "n": 15,
+            "meanPrediction": 0.4806,
+            "observedRate": 0.6
           },
           {
             "range": [
               0.6,
               0.8
             ],
-            "n": 9,
-            "meanPrediction": 0.6872,
-            "observedRate": 0.8889
+            "n": 14,
+            "meanPrediction": 0.6916,
+            "observedRate": 0.7857
           }
         ]
       },
@@ -52,45 +52,45 @@
       "activeAdjustment": null
     },
     "nhl": {
-      "n": 19,
+      "n": 26,
       "trainCount": 0,
-      "holdoutCount": 19,
+      "holdoutCount": 26,
       "actualArchivedShadow": {
         "n": 0,
         "baseline": null,
         "shadow": null
       },
       "originalBrier": {
-        "n": 19,
-        "brier": 0.264703,
-        "logLoss": 0.723744,
+        "n": 26,
+        "brier": 0.256138,
+        "logLoss": 0.706161,
         "calibrationBins": [
           {
             "range": [
               0.2,
               0.4
             ],
-            "n": 1,
-            "meanPrediction": 0.3357,
-            "observedRate": 1.0
+            "n": 2,
+            "meanPrediction": 0.3615,
+            "observedRate": 0.5
           },
           {
             "range": [
               0.4,
               0.6
             ],
-            "n": 13,
-            "meanPrediction": 0.5195,
-            "observedRate": 0.6154
+            "n": 16,
+            "meanPrediction": 0.525,
+            "observedRate": 0.6875
           },
           {
             "range": [
               0.6,
               0.8
             ],
-            "n": 5,
-            "meanPrediction": 0.6453,
-            "observedRate": 0.4
+            "n": 8,
+            "meanPrediction": 0.6383,
+            "observedRate": 0.375
           }
         ]
       },
