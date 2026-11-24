@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 5,
+  "gameKey": "soccer-uel:401915504",
+  "sport": "soccer-uel",
+  "phase": "pregame",
+  "scheduledStart": "2026-11-26T20:00Z",
+  "sourceObservedAt": "2026-11-24T04:47:09.024355+00:00",
+  "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+  "teams": [
+    {
+      "sourceTeamId": "384",
+      "homeAway": "home",
+      "score": null
+    },
+    {
+      "sourceTeamId": "89",
+      "homeAway": "away",
+      "score": null
+    }
+  ],
+  "completed": false
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T03:43:08.295655+00:00",
+  "generatedAt": "2026-11-24T04:47:26.071772+00:00",
   "providers": {
     "cloudflare": {
       "status": "error",
@@ -8,29 +8,33 @@
       "diagnostic": "Authorization denied: check Worker secret matches GitHub secret and Cloudflare Access/WAF rules"
     },
     "gemini": {
-      "status": "not-configured"
+      "status": "error",
+      "httpStatus": 404,
+      "diagnostic": "Provider request failed"
     },
     "groq": {
-      "status": "not-configured"
+      "status": "error",
+      "httpStatus": 403,
+      "diagnostic": "Authorization denied: check Worker secret matches GitHub secret and Cloudflare Access/WAF rules"
     }
   },
   "availableProviders": [],
   "crossCheckComplete": false,
   "evidence": {
     "savedForecasts": 100,
-    "savedFinalOutcomes": 52,
+    "savedFinalOutcomes": 54,
     "evaluationSummary": {
       "gamesAvailable": 1106,
       "validPregamePredictions": 100,
-      "scoredBaselinePredictions": 52,
+      "scoredBaselinePredictions": 54,
       "scoredCandidatePredictions": 0,
       "pairedSample": 0,
-      "unscoredPredictions": 48,
+      "unscoredPredictions": 46,
       "rejectedRecords": 0
     },
     "learningBySport": {
       "nba": {
-        "n": 28,
+        "n": 30,
         "promotionEligible": false
       },
       "nhl": {

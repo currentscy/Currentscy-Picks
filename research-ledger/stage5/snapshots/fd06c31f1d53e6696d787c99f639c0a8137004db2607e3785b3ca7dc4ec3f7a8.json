@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 5,
+  "gameKey": "nhl:401892773",
+  "sport": "nhl",
+  "phase": "postgame",
+  "scheduledStart": "2026-11-24T00:00Z",
+  "sourceObservedAt": "2026-11-24T04:47:09.024355+00:00",
+  "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
+  "teams": [
+    {
+      "sourceTeamId": "11",
+      "homeAway": "home",
+      "score": "3"
+    },
+    {
+      "sourceTeamId": "29",
+      "homeAway": "away",
+      "score": "2"
+    }
+  ],
+  "completed": true
+}

@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-11-24T01:54:00.262286+00:00",
+  "lastRun": "2026-11-24T04:47:16.820663+00:00",
   "trackedGames": 447,
   "changes": [
     {
@@ -39,36 +39,12 @@
       "key": "nba:401910043"
     },
     {
-      "type": "new_game",
-      "key": "nba:401910068"
+      "type": "game_updated",
+      "key": "nba:401910044"
     },
     {
-      "type": "new_game",
-      "key": "nba:401910069"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910070"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910071"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910072"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910073"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910075"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910074"
+      "type": "game_updated",
+      "key": "nba:401910045"
     },
     {
       "type": "game_updated",
@@ -91,59 +67,15 @@
       "key": "nhl:401892777"
     },
     {
-      "type": "new_game",
-      "key": "nhl:401892831"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892833"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892834"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892832"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892835"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892836"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892837"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892838"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892839"
+      "type": "game_updated",
+      "key": "nhl:401892778"
     },
     {
       "type": "game_updated",
-      "key": "soccer-epl:401879237"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-epl:401879221"
-    },
-    {
-      "type": "game_updated",
-      "key": "soccer-laliga:401882802"
-    },
-    {
-      "type": "game_updated",
-      "key": "soccer-seriea:401875009"
+      "key": "nhl:401892779"
     }
   ],
-  "changeCount": 35,
+  "changeCount": 18,
   "sourceFailures": [],
   "failureCount": 0,
   "injuryFeedVerified": false,

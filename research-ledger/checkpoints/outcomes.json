@@ -516,5 +516,25 @@
     "verificationMethod": "ESPN scoreboard marked completed; single-provider final, not independently corroborated",
     "homeScore": 4.0,
     "awayScore": 2.0
+  },
+  {
+    "predictionId": "nba-home-win:401910042:nba-record-home-v1",
+    "result": 0,
+    "verified": true,
+    "verifiedAt": "2026-11-24T04:47:14.877Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+    "verificationMethod": "ESPN completed scoreboard and numeric final score (single provider; not independently corroborated)",
+    "homeScore": 119,
+    "awayScore": 123
+  },
+  {
+    "predictionId": "nba-home-win:401910043:nba-record-home-v1",
+    "result": 1,
+    "verified": true,
+    "verifiedAt": "2026-11-24T04:47:14.877Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+    "verificationMethod": "ESPN completed scoreboard and numeric final score (single provider; not independently corroborated)",
+    "homeScore": 116,
+    "awayScore": 104
   }
 ]
