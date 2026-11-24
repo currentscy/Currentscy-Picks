@@ -4,11 +4,11 @@
     "nba": {
       "early": {
         "metrics": {
-          "count": 35,
-          "brier": 0.2332640927123508,
-          "logLoss": 0.6581591670681312,
-          "actualWinRate": 0.6857142857142857,
-          "meanPredicted": 0.543128066386676
+          "count": 38,
+          "brier": 0.23149901623467753,
+          "logLoss": 0.6545270247062627,
+          "actualWinRate": 0.6578947368421053,
+          "meanPredicted": 0.5432903214287049
         },
         "calibrationBins": [
           {
@@ -44,11 +44,11 @@
               0.4
             ],
             "metrics": {
-              "count": 1,
-              "brier": 0.44132146643268044,
-              "logLoss": 1.0915978596815945,
-              "actualWinRate": 1.0,
-              "meanPredicted": 0.3356796959051451
+              "count": 2,
+              "brier": 0.2865012926949075,
+              "logLoss": 0.7711967203886401,
+              "actualWinRate": 0.5,
+              "meanPredicted": 0.3492793137236215
             }
           },
           {
@@ -83,11 +83,11 @@
               0.7
             ],
             "metrics": {
-              "count": 7,
-              "brier": 0.24227708632349132,
-              "logLoss": 0.6770319509435921,
-              "actualWinRate": 0.5714285714285714,
-              "meanPredicted": 0.6467134430138267
+              "count": 9,
+              "brier": 0.24410865081030814,
+              "logLoss": 0.6805426852180944,
+              "actualWinRate": 0.5555555555555556,
+              "meanPredicted": 0.644407228923535
             }
           },
           {
@@ -224,5 +224,5 @@
   "rejected": {},
   "liveModelPromoted": false,
   "limitations": "No causal injury/lineup attribution without matched same-state counterfactuals; no model promotion or automatic live deployment.",
-  "generatedAt": "2026-11-24T01:51:47.187345+00:00"
+  "generatedAt": "2026-11-24T02:44:20.488354+00:00"
 }
