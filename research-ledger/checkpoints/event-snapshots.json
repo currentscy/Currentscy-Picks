@@ -109768,5 +109768,180 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "b0b08334303ac304ae2c7b56956168ef19a01fe0ede11574743526c6b424b9f2",
+    "capturedAt": "2026-11-24T06:45:14.986930+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401909743",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-24T04:55Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "12",
+          "name": "Arizona Wildcats",
+          "homeAway": "home",
+          "score": "85",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "36",
+          "name": "Colorado State Rams",
+          "homeAway": "away",
+          "score": "71",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261123&limit=300",
+      "observedAt": "2026-11-24T06:45:10.684578+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "d7034ecf774d85aab3cbe85176ea6e8c96c2c11d85750d6c461728312bfbfe26",
+    "capturedAt": "2026-11-24T06:45:14.986930+00:00",
+    "observation": {
+      "eventKey": "soccer-mexico:401931986",
+      "sport": "soccer-mexico",
+      "scheduledStart": "2026-11-26T01:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "223",
+          "name": "Toluca",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "216",
+          "name": "Atlas",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-24T06:45:10.684578+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "85401041dc4d0ea9ccbab6c9857a93a838d6d0f363f103fbc8a2f3872f5d89d0",
+    "capturedAt": "2026-11-24T06:45:14.986930+00:00",
+    "observation": {
+      "eventKey": "soccer-mexico:401931998",
+      "sport": "soccer-mexico",
+      "scheduledStart": "2026-11-26T03:10Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "220",
+          "name": "Monterrey",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "227",
+          "name": "Am\u00e9rica",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-24T06:45:10.684578+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "b8589be95698bf53fe7641f3698f394a69c211af1e18f34546a5a81ac98a4100",
+    "capturedAt": "2026-11-24T06:45:14.986930+00:00",
+    "observation": {
+      "eventKey": "soccer-mexico:401931982",
+      "sport": "soccer-mexico",
+      "scheduledStart": "2026-11-27T01:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "234",
+          "name": "Pachuca",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "219",
+          "name": "Guadalajara",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-24T06:45:10.684578+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "1a84626d55deb25dede2131dc43390a36eedeec51b7bc2b7276cb5d3a8f0043d",
+    "capturedAt": "2026-11-24T06:45:14.986930+00:00",
+    "observation": {
+      "eventKey": "soccer-mexico:401931995",
+      "sport": "soccer-mexico",
+      "scheduledStart": "2026-11-27T03:10Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "228",
+          "name": "Le\u00f3n",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "218",
+          "name": "Cruz Azul",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-24T06:45:10.684578+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
