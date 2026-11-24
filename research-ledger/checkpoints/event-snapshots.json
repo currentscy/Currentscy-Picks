@@ -108683,5 +108683,390 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "f027caaa4ed2a3789bf3feb5d592943fe569dd2a2610a47b20da0c822c4d595c",
+    "capturedAt": "2026-11-24T22:30:11.388488+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401921709",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-24T19:30Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "252",
+          "name": "BYU Cougars",
+          "homeAway": "home",
+          "score": "63",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "145",
+          "name": "Ole Miss Rebels",
+          "homeAway": "away",
+          "score": "73",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-24T22:30:05.832152+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "d9d8258c30b11d5b2ca23edf01376440bf4644473c9661e3c6592b84bf6340c4",
+    "capturedAt": "2026-11-24T22:30:11.388488+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401906853",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-24T20:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "120",
+          "name": "Maryland Terrapins",
+          "homeAway": "home",
+          "score": "64",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "2633",
+          "name": "Tennessee Volunteers",
+          "homeAway": "away",
+          "score": "72",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-24T22:30:05.832152+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "91a92cad1b29af0db33c65b01fb7799eaf4e4972ca598dfff7ca17a7d276a056",
+    "capturedAt": "2026-11-24T22:30:11.388488+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401915941",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-24T20:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "2628",
+          "name": "TCU Horned Frogs",
+          "homeAway": "home",
+          "score": "84",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "2390",
+          "name": "Miami Hurricanes",
+          "homeAway": "away",
+          "score": "71",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-24T22:30:05.832152+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "954d6b1fd92361e636a2ca4813c3118e233d83fcc698775a34ab7846fa04c830",
+    "capturedAt": "2026-11-24T22:30:11.388488+00:00",
+    "observation": {
+      "eventKey": "soccer-ucl:401915294",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-24T20:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "142",
+          "name": "Feyenoord Rotterdam",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "437",
+          "name": "FC Porto",
+          "homeAway": "away",
+          "score": "1",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-24T22:30:05.832152+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "21e6d600c7efa6f32932574d6225f4f2d967836d1715a44a1999b1d8a8650ece",
+    "capturedAt": "2026-11-24T22:30:11.388488+00:00",
+    "observation": {
+      "eventKey": "soccer-ucl:401915295",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-24T20:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "359",
+          "name": "Arsenal",
+          "homeAway": "home",
+          "score": "1",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "124",
+          "name": "Borussia Dortmund",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-24T22:30:05.832152+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "6c77c692661813630225b6f017c4c51240a41a798b84a12557e8135735e46f16",
+    "capturedAt": "2026-11-24T22:30:11.388488+00:00",
+    "observation": {
+      "eventKey": "soccer-ucl:401915296",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-24T20:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "2572",
+          "name": "Como",
+          "homeAway": "home",
+          "score": "1",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "887",
+          "name": "AEK Athens",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-24T22:30:05.832152+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "cd7d1a5535b8d6c3257cba976f55f363fbea4b0f0b4d15f1c1135aedc843bf1d",
+    "capturedAt": "2026-11-24T22:30:11.388488+00:00",
+    "observation": {
+      "eventKey": "soccer-ucl:401915297",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-24T20:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "521",
+          "name": "Slovan Bratislava",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "244",
+          "name": "Real Betis",
+          "homeAway": "away",
+          "score": "2",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-24T22:30:05.832152+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "4284616c2612e9b1d73ee780bf202c51a75e7f7b27f7c3f0890a530050073319",
+    "capturedAt": "2026-11-24T22:30:11.388488+00:00",
+    "observation": {
+      "eventKey": "soccer-ucl:401915298",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-24T20:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "86",
+          "name": "Real Madrid",
+          "homeAway": "home",
+          "score": "5",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "148",
+          "name": "PSV Eindhoven",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-24T22:30:05.832152+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "0145614b26f84d2b5fe4c132e7b7b7b9ddd20d145793d8d412cd8823ac43b77e",
+    "capturedAt": "2026-11-24T22:30:11.388488+00:00",
+    "observation": {
+      "eventKey": "soccer-ucl:401915299",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-24T20:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "11420",
+          "name": "RB Leipzig",
+          "homeAway": "home",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "175",
+          "name": "Lens",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-24T22:30:05.832152+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "219bd1e984a1841f42b113240088d40843a9196f3fbfbf8914c54f6be2608301",
+    "capturedAt": "2026-11-24T22:30:11.388488+00:00",
+    "observation": {
+      "eventKey": "soccer-ucl:401915379",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-24T20:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "382",
+          "name": "Manchester City",
+          "homeAway": "home",
+          "score": "2",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "114",
+          "name": "Napoli",
+          "homeAway": "away",
+          "score": "2",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-24T22:30:05.832152+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "3bf5604e20c7c28969e94b3a2e26f3bbdaae693c629df240fa8db810fa3ffbfd",
+    "capturedAt": "2026-11-24T22:30:11.388488+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401921710",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-24T22:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "12",
+          "name": "Arizona Wildcats",
+          "homeAway": "home",
+          "score": "9",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "2507",
+          "name": "Providence Friars",
+          "homeAway": "away",
+          "score": "2",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-24T22:30:05.832152+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
