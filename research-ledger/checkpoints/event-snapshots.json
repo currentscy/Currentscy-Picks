@@ -109663,5 +109663,75 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "0c5bf672c1912ba70b4b60e8a90219ef52b53e1b1005a8980c246ed7bc5280c8",
+    "capturedAt": "2026-11-24T04:52:04.082902+00:00",
+    "observation": {
+      "eventKey": "nba:401910044",
+      "sport": "nba",
+      "scheduledStart": "2026-11-24T03:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "13",
+          "name": "Los Angeles Lakers",
+          "homeAway": "home",
+          "score": "71",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "26",
+          "name": "Utah Jazz",
+          "homeAway": "away",
+          "score": "72",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
+      "observedAt": "2026-11-24T04:51:48.646932+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "e680a5c7455987cccb73b8894c0ad87e03d870b564da482c1c67dfe5400b5fb3",
+    "capturedAt": "2026-11-24T04:52:04.082902+00:00",
+    "observation": {
+      "eventKey": "nba:401910045",
+      "sport": "nba",
+      "scheduledStart": "2026-11-24T03:00Z",
+      "status": "STATUS_END_PERIOD",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "23",
+          "name": "Sacramento Kings",
+          "homeAway": "home",
+          "score": "74",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "24",
+          "name": "San Antonio Spurs",
+          "homeAway": "away",
+          "score": "92",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
+      "observedAt": "2026-11-24T04:51:48.646932+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
