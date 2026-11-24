@@ -1,7 +1,0 @@
-/* V4.6 compact supporting soccer research, keep core predictions visible */
-body[data-sport="soccer"] details.cp-soccer-research{margin-top:12px;padding:14px 16px}
-body[data-sport="soccer"] details.cp-soccer-research>summary{cursor:pointer;font-weight:700;font-size:17px;line-height:1.4}
-body[data-sport="soccer"] details.cp-soccer-research[open]>summary{margin-bottom:14px}
-body[data-sport="soccer"] #results>.cp-soccer-research> .panel{margin:10px 0 0;padding:10px}
-body[data-sport="soccer"] #results>.cp-soccer-research .grid{gap:10px}
-@media(max-width:520px){body[data-sport="soccer"] #results>.cp-soccer-research .tile{padding:12px}}

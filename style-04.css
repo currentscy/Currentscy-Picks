@@ -1,7 +1,0 @@
-/* V52 league-specific source recovery */
-.v52-source-panel{margin:12px 0;padding:13px 15px;background:#15263f;border:1px solid #34465e;border-radius:13px}
-.v52-source-panel>strong{font-size:14px}.v52-source-head{font-weight:700;font-size:12px;padding:10px 0;color:#c6d7eb}
-.v52-check{padding:10px 14px;border-radius:10px;background:#273e5d;border:1px solid #54708e;color:#f0f6ff;font-size:13px;font-weight:650}
-.v52-check:disabled{opacity:.65}
-.v52-source-panel .v51-source{overflow-wrap:anywhere}
-body[data-sport=soccer] #results .v52-source-panel{max-width:760px;margin:12px auto}

@@ -1,9 +1,0 @@
-/* V3.1 UFC only: readable, compact mobile sections */
-body:has(.v48-card) .v48-card{line-height:1.5}
-body:has(.v48-card) .v48-details summary{padding:13px 8px;font-weight:650;cursor:pointer}
-body:has(.v48-card) .v48-detailbody{overflow-x:auto;max-width:100%}
-body:has(.v48-card) .v48-table{width:100%;font-size:.82rem}
-body:has(.v48-card) .v48-table th,body:has(.v48-card) .v48-table td{padding:8px 5px}
-body:has(.v48-card) .v49-picks{overflow-wrap:anywhere}
-body:has(.v48-card) .v48-fighters{gap:8px}
-@media(max-width:420px){body:has(.v48-card) .v48-fighters{grid-template-columns:repeat(2,minmax(0,1fr))}body:has(.v48-card) .v48-fighter{padding:12px 9px}}

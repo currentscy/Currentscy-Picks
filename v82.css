@@ -1,6 +1,0 @@
-/* V82 player stats */
-#detail .v82-date{display:none!important}
-#detail .v82-unrelated{display:none!important}
-#detail .v82-sort{background:transparent;border:0;color:inherit;font:inherit;font-weight:700;padding:8px 4px;cursor:pointer;white-space:nowrap}
-#detail .v82-sort[aria-sort="descending"]::after{content:" ↓";color:#ff985d}
-#detail .v82-sort[aria-sort="ascending"]::after{content:" ↑";color:#ff985d}

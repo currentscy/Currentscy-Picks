@@ -1,9 +1,0 @@
-/* Currentscy Picks V77 — non-destructive visual overrides */
-header{padding:12px 16px!important;gap:10px!important}header .brandline{display:flex!important;align-items:center;gap:10px}header .brandline img{width:65px!important;max-height:48px!important;object-fit:contain}header .brandline h1{font-size:clamp(18px,4.5vw,24px)!important;line-height:1.15}header .brandline .sub{display:none!important}
-header nav,.sports-nav{scrollbar-width:none}header nav::-webkit-scrollbar,.sports-nav::-webkit-scrollbar{display:none}
-header button,.sport-tab{border-radius:14px!important}
-body[data-sport="nfl"]{--sport-accent:#d94255}body[data-sport="nba"]{--sport-accent:#ed893c}body[data-sport="nhl"]{--sport-accent:#5da5e7}body[data-sport="soccer"]{--sport-accent:#33b57a}body[data-sport="tennis"]{--sport-accent:#bbd34e}body[data-sport="ufc"]{--sport-accent:#e14848}
-#v77-match-summary{margin-top:14px}#v77-match-summary .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}#v77-match-summary .tile{min-width:0;padding:12px!important}#v77-match-summary .tile small{font-size:12px;line-height:1.35}#v77-match-summary .tile b{font-size:clamp(19px,5vw,25px)}#v77-match-summary .sub{font-size:12px}#v77-match-summary .panel{margin:0;padding:0;border:0;background:transparent;box-shadow:none}
-.v77-statline{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 4px}.v77-statline span{border:1px solid #374253;border-radius:9px;background:#141b26;padding:5px 8px;font-size:12px;color:#d4dfed}
-.v77-hit{display:inline-block;border-radius:8px;padding:3px 7px;background:#18352b;color:#8de3b3;font-weight:700}
-@media(max-width:420px){header .brandline img{width:55px!important}header .brandline h1{font-size:18px!important}}
