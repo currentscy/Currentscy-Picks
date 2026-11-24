@@ -5,7 +5,7 @@
   "trainingDataSource": "immutable pregame forecast records and verified outcomes",
   "result": {
     "status": "insufficient_verified_training_data",
-    "eligibleRows": 17,
+    "eligibleRows": 32,
     "minimumRows": 90,
     "productionModelChanged": false
   },

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-23T01:56:46.420899+00:00",
-  "stage1CollectedAt": "2026-11-23T01:56:21.374649+00:00",
+  "generatedAt": "2026-11-24T19:38:05.421658+00:00",
+  "stage1CollectedAt": "2026-11-24T19:37:54.006106+00:00",
   "games": [
     {
       "gameKey": "nba:401909314",
@@ -28,7 +28,7 @@
         "provider": "espn",
         "eventId": "401909314",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -56,7 +56,7 @@
         "provider": "espn",
         "eventId": "401909315",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -84,7 +84,7 @@
         "provider": "espn",
         "eventId": "401909316",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -112,7 +112,7 @@
         "provider": "espn",
         "eventId": "401909317",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -140,7 +140,7 @@
         "provider": "espn",
         "eventId": "401909318",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -168,7 +168,7 @@
         "provider": "espn",
         "eventId": "401909319",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -196,7 +196,7 @@
         "provider": "espn",
         "eventId": "401909320",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -224,7 +224,7 @@
         "provider": "espn",
         "eventId": "401909321",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -252,7 +252,7 @@
         "provider": "espn",
         "eventId": "401909322",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -280,7 +280,7 @@
         "provider": "espn",
         "eventId": "401909323",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -308,7 +308,7 @@
         "provider": "espn",
         "eventId": "401909324",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -336,165 +336,25 @@
         "provider": "espn",
         "eventId": "401909325",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
-      "gameKey": "nba:401910029",
+      "gameKey": "nba:401909326",
       "sport": "nba",
-      "start": "2026-11-22T20:30Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "nba:espn:1",
-          "homeAway": "home",
-          "score": "107"
-        },
-        {
-          "teamKey": "nba:espn:8",
-          "homeAway": "away",
-          "score": "97"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401910029",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nba:401910030",
-      "sport": "nba",
-      "start": "2026-11-22T23:00Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "nba:espn:14",
-          "homeAway": "home",
-          "score": "123"
-        },
-        {
-          "teamKey": "nba:espn:25",
-          "homeAway": "away",
-          "score": "113"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401910030",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nba:401910031",
-      "sport": "nba",
-      "start": "2026-11-23T00:00Z",
-      "status": "STATUS_IN_PROGRESS",
-      "completed": false,
-      "teams": [
-        {
-          "teamKey": "nba:espn:27",
-          "homeAway": "home",
-          "score": "103"
-        },
-        {
-          "teamKey": "nba:espn:19",
-          "homeAway": "away",
-          "score": "81"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401910031",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nba:401910032",
-      "sport": "nba",
-      "start": "2026-11-23T00:00Z",
-      "status": "STATUS_IN_PROGRESS",
-      "completed": false,
-      "teams": [
-        {
-          "teamKey": "nba:espn:4",
-          "homeAway": "home",
-          "score": "103"
-        },
-        {
-          "teamKey": "nba:espn:7",
-          "homeAway": "away",
-          "score": "108"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401910032",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nba:401910033",
-      "sport": "nba",
-      "start": "2026-11-23T00:00Z",
-      "status": "STATUS_IN_PROGRESS",
-      "completed": false,
-      "teams": [
-        {
-          "teamKey": "nba:espn:26",
-          "homeAway": "home",
-          "score": "79"
-        },
-        {
-          "teamKey": "nba:espn:6",
-          "homeAway": "away",
-          "score": "96"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401910033",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nba:401910034",
-      "sport": "nba",
-      "start": "2026-11-23T01:00Z",
-      "status": "STATUS_IN_PROGRESS",
+      "start": "2026-11-28T00:00Z",
+      "status": "STATUS_SCHEDULED",
       "completed": false,
       "teams": [
         {
           "teamKey": "nba:espn:18",
           "homeAway": "home",
-          "score": "42"
+          "score": "0"
         },
         {
-          "teamKey": "nba:espn:11",
+          "teamKey": "nba:espn:14",
           "homeAway": "away",
-          "score": "43"
+          "score": "0"
         }
       ],
       "observations": [],
@@ -502,132 +362,20 @@
       "unresolved": [],
       "source": {
         "provider": "espn",
-        "eventId": "401910034",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "eventId": "401909326",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
-      "gameKey": "nba:401910035",
+      "gameKey": "nba:401909327",
       "sport": "nba",
-      "start": "2026-11-23T01:30Z",
-      "status": "STATUS_IN_PROGRESS",
-      "completed": false,
-      "teams": [
-        {
-          "teamKey": "nba:espn:9",
-          "homeAway": "home",
-          "score": "17"
-        },
-        {
-          "teamKey": "nba:espn:2",
-          "homeAway": "away",
-          "score": "15"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401910035",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nba:401910036",
-      "sport": "nba",
-      "start": "2026-11-24T00:00Z",
+      "start": "2026-11-28T00:30Z",
       "status": "STATUS_SCHEDULED",
       "completed": false,
       "teams": [
         {
-          "teamKey": "nba:espn:30",
-          "homeAway": "home",
-          "score": "0"
-        },
-        {
-          "teamKey": "nba:espn:29",
-          "homeAway": "away",
-          "score": "0"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401910036",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nba:401910037",
-      "sport": "nba",
-      "start": "2026-11-24T00:00Z",
-      "status": "STATUS_SCHEDULED",
-      "completed": false,
-      "teams": [
-        {
-          "teamKey": "nba:espn:20",
-          "homeAway": "home",
-          "score": "0"
-        },
-        {
-          "teamKey": "nba:espn:22",
-          "homeAway": "away",
-          "score": "0"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401910037",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nba:401910038",
-      "sport": "nba",
-      "start": "2026-11-24T00:30Z",
-      "status": "STATUS_SCHEDULED",
-      "completed": false,
-      "teams": [
-        {
-          "teamKey": "nba:espn:11",
-          "homeAway": "home",
-          "score": "0"
-        },
-        {
-          "teamKey": "nba:espn:25",
-          "homeAway": "away",
-          "score": "0"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401910038",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nba:401910039",
-      "sport": "nba",
-      "start": "2026-11-24T00:30Z",
-      "status": "STATUS_SCHEDULED",
-      "completed": false,
-      "teams": [
-        {
-          "teamKey": "nba:espn:28",
+          "teamKey": "nba:espn:8",
           "homeAway": "home",
           "score": "0"
         },
@@ -642,20 +390,48 @@
       "unresolved": [],
       "source": {
         "provider": "espn",
-        "eventId": "401910039",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "eventId": "401909327",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
-      "gameKey": "nba:401910040",
+      "gameKey": "nba:401909328",
       "sport": "nba",
-      "start": "2026-11-24T00:30Z",
+      "start": "2026-11-28T00:30Z",
       "status": "STATUS_SCHEDULED",
       "completed": false,
       "teams": [
         {
-          "teamKey": "nba:espn:16",
+          "teamKey": "nba:espn:11",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "nba:espn:20",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401909328",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nba:401909329",
+      "sport": "nba",
+      "start": "2026-11-28T00:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "nba:espn:28",
           "homeAway": "home",
           "score": "0"
         },
@@ -670,27 +446,363 @@
       "unresolved": [],
       "source": {
         "provider": "espn",
+        "eventId": "401909329",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nba:401909330",
+      "sport": "nba",
+      "start": "2026-11-28T01:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "nba:espn:2",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "nba:espn:1",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401909330",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nba:401909331",
+      "sport": "nba",
+      "start": "2026-11-28T01:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "nba:espn:16",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "nba:espn:29",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401909331",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nba:401909332",
+      "sport": "nba",
+      "start": "2026-11-28T02:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "nba:espn:21",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "nba:espn:6",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401909332",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nba:401909333",
+      "sport": "nba",
+      "start": "2026-11-28T02:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "nba:espn:24",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "nba:espn:13",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401909333",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nba:401909334",
+      "sport": "nba",
+      "start": "2026-11-28T02:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "nba:espn:26",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "nba:espn:7",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401909334",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nba:401909335",
+      "sport": "nba",
+      "start": "2026-11-28T02:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "nba:espn:12",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "nba:espn:3",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401909335",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nba:401909336",
+      "sport": "nba",
+      "start": "2026-11-28T02:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "nba:espn:22",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "nba:espn:9",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401909336",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nba:401910036",
+      "sport": "nba",
+      "start": "2026-11-24T00:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "teamKey": "nba:espn:30",
+          "homeAway": "home",
+          "score": "111"
+        },
+        {
+          "teamKey": "nba:espn:29",
+          "homeAway": "away",
+          "score": "117"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401910036",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nba:401910037",
+      "sport": "nba",
+      "start": "2026-11-24T00:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "teamKey": "nba:espn:20",
+          "homeAway": "home",
+          "score": "111"
+        },
+        {
+          "teamKey": "nba:espn:22",
+          "homeAway": "away",
+          "score": "128"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401910037",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nba:401910038",
+      "sport": "nba",
+      "start": "2026-11-24T00:30Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "teamKey": "nba:espn:11",
+          "homeAway": "home",
+          "score": "125"
+        },
+        {
+          "teamKey": "nba:espn:25",
+          "homeAway": "away",
+          "score": "120"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401910038",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nba:401910039",
+      "sport": "nba",
+      "start": "2026-11-24T00:30Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "teamKey": "nba:espn:28",
+          "homeAway": "home",
+          "score": "111"
+        },
+        {
+          "teamKey": "nba:espn:15",
+          "homeAway": "away",
+          "score": "116"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401910039",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nba:401910040",
+      "sport": "nba",
+      "start": "2026-11-24T00:30Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "teamKey": "nba:espn:16",
+          "homeAway": "home",
+          "score": "142"
+        },
+        {
+          "teamKey": "nba:espn:17",
+          "homeAway": "away",
+          "score": "116"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
         "eventId": "401910040",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
       "gameKey": "nba:401910041",
       "sport": "nba",
       "start": "2026-11-24T01:00Z",
-      "status": "STATUS_SCHEDULED",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "teamKey": "nba:espn:4",
           "homeAway": "home",
-          "score": "0"
+          "score": "122"
         },
         {
           "teamKey": "nba:espn:5",
           "homeAway": "away",
-          "score": "0"
+          "score": "108"
         }
       ],
       "observations": [],
@@ -700,25 +812,25 @@
         "provider": "espn",
         "eventId": "401910041",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
       "gameKey": "nba:401910042",
       "sport": "nba",
       "start": "2026-11-24T01:00Z",
-      "status": "STATUS_SCHEDULED",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "teamKey": "nba:espn:3",
           "homeAway": "home",
-          "score": "0"
+          "score": "119"
         },
         {
           "teamKey": "nba:espn:21",
           "homeAway": "away",
-          "score": "0"
+          "score": "123"
         }
       ],
       "observations": [],
@@ -728,25 +840,25 @@
         "provider": "espn",
         "eventId": "401910042",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
       "gameKey": "nba:401910043",
       "sport": "nba",
       "start": "2026-11-24T01:30Z",
-      "status": "STATUS_SCHEDULED",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "teamKey": "nba:espn:10",
           "homeAway": "home",
-          "score": "0"
+          "score": "116"
         },
         {
           "teamKey": "nba:espn:12",
           "homeAway": "away",
-          "score": "0"
+          "score": "104"
         }
       ],
       "observations": [],
@@ -756,25 +868,25 @@
         "provider": "espn",
         "eventId": "401910043",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
       "gameKey": "nba:401910044",
       "sport": "nba",
       "start": "2026-11-24T03:00Z",
-      "status": "STATUS_SCHEDULED",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "teamKey": "nba:espn:13",
           "homeAway": "home",
-          "score": "0"
+          "score": "109"
         },
         {
           "teamKey": "nba:espn:26",
           "homeAway": "away",
-          "score": "0"
+          "score": "94"
         }
       ],
       "observations": [],
@@ -784,25 +896,25 @@
         "provider": "espn",
         "eventId": "401910044",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
       "gameKey": "nba:401910045",
       "sport": "nba",
       "start": "2026-11-24T03:00Z",
-      "status": "STATUS_SCHEDULED",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "teamKey": "nba:espn:23",
           "homeAway": "home",
-          "score": "0"
+          "score": "107"
         },
         {
           "teamKey": "nba:espn:24",
           "homeAway": "away",
-          "score": "0"
+          "score": "123"
         }
       ],
       "observations": [],
@@ -812,7 +924,987 @@
         "provider": "espn",
         "eventId": "401910045",
         "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401906762",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-25T03:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:333",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:239",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401906762",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401906774",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-25T00:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:57",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:270",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401906774",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401906853",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-24T20:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:120",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:2633",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401906853",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401906869",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-26T19:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:251",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:46",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401906869",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401909568",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-26T00:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:150",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:41",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401909568",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261125&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401909743",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-24T04:55Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:12",
+          "homeAway": "home",
+          "score": "96"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:36",
+          "homeAway": "away",
+          "score": "83"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401909743",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261123&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401909788",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-24T01:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:2305",
+          "homeAway": "home",
+          "score": "84"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:2172",
+          "homeAway": "away",
+          "score": "67"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401909788",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261123&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401909789",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-27T22:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:2305",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:222",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401909789",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401909800",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-25T05:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:2306",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:2250",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401909800",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401911030",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-27T23:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:84",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:189",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401911030",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401913530",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-24T01:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:356",
+          "homeAway": "home",
+          "score": "133"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:2737",
+          "homeAway": "away",
+          "score": "83"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401913530",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261123&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401913531",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-27T23:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:356",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:98",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401913531",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401915941",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-24T20:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:2628",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:2390",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401915941",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401915942",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-25T01:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:97",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:2641",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401915942",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401915943",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-25T03:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:2599",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:2483",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401915943",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401916291",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-25T00:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:84",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:294",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401916291",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401916319",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-25T00:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:194",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:238",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401916319",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401917182",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-25T22:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:213",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:235",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401917182",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261125&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401917547",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-26T22:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:26",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:2608",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401917547",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401918972",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-27T00:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:99",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:2567",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401918972",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401920428",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-25T17:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:269",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:258",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401920428",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261125&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401920429",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-27T16:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:2752",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:258",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401920429",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401921669",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-25T19:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:99",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:9",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401921669",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261125&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401921670",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-25T21:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:30",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:2579",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401921670",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261125&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401921673",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-26T21:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:30",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:328",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401921673",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401921708",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-23T22:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:252",
+          "homeAway": "home",
+          "score": "83"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:264",
+          "homeAway": "away",
+          "score": "77"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401921708",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261123&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401921709",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-24T19:30Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:252",
+          "homeAway": "home",
+          "score": "3"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:145",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401921709",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401921710",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-24T22:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:12",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:2507",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401921710",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401921827",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-27T19:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:238",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:2582",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401921827",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401925703",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T00:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:248",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:2473",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401925703",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401925757",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-26T21:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:127",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:8",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401925757",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-basketball:401926065",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-25T22:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-basketball:espn:158",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-basketball:espn:2582",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401926065",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261125&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-football:401856756",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T00:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-football:espn:245",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-football:espn:251",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401856756",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-football:401856759",
+      "sport": "ncaa-football",
+      "start": "2026-11-27T20:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-football:espn:52",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-football:espn:57",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401856759",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-football:401856762",
+      "sport": "ncaa-football",
+      "start": "2026-11-27T17:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-football:espn:145",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-football:espn:344",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401856762",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -840,7 +1932,203 @@
         "provider": "espn",
         "eventId": "401856879",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261126&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-football:401856880",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T02:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-football:espn:254",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-football:espn:277",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401856880",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-football:401858536",
+      "sport": "ncaa-football",
+      "start": "2026-11-27T17:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-football:espn:2294",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-football:espn:158",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401858536",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-football:401858544",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T00:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-football:espn:275",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-football:espn:135",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401858544",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-football:401862838",
+      "sport": "ncaa-football",
+      "start": "2026-11-27T20:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-football:espn:235",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-football:espn:218",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401862838",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-football:401862840",
+      "sport": "ncaa-football",
+      "start": "2026-11-27T17:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-football:espn:2636",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-football:espn:202",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401862840",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-football:401864546",
+      "sport": "ncaa-football",
+      "start": "2026-11-27T21:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-football:espn:167",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-football:espn:2005",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401864546",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-football:401864549",
+      "sport": "ncaa-football",
+      "start": "2026-11-27T20:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-football:espn:23",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-football:espn:2449",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401864549",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -868,7 +2156,7 @@
         "provider": "espn",
         "eventId": "401866470",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -896,305 +2184,25 @@
         "provider": "espn",
         "eventId": "401866471",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
-      "gameKey": "nfl:401873067",
-      "sport": "nfl",
-      "start": "2026-11-22T18:00Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "nfl:espn:12",
-          "homeAway": "home",
-          "score": "34"
-        },
-        {
-          "teamKey": "nfl:espn:22",
-          "homeAway": "away",
-          "score": "7"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401873067",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nfl:401873068",
-      "sport": "nfl",
-      "start": "2026-11-22T18:00Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "nfl:espn:29",
-          "homeAway": "home",
-          "score": "35"
-        },
-        {
-          "teamKey": "nfl:espn:33",
-          "homeAway": "away",
-          "score": "33"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401873068",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nfl:401873069",
-      "sport": "nfl",
-      "start": "2026-11-22T21:25Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "nfl:espn:19",
-          "homeAway": "home",
-          "score": "23"
-        },
-        {
-          "teamKey": "nfl:espn:30",
-          "homeAway": "away",
-          "score": "18"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401873069",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nfl:401873070",
-      "sport": "nfl",
-      "start": "2026-11-22T18:00Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "nfl:espn:2",
-          "homeAway": "home",
-          "score": "26"
-        },
-        {
-          "teamKey": "nfl:espn:15",
-          "homeAway": "away",
-          "score": "9"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401873070",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nfl:401873071",
-      "sport": "nfl",
-      "start": "2026-11-22T18:00Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "nfl:espn:3",
-          "homeAway": "home",
-          "score": "21"
-        },
-        {
-          "teamKey": "nfl:espn:18",
-          "homeAway": "away",
-          "score": "13"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401873071",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nfl:401873072",
-      "sport": "nfl",
-      "start": "2026-11-22T18:00Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "nfl:espn:8",
-          "homeAway": "home",
-          "score": "31"
-        },
-        {
-          "teamKey": "nfl:espn:27",
-          "homeAway": "away",
-          "score": "21"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401873072",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nfl:401873073",
-      "sport": "nfl",
-      "start": "2026-11-22T18:00Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "nfl:espn:6",
-          "homeAway": "home",
-          "score": "51"
-        },
-        {
-          "teamKey": "nfl:espn:10",
-          "homeAway": "away",
-          "score": "30"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401873073",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nfl:401873074",
-      "sport": "nfl",
-      "start": "2026-11-22T21:05Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "nfl:espn:24",
-          "homeAway": "home",
-          "score": "24"
-        },
-        {
-          "teamKey": "nfl:espn:20",
-          "homeAway": "away",
-          "score": "27"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401873074",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nfl:401873075",
-      "sport": "nfl",
-      "start": "2026-11-22T21:25Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "nfl:espn:7",
-          "homeAway": "home",
-          "score": "38"
-        },
-        {
-          "teamKey": "nfl:espn:13",
-          "homeAway": "away",
-          "score": "24"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401873075",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nfl:401873076",
-      "sport": "nfl",
-      "start": "2026-11-22T18:00Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "nfl:espn:21",
-          "homeAway": "home",
-          "score": "19"
-        },
-        {
-          "teamKey": "nfl:espn:23",
-          "homeAway": "away",
-          "score": "16"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401873076",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nfl:401873077",
-      "sport": "nfl",
-      "start": "2026-11-23T01:20Z",
-      "status": "STATUS_IN_PROGRESS",
+      "gameKey": "ncaa-football:401866472",
+      "sport": "ncaa-football",
+      "start": "2026-11-27T17:00Z",
+      "status": "STATUS_SCHEDULED",
       "completed": false,
       "teams": [
         {
-          "teamKey": "nfl:espn:25",
+          "teamKey": "ncaa-football:espn:2006",
           "homeAway": "home",
-          "score": "7"
+          "score": "0"
         },
         {
-          "teamKey": "nfl:espn:16",
+          "teamKey": "ncaa-football:espn:2084",
           "homeAway": "away",
-          "score": "6"
+          "score": "0"
         }
       ],
       "observations": [],
@@ -1202,27 +2210,83 @@
       "unresolved": [],
       "source": {
         "provider": "espn",
-        "eventId": "401873077",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "eventId": "401866472",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-football:401866473",
+      "sport": "ncaa-football",
+      "start": "2026-11-27T17:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-football:espn:195",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-football:espn:2649",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401866473",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "ncaa-football:401869930",
+      "sport": "ncaa-football",
+      "start": "2026-11-27T20:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "ncaa-football:espn:6",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "ncaa-football:espn:2026",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401869930",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
       "gameKey": "nfl:401873078",
       "sport": "nfl",
       "start": "2026-11-24T01:15Z",
-      "status": "STATUS_SCHEDULED",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "teamKey": "nfl:espn:28",
           "homeAway": "home",
-          "score": "0"
+          "score": "22"
         },
         {
           "teamKey": "nfl:espn:4",
           "homeAway": "away",
-          "score": "0"
+          "score": "20"
         }
       ],
       "observations": [],
@@ -1232,7 +2296,7 @@
         "provider": "espn",
         "eventId": "401873078",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -1260,7 +2324,7 @@
         "provider": "espn",
         "eventId": "401873079",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -1288,7 +2352,7 @@
         "provider": "espn",
         "eventId": "401873080",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -1316,7 +2380,7 @@
         "provider": "espn",
         "eventId": "401873081",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -1344,107 +2408,23 @@
         "provider": "espn",
         "eventId": "401873082",
         "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
-      "gameKey": "nhl:401892768",
-      "sport": "nhl",
-      "start": "2026-11-22T17:30Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "nhl:espn:13",
-          "homeAway": "home",
-          "score": "2"
-        },
-        {
-          "teamKey": "nhl:espn:7",
-          "homeAway": "away",
-          "score": "5"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401892768",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nhl:401892769",
-      "sport": "nhl",
-      "start": "2026-11-22T22:00Z",
-      "status": "STATUS_FINAL",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "nhl:espn:20",
-          "homeAway": "home",
-          "score": "2"
-        },
-        {
-          "teamKey": "nhl:espn:2",
-          "homeAway": "away",
-          "score": "6"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401892769",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nhl:401892770",
-      "sport": "nhl",
-      "start": "2026-11-23T00:00Z",
-      "status": "STATUS_END_PERIOD",
+      "gameKey": "nfl:401873083",
+      "sport": "nfl",
+      "start": "2026-11-27T20:00Z",
+      "status": "STATUS_SCHEDULED",
       "completed": false,
       "teams": [
         {
-          "teamKey": "nhl:espn:19",
+          "teamKey": "nfl:espn:23",
           "homeAway": "home",
-          "score": "1"
+          "score": "0"
         },
         {
-          "teamKey": "nhl:espn:6",
-          "homeAway": "away",
-          "score": "3"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401892770",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nhl:401892771",
-      "sport": "nhl",
-      "start": "2026-11-23T00:00Z",
-      "status": "STATUS_IN_PROGRESS",
-      "completed": false,
-      "teams": [
-        {
-          "teamKey": "nhl:espn:9",
-          "homeAway": "home",
-          "score": "1"
-        },
-        {
-          "teamKey": "nhl:espn:16",
+          "teamKey": "nfl:espn:7",
           "homeAway": "away",
           "score": "0"
         }
@@ -1454,55 +2434,27 @@
       "unresolved": [],
       "source": {
         "provider": "espn",
-        "eventId": "401892771",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "nhl:401892772",
-      "sport": "nhl",
-      "start": "2026-11-23T01:00Z",
-      "status": "STATUS_IN_PROGRESS",
-      "completed": false,
-      "teams": [
-        {
-          "teamKey": "nhl:espn:22",
-          "homeAway": "home",
-          "score": "1"
-        },
-        {
-          "teamKey": "nhl:espn:4",
-          "homeAway": "away",
-          "score": "4"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401892772",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "eventId": "401873083",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
       "gameKey": "nhl:401892773",
       "sport": "nhl",
       "start": "2026-11-24T00:00Z",
-      "status": "STATUS_SCHEDULED",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "teamKey": "nhl:espn:11",
           "homeAway": "home",
-          "score": "0"
+          "score": "3"
         },
         {
           "teamKey": "nhl:espn:29",
           "homeAway": "away",
-          "score": "0"
+          "score": "2"
         }
       ],
       "observations": [],
@@ -1512,25 +2464,25 @@
         "provider": "espn",
         "eventId": "401892773",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
       "gameKey": "nhl:401892774",
       "sport": "nhl",
       "start": "2026-11-24T00:30Z",
-      "status": "STATUS_SCHEDULED",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "teamKey": "nhl:espn:10",
           "homeAway": "home",
-          "score": "0"
+          "score": "1"
         },
         {
           "teamKey": "nhl:espn:8",
           "homeAway": "away",
-          "score": "0"
+          "score": "2"
         }
       ],
       "observations": [],
@@ -1540,25 +2492,25 @@
         "provider": "espn",
         "eventId": "401892774",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
       "gameKey": "nhl:401892775",
       "sport": "nhl",
       "start": "2026-11-24T00:30Z",
-      "status": "STATUS_SCHEDULED",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "teamKey": "nhl:espn:14",
           "homeAway": "home",
-          "score": "0"
+          "score": "2"
         },
         {
           "teamKey": "nhl:espn:3",
           "homeAway": "away",
-          "score": "0"
+          "score": "1"
         }
       ],
       "observations": [],
@@ -1568,25 +2520,25 @@
         "provider": "espn",
         "eventId": "401892775",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
       "gameKey": "nhl:401892776",
       "sport": "nhl",
       "start": "2026-11-24T00:30Z",
-      "status": "STATUS_SCHEDULED",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "teamKey": "nhl:espn:12",
           "homeAway": "home",
-          "score": "0"
+          "score": "2"
         },
         {
           "teamKey": "nhl:espn:21",
           "homeAway": "away",
-          "score": "0"
+          "score": "4"
         }
       ],
       "observations": [],
@@ -1596,25 +2548,25 @@
         "provider": "espn",
         "eventId": "401892776",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
       "gameKey": "nhl:401892777",
       "sport": "nhl",
       "start": "2026-11-24T00:30Z",
-      "status": "STATUS_SCHEDULED",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "teamKey": "nhl:espn:28",
           "homeAway": "home",
-          "score": "0"
+          "score": "4"
         },
         {
           "teamKey": "nhl:espn:129764",
           "homeAway": "away",
-          "score": "0"
+          "score": "2"
         }
       ],
       "observations": [],
@@ -1624,25 +2576,25 @@
         "provider": "espn",
         "eventId": "401892777",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
       "gameKey": "nhl:401892778",
       "sport": "nhl",
       "start": "2026-11-24T02:40Z",
-      "status": "STATUS_SCHEDULED",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "teamKey": "nhl:espn:124292",
           "homeAway": "home",
-          "score": "0"
+          "score": "3"
         },
         {
           "teamKey": "nhl:espn:25",
           "homeAway": "away",
-          "score": "0"
+          "score": "2"
         }
       ],
       "observations": [],
@@ -1652,25 +2604,25 @@
         "provider": "espn",
         "eventId": "401892778",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
       "gameKey": "nhl:401892779",
       "sport": "nhl",
       "start": "2026-11-24T03:00Z",
-      "status": "STATUS_SCHEDULED",
-      "completed": false,
+      "status": "STATUS_FINAL",
+      "completed": true,
       "teams": [
         {
           "teamKey": "nhl:espn:18",
           "homeAway": "home",
-          "score": "0"
+          "score": "2"
         },
         {
           "teamKey": "nhl:espn:30",
           "homeAway": "away",
-          "score": "0"
+          "score": "5"
         }
       ],
       "observations": [],
@@ -1680,7 +2632,7 @@
         "provider": "espn",
         "eventId": "401892779",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -1708,7 +2660,7 @@
         "provider": "espn",
         "eventId": "401892780",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -1736,7 +2688,7 @@
         "provider": "espn",
         "eventId": "401892781",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -1764,7 +2716,7 @@
         "provider": "espn",
         "eventId": "401892782",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -1792,7 +2744,7 @@
         "provider": "espn",
         "eventId": "401892783",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -1820,7 +2772,7 @@
         "provider": "espn",
         "eventId": "401892784",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -1848,7 +2800,7 @@
         "provider": "espn",
         "eventId": "401892785",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -1876,7 +2828,7 @@
         "provider": "espn",
         "eventId": "401892786",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -1904,7 +2856,7 @@
         "provider": "espn",
         "eventId": "401892787",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -1932,7 +2884,7 @@
         "provider": "espn",
         "eventId": "401892788",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -1960,7 +2912,7 @@
         "provider": "espn",
         "eventId": "401892789",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -1988,7 +2940,7 @@
         "provider": "espn",
         "eventId": "401892790",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -2016,7 +2968,7 @@
         "provider": "espn",
         "eventId": "401892791",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -2044,7 +2996,7 @@
         "provider": "espn",
         "eventId": "401892792",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -2072,7 +3024,7 @@
         "provider": "espn",
         "eventId": "401892793",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -2100,23 +3052,23 @@
         "provider": "espn",
         "eventId": "401892794",
         "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
-      "gameKey": "soccer-england:401878755",
-      "sport": "soccer-england",
-      "start": "2026-11-22T16:30Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
+      "gameKey": "nhl:401892795",
+      "sport": "nhl",
+      "start": "2026-11-27T18:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
       "teams": [
         {
-          "teamKey": "soccer-england:espn:364",
+          "teamKey": "nhl:espn:1",
           "homeAway": "home",
-          "score": "4"
+          "score": "0"
         },
         {
-          "teamKey": "soccer-england:espn:360",
+          "teamKey": "nhl:espn:21",
           "homeAway": "away",
           "score": "0"
         }
@@ -2126,25 +3078,25 @@
       "unresolved": [],
       "source": {
         "provider": "espn",
-        "eventId": "401878755",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "eventId": "401892795",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
-      "gameKey": "soccer-england:401879234",
-      "sport": "soccer-england",
-      "start": "2026-11-22T14:00Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
+      "gameKey": "nhl:401892796",
+      "sport": "nhl",
+      "start": "2026-11-27T18:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
       "teams": [
         {
-          "teamKey": "soccer-england:espn:306",
+          "teamKey": "nhl:espn:11",
           "homeAway": "home",
-          "score": "2"
+          "score": "0"
         },
         {
-          "teamKey": "soccer-england:espn:331",
+          "teamKey": "nhl:espn:3",
           "homeAway": "away",
           "score": "0"
         }
@@ -2154,22 +3106,414 @@
       "unresolved": [],
       "source": {
         "provider": "espn",
-        "eventId": "401879234",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "eventId": "401892796",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nhl:401892797",
+      "sport": "nhl",
+      "start": "2026-11-27T18:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "nhl:espn:27",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "nhl:espn:129764",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401892797",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nhl:401892798",
+      "sport": "nhl",
+      "start": "2026-11-27T19:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "nhl:espn:19",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "nhl:espn:9",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401892798",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nhl:401892799",
+      "sport": "nhl",
+      "start": "2026-11-27T20:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "nhl:espn:20",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "nhl:espn:14",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401892799",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nhl:401892800",
+      "sport": "nhl",
+      "start": "2026-11-27T20:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "nhl:espn:15",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "nhl:espn:22",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401892800",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nhl:401892801",
+      "sport": "nhl",
+      "start": "2026-11-27T20:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "nhl:espn:23",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "nhl:espn:26",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401892801",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nhl:401892802",
+      "sport": "nhl",
+      "start": "2026-11-27T20:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "nhl:espn:29",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "nhl:espn:5",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401892802",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nhl:401892803",
+      "sport": "nhl",
+      "start": "2026-11-27T21:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "nhl:espn:30",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "nhl:espn:17",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401892803",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nhl:401892804",
+      "sport": "nhl",
+      "start": "2026-11-27T21:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "nhl:espn:25",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "nhl:espn:8",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401892804",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nhl:401892805",
+      "sport": "nhl",
+      "start": "2026-11-27T21:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "nhl:espn:18",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "nhl:espn:37",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401892805",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nhl:401892806",
+      "sport": "nhl",
+      "start": "2026-11-27T22:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "nhl:espn:4",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "nhl:espn:13",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401892806",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nhl:401892807",
+      "sport": "nhl",
+      "start": "2026-11-28T00:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "nhl:espn:12",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "nhl:espn:28",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401892807",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nhl:401892808",
+      "sport": "nhl",
+      "start": "2026-11-28T01:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "nhl:espn:2",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "nhl:espn:16",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401892808",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "nhl:401892809",
+      "sport": "nhl",
+      "start": "2026-11-28T01:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "nhl:espn:6",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "nhl:espn:124292",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401892809",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "soccer-england:401879225",
+      "sport": "soccer-england",
+      "start": "2026-11-27T20:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "soccer-england:espn:393",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "soccer-england:espn:363",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401879225",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
       "gameKey": "soccer-england:401879237",
       "sport": "soccer-england",
       "start": "2026-11-23T20:00Z",
-      "status": "STATUS_SCHEDULED",
-      "completed": false,
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
       "teams": [
         {
           "teamKey": "soccer-england:espn:337",
           "homeAway": "home",
-          "score": "0"
+          "score": "4"
         },
         {
           "teamKey": "soccer-england:espn:368",
@@ -2184,23 +3528,23 @@
         "provider": "espn",
         "eventId": "401879237",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
-      "gameKey": "soccer-france:401876397",
+      "gameKey": "soccer-france:401876392",
       "sport": "soccer-france",
-      "start": "2026-11-22T14:00Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
+      "start": "2026-11-27T19:45Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
       "teams": [
         {
-          "teamKey": "soccer-france:espn:6851",
+          "teamKey": "soccer-france:espn:6997",
           "homeAway": "home",
-          "score": "4"
+          "score": "0"
         },
         {
-          "teamKey": "soccer-france:espn:7868",
+          "teamKey": "soccer-france:espn:6851",
           "homeAway": "away",
           "score": "0"
         }
@@ -2210,81 +3554,25 @@
       "unresolved": [],
       "source": {
         "provider": "espn",
-        "eventId": "401876397",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "eventId": "401876392",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
-      "gameKey": "soccer-france:401876400",
-      "sport": "soccer-france",
-      "start": "2026-11-22T19:45Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "soccer-france:espn:176",
-          "homeAway": "home",
-          "score": "2"
-        },
-        {
-          "teamKey": "soccer-france:espn:2697",
-          "homeAway": "away",
-          "score": "3"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401876400",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "soccer-france:401876401",
-      "sport": "soccer-france",
-      "start": "2026-11-22T16:15Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "soccer-france:espn:273",
-          "homeAway": "home",
-          "score": "1"
-        },
-        {
-          "teamKey": "soccer-france:espn:169",
-          "homeAway": "away",
-          "score": "1"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401876401",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "soccer-germany:401884730",
+      "gameKey": "soccer-germany:401884720",
       "sport": "soccer-germany",
-      "start": "2026-11-22T16:30Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
+      "start": "2026-11-27T19:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
       "teams": [
         {
           "teamKey": "soccer-germany:espn:137",
           "homeAway": "home",
-          "score": "4"
+          "score": "0"
         },
         {
-          "teamKey": "soccer-germany:espn:127",
+          "teamKey": "soccer-germany:espn:268",
           "homeAway": "away",
           "score": "0"
         }
@@ -2294,137 +3582,25 @@
       "unresolved": [],
       "source": {
         "provider": "espn",
-        "eventId": "401884730",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "eventId": "401884720",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
-      "gameKey": "soccer-germany:401884733",
-      "sport": "soccer-germany",
-      "start": "2026-11-22T14:30Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "soccer-germany:espn:3841",
-          "homeAway": "home",
-          "score": "3"
-        },
-        {
-          "teamKey": "soccer-germany:espn:2950",
-          "homeAway": "away",
-          "score": "1"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401884733",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "soccer-italy:401874960",
+      "gameKey": "soccer-italy:401875004",
       "sport": "soccer-italy",
-      "start": "2026-11-22T14:00Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
+      "start": "2026-11-27T19:45Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
       "teams": [
-        {
-          "teamKey": "soccer-italy:espn:3997",
-          "homeAway": "home",
-          "score": "0"
-        },
-        {
-          "teamKey": "soccer-italy:espn:3263",
-          "homeAway": "away",
-          "score": "2"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401874960",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "soccer-italy:401874989",
-      "sport": "soccer-italy",
-      "start": "2026-11-22T17:00Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "soccer-italy:espn:103",
-          "homeAway": "home",
-          "score": "5"
-        },
-        {
-          "teamKey": "soccer-italy:espn:4057",
-          "homeAway": "away",
-          "score": "1"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401874989",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "soccer-italy:401875001",
-      "sport": "soccer-italy",
-      "start": "2026-11-22T19:45Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "soccer-italy:espn:105",
-          "homeAway": "home",
-          "score": "4"
-        },
-        {
-          "teamKey": "soccer-italy:espn:110",
-          "homeAway": "away",
-          "score": "4"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401875001",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "soccer-italy:401875008",
-      "sport": "soccer-italy",
-      "start": "2026-11-22T11:30Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "soccer-italy:espn:111",
-          "homeAway": "home",
-          "score": "4"
-        },
         {
           "teamKey": "soccer-italy:espn:17530",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "soccer-italy:espn:107",
           "homeAway": "away",
           "score": "0"
         }
@@ -2434,22 +3610,22 @@
       "unresolved": [],
       "source": {
         "provider": "espn",
-        "eventId": "401875008",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "eventId": "401875004",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
       "gameKey": "soccer-italy:401875009",
       "sport": "soccer-italy",
       "start": "2026-11-23T19:45Z",
-      "status": "STATUS_SCHEDULED",
-      "completed": false,
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
       "teams": [
         {
           "teamKey": "soccer-italy:espn:4007",
           "homeAway": "home",
-          "score": "0"
+          "score": "3"
         },
         {
           "teamKey": "soccer-italy:espn:109",
@@ -2464,53 +3640,25 @@
         "provider": "espn",
         "eventId": "401875009",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
-      "gameKey": "soccer-italy:401875047",
-      "sport": "soccer-italy",
-      "start": "2026-11-22T14:00Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "soccer-italy:espn:107",
-          "homeAway": "home",
-          "score": "1"
-        },
-        {
-          "teamKey": "soccer-italy:espn:118",
-          "homeAway": "away",
-          "score": "1"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401875047",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "soccer-mexico:401877046",
+      "gameKey": "soccer-mexico:401931982",
       "sport": "soccer-mexico",
-      "start": "2026-11-23T01:10Z",
-      "status": "STATUS_IN_PROGRESS",
+      "start": "2026-11-27T01:00Z",
+      "status": "STATUS_SCHEDULED",
       "completed": false,
       "teams": [
         {
-          "teamKey": "soccer-mexico:espn:222",
+          "teamKey": "soccer-mexico:espn:234",
           "homeAway": "home",
-          "score": "1"
+          "score": "0"
         },
         {
-          "teamKey": "soccer-mexico:espn:229",
+          "teamKey": "soccer-mexico:espn:219",
           "homeAway": "away",
-          "score": "1"
+          "score": "0"
         }
       ],
       "observations": [],
@@ -2518,22 +3666,50 @@
       "unresolved": [],
       "source": {
         "provider": "espn",
-        "eventId": "401877046",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "eventId": "401931982",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261126&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
-      "gameKey": "soccer-mexico:401877047",
+      "gameKey": "soccer-mexico:401931986",
       "sport": "soccer-mexico",
-      "start": "2026-11-22T23:07Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
+      "start": "2026-11-26T01:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
       "teams": [
         {
-          "teamKey": "soccer-mexico:espn:219",
+          "teamKey": "soccer-mexico:espn:223",
           "homeAway": "home",
-          "score": "1"
+          "score": "0"
+        },
+        {
+          "teamKey": "soccer-mexico:espn:216",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401931986",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261125&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "soccer-mexico:401931995",
+      "sport": "soccer-mexico",
+      "start": "2026-11-27T03:10Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "soccer-mexico:espn:228",
+          "homeAway": "home",
+          "score": "0"
         },
         {
           "teamKey": "soccer-mexico:espn:218",
@@ -2546,81 +3722,109 @@
       "unresolved": [],
       "source": {
         "provider": "espn",
-        "eventId": "401877047",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "eventId": "401931995",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261126&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "soccer-mexico:401931998",
+      "sport": "soccer-mexico",
+      "start": "2026-11-26T03:10Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "soccer-mexico:espn:220",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "soccer-mexico:espn:227",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401931998",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261125&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "soccer-mls:401933725",
+      "sport": "soccer-mls",
+      "start": "2026-11-28T03:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "soccer-mls:espn:4771",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "soccer-mls:espn:9727",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401933725",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "soccer-mls:401933727",
+      "sport": "soccer-mls",
+      "start": "2026-11-28T01:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "teamKey": "soccer-mls:espn:183",
+          "homeAway": "home",
+          "score": "0"
+        },
+        {
+          "teamKey": "soccer-mls:espn:20232",
+          "homeAway": "away",
+          "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401933727",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
       "gameKey": "soccer-mls:401933728",
       "sport": "soccer-mls",
-      "start": "2026-11-24T01:00Z",
-      "status": "STATUS_SCHEDULED",
-      "completed": false,
-      "teams": [
-        {
-          "teamKey": "soccer-mls:espn:21812",
-          "homeAway": "home",
-          "score": "0"
-        },
-        {
-          "teamKey": "soccer-mls:espn:18966",
-          "homeAway": "away",
-          "score": "0"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401933728",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "soccer-mls:401933729",
-      "sport": "soccer-mls",
-      "start": "2026-11-23T01:30Z",
-      "status": "STATUS_FIRST_HALF",
-      "completed": false,
-      "teams": [
-        {
-          "teamKey": "soccer-mls:espn:9727",
-          "homeAway": "home",
-          "score": "0"
-        },
-        {
-          "teamKey": "soccer-mls:espn:4771",
-          "homeAway": "away",
-          "score": "0"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401933729",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "soccer-mls:401933730",
-      "sport": "soccer-mls",
-      "start": "2026-11-22T23:30Z",
+      "start": "2026-11-24T01:15Z",
       "status": "STATUS_FULL_TIME",
       "completed": true,
       "teams": [
         {
-          "teamKey": "soccer-mls:espn:182",
+          "teamKey": "soccer-mls:espn:21812",
           "homeAway": "home",
-          "score": "1"
+          "score": "3"
         },
         {
-          "teamKey": "soccer-mls:espn:21300",
+          "teamKey": "soccer-mls:espn:18966",
           "homeAway": "away",
           "score": "2"
         }
@@ -2630,37 +3834,9 @@
       "unresolved": [],
       "source": {
         "provider": "espn",
-        "eventId": "401933730",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "soccer-mls:401933731",
-      "sport": "soccer-mls",
-      "start": "2026-11-22T21:00Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "soccer-mls:espn:18986",
-          "homeAway": "home",
-          "score": "0"
-        },
-        {
-          "teamKey": "soccer-mls:espn:18267",
-          "homeAway": "away",
-          "score": "1"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401933731",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "eventId": "401933728",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261123&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -2688,69 +3864,13 @@
         "provider": "espn",
         "eventId": "401933738",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
-      "gameKey": "soccer-spain:401882800",
+      "gameKey": "soccer-spain:401882791",
       "sport": "soccer-spain",
-      "start": "2026-11-22T15:15Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "soccer-spain:espn:87",
-          "homeAway": "home",
-          "score": "3"
-        },
-        {
-          "teamKey": "soccer-spain:espn:89",
-          "homeAway": "away",
-          "score": "2"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401882800",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "soccer-spain:401882801",
-      "sport": "soccer-spain",
-      "start": "2026-11-22T17:30Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "soccer-spain:espn:97",
-          "homeAway": "home",
-          "score": "1"
-        },
-        {
-          "teamKey": "soccer-spain:espn:99",
-          "homeAway": "away",
-          "score": "0"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401882801",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "soccer-spain:401882802",
-      "sport": "soccer-spain",
-      "start": "2026-11-23T20:00Z",
+      "start": "2026-11-27T20:00Z",
       "status": "STATUS_SCHEDULED",
       "completed": false,
       "teams": [
@@ -2760,9 +3880,37 @@
           "score": "0"
         },
         {
-          "teamKey": "soccer-spain:espn:3751",
+          "teamKey": "soccer-spain:espn:87",
           "homeAway": "away",
           "score": "0"
+        }
+      ],
+      "observations": [],
+      "conflicts": [],
+      "unresolved": [],
+      "source": {
+        "provider": "espn",
+        "eventId": "401882791",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261127&limit=300",
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
+      }
+    },
+    {
+      "gameKey": "soccer-spain:401882802",
+      "sport": "soccer-spain",
+      "start": "2026-11-23T20:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "teamKey": "soccer-spain:espn:1538",
+          "homeAway": "home",
+          "score": "1"
+        },
+        {
+          "teamKey": "soccer-spain:espn:3751",
+          "homeAway": "away",
+          "score": "1"
         }
       ],
       "observations": [],
@@ -2772,63 +3920,7 @@
         "provider": "espn",
         "eventId": "401882802",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261123&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "soccer-spain:401882803",
-      "sport": "soccer-spain",
-      "start": "2026-11-22T20:00Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "soccer-spain:espn:2922",
-          "homeAway": "home",
-          "score": "0"
-        },
-        {
-          "teamKey": "soccer-spain:espn:1068",
-          "homeAway": "away",
-          "score": "3"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401882803",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
-      }
-    },
-    {
-      "gameKey": "soccer-spain:401882804",
-      "sport": "soccer-spain",
-      "start": "2026-11-22T13:00Z",
-      "status": "STATUS_FULL_TIME",
-      "completed": true,
-      "teams": [
-        {
-          "teamKey": "soccer-spain:espn:83",
-          "homeAway": "home",
-          "score": "3"
-        },
-        {
-          "teamKey": "soccer-spain:espn:102",
-          "homeAway": "away",
-          "score": "2"
-        }
-      ],
-      "observations": [],
-      "conflicts": [],
-      "unresolved": [],
-      "source": {
-        "provider": "espn",
-        "eventId": "401882804",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -2856,7 +3948,7 @@
         "provider": "espn",
         "eventId": "401915291",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -2884,7 +3976,7 @@
         "provider": "espn",
         "eventId": "401915292",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -2912,7 +4004,7 @@
         "provider": "espn",
         "eventId": "401915293",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -2940,7 +4032,7 @@
         "provider": "espn",
         "eventId": "401915294",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -2968,7 +4060,7 @@
         "provider": "espn",
         "eventId": "401915295",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -2996,7 +4088,7 @@
         "provider": "espn",
         "eventId": "401915296",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3024,7 +4116,7 @@
         "provider": "espn",
         "eventId": "401915297",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3052,7 +4144,7 @@
         "provider": "espn",
         "eventId": "401915298",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3080,20 +4172,20 @@
         "provider": "espn",
         "eventId": "401915299",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
       "gameKey": "soccer-ucl:401915300",
       "sport": "soccer-ucl",
       "start": "2026-11-24T17:45Z",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_SECOND_HALF",
       "completed": false,
       "teams": [
         {
           "teamKey": "soccer-ucl:espn:432",
           "homeAway": "home",
-          "score": "0"
+          "score": "1"
         },
         {
           "teamKey": "soccer-ucl:espn:362",
@@ -3108,7 +4200,7 @@
         "provider": "espn",
         "eventId": "401915300",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3136,7 +4228,7 @@
         "provider": "espn",
         "eventId": "401915373",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3164,7 +4256,7 @@
         "provider": "espn",
         "eventId": "401915374",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3192,7 +4284,7 @@
         "provider": "espn",
         "eventId": "401915375",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3220,7 +4312,7 @@
         "provider": "espn",
         "eventId": "401915376",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3248,7 +4340,7 @@
         "provider": "espn",
         "eventId": "401915377",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3276,7 +4368,7 @@
         "provider": "espn",
         "eventId": "401915378",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3304,20 +4396,20 @@
         "provider": "espn",
         "eventId": "401915379",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
       "gameKey": "soccer-ucl:401915380",
       "sport": "soccer-ucl",
       "start": "2026-11-24T17:45Z",
-      "status": "STATUS_SCHEDULED",
-      "completed": false,
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
       "teams": [
         {
           "teamKey": "soccer-ucl:espn:2980",
           "homeAway": "home",
-          "score": "0"
+          "score": "1"
         },
         {
           "teamKey": "soccer-ucl:espn:4411",
@@ -3332,7 +4424,7 @@
         "provider": "espn",
         "eventId": "401915380",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3360,7 +4452,7 @@
         "provider": "espn",
         "eventId": "401915501",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3388,7 +4480,7 @@
         "provider": "espn",
         "eventId": "401915502",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3416,7 +4508,7 @@
         "provider": "espn",
         "eventId": "401915503",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3444,7 +4536,7 @@
         "provider": "espn",
         "eventId": "401915504",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3472,7 +4564,7 @@
         "provider": "espn",
         "eventId": "401915505",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3500,7 +4592,7 @@
         "provider": "espn",
         "eventId": "401915506",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3528,7 +4620,7 @@
         "provider": "espn",
         "eventId": "401915507",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3556,7 +4648,7 @@
         "provider": "espn",
         "eventId": "401915508",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3584,7 +4676,7 @@
         "provider": "espn",
         "eventId": "401915512",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3612,7 +4704,7 @@
         "provider": "espn",
         "eventId": "401915513",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3640,7 +4732,7 @@
         "provider": "espn",
         "eventId": "401915514",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3668,7 +4760,7 @@
         "provider": "espn",
         "eventId": "401915515",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3696,7 +4788,7 @@
         "provider": "espn",
         "eventId": "401915516",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3724,7 +4816,7 @@
         "provider": "espn",
         "eventId": "401915517",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3752,7 +4844,7 @@
         "provider": "espn",
         "eventId": "401915518",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3780,7 +4872,7 @@
         "provider": "espn",
         "eventId": "401915519",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3808,7 +4900,7 @@
         "provider": "espn",
         "eventId": "401915520",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     },
     {
@@ -3836,7 +4928,7 @@
         "provider": "espn",
         "eventId": "401915521",
         "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
-        "observedAt": "2026-11-23T01:56:21.374649+00:00"
+        "observedAt": "2026-11-24T19:37:54.006106+00:00"
       }
     }
   ],
@@ -4052,11 +5144,466 @@
       "displayName": "Golden State Warriors"
     },
     {
+      "teamKey": "ncaa-basketball:espn:12",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "12",
+      "displayName": "Arizona Wildcats"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:120",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "120",
+      "displayName": "Maryland Terrapins"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:127",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "127",
+      "displayName": "Michigan State Spartans"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:145",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "145",
+      "displayName": "Ole Miss Rebels"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:150",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "150",
+      "displayName": "Duke Blue Devils"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:158",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "158",
+      "displayName": "Nebraska Cornhuskers"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:189",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "189",
+      "displayName": "Bowling Green Falcons"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:194",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "194",
+      "displayName": "Ohio State Buckeyes"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:213",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "213",
+      "displayName": "Penn State Nittany Lions"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:2172",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "2172",
+      "displayName": "Denver Pioneers"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:222",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "222",
+      "displayName": "Villanova Wildcats"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:2250",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "2250",
+      "displayName": "Gonzaga Bulldogs"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:2305",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "2305",
+      "displayName": "Kansas Jayhawks"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:2306",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "2306",
+      "displayName": "Kansas State Wildcats"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:235",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "235",
+      "displayName": "Memphis Tigers"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:238",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "238",
+      "displayName": "Vanderbilt Commodores"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:239",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "239",
+      "displayName": "Baylor Bears"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:2390",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "2390",
+      "displayName": "Miami Hurricanes"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:2473",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "2473",
+      "displayName": "Oakland Golden Grizzlies"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:248",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "248",
+      "displayName": "Houston Cougars"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:2483",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "2483",
+      "displayName": "Oregon Ducks"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:2507",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "2507",
+      "displayName": "Providence Friars"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:251",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "251",
+      "displayName": "Texas Longhorns"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:252",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "252",
+      "displayName": "BYU Cougars"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:2567",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "2567",
+      "displayName": "SMU Mustangs"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:2579",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "2579",
+      "displayName": "South Carolina Gamecocks"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:258",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "258",
+      "displayName": "Virginia Cavaliers"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:2582",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "2582",
+      "displayName": "Southern Jaguars"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:2599",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "2599",
+      "displayName": "St. John's Red Storm"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:26",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "26",
+      "displayName": "UCLA Bruins"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:2608",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "2608",
+      "displayName": "Saint Mary's Gaels"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:2628",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "2628",
+      "displayName": "TCU Horned Frogs"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:2633",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "2633",
+      "displayName": "Tennessee Volunteers"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:264",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "264",
+      "displayName": "Washington Huskies"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:2641",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "2641",
+      "displayName": "Texas Tech Red Raiders"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:269",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "269",
+      "displayName": "Marquette Golden Eagles"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:270",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "270",
+      "displayName": "Milwaukee Panthers"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:2737",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "2737",
+      "displayName": "Winthrop Eagles"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:2752",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "2752",
+      "displayName": "Xavier Musketeers"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:294",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "294",
+      "displayName": "Jacksonville Dolphins"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:30",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "30",
+      "displayName": "USC Trojans"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:328",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "328",
+      "displayName": "Utah State Aggies"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:333",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "333",
+      "displayName": "Alabama Crimson Tide"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:356",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "356",
+      "displayName": "Illinois Fighting Illini"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:36",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "36",
+      "displayName": "Colorado State Rams"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:41",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "41",
+      "displayName": "UConn Huskies"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:46",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "46",
+      "displayName": "Georgetown Hoyas"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:57",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "57",
+      "displayName": "Florida Gators"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:8",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "8",
+      "displayName": "Arkansas Razorbacks"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:84",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "84",
+      "displayName": "Indiana Hoosiers"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:9",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "9",
+      "displayName": "Arizona State Sun Devils"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:97",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "97",
+      "displayName": "Louisville Cardinals"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:98",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "98",
+      "displayName": "Western Kentucky Hilltoppers"
+    },
+    {
+      "teamKey": "ncaa-basketball:espn:99",
+      "sport": "ncaa-basketball",
+      "provider": "espn",
+      "providerTeamId": "99",
+      "displayName": "LSU Tigers"
+    },
+    {
+      "teamKey": "ncaa-football:espn:135",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "135",
+      "displayName": "Minnesota Golden Gophers"
+    },
+    {
+      "teamKey": "ncaa-football:espn:145",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "145",
+      "displayName": "Ole Miss Rebels"
+    },
+    {
+      "teamKey": "ncaa-football:espn:158",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "158",
+      "displayName": "Nebraska Cornhuskers"
+    },
+    {
+      "teamKey": "ncaa-football:espn:167",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "167",
+      "displayName": "New Mexico Lobos"
+    },
+    {
       "teamKey": "ncaa-football:espn:193",
       "sport": "ncaa-football",
       "provider": "espn",
       "providerTeamId": "193",
       "displayName": "Miami (OH) RedHawks"
+    },
+    {
+      "teamKey": "ncaa-football:espn:195",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "195",
+      "displayName": "Ohio Bobcats"
+    },
+    {
+      "teamKey": "ncaa-football:espn:2005",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "2005",
+      "displayName": "Air Force Falcons"
+    },
+    {
+      "teamKey": "ncaa-football:espn:2006",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "2006",
+      "displayName": "Akron Zips"
+    },
+    {
+      "teamKey": "ncaa-football:espn:202",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "202",
+      "displayName": "Tulsa Golden Hurricane"
+    },
+    {
+      "teamKey": "ncaa-football:espn:2026",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "2026",
+      "displayName": "App State Mountaineers"
+    },
+    {
+      "teamKey": "ncaa-football:espn:2084",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "2084",
+      "displayName": "Buffalo Bulls"
+    },
+    {
+      "teamKey": "ncaa-football:espn:218",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "218",
+      "displayName": "Temple Owls"
     },
     {
       "teamKey": "ncaa-football:espn:2199",
@@ -4066,11 +5613,60 @@
       "displayName": "Eastern Michigan Eagles"
     },
     {
+      "teamKey": "ncaa-football:espn:2294",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "2294",
+      "displayName": "Iowa Hawkeyes"
+    },
+    {
+      "teamKey": "ncaa-football:espn:23",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "23",
+      "displayName": "San José State Spartans"
+    },
+    {
       "teamKey": "ncaa-football:espn:2309",
       "sport": "ncaa-football",
       "provider": "espn",
       "providerTeamId": "2309",
       "displayName": "Kent State Golden Flashes"
+    },
+    {
+      "teamKey": "ncaa-football:espn:235",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "235",
+      "displayName": "Memphis Tigers"
+    },
+    {
+      "teamKey": "ncaa-football:espn:2449",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "2449",
+      "displayName": "North Dakota State Bison"
+    },
+    {
+      "teamKey": "ncaa-football:espn:245",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "245",
+      "displayName": "Texas A&M Aggies"
+    },
+    {
+      "teamKey": "ncaa-football:espn:251",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "251",
+      "displayName": "Texas Longhorns"
+    },
+    {
+      "teamKey": "ncaa-football:espn:254",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "254",
+      "displayName": "Utah Utes"
     },
     {
       "teamKey": "ncaa-football:espn:2628",
@@ -4080,11 +5676,25 @@
       "displayName": "TCU Horned Frogs"
     },
     {
+      "teamKey": "ncaa-football:espn:2636",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "2636",
+      "displayName": "UTSA Roadrunners"
+    },
+    {
       "teamKey": "ncaa-football:espn:2641",
       "sport": "ncaa-football",
       "provider": "espn",
       "providerTeamId": "2641",
       "displayName": "Texas Tech Red Raiders"
+    },
+    {
+      "teamKey": "ncaa-football:espn:2649",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "2649",
+      "displayName": "Toledo Rockets"
     },
     {
       "teamKey": "ncaa-football:espn:2711",
@@ -4094,11 +5704,46 @@
       "displayName": "Western Michigan Broncos"
     },
     {
-      "teamKey": "nfl:espn:10",
-      "sport": "nfl",
+      "teamKey": "ncaa-football:espn:275",
+      "sport": "ncaa-football",
       "provider": "espn",
-      "providerTeamId": "10",
-      "displayName": "Tennessee Titans"
+      "providerTeamId": "275",
+      "displayName": "Wisconsin Badgers"
+    },
+    {
+      "teamKey": "ncaa-football:espn:277",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "277",
+      "displayName": "West Virginia Mountaineers"
+    },
+    {
+      "teamKey": "ncaa-football:espn:344",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "344",
+      "displayName": "Mississippi State Bulldogs"
+    },
+    {
+      "teamKey": "ncaa-football:espn:52",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "52",
+      "displayName": "Florida State Seminoles"
+    },
+    {
+      "teamKey": "ncaa-football:espn:57",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "57",
+      "displayName": "Florida Gators"
+    },
+    {
+      "teamKey": "ncaa-football:espn:6",
+      "sport": "ncaa-football",
+      "provider": "espn",
+      "providerTeamId": "6",
+      "displayName": "South Alabama Jaguars"
     },
     {
       "teamKey": "nfl:espn:12",
@@ -4108,46 +5753,11 @@
       "displayName": "Kansas City Chiefs"
     },
     {
-      "teamKey": "nfl:espn:13",
-      "sport": "nfl",
-      "provider": "espn",
-      "providerTeamId": "13",
-      "displayName": "Las Vegas Raiders"
-    },
-    {
       "teamKey": "nfl:espn:14",
       "sport": "nfl",
       "provider": "espn",
       "providerTeamId": "14",
       "displayName": "Los Angeles Rams"
-    },
-    {
-      "teamKey": "nfl:espn:15",
-      "sport": "nfl",
-      "provider": "espn",
-      "providerTeamId": "15",
-      "displayName": "Miami Dolphins"
-    },
-    {
-      "teamKey": "nfl:espn:16",
-      "sport": "nfl",
-      "provider": "espn",
-      "providerTeamId": "16",
-      "displayName": "Minnesota Vikings"
-    },
-    {
-      "teamKey": "nfl:espn:18",
-      "sport": "nfl",
-      "provider": "espn",
-      "providerTeamId": "18",
-      "displayName": "New Orleans Saints"
-    },
-    {
-      "teamKey": "nfl:espn:19",
-      "sport": "nfl",
-      "provider": "espn",
-      "providerTeamId": "19",
-      "displayName": "New York Giants"
     },
     {
       "teamKey": "nfl:espn:2",
@@ -4157,25 +5767,11 @@
       "displayName": "Buffalo Bills"
     },
     {
-      "teamKey": "nfl:espn:20",
-      "sport": "nfl",
-      "provider": "espn",
-      "providerTeamId": "20",
-      "displayName": "New York Jets"
-    },
-    {
       "teamKey": "nfl:espn:21",
       "sport": "nfl",
       "provider": "espn",
       "providerTeamId": "21",
       "displayName": "Philadelphia Eagles"
-    },
-    {
-      "teamKey": "nfl:espn:22",
-      "sport": "nfl",
-      "provider": "espn",
-      "providerTeamId": "22",
-      "displayName": "Arizona Cardinals"
     },
     {
       "teamKey": "nfl:espn:23",
@@ -4185,27 +5781,6 @@
       "displayName": "Pittsburgh Steelers"
     },
     {
-      "teamKey": "nfl:espn:24",
-      "sport": "nfl",
-      "provider": "espn",
-      "providerTeamId": "24",
-      "displayName": "Los Angeles Chargers"
-    },
-    {
-      "teamKey": "nfl:espn:25",
-      "sport": "nfl",
-      "provider": "espn",
-      "providerTeamId": "25",
-      "displayName": "San Francisco 49ers"
-    },
-    {
-      "teamKey": "nfl:espn:27",
-      "sport": "nfl",
-      "provider": "espn",
-      "providerTeamId": "27",
-      "displayName": "Tampa Bay Buccaneers"
-    },
-    {
       "teamKey": "nfl:espn:28",
       "sport": "nfl",
       "provider": "espn",
@@ -4213,32 +5788,11 @@
       "displayName": "Washington Commanders"
     },
     {
-      "teamKey": "nfl:espn:29",
-      "sport": "nfl",
-      "provider": "espn",
-      "providerTeamId": "29",
-      "displayName": "Carolina Panthers"
-    },
-    {
       "teamKey": "nfl:espn:3",
       "sport": "nfl",
       "provider": "espn",
       "providerTeamId": "3",
       "displayName": "Chicago Bears"
-    },
-    {
-      "teamKey": "nfl:espn:30",
-      "sport": "nfl",
-      "provider": "espn",
-      "providerTeamId": "30",
-      "displayName": "Jacksonville Jaguars"
-    },
-    {
-      "teamKey": "nfl:espn:33",
-      "sport": "nfl",
-      "provider": "espn",
-      "providerTeamId": "33",
-      "displayName": "Baltimore Ravens"
     },
     {
       "teamKey": "nfl:espn:4",
@@ -4500,20 +6054,6 @@
       "displayName": "Dallas Stars"
     },
     {
-      "teamKey": "soccer-england:espn:306",
-      "sport": "soccer-england",
-      "provider": "espn",
-      "providerTeamId": "306",
-      "displayName": "Hull City"
-    },
-    {
-      "teamKey": "soccer-england:espn:331",
-      "sport": "soccer-england",
-      "provider": "espn",
-      "providerTeamId": "331",
-      "displayName": "Brighton & Hove Albion"
-    },
-    {
       "teamKey": "soccer-england:espn:337",
       "sport": "soccer-england",
       "provider": "espn",
@@ -4521,18 +6061,11 @@
       "displayName": "Brentford"
     },
     {
-      "teamKey": "soccer-england:espn:360",
+      "teamKey": "soccer-england:espn:363",
       "sport": "soccer-england",
       "provider": "espn",
-      "providerTeamId": "360",
-      "displayName": "Manchester United"
-    },
-    {
-      "teamKey": "soccer-england:espn:364",
-      "sport": "soccer-england",
-      "provider": "espn",
-      "providerTeamId": "364",
-      "displayName": "Liverpool"
+      "providerTeamId": "363",
+      "displayName": "Chelsea"
     },
     {
       "teamKey": "soccer-england:espn:368",
@@ -4542,32 +6075,11 @@
       "displayName": "Everton"
     },
     {
-      "teamKey": "soccer-france:espn:169",
-      "sport": "soccer-france",
+      "teamKey": "soccer-england:espn:393",
+      "sport": "soccer-england",
       "provider": "espn",
-      "providerTeamId": "169",
-      "displayName": "Stade Rennais"
-    },
-    {
-      "teamKey": "soccer-france:espn:176",
-      "sport": "soccer-france",
-      "provider": "espn",
-      "providerTeamId": "176",
-      "displayName": "Marseille"
-    },
-    {
-      "teamKey": "soccer-france:espn:2697",
-      "sport": "soccer-france",
-      "provider": "espn",
-      "providerTeamId": "2697",
-      "displayName": "Le Mans"
-    },
-    {
-      "teamKey": "soccer-france:espn:273",
-      "sport": "soccer-france",
-      "provider": "espn",
-      "providerTeamId": "273",
-      "displayName": "Lorient"
+      "providerTeamId": "393",
+      "displayName": "Nottingham Forest"
     },
     {
       "teamKey": "soccer-france:espn:6851",
@@ -4577,18 +6089,11 @@
       "displayName": "Paris FC"
     },
     {
-      "teamKey": "soccer-france:espn:7868",
+      "teamKey": "soccer-france:espn:6997",
       "sport": "soccer-france",
       "provider": "espn",
-      "providerTeamId": "7868",
-      "displayName": "Angers"
-    },
-    {
-      "teamKey": "soccer-germany:espn:127",
-      "sport": "soccer-germany",
-      "provider": "espn",
-      "providerTeamId": "127",
-      "displayName": "Hamburg SV"
+      "providerTeamId": "6997",
+      "displayName": "Brest"
     },
     {
       "teamKey": "soccer-germany:espn:137",
@@ -4598,32 +6103,11 @@
       "displayName": "Werder Bremen"
     },
     {
-      "teamKey": "soccer-germany:espn:2950",
+      "teamKey": "soccer-germany:espn:268",
       "sport": "soccer-germany",
       "provider": "espn",
-      "providerTeamId": "2950",
-      "displayName": "Mainz"
-    },
-    {
-      "teamKey": "soccer-germany:espn:3841",
-      "sport": "soccer-germany",
-      "provider": "espn",
-      "providerTeamId": "3841",
-      "displayName": "FC Augsburg"
-    },
-    {
-      "teamKey": "soccer-italy:espn:103",
-      "sport": "soccer-italy",
-      "provider": "espn",
-      "providerTeamId": "103",
-      "displayName": "AC Milan"
-    },
-    {
-      "teamKey": "soccer-italy:espn:105",
-      "sport": "soccer-italy",
-      "provider": "espn",
-      "providerTeamId": "105",
-      "displayName": "Atalanta"
+      "providerTeamId": "268",
+      "displayName": "Borussia Mönchengladbach"
     },
     {
       "teamKey": "soccer-italy:espn:107",
@@ -4640,46 +6124,11 @@
       "displayName": "Fiorentina"
     },
     {
-      "teamKey": "soccer-italy:espn:110",
-      "sport": "soccer-italy",
-      "provider": "espn",
-      "providerTeamId": "110",
-      "displayName": "Internazionale"
-    },
-    {
-      "teamKey": "soccer-italy:espn:111",
-      "sport": "soccer-italy",
-      "provider": "espn",
-      "providerTeamId": "111",
-      "displayName": "Juventus"
-    },
-    {
-      "teamKey": "soccer-italy:espn:118",
-      "sport": "soccer-italy",
-      "provider": "espn",
-      "providerTeamId": "118",
-      "displayName": "Udinese"
-    },
-    {
       "teamKey": "soccer-italy:espn:17530",
       "sport": "soccer-italy",
       "provider": "espn",
       "providerTeamId": "17530",
       "displayName": "Venezia"
-    },
-    {
-      "teamKey": "soccer-italy:espn:3263",
-      "sport": "soccer-italy",
-      "provider": "espn",
-      "providerTeamId": "3263",
-      "displayName": "Genoa"
-    },
-    {
-      "teamKey": "soccer-italy:espn:3997",
-      "sport": "soccer-italy",
-      "provider": "espn",
-      "providerTeamId": "3997",
-      "displayName": "Sassuolo"
     },
     {
       "teamKey": "soccer-italy:espn:4007",
@@ -4689,11 +6138,11 @@
       "displayName": "Monza"
     },
     {
-      "teamKey": "soccer-italy:espn:4057",
-      "sport": "soccer-italy",
+      "teamKey": "soccer-mexico:espn:216",
+      "sport": "soccer-mexico",
       "provider": "espn",
-      "providerTeamId": "4057",
-      "displayName": "Frosinone"
+      "providerTeamId": "216",
+      "displayName": "Atlas"
     },
     {
       "teamKey": "soccer-mexico:espn:218",
@@ -4710,32 +6159,46 @@
       "displayName": "Guadalajara"
     },
     {
-      "teamKey": "soccer-mexico:espn:222",
+      "teamKey": "soccer-mexico:espn:220",
       "sport": "soccer-mexico",
       "provider": "espn",
-      "providerTeamId": "222",
-      "displayName": "Querétaro"
+      "providerTeamId": "220",
+      "displayName": "Monterrey"
     },
     {
-      "teamKey": "soccer-mexico:espn:229",
+      "teamKey": "soccer-mexico:espn:223",
       "sport": "soccer-mexico",
       "provider": "espn",
-      "providerTeamId": "229",
-      "displayName": "Necaxa"
+      "providerTeamId": "223",
+      "displayName": "Toluca"
     },
     {
-      "teamKey": "soccer-mls:espn:182",
-      "sport": "soccer-mls",
+      "teamKey": "soccer-mexico:espn:227",
+      "sport": "soccer-mexico",
       "provider": "espn",
-      "providerTeamId": "182",
-      "displayName": "Chicago Fire FC"
+      "providerTeamId": "227",
+      "displayName": "América"
     },
     {
-      "teamKey": "soccer-mls:espn:18267",
+      "teamKey": "soccer-mexico:espn:228",
+      "sport": "soccer-mexico",
+      "provider": "espn",
+      "providerTeamId": "228",
+      "displayName": "León"
+    },
+    {
+      "teamKey": "soccer-mexico:espn:234",
+      "sport": "soccer-mexico",
+      "provider": "espn",
+      "providerTeamId": "234",
+      "displayName": "Pachuca"
+    },
+    {
+      "teamKey": "soccer-mls:espn:183",
       "sport": "soccer-mls",
       "provider": "espn",
-      "providerTeamId": "18267",
-      "displayName": "FC Cincinnati"
+      "providerTeamId": "183",
+      "displayName": "Columbus Crew"
     },
     {
       "teamKey": "soccer-mls:espn:18966",
@@ -4745,13 +6208,6 @@
       "displayName": "LAFC"
     },
     {
-      "teamKey": "soccer-mls:espn:18986",
-      "sport": "soccer-mls",
-      "provider": "espn",
-      "providerTeamId": "18986",
-      "displayName": "Nashville SC"
-    },
-    {
       "teamKey": "soccer-mls:espn:191",
       "sport": "soccer-mls",
       "provider": "espn",
@@ -4759,11 +6215,11 @@
       "displayName": "San Jose Earthquakes"
     },
     {
-      "teamKey": "soccer-mls:espn:21300",
+      "teamKey": "soccer-mls:espn:20232",
       "sport": "soccer-mls",
       "provider": "espn",
-      "providerTeamId": "21300",
-      "displayName": "Charlotte FC"
+      "providerTeamId": "20232",
+      "displayName": "Inter Miami CF"
     },
     {
       "teamKey": "soccer-mls:espn:21812",
@@ -4794,32 +6250,11 @@
       "displayName": "Vancouver Whitecaps"
     },
     {
-      "teamKey": "soccer-spain:espn:102",
-      "sport": "soccer-spain",
-      "provider": "espn",
-      "providerTeamId": "102",
-      "displayName": "Villarreal"
-    },
-    {
-      "teamKey": "soccer-spain:espn:1068",
-      "sport": "soccer-spain",
-      "provider": "espn",
-      "providerTeamId": "1068",
-      "displayName": "Atlético Madrid"
-    },
-    {
       "teamKey": "soccer-spain:espn:1538",
       "sport": "soccer-spain",
       "provider": "espn",
       "providerTeamId": "1538",
       "displayName": "Levante"
-    },
-    {
-      "teamKey": "soccer-spain:espn:2922",
-      "sport": "soccer-spain",
-      "provider": "espn",
-      "providerTeamId": "2922",
-      "displayName": "Getafe"
     },
     {
       "teamKey": "soccer-spain:espn:3751",
@@ -4829,39 +6264,11 @@
       "displayName": "Elche"
     },
     {
-      "teamKey": "soccer-spain:espn:83",
-      "sport": "soccer-spain",
-      "provider": "espn",
-      "providerTeamId": "83",
-      "displayName": "Barcelona"
-    },
-    {
       "teamKey": "soccer-spain:espn:87",
       "sport": "soccer-spain",
       "provider": "espn",
       "providerTeamId": "87",
       "displayName": "Racing Santander"
-    },
-    {
-      "teamKey": "soccer-spain:espn:89",
-      "sport": "soccer-spain",
-      "provider": "espn",
-      "providerTeamId": "89",
-      "displayName": "Real Sociedad"
-    },
-    {
-      "teamKey": "soccer-spain:espn:97",
-      "sport": "soccer-spain",
-      "provider": "espn",
-      "providerTeamId": "97",
-      "displayName": "Osasuna"
-    },
-    {
-      "teamKey": "soccer-spain:espn:99",
-      "sport": "soccer-spain",
-      "provider": "espn",
-      "providerTeamId": "99",
-      "displayName": "Málaga"
     },
     {
       "teamKey": "soccer-ucl:espn:102",
@@ -5369,8 +6776,8 @@
     }
   ],
   "summary": {
-    "games": 137,
-    "teams": 218,
+    "games": 176,
+    "teams": 263,
     "verifiedObservations": 0,
     "conflicts": 0,
     "rejectedObservations": 0

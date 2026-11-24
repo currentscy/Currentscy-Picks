@@ -3596,6 +3596,44 @@
       }
     ]
   },
+  "ncaa:401866470": {
+    "firstObserved": "2026-11-24T19:38:04.048935+00:00",
+    "gameId": "401866470",
+    "kickoff": "2026-11-25T00:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "2199",
+        "name": "Eastern Michigan Eagles",
+        "score": "0"
+      },
+      {
+        "id": "2309",
+        "name": "Kent State Golden Flashes",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401866471": {
+    "firstObserved": "2026-11-24T19:38:04.048935+00:00",
+    "gameId": "401866471",
+    "kickoff": "2026-11-25T00:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "2711",
+        "name": "Western Michigan Broncos",
+        "score": "0"
+      },
+      {
+        "id": "193",
+        "name": "Miami (OH) RedHawks",
+        "score": "0"
+      }
+    ]
+  },
   "ncaa:401869928": {
     "completed": true,
     "finalTeams": [
@@ -5148,10 +5186,24 @@
     ]
   },
   "nfl:401873077": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "25",
+        "name": "San Francisco 49ers",
+        "score": "35"
+      },
+      {
+        "id": "16",
+        "name": "Minnesota Vikings",
+        "score": "10"
+      }
+    ],
     "firstObserved": "2026-11-22T01:50:06.005179+00:00",
     "gameId": "401873077",
     "kickoff": "2026-11-23T01:20:00+00:00",
     "league": "nfl",
+    "outcomeObserved": "2026-11-24T19:38:04.048935+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
@@ -5167,10 +5219,24 @@
     ]
   },
   "nfl:401873078": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "28",
+        "name": "Washington Commanders",
+        "score": "22"
+      },
+      {
+        "id": "4",
+        "name": "Cincinnati Bengals",
+        "score": "20"
+      }
+    ],
     "firstObserved": "2026-11-23T01:56:44.912247+00:00",
     "gameId": "401873078",
     "kickoff": "2026-11-24T01:15:00+00:00",
     "league": "nfl",
+    "outcomeObserved": "2026-11-24T19:38:04.048935+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
