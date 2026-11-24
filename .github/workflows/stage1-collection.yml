@@ -1,11 +1,12 @@
-name: Currentscy Stage 1 multi-sport evidence collection
+name: Currentscy unified research and feedback
 on:
   push:
     paths:
       - 'scripts/**'
+      - 'nba-shared-model.js'
       - '.github/workflows/stage1-collection.yml'
   schedule:
-    - cron: '37 */6 * * *'
+    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -23,6 +24,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test existing NBA feedback model
+        run: node --test scripts/test-live-nba-feedback.cjs
       - name: Syntax check research scripts
         run: python -m compileall -q scripts
       - name: Test full forecast-to-final scoring pipeline
@@ -53,6 +59,10 @@ jobs:
         run: python -m unittest discover -s scripts -p 'test_validation_dashboard.py'
       - name: Collect scoreboard snapshots
         run: python scripts/stage1_collect.py
+      - name: Capture existing NBA forecasts and outcomes
+        run: node scripts/live-nba-feedback.cjs
+      - name: Settle archived forecasts
+        run: python scripts/settle-archived-forecasts.py
       - name: Collect persistent multisport match and fight ledger
         run: python scripts/unified-event-ledger.py
       - name: Bootstrap real historical final scores once
@@ -86,6 +96,16 @@ jobs:
         run: python scripts/validation_dashboard.py
       - name: Cross-check all research layers
         run: python scripts/research_consistency.py
+      - name: Archive and evaluate checkpoints
+        run: |
+          python scripts/checkpoint_archive.py
+          python scripts/checkpoint_evaluation.py
+      - name: Test feedback and checkpoint settlement
+        run: |
+          python -m unittest discover -s scripts -p 'test_settle_archived_forecasts.py'
+          python -m unittest discover -s scripts -p 'test_checkpoint_archive.py'
+          python -m unittest discover -s scripts -p 'test_checkpoint_evaluation.py'
+          python -m unittest discover -s scripts -p 'test_forecast_vs_results.py'
       - name: Learn from finalized pregame predictions (shadow mode)
         run: |
           python scripts/learning_calibration.py
