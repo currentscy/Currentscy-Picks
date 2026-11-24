@@ -112,9 +112,84 @@ def collect(now=None, fetcher=request_json, days_back=1, days_forward=3):
         },
     }
 
+
+def nfl_history(now, events, fetcher=request_json):
+    season = now.year if now.month >= 9 else now.year - 1
+    base = "https://site.api.espn.com/apis/site/v2/sports/football/nfl/"
+    url = base + "scoreboard?dates=" + str(season) + "0901-" + now.strftime("%Y%m%d") + "&limit=1000"
+    out = {"season": season, "observedAt": now.isoformat(), "games": [], "errors": []}
+    targets = {t["sourceTeamId"] for g in events if g["sport"] == "nfl" and g["status"] == "STATUS_SCHEDULED" for t in g["teams"]}
+    counts = {}
+    try:
+        schedule = fetcher(url)
+    except (OSError, ValueError, TypeError) as exc:
+        out["errors"].append({"sourceUrl": url, "error": type(exc).__name__})
+        return out
+    for e in sorted(schedule.get("events", []), key=lambda x: x.get("date", ""), reverse=True):
+        if (e.get("season") or {}).get("year") != season or (e.get("season") or {}).get("type") != 2:
+            continue
+        if not (e.get("status") or {}).get("type", {}).get("completed"):
+            continue
+        try:
+            if dt.datetime.fromisoformat(e["date"].replace("Z", "+00:00")) >= now:
+                continue
+        except (KeyError, ValueError, TypeError):
+            continue
+        row = normalize_event(e, "nfl", now.isoformat(), url)
+        ids = {t["sourceTeamId"] for t in row["teams"]}
+        if len(ids) != 2 or "" in ids or not any(counts.get(t, 0) < 6 for t in ids & targets):
+            continue
+        source = base + "summary?event=" + row["sourceEventId"]
+        try:
+            data = fetcher(source)
+            if str((data.get("header") or {}).get("id")) != row["sourceEventId"]:
+                raise ValueError("event identity mismatch")
+            box = data.get("boxscore") or {}
+            players = []
+            for group in box.get("players", []):
+                tid = str(group.get("team", {}).get("id", ""))
+                if tid not in ids:
+                    continue
+                for cat in group.get("statistics", []):
+                    keys = cat.get("keys") or cat.get("labels") or []
+                    for a in cat.get("athletes", []):
+                        person = a.get("athlete") or {}
+                        stats = a.get("stats") or []
+                        if person.get("id") and not a.get("didNotPlay") and keys and len(keys) == len(stats):
+                            players.append({"teamId": tid, "playerId": str(person["id"]), "name": person.get("displayName"), "category": cat.get("name"), "stats": dict(zip(keys, stats))})
+            if {p["teamId"] for p in players} != ids:
+                raise ValueError("missing opponent player records")
+            observed = dt.datetime.now(UTC).isoformat()
+            out["games"].append({"eventId": row["sourceEventId"], "season": season, "kickoff": e["date"], "teams": row["teams"], "players": players, "teamStatistics": box.get("teams", []), "sourceUrl": source, "observedAt": observed})
+            for tid in ids:
+                counts[tid] = counts.get(tid, 0) + 1
+        except (OSError, ValueError, TypeError, KeyError) as exc:
+            out["errors"].append({"sourceUrl": source, "error": type(exc).__name__})
+        if len(out["games"]) + len(out["errors"]) >= 96:
+            break
+    out["teamGameCounts"] = counts
+    return out
+
+def nfl_pregame_history(history, game, forecast_at):
+    """Only evidence actually observed before kickoff can enter a new forecast."""
+    start = dt.datetime.fromisoformat(game["scheduledStart"].replace("Z", "+00:00"))
+    if forecast_at >= start or game.get("status") != "STATUS_SCHEDULED":
+        return []
+    ids = {t["sourceTeamId"] for t in game["teams"]}
+    return [g for g in history["games"] if g["season"] == history["season"]
+            and dt.datetime.fromisoformat(g["observedAt"]) <= forecast_at
+            and dt.datetime.fromisoformat(g["kickoff"].replace("Z", "+00:00")) < forecast_at
+            and ids.intersection(t["sourceTeamId"] for t in g["teams"])]
+
+
 def main():
     DEST.mkdir(parents=True, exist_ok=True)
     data = collect()
+    history = nfl_history(dt.datetime.now(UTC), data['events'])
+    history_tmp = DEST / 'nfl-history.json.tmp'
+    history_tmp.write_text(json.dumps(history, ensure_ascii=False) + '\n')
+    os.replace(history_tmp, DEST / 'nfl-history.json')
+    print(json.dumps({'nflHistoricalGames': len(history['games']), 'nflSourceErrors': len(history['errors'])}))
     path = DEST / "latest.json"
     temp = DEST / "latest.json.tmp"
     temp.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
