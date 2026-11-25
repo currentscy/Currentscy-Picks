@@ -116613,5 +116613,145 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "76aa72ec16bc3568ac547095baa758e250dac71767e5452bfbc0b240fa7b7aa3",
+    "capturedAt": "2026-11-25T05:10:08.532756+00:00",
+    "observation": {
+      "eventKey": "nba:401909316",
+      "sport": "nba",
+      "scheduledStart": "2026-11-25T03:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "7",
+          "name": "Denver Nuggets",
+          "homeAway": "home",
+          "score": "88",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "6",
+          "name": "Dallas Mavericks",
+          "homeAway": "away",
+          "score": "99",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-25T05:10:04.175943+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "fca97b46a27b97259e39ee47a09b23807b9cd24950bef7027b9ecf46c3878830",
+    "capturedAt": "2026-11-25T05:10:08.532756+00:00",
+    "observation": {
+      "eventKey": "soccer-mls:401933738",
+      "sport": "soccer-mls",
+      "scheduledStart": "2026-11-25T03:00Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "191",
+          "name": "San Jose Earthquakes",
+          "homeAway": "home",
+          "score": "2",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "6077",
+          "name": "Houston Dynamo FC",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-25T05:10:04.175943+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "7ba2f950be381389ce30336ae992532739dca026ea86de58e1a17928a1b42fe1",
+    "capturedAt": "2026-11-25T05:10:08.532756+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401906762",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-25T03:05Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "333",
+          "name": "Alabama Crimson Tide",
+          "homeAway": "home",
+          "score": "58",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "239",
+          "name": "Baylor Bears",
+          "homeAway": "away",
+          "score": "60",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-25T05:10:04.175943+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "0192c91e0ac63b4cab28e55bd53c6fca4f3f5e18b0f826a07c9ad9b15349519b",
+    "capturedAt": "2026-11-25T05:10:08.532756+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401915943",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-25T04:18Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2599",
+          "name": "St. John's Red Storm",
+          "homeAway": "home",
+          "score": "35",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "2483",
+          "name": "Oregon Ducks",
+          "homeAway": "away",
+          "score": "26",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-25T05:10:04.175943+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
