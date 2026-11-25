@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T08:02:08.166248+00:00",
+  "generatedAt": "2026-11-25T08:52:25.631360+00:00",
   "fiveSteps": {
     "eventCollection": true,
     "pregameForecastCaptured": true,
@@ -13,7 +13,7 @@
     "nba": {
       "events": 286,
       "completed": 256,
-      "validForecasts": 44,
+      "validForecasts": 55,
       "matchedFinalOutcomes": 30
     },
     "ncaa-basketball": {
@@ -155,7 +155,7 @@
       "reason": "invalid or not final"
     }
   ],
-  "validPregameForecasts": 113,
+  "validPregameForecasts": 124,
   "matchedFinalOutcomes": 54,
   "completeCoverageEstablished": false,
   "sportsWithScoredForecasts": [

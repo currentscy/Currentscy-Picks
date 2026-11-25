@@ -117173,5 +117173,75 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "3140bcf483761bcf435867e44589edc5234325273263b4b7e5816a0f92e76007",
+    "capturedAt": "2026-11-25T08:52:25.788707+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920539",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-27T02:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "333",
+          "name": "Alabama Crimson Tide",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "2306",
+          "name": "Kansas State Wildcats",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-25T08:52:21.401646+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "98ad65ca1cdd5624be87a0f57cb2cbe9586f516724c8d23fa8d5c6e6df487e29",
+    "capturedAt": "2026-11-25T08:52:25.788707+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920540",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-27T04:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "239",
+          "name": "Baylor Bears",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "2250",
+          "name": "Gonzaga Bulldogs",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-25T08:52:21.401646+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
