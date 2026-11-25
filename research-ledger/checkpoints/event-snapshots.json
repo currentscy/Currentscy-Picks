@@ -117033,5 +117033,145 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "ab0757bef89c7f23d179a0a642cc6cd9d1278ec66b263b5cc277bb1114ee8de4",
+    "capturedAt": "2026-11-25T07:48:22.166035+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401915943",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-25T04:18Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "2599",
+          "name": "St. John's Red Storm",
+          "homeAway": "home",
+          "score": "90",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "2483",
+          "name": "Oregon Ducks",
+          "homeAway": "away",
+          "score": "79",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-25T07:48:12.759071+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "8a856e0c88949e3da95ced1a598ae1b1d9e6b652a5c71bfcbd9c15797ef14840",
+    "capturedAt": "2026-11-25T07:48:22.166035+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401909800",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-25T05:49Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "2306",
+          "name": "Kansas State Wildcats",
+          "homeAway": "home",
+          "score": "61",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "2250",
+          "name": "Gonzaga Bulldogs",
+          "homeAway": "away",
+          "score": "101",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-25T07:48:12.759071+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "e5a7124c46ab932f067dda364a50f583a72d6376ec418e6eb31584c59895d400",
+    "capturedAt": "2026-11-25T07:48:22.166035+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920530",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-27T02:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "97",
+          "name": "Louisville Cardinals",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "2599",
+          "name": "St. John's Red Storm",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-25T07:48:12.759071+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "05e60d1b96d71eb6a55d3a973e5e667f928439fef23d3ecdf7a8977449909929",
+    "capturedAt": "2026-11-25T07:48:22.166035+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920531",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-27T04:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2483",
+          "name": "Oregon Ducks",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "2641",
+          "name": "Texas Tech Red Raiders",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-25T07:48:12.759071+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
