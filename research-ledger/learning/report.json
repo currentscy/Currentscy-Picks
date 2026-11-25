@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T02:56:36.863853+00:00",
-  "scoredPredictions": 59,
+  "generatedAt": "2026-11-25T04:02:31.714218+00:00",
+  "scoredPredictions": 61,
   "bySport": {
     "nba": {
-      "n": 33,
-      "trainCount": 3,
+      "n": 34,
+      "trainCount": 4,
       "holdoutCount": 30,
       "actualArchivedShadow": {
         "n": 0,
@@ -13,9 +13,9 @@
         "shadow": null
       },
       "originalBrier": {
-        "n": 33,
-        "brier": 0.207293,
-        "logLoss": 0.603256,
+        "n": 34,
+        "brier": 0.20635,
+        "logLoss": 0.601464,
         "calibrationBins": [
           {
             "range": [
@@ -31,9 +31,9 @@
               0.4,
               0.6
             ],
-            "n": 16,
-            "meanPrediction": 0.4803,
-            "observedRate": 0.5625
+            "n": 17,
+            "meanPrediction": 0.4767,
+            "observedRate": 0.5294
           },
           {
             "range": [
@@ -52,18 +52,18 @@
       "activeAdjustment": null
     },
     "nhl": {
-      "n": 26,
+      "n": 27,
       "trainCount": 0,
-      "holdoutCount": 26,
+      "holdoutCount": 27,
       "actualArchivedShadow": {
         "n": 0,
         "baseline": null,
         "shadow": null
       },
       "originalBrier": {
-        "n": 26,
-        "brier": 0.256138,
-        "logLoss": 0.706161,
+        "n": 27,
+        "brier": 0.262257,
+        "logLoss": 0.718796,
         "calibrationBins": [
           {
             "range": [
@@ -88,9 +88,9 @@
               0.6,
               0.8
             ],
-            "n": 8,
-            "meanPrediction": 0.6383,
-            "observedRate": 0.375
+            "n": 9,
+            "meanPrediction": 0.6395,
+            "observedRate": 0.3333
           }
         ]
       },
