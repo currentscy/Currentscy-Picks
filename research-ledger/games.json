@@ -3597,10 +3597,24 @@
     ]
   },
   "ncaa:401866470": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "2199",
+        "name": "Eastern Michigan Eagles",
+        "score": "17"
+      },
+      {
+        "id": "2309",
+        "name": "Kent State Golden Flashes",
+        "score": "12"
+      }
+    ],
     "firstObserved": "2026-11-24T19:38:04.048935+00:00",
     "gameId": "401866470",
     "kickoff": "2026-11-25T00:00:00+00:00",
     "league": "ncaa",
+    "outcomeObserved": "2026-11-25T08:02:05.608185+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
@@ -3616,10 +3630,24 @@
     ]
   },
   "ncaa:401866471": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "2711",
+        "name": "Western Michigan Broncos",
+        "score": "24"
+      },
+      {
+        "id": "193",
+        "name": "Miami (OH) RedHawks",
+        "score": "28"
+      }
+    ],
     "firstObserved": "2026-11-24T19:38:04.048935+00:00",
     "gameId": "401866471",
     "kickoff": "2026-11-25T00:00:00+00:00",
     "league": "ncaa",
+    "outcomeObserved": "2026-11-25T08:02:05.608185+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {

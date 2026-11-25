@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-11-25T01:57:38.838529+00:00",
+  "lastRun": "2026-11-25T08:01:57.188269+00:00",
   "trackedGames": 469,
   "changes": [
     {
@@ -19,99 +19,15 @@
       "key": "nba:401909315"
     },
     {
-      "type": "new_game",
-      "key": "nba:401910076"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910077"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910078"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910079"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910080"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910081"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910082"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910083"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910084"
+      "type": "game_updated",
+      "key": "nba:401909316"
     },
     {
       "type": "game_updated",
       "key": "nhl:401892780"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892840"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892841"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892842"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-epl:401879222"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-epl:401879220"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-epl:401879219"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-epl:401879218"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-epl:401879223"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-epl:401878751"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-epl:401878750"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-epl:401879217"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-laliga:401882698"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-laliga:401882700"
     }
   ],
-  "changeCount": 27,
+  "changeCount": 6,
   "sourceFailures": [],
   "failureCount": 0,
   "injuryFeedVerified": false,

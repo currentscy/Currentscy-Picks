@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T07:48:22.013114+00:00",
+  "generatedAt": "2026-11-25T08:02:08.166248+00:00",
   "fiveSteps": {
     "eventCollection": true,
     "pregameForecastCaptured": true,
@@ -12,19 +12,19 @@
   "bySport": {
     "nba": {
       "events": 286,
-      "completed": 253,
+      "completed": 256,
       "validForecasts": 44,
-      "matchedFinalOutcomes": 27
+      "matchedFinalOutcomes": 30
     },
     "ncaa-basketball": {
-      "events": 112,
-      "completed": 10,
+      "events": 115,
+      "completed": 15,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "ncaa-football": {
       "events": 182,
-      "completed": 113,
+      "completed": 115,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
@@ -36,9 +36,9 @@
     },
     "nhl": {
       "events": 307,
-      "completed": 261,
+      "completed": 262,
       "validForecasts": 69,
-      "matchedFinalOutcomes": 23
+      "matchedFinalOutcomes": 24
     },
     "soccer-england": {
       "events": 27,
@@ -72,7 +72,7 @@
     },
     "soccer-mls": {
       "events": 68,
-      "completed": 58,
+      "completed": 59,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
@@ -153,30 +153,10 @@
       "type": "outcome",
       "id": "research-home-win:nhl:401892772:prior20-v1",
       "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "nba-home-win:401909314:nba-record-home-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "nba-home-win:401909315:nba-record-home-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892780:prior20-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "nba-home-win:401909316:nba-record-home-v1",
-      "reason": "invalid or not final"
     }
   ],
   "validPregameForecasts": 113,
-  "matchedFinalOutcomes": 50,
+  "matchedFinalOutcomes": 54,
   "completeCoverageEstablished": false,
   "sportsWithScoredForecasts": [
     "nba",
