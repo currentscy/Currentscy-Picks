@@ -117418,5 +117418,110 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "0b550734024baa83b0dac7e0b7e5a42995487180220d349aa5e84bca73c8ec87",
+    "capturedAt": "2026-11-25T18:04:33.712933+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920428",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-25T17:00Z",
+      "status": "STATUS_HALFTIME",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "269",
+          "name": "Marquette Golden Eagles",
+          "homeAway": "home",
+          "score": "23",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "258",
+          "name": "Virginia Cavaliers",
+          "homeAway": "away",
+          "score": "25",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-25T18:04:25.965906+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "2960c8b5edf7b0c23cbe745a58a88e15315345c1f25660829180bafdae65f72e",
+    "capturedAt": "2026-11-25T18:04:33.712933+00:00",
+    "observation": {
+      "eventKey": "soccer-ucl:401915293",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-25T17:45Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "494",
+          "name": "Slavia Prague",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "102",
+          "name": "Villarreal",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-25T18:04:25.965906+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "38ffc069c56f18bcd27604ce1914a3af44d7d05daf8c289556fcbefa2dfe471d",
+    "capturedAt": "2026-11-25T18:04:33.712933+00:00",
+    "observation": {
+      "eventKey": "soccer-ucl:401915378",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-25T17:45Z",
+      "status": "STATUS_FIRST_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "21922",
+          "name": "Sabah FK",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "83",
+          "name": "Barcelona",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-25T18:04:25.965906+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
