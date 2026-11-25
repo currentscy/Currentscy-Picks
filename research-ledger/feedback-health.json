@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-24T23:25:02.145557+00:00",
+  "asOf": "2026-11-25T00:22:38.232287+00:00",
   "pipeline": {
-    "stage1Events": 177,
+    "stage1Events": 326,
     "stage2Games": 176,
     "legacyMultisportGames": 447,
     "legacyFootballGames": 160,
@@ -15,7 +15,7 @@
     "stage4Scored": 58
   },
   "verification": {
-    "sameProviderGamesCompared": 100,
+    "sameProviderGamesCompared": 170,
     "sameProviderDisagreements": [],
     "unmatchedOutcomeIds": [],
     "independentProviderVerification": false,
