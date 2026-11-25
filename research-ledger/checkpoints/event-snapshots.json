@@ -117628,5 +117628,285 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "6b7d6d89e262d61d4878ab1045a4a0a6dde8b915bb49009f54cb800982c6e10c",
+    "capturedAt": "2026-11-25T19:57:22.806270+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920428",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-25T17:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "269",
+          "name": "Marquette Golden Eagles",
+          "homeAway": "home",
+          "score": "32",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "258",
+          "name": "Virginia Cavaliers",
+          "homeAway": "away",
+          "score": "35",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-25T19:57:13.335575+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "8806aca25d483ad625a3df8d9d3413a5a979e775b8a8d600c34b74f4a59b7098",
+    "capturedAt": "2026-11-25T19:57:22.806270+00:00",
+    "observation": {
+      "eventKey": "soccer-ucl:401915293",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-25T17:45Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "494",
+          "name": "Slavia Prague",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "102",
+          "name": "Villarreal",
+          "homeAway": "away",
+          "score": "1",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-25T19:57:13.335575+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "917e958fb276c5f1d7995035d01265cd5004312ad0946cbbaa00e347ca92ce6a",
+    "capturedAt": "2026-11-25T19:57:22.806270+00:00",
+    "observation": {
+      "eventKey": "soccer-ucl:401915378",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-25T17:45Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "21922",
+          "name": "Sabah FK",
+          "homeAway": "home",
+          "score": "1",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "83",
+          "name": "Barcelona",
+          "homeAway": "away",
+          "score": "4",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-25T19:57:13.335575+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "3230805600c574a48480cc40781db0db9a587a75ea0f811d8fd8657e7df82b20",
+    "capturedAt": "2026-11-25T19:57:22.806270+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401921669",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-25T19:00Z",
+      "status": "STATUS_HALFTIME",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "9",
+          "name": "Arizona State Sun Devils",
+          "homeAway": "home",
+          "score": "43",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "99",
+          "name": "LSU Tigers",
+          "homeAway": "away",
+          "score": "38",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-25T19:57:13.335575+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "6982bc4b09c3ad8dc0fe793d5e4452db0287af6e0dca3414a2dee683b17689c1",
+    "capturedAt": "2026-11-25T19:57:22.806270+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401921715",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-25T19:30Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "12",
+          "name": "Arizona Wildcats",
+          "homeAway": "home",
+          "score": "10",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "145",
+          "name": "Ole Miss Rebels",
+          "homeAway": "away",
+          "score": "19",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-25T19:57:13.335575+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "e57a78e349fd94e51d0ec4e30a7c1e12af95c326847a20addd30f769d93d9300",
+    "capturedAt": "2026-11-25T19:57:22.806270+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401921669",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-25T19:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "9",
+          "name": "Arizona State Sun Devils",
+          "homeAway": "home",
+          "score": "24",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "99",
+          "name": "LSU Tigers",
+          "homeAway": "away",
+          "score": "25",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-25T19:33:22.158940+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "ea38923cfd504d3655e080d6efc88658061eaf5d7c8f6b788e801b96973fc898",
+    "capturedAt": "2026-11-25T19:57:22.806270+00:00",
+    "observation": {
+      "eventKey": "soccer-ucl:401915293",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-25T17:45Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "494",
+          "name": "Slavia Prague",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "102",
+          "name": "Villarreal",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-25T19:33:22.158940+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "dd44848cd5134fc2d7b7c0193fe18cd384e9aa35002d71848e2425e329df5400",
+    "capturedAt": "2026-11-25T19:57:22.806270+00:00",
+    "observation": {
+      "eventKey": "soccer-ucl:401915378",
+      "sport": "soccer-ucl",
+      "scheduledStart": "2026-11-25T17:45Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "21922",
+          "name": "Sabah FK",
+          "homeAway": "home",
+          "score": "1",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "83",
+          "name": "Barcelona",
+          "homeAway": "away",
+          "score": "4",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-25T19:33:22.158940+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
