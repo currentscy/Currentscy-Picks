@@ -116753,5 +116753,285 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "87b645b64201a61eeca031da55dc2521c1a2fa3f8e70dd6f2497625f1c0683c1",
+    "capturedAt": "2026-11-25T06:17:17.804060+00:00",
+    "observation": {
+      "eventKey": "nba:401909316",
+      "sport": "nba",
+      "scheduledStart": "2026-11-25T03:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "7",
+          "name": "Denver Nuggets",
+          "homeAway": "home",
+          "score": "101",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "6",
+          "name": "Dallas Mavericks",
+          "homeAway": "away",
+          "score": "120",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-25T06:17:13.754106+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "65e610ce046281636c87352b6d7034ecdb0b642f310786076f4ccdc94e0b92cf",
+    "capturedAt": "2026-11-25T06:17:17.804060+00:00",
+    "observation": {
+      "eventKey": "soccer-mls:401933738",
+      "sport": "soccer-mls",
+      "scheduledStart": "2026-11-25T03:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "191",
+          "name": "San Jose Earthquakes",
+          "homeAway": "home",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "6077",
+          "name": "Houston Dynamo FC",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-25T06:17:13.754106+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "c1b96c5ea5fdd9c0027ea129f0b277d588c208081a6ea65fa79b13706959245d",
+    "capturedAt": "2026-11-25T06:17:17.804060+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401906762",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-25T03:05Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "333",
+          "name": "Alabama Crimson Tide",
+          "homeAway": "home",
+          "score": "63",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "239",
+          "name": "Baylor Bears",
+          "homeAway": "away",
+          "score": "68",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-25T06:17:13.754106+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "48eaf868244035503c06a5b759e8886188dbf7118b0b1374483ceae41041bf95",
+    "capturedAt": "2026-11-25T06:17:17.804060+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401915943",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-25T04:18Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2599",
+          "name": "St. John's Red Storm",
+          "homeAway": "home",
+          "score": "78",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "2483",
+          "name": "Oregon Ducks",
+          "homeAway": "away",
+          "score": "66",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-25T06:17:13.754106+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "8ba8d341e8ef0b019dc2b875403eb6fd205e9c9ad652a921b1590f1953fba3f6",
+    "capturedAt": "2026-11-25T06:17:17.804060+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401909800",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-25T05:49Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2306",
+          "name": "Kansas State Wildcats",
+          "homeAway": "home",
+          "score": "19",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "2250",
+          "name": "Gonzaga Bulldogs",
+          "homeAway": "away",
+          "score": "30",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300",
+      "observedAt": "2026-11-25T06:17:13.754106+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "212c20aa6854daa35a44dd9a6c092091e551df6cc23a980ea6185c6e27d1f69d",
+    "capturedAt": "2026-11-25T06:17:17.804060+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920530",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-27T02:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "97",
+          "name": "Louisville Cardinals",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "-2",
+          "name": "TBD",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-25T06:17:13.754106+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "82e56b16ff868ba3a79be1d63d67ee6a9d3568e945daa44e65ae38b6479810ae",
+    "capturedAt": "2026-11-25T06:17:17.804060+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920539",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-27T02:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "333",
+          "name": "Alabama Crimson Tide",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "-2",
+          "name": "TBD",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-25T06:17:13.754106+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "fe61dae45438cf8872e5d7f77913aecdcfc803d7a30204cdc0481919e9fcfb3f",
+    "capturedAt": "2026-11-25T06:17:17.804060+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920531",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-27T04:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "-1",
+          "name": "TBD",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "2641",
+          "name": "Texas Tech Red Raiders",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-25T06:17:13.754106+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
