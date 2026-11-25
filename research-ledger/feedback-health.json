@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-25T01:55:55.314859+00:00",
+  "asOf": "2026-11-25T01:57:57.919226+00:00",
   "pipeline": {
     "stage1Events": 329,
-    "stage2Games": 176,
-    "legacyMultisportGames": 447,
-    "legacyFootballGames": 160,
-    "stage5Snapshots": 4319,
-    "unifiedEventHistory": 1106,
+    "stage2Games": 329,
+    "legacyMultisportGames": 469,
+    "legacyFootballGames": 161,
+    "stage5Snapshots": 4641,
+    "unifiedEventHistory": 1285,
     "sportsWithCoverageChecks": 18,
-    "liveModelForecasts": 100,
+    "liveModelForecasts": 113,
     "ESPNFinalOutcomes": 58,
     "stage3Scored": 58,
     "stage4Scored": 58

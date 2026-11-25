@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T01:55:56.225475+00:00",
+  "generatedAt": "2026-11-25T01:57:58.456873+00:00",
   "providers": {
     "cloudflare": {
       "status": "error",
@@ -21,15 +21,15 @@
   "availableProviders": [],
   "crossCheckComplete": false,
   "evidence": {
-    "savedForecasts": 100,
+    "savedForecasts": 113,
     "savedFinalOutcomes": 58,
     "evaluationSummary": {
-      "gamesAvailable": 1106,
-      "validPregamePredictions": 100,
+      "gamesAvailable": 1285,
+      "validPregamePredictions": 113,
       "scoredBaselinePredictions": 58,
       "scoredCandidatePredictions": 0,
       "pairedSample": 0,
-      "unscoredPredictions": 42,
+      "unscoredPredictions": 55,
       "rejectedRecords": 0
     },
     "learningBySport": {
@@ -44,29 +44,29 @@
     },
     "recentForecasts": [
       {
-        "gameKey": "nhl:401892805",
-        "predictedAt": "2026-11-24T19:38:05.128220+00:00",
-        "baselineProbability": 0.5078720964801525
+        "gameKey": "nhl:401892818",
+        "predictedAt": "2026-11-25T01:57:57.070203+00:00",
+        "baselineProbability": 0.548557815091814
       },
       {
-        "gameKey": "nhl:401892806",
-        "predictedAt": "2026-11-24T19:38:05.128220+00:00",
-        "baselineProbability": 0.45142658431248395
+        "gameKey": "nhl:401892819",
+        "predictedAt": "2026-11-25T01:57:57.070203+00:00",
+        "baselineProbability": 0.6728949196818435
       },
       {
-        "gameKey": "nhl:401892807",
-        "predictedAt": "2026-11-24T19:38:05.128220+00:00",
-        "baselineProbability": 0.5589237767836382
+        "gameKey": "nhl:401892820",
+        "predictedAt": "2026-11-25T01:57:57.070203+00:00",
+        "baselineProbability": 0.6010146814919778
       },
       {
-        "gameKey": "nhl:401892808",
-        "predictedAt": "2026-11-24T19:38:05.128220+00:00",
-        "baselineProbability": 0.5667268330124665
+        "gameKey": "nhl:401892821",
+        "predictedAt": "2026-11-25T01:57:57.070203+00:00",
+        "baselineProbability": 0.5694300678167888
       },
       {
-        "gameKey": "nhl:401892809",
-        "predictedAt": "2026-11-24T19:38:05.128220+00:00",
-        "baselineProbability": 0.614337088581907
+        "gameKey": "nhl:401892822",
+        "predictedAt": "2026-11-25T01:57:57.070203+00:00",
+        "baselineProbability": 0.4586992978092979
       }
     ]
   },

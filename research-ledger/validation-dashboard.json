@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T01:55:55.280109+00:00",
+  "generatedAt": "2026-11-25T01:57:57.855863+00:00",
   "fiveSteps": {
     "eventCollection": true,
     "pregameForecastCaptured": true,
@@ -11,19 +11,19 @@
   },
   "bySport": {
     "nba": {
-      "events": 281,
+      "events": 286,
       "completed": 253,
       "validForecasts": 44,
       "matchedFinalOutcomes": 27
     },
     "ncaa-basketball": {
-      "events": 32,
-      "completed": 4,
+      "events": 112,
+      "completed": 10,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "ncaa-football": {
-      "events": 129,
+      "events": 182,
       "completed": 113,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
@@ -35,56 +35,56 @@
       "matchedFinalOutcomes": 0
     },
     "nhl": {
-      "events": 294,
+      "events": 307,
       "completed": 261,
-      "validForecasts": 56,
+      "validForecasts": 69,
       "matchedFinalOutcomes": 23
     },
     "soccer-england": {
-      "events": 24,
+      "events": 27,
       "completed": 23,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-france": {
-      "events": 27,
+      "events": 32,
       "completed": 26,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-germany": {
-      "events": 27,
+      "events": 32,
       "completed": 26,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-italy": {
-      "events": 34,
+      "events": 37,
       "completed": 33,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-mexico": {
-      "events": 34,
+      "events": 36,
       "completed": 29,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-mls": {
-      "events": 62,
+      "events": 68,
       "completed": 58,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-spain": {
-      "events": 30,
+      "events": 34,
       "completed": 29,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-ucl": {
       "events": 36,
-      "completed": 19,
+      "completed": 27,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
@@ -155,7 +155,7 @@
       "reason": "invalid or not final"
     }
   ],
-  "validPregameForecasts": 100,
+  "validPregameForecasts": 113,
   "matchedFinalOutcomes": 50,
   "completeCoverageEstablished": false,
   "sportsWithScoredForecasts": [

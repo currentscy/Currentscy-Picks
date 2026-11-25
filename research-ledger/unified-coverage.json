@@ -1,89 +1,89 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T19:37:59.093798+00:00",
+  "updatedAt": "2026-11-25T01:57:38.714505+00:00",
   "sports": {
     "nfl": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 6,
+      "eventsObservedThisRun": 5,
       "historicalEvents": 28,
       "coverageVerifiedComplete": false
     },
     "ncaa-football": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 16,
-      "historicalEvents": 129,
+      "eventsObservedThisRun": 69,
+      "historicalEvents": 182,
       "coverageVerifiedComplete": false
     },
     "nba": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 33,
-      "historicalEvents": 281,
+      "eventsObservedThisRun": 28,
+      "historicalEvents": 286,
       "coverageVerifiedComplete": false
     },
     "ncaa-basketball": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 32,
-      "historicalEvents": 32,
+      "eventsObservedThisRun": 108,
+      "historicalEvents": 112,
       "coverageVerifiedComplete": false
     },
     "nhl": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 37,
-      "historicalEvents": 294,
+      "eventsObservedThisRun": 43,
+      "historicalEvents": 307,
       "coverageVerifiedComplete": false
     },
     "soccer-england": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 2,
-      "historicalEvents": 24,
+      "eventsObservedThisRun": 4,
+      "historicalEvents": 27,
       "coverageVerifiedComplete": false
     },
     "soccer-spain": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 2,
-      "historicalEvents": 30,
+      "eventsObservedThisRun": 5,
+      "historicalEvents": 34,
       "coverageVerifiedComplete": false
     },
     "soccer-italy": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 2,
-      "historicalEvents": 34,
+      "eventsObservedThisRun": 4,
+      "historicalEvents": 37,
       "coverageVerifiedComplete": false
     },
     "soccer-germany": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 1,
-      "historicalEvents": 27,
+      "eventsObservedThisRun": 6,
+      "historicalEvents": 32,
       "coverageVerifiedComplete": false
     },
     "soccer-france": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 1,
-      "historicalEvents": 27,
+      "eventsObservedThisRun": 6,
+      "historicalEvents": 32,
       "coverageVerifiedComplete": false
     },
     "soccer-mls": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 4,
-      "historicalEvents": 62,
+      "eventsObservedThisRun": 9,
+      "historicalEvents": 68,
       "coverageVerifiedComplete": false
     },
     "soccer-mexico": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 4,
-      "historicalEvents": 34,
+      "eventsObservedThisRun": 6,
+      "historicalEvents": 36,
       "coverageVerifiedComplete": false
     },
     "soccer-ucl": {
@@ -130,7 +130,7 @@
     }
   },
   "errors": [],
-  "totalHistoricalEvents": 1106,
+  "totalHistoricalEvents": 1285,
   "allEventsCaptured": false,
   "allPredictionsCaptured": false,
   "note": "Unofficial ESPN schedule feeds are incomplete for some fights and tennis matches; absence of events is not evidence of full coverage."

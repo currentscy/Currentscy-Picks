@@ -1688,6 +1688,36 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=300"
     },
     {
+      "gameKey": "nba:401910046",
+      "sport": "nba",
+      "start": "2026-11-28T22:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "nba:401910047",
+      "sport": "nba",
+      "start": "2026-11-28T23:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "nba:401910048",
+      "sport": "nba",
+      "start": "2026-11-29T01:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "nba:401910049",
+      "sport": "nba",
+      "start": "2026-11-29T01:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "nba:401910050",
+      "sport": "nba",
+      "start": "2026-11-29T01:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "ncaa-basketball:401906762",
       "sport": "ncaa-basketball",
       "start": "2026-11-25T03:00Z",
@@ -1748,6 +1778,66 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300"
     },
     {
+      "gameKey": "ncaa-basketball:401911031",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401911032",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T20:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401911202",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401911242",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T23:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401911312",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401911381",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-29T00:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401911395",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T18:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401911459",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T22:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401912214",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T21:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401912232",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-29T00:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "ncaa-basketball:401913530",
       "sport": "ncaa-basketball",
       "start": "2026-11-24T01:00Z",
@@ -1784,6 +1874,12 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300"
     },
     {
+      "gameKey": "ncaa-basketball:401916308",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-29T01:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "ncaa-basketball:401916319",
       "sport": "ncaa-basketball",
       "start": "2026-11-25T00:00Z",
@@ -1802,10 +1898,118 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300"
     },
     {
+      "gameKey": "ncaa-basketball:401917548",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T22:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401917549",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T21:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401917550",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-29T00:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401917551",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-29T03:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401917920",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401917954",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T21:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401917968",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-29T01:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401918961",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T17:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "ncaa-basketball:401918972",
       "sport": "ncaa-basketball",
       "start": "2026-11-27T00:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401919736",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401919787",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401919851",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-29T01:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401920077",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401920139",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T22:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401920160",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T22:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401920197",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-29T00:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401920310",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T18:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401920350",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401920415",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
     },
     {
       "gameKey": "ncaa-basketball:401920428",
@@ -1818,6 +2022,138 @@
       "sport": "ncaa-basketball",
       "start": "2026-11-27T16:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401920436",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T21:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401920529",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-26T20:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401920536",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-29T03:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401920537",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-26T20:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401920728",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401920775",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T18:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401920849",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T17:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401920859",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T21:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401920879",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T23:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401920890",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T17:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401920906",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T21:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401920917",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401920924",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T21:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401920954",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-29T00:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401920977",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401921009",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401921031",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401921065",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-29T00:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401921158",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401921186",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T23:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401921245",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401921414",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T18:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
     },
     {
       "gameKey": "ncaa-basketball:401921669",
@@ -1856,10 +2192,76 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300"
     },
     {
+      "gameKey": "ncaa-basketball:401921715",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-25T19:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261125&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401921716",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-25T22:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261125&limit=300"
+    },
+    {
       "gameKey": "ncaa-basketball:401921827",
       "sport": "ncaa-basketball",
       "start": "2026-11-27T19:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401922024",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T21:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401922224",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401922241",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401923305",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T21:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401924724",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-29T00:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401924779",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401924811",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T20:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401924913",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401925033",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T21:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
     },
     {
       "gameKey": "ncaa-basketball:401925703",
@@ -1868,16 +2270,124 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300"
     },
     {
+      "gameKey": "ncaa-basketball:401925710",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "ncaa-basketball:401925757",
       "sport": "ncaa-basketball",
       "start": "2026-11-26T21:30Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300"
     },
     {
+      "gameKey": "ncaa-basketball:401925783",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-29T00:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "ncaa-basketball:401926065",
       "sport": "ncaa-basketball",
       "start": "2026-11-25T22:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261125&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401926212",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T18:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401926218",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T21:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401926229",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401926734",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401926757",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T18:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401926778",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T22:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401926796",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401927367",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T23:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401927379",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T18:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401927389",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T18:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401928620",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T23:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401928797",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T20:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401928848",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401929048",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401929172",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T20:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401929413",
+      "sport": "ncaa-basketball",
+      "start": "2026-11-28T23:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300"
     },
     {
       "gameKey": "ncaa-football:401856664",
@@ -1958,16 +2468,58 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300"
     },
     {
+      "gameKey": "ncaa-football:401856757",
+      "sport": "ncaa-football",
+      "start": "2026-11-29T00:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401856758",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T17:45Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "ncaa-football:401856759",
       "sport": "ncaa-football",
       "start": "2026-11-27T20:30Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300"
     },
     {
+      "gameKey": "ncaa-football:401856760",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T20:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401856761",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T17:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "ncaa-football:401856762",
       "sport": "ncaa-football",
       "start": "2026-11-27T17:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401856763",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T21:15Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401856764",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401856765",
+      "sport": "ncaa-football",
+      "start": "2026-11-29T00:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
     },
     {
       "gameKey": "ncaa-football:401856769",
@@ -2052,6 +2604,42 @@
       "sport": "ncaa-football",
       "start": "2026-11-22T02:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401856873",
+      "sport": "ncaa-football",
+      "start": "2026-11-29T02:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401856874",
+      "sport": "ncaa-football",
+      "start": "2026-11-29T02:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401856875",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401856876",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T20:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401856877",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T23:15Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401856878",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
     },
     {
       "gameKey": "ncaa-football:401856879",
@@ -2198,6 +2786,48 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300"
     },
     {
+      "gameKey": "ncaa-football:401858311",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T17:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401858312",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T20:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401858313",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T17:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401858314",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T17:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401858315",
+      "sport": "ncaa-football",
+      "start": "2026-11-29T00:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401858316",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T20:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401858317",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "ncaa-football:401858429",
       "sport": "ncaa-football",
       "start": "2026-09-05T00:00Z",
@@ -2324,6 +2954,48 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300"
     },
     {
+      "gameKey": "ncaa-football:401858537",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T17:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401858538",
+      "sport": "ncaa-football",
+      "start": "2026-11-29T00:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401858539",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T20:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401858540",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T17:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401858541",
+      "sport": "ncaa-football",
+      "start": "2026-11-29T00:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401858542",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T21:15Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401858543",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T20:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "ncaa-football:401858544",
       "sport": "ncaa-football",
       "start": "2026-11-28T00:30Z",
@@ -2360,6 +3032,30 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300"
     },
     {
+      "gameKey": "ncaa-football:401860926",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T23:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401860927",
+      "sport": "ncaa-football",
+      "start": "2026-11-29T03:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401860928",
+      "sport": "ncaa-football",
+      "start": "2026-11-29T02:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401860929",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T23:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "ncaa-football:401861965",
       "sport": "ncaa-football",
       "start": "2026-10-23T23:00Z",
@@ -2370,6 +3066,12 @@
       "sport": "ncaa-football",
       "start": "2026-11-21T20:30Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401861969",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T17:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
     },
     {
       "gameKey": "ncaa-football:401862778",
@@ -2450,16 +3152,46 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300"
     },
     {
+      "gameKey": "ncaa-football:401862837",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T18:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "ncaa-football:401862838",
       "sport": "ncaa-football",
       "start": "2026-11-27T20:30Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300"
     },
     {
+      "gameKey": "ncaa-football:401862839",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T20:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "ncaa-football:401862840",
       "sport": "ncaa-football",
       "start": "2026-11-27T17:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401862841",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401862842",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T17:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401862843",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T21:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
     },
     {
       "gameKey": "ncaa-football:401864495",
@@ -2522,10 +3254,28 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300"
     },
     {
+      "gameKey": "ncaa-football:401864547",
+      "sport": "ncaa-football",
+      "start": "2026-11-29T04:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401864548",
+      "sport": "ncaa-football",
+      "start": "2026-11-29T02:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "ncaa-football:401864549",
       "sport": "ncaa-football",
       "start": "2026-11-27T20:30Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401864550",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T20:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
     },
     {
       "gameKey": "ncaa-football:401866451",
@@ -2564,6 +3314,18 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300"
     },
     {
+      "gameKey": "ncaa-football:401866474",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T17:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401866475",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T20:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "ncaa-football:401866623",
       "sport": "ncaa-football",
       "start": "2026-09-04T23:00Z",
@@ -2594,10 +3356,22 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300"
     },
     {
+      "gameKey": "ncaa-football:401869939",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "ncaa-football:401869946",
       "sport": "ncaa-football",
       "start": "2026-11-21T20:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401869947",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
     },
     {
       "gameKey": "ncaa-football:401869953",
@@ -2606,16 +3380,46 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300"
     },
     {
+      "gameKey": "ncaa-football:401869954",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T17:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "ncaa-football:401869958",
       "sport": "ncaa-football",
       "start": "2026-11-21T21:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300"
     },
     {
+      "gameKey": "ncaa-football:401869959",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401870804",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T18:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "ncaa-football:401871050",
       "sport": "ncaa-football",
       "start": "2026-10-02T23:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261002&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401871062",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T20:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401871063",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
     },
     {
       "gameKey": "ncaa-football:401871077",
@@ -2648,10 +3452,34 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300"
     },
     {
+      "gameKey": "ncaa-football:401871082",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401871083",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T19:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "ncaa-football:401871101",
       "sport": "ncaa-football",
       "start": "2026-11-21T21:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401871102",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T18:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "ncaa-football:401871103",
+      "sport": "ncaa-football",
+      "start": "2026-11-28T18:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=300"
     },
     {
       "gameKey": "nfl:401873066",
@@ -4586,6 +5414,90 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300"
     },
     {
+      "gameKey": "nhl:401892810",
+      "sport": "nhl",
+      "start": "2026-11-28T21:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "nhl:401892811",
+      "sport": "nhl",
+      "start": "2026-11-28T23:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "nhl:401892812",
+      "sport": "nhl",
+      "start": "2026-11-29T00:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "nhl:401892813",
+      "sport": "nhl",
+      "start": "2026-11-29T00:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "nhl:401892814",
+      "sport": "nhl",
+      "start": "2026-11-29T00:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "nhl:401892815",
+      "sport": "nhl",
+      "start": "2026-11-29T00:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "nhl:401892816",
+      "sport": "nhl",
+      "start": "2026-11-29T00:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "nhl:401892817",
+      "sport": "nhl",
+      "start": "2026-11-29T00:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "nhl:401892818",
+      "sport": "nhl",
+      "start": "2026-11-29T00:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "nhl:401892819",
+      "sport": "nhl",
+      "start": "2026-11-29T01:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "nhl:401892820",
+      "sport": "nhl",
+      "start": "2026-11-29T02:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "nhl:401892821",
+      "sport": "nhl",
+      "start": "2026-11-29T02:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "nhl:401892822",
+      "sport": "nhl",
+      "start": "2026-11-29T03:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "soccer-england:401878752",
+      "sport": "soccer-england",
+      "start": "2026-11-28T17:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "soccer-england:401878754",
       "sport": "soccer-england",
       "start": "2026-11-21T15:00Z",
@@ -4644,6 +5556,18 @@
       "sport": "soccer-england",
       "start": "2026-11-27T20:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261127&limit=300"
+    },
+    {
+      "gameKey": "soccer-england:401879226",
+      "sport": "soccer-england",
+      "start": "2026-11-28T15:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "soccer-england:401879227",
+      "sport": "soccer-england",
+      "start": "2026-11-28T15:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261128&limit=300"
     },
     {
       "gameKey": "soccer-england:401879232",
@@ -4730,10 +5654,40 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261018&limit=300"
     },
     {
+      "gameKey": "soccer-france:401876387",
+      "sport": "soccer-france",
+      "start": "2026-11-28T19:45Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "soccer-france:401876388",
+      "sport": "soccer-france",
+      "start": "2026-11-28T19:45Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "soccer-france:401876390",
+      "sport": "soccer-france",
+      "start": "2026-11-28T19:45Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "soccer-france:401876391",
+      "sport": "soccer-france",
+      "start": "2026-11-28T19:45Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "soccer-france:401876392",
       "sport": "soccer-france",
       "start": "2026-11-27T19:45Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261127&limit=300"
+    },
+    {
+      "gameKey": "soccer-france:401876394",
+      "sport": "soccer-france",
+      "start": "2026-11-28T16:15Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=300"
     },
     {
       "gameKey": "soccer-france:401876395",
@@ -4892,10 +5846,40 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261018&limit=300"
     },
     {
+      "gameKey": "soccer-germany:401884719",
+      "sport": "soccer-germany",
+      "start": "2026-11-28T14:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "soccer-germany:401884720",
       "sport": "soccer-germany",
       "start": "2026-11-27T19:30Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261127&limit=300"
+    },
+    {
+      "gameKey": "soccer-germany:401884721",
+      "sport": "soccer-germany",
+      "start": "2026-11-28T14:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "soccer-germany:401884722",
+      "sport": "soccer-germany",
+      "start": "2026-11-28T14:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "soccer-germany:401884723",
+      "sport": "soccer-germany",
+      "start": "2026-11-28T14:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "soccer-germany:401884726",
+      "sport": "soccer-germany",
+      "start": "2026-11-28T17:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261128&limit=300"
     },
     {
       "gameKey": "soccer-germany:401884728",
@@ -5108,6 +6092,12 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261107&limit=300"
     },
     {
+      "gameKey": "soccer-italy:401874826",
+      "sport": "soccer-italy",
+      "start": "2026-11-28T17:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "soccer-italy:401874948",
       "sport": "soccer-italy",
       "start": "2026-10-24T16:00Z",
@@ -5172,6 +6162,12 @@
       "sport": "soccer-italy",
       "start": "2026-11-07T17:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261107&limit=300"
+    },
+    {
+      "gameKey": "soccer-italy:401874977",
+      "sport": "soccer-italy",
+      "start": "2026-11-28T19:45Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261128&limit=300"
     },
     {
       "gameKey": "soccer-italy:401874978",
@@ -5256,6 +6252,12 @@
       "sport": "soccer-italy",
       "start": "2026-11-21T19:45Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=300"
+    },
+    {
+      "gameKey": "soccer-italy:401875081",
+      "sport": "soccer-italy",
+      "start": "2026-11-28T14:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261128&limit=300"
     },
     {
       "gameKey": "soccer-mexico:401876904",
@@ -5456,6 +6458,18 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261126&limit=300"
     },
     {
+      "gameKey": "soccer-mexico:401931996",
+      "sport": "soccer-mexico",
+      "start": "2026-11-29T03:10Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "soccer-mexico:401931997",
+      "sport": "soccer-mexico",
+      "start": "2026-11-29T01:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "soccer-mexico:401931998",
       "sport": "soccer-mexico",
       "start": "2026-11-26T03:10Z",
@@ -5474,10 +6488,40 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261119&limit=300"
     },
     {
+      "gameKey": "soccer-mls:401933721",
+      "sport": "soccer-mls",
+      "start": "2026-11-29T03:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "soccer-mls:401933722",
+      "sport": "soccer-mls",
+      "start": "2026-11-28T23:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "soccer-mls:401933723",
+      "sport": "soccer-mls",
+      "start": "2026-11-28T21:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "soccer-mls:401933724",
+      "sport": "soccer-mls",
+      "start": "2026-11-28T19:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "soccer-mls:401933725",
       "sport": "soccer-mls",
       "start": "2026-11-28T03:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261127&limit=300"
+    },
+    {
+      "gameKey": "soccer-mls:401933726",
+      "sport": "soccer-mls",
+      "start": "2026-11-29T01:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261128&limit=300"
     },
     {
       "gameKey": "soccer-mls:401933727",
@@ -5520,6 +6564,12 @@
       "sport": "soccer-mls",
       "start": "2026-11-21T19:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261121&limit=300"
+    },
+    {
+      "gameKey": "soccer-mls:401933737",
+      "sport": "soccer-mls",
+      "start": "2026-11-28T17:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261128&limit=300"
     },
     {
       "gameKey": "soccer-mls:401933738",
@@ -5834,10 +6884,34 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261107&limit=300"
     },
     {
+      "gameKey": "soccer-spain:401882789",
+      "sport": "soccer-spain",
+      "start": "2026-11-28T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "soccer-spain:401882790",
+      "sport": "soccer-spain",
+      "start": "2026-11-28T15:15Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=300"
+    },
+    {
       "gameKey": "soccer-spain:401882791",
       "sport": "soccer-spain",
       "start": "2026-11-27T20:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261127&limit=300"
+    },
+    {
+      "gameKey": "soccer-spain:401882793",
+      "sport": "soccer-spain",
+      "start": "2026-11-28T17:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=300"
+    },
+    {
+      "gameKey": "soccer-spain:401882796",
+      "sport": "soccer-spain",
+      "start": "2026-11-28T13:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=300"
     },
     {
       "gameKey": "soccer-spain:401882797",

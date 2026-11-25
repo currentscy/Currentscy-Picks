@@ -5250,5 +5250,24 @@
         "score": "0"
       }
     ]
+  },
+  "nfl:401873079": {
+    "firstObserved": "2026-11-25T01:57:55.562417+00:00",
+    "gameId": "401873079",
+    "kickoff": "2026-11-26T01:00:00+00:00",
+    "league": "nfl",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "14",
+        "name": "Los Angeles Rams",
+        "score": "0"
+      },
+      {
+        "id": "9",
+        "name": "Green Bay Packers",
+        "score": "0"
+      }
+    ]
   }
 }
