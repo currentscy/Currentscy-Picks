@@ -123913,5 +123913,215 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "8fc880311d71f4793bae26e094c059a979903aa3e985630aa94589cfb60c51a7",
+    "capturedAt": "2026-11-26T06:17:26.003590+00:00",
+    "observation": {
+      "eventKey": "nhl:401892792",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T02:30Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "17",
+          "name": "Colorado Avalanche",
+          "homeAway": "home",
+          "score": "6",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "10",
+          "name": "Montreal Canadiens",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T06:17:16.491291+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "77b10fc8fbd803edcd7c0577aac36cddfbbac17753280cdf08c096ad5996e2fe",
+    "capturedAt": "2026-11-26T06:17:26.003590+00:00",
+    "observation": {
+      "eventKey": "nhl:401892794",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T02:40Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "124292",
+          "name": "Seattle Kraken",
+          "homeAway": "home",
+          "score": "1",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "4",
+          "name": "Chicago Blackhawks",
+          "homeAway": "away",
+          "score": "3",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T06:17:16.491291+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "0c8fad6731bbc1043f7a4a8efd1f4dcce1790da69d7e697792636760e749928e",
+    "capturedAt": "2026-11-26T06:17:26.003590+00:00",
+    "observation": {
+      "eventKey": "nba:401909324",
+      "sport": "nba",
+      "scheduledStart": "2026-11-26T03:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "9",
+          "name": "Golden State Warriors",
+          "homeAway": "home",
+          "score": "129",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "23",
+          "name": "Sacramento Kings",
+          "homeAway": "away",
+          "score": "110",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T06:17:16.491291+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "a57ee0923be620873f92f018802e436f26826f95ff28cdb5226f6282706a0397",
+    "capturedAt": "2026-11-26T06:17:26.003590+00:00",
+    "observation": {
+      "eventKey": "nba:401909325",
+      "sport": "nba",
+      "scheduledStart": "2026-11-26T03:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "22",
+          "name": "Portland Trail Blazers",
+          "homeAway": "home",
+          "score": "116",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "24",
+          "name": "San Antonio Spurs",
+          "homeAway": "away",
+          "score": "111",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T06:17:16.491291+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "794d0a60287a4079a5bda76d55db8f609dec71511c24f39547b19de8f4424401",
+    "capturedAt": "2026-11-26T06:17:26.003590+00:00",
+    "observation": {
+      "eventKey": "nhl:401892793",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T03:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "25",
+          "name": "Anaheim Ducks",
+          "homeAway": "home",
+          "score": "7",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "18",
+          "name": "San Jose Sharks",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T06:17:16.491291+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "6bbf2abb81f683ac666529b2c6cd8d894d764011fa75674bb2d38bad61c8c524",
+    "capturedAt": "2026-11-26T06:17:26.003590+00:00",
+    "observation": {
+      "eventKey": "soccer-mexico:401931998",
+      "sport": "soccer-mexico",
+      "scheduledStart": "2026-11-26T03:10Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "220",
+          "name": "Monterrey",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "227",
+          "name": "Am\u00e9rica",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T06:17:16.491291+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
