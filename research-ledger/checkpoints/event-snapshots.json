@@ -126048,5 +126048,635 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "b76862ad6fb75ae2398713156d4adf2bfdb81a9dce129417dd8c68eebe4614fa",
+    "capturedAt": "2026-11-26T22:29:55.957521+00:00",
+    "observation": {
+      "eventKey": "nfl:401873081",
+      "sport": "nfl",
+      "scheduledStart": "2026-11-26T18:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "8",
+          "name": "Detroit Lions",
+          "homeAway": "home",
+          "score": "35",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "3",
+          "name": "Chicago Bears",
+          "homeAway": "away",
+          "score": "39",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T22:29:49.725248+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "414197e91bd2f70a143e3c1cf4fc7a358b54d0d9207716605026704216cbfecd",
+    "capturedAt": "2026-11-26T22:29:55.957521+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401906869",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-26T19:30Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "251",
+          "name": "Texas Longhorns",
+          "homeAway": "home",
+          "score": "92",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "46",
+          "name": "Georgetown Hoyas",
+          "homeAway": "away",
+          "score": "83",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T22:29:49.725248+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "350866c6bc92ec4989e822e89c9157e56c9024945e88d625d5e0cdc52b51850b",
+    "capturedAt": "2026-11-26T22:29:55.957521+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915501",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T20:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "167",
+          "name": "Lyon",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "987",
+          "name": "Lillestrom",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T22:29:49.725248+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "a0b13dc6ab15dc7624e1cefbe218df60b34ccd9268b63b0d3216d5e239ea9375",
+    "capturedAt": "2026-11-26T22:29:55.957521+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915502",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T20:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "111",
+          "name": "Juventus",
+          "homeAway": "home",
+          "score": "4",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "617",
+          "name": "Omonia Nicosia",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T22:29:49.725248+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "af30a6c68b20b0b4e6d0185fefdc2c93ecb5c02c61c26d645be77b693fb2cf54",
+    "capturedAt": "2026-11-26T22:29:55.957521+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915503",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T20:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "1010",
+          "name": "OFI Crete",
+          "homeAway": "home",
+          "score": "1",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "441",
+          "name": "Anderlecht",
+          "homeAway": "away",
+          "score": "3",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T22:29:49.725248+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "9bdba04e200bc9122d6d8575a210d2beb8c3041e4f4b87a438111eaa38dcebac",
+    "capturedAt": "2026-11-26T22:29:55.957521+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915504",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T20:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "384",
+          "name": "Crystal Palace",
+          "homeAway": "home",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "89",
+          "name": "Real Sociedad",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T22:29:49.725248+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "4b8a9fc5cd8f97600e20fba9535fba93dff642b0addd58436cfb688945eb6de3",
+    "capturedAt": "2026-11-26T22:29:55.957521+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915505",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T20:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "147",
+          "name": "NEC Nijmegen",
+          "homeAway": "home",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "169",
+          "name": "Stade Rennais",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T22:29:49.725248+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "38c08447c2512fdd0f99664e9c9877e168009f7381c5ae4d5e8ac8739fc4aa1c",
+    "capturedAt": "2026-11-26T22:29:55.957521+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915512",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T20:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "21615",
+          "name": "Torreense",
+          "homeAway": "home",
+          "score": "1",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "256",
+          "name": "Celtic",
+          "homeAway": "away",
+          "score": "2",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T22:29:49.725248+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "cf773052ef5ca5c0af1cab529453e1be1af3a4f6c597c5676d359f2cb5c98754",
+    "capturedAt": "2026-11-26T22:29:55.957521+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915513",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T20:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "366",
+          "name": "Sunderland",
+          "homeAway": "home",
+          "score": "1",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "11505",
+          "name": "Jagiellonia Bialystok",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T22:29:49.725248+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "14210ba935f45f174ae7f7f1c3bec7f704898b007c8707b77a3b14b96eafe1f5",
+    "capturedAt": "2026-11-26T22:29:55.957521+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915514",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T20:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "433",
+          "name": "Sparta Prague",
+          "homeAway": "home",
+          "score": "2",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "140",
+          "name": "AZ Alkmaar",
+          "homeAway": "away",
+          "score": "4",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T22:29:49.725248+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "f7a8bf60ddb7b1d94468e324c8ef5dcc8854c43e2431b8568527cad327d92fbf",
+    "capturedAt": "2026-11-26T22:29:55.957521+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915515",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T20:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "7911",
+          "name": "TSG Hoffenheim",
+          "homeAway": "home",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "3746",
+          "name": "SK Sturm Graz",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T22:29:49.725248+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "6045f96d93d0fc495cf70f2c98e6fd54fd398c081a349f44d213d95131dcea8a",
+    "capturedAt": "2026-11-26T22:29:55.957521+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915516",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T20:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "622",
+          "name": "Ferencvaros",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "3362",
+          "name": "NK Celje",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T22:29:49.725248+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "9a5cf01c28265699c15a4eeb9d1daaf0ceb13b239f47fde01260fdbc62124fa7",
+    "capturedAt": "2026-11-26T22:29:55.957521+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920529",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-26T20:30Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "66",
+          "name": "Iowa State Cyclones",
+          "homeAway": "home",
+          "score": "41",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "2633",
+          "name": "Tennessee Volunteers",
+          "homeAway": "away",
+          "score": "51",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T22:29:49.725248+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "b256981faf4516bf1871deadae3bd082eae55094d50905d27fc0d92ce76370ce",
+    "capturedAt": "2026-11-26T22:29:55.957521+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920537",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-26T20:30Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "130",
+          "name": "Michigan Wolverines",
+          "homeAway": "home",
+          "score": "63",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "2390",
+          "name": "Miami Hurricanes",
+          "homeAway": "away",
+          "score": "92",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T22:29:49.725248+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "6d9fb6608f614cd20b3d0932e9480f5efe115f8899dbfbc6dbd66145d72d5788",
+    "capturedAt": "2026-11-26T22:29:55.957521+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401921673",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-26T21:30Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "328",
+          "name": "Utah State Aggies",
+          "homeAway": "home",
+          "score": "30",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "30",
+          "name": "USC Trojans",
+          "homeAway": "away",
+          "score": "22",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T22:29:49.725248+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "3d782611dbf31e111c10d3627c62f8d8208d141a01be33412f5464319ce76382",
+    "capturedAt": "2026-11-26T22:29:55.957521+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401925757",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-26T21:30Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "127",
+          "name": "Michigan State Spartans",
+          "homeAway": "home",
+          "score": "27",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "8",
+          "name": "Arkansas Razorbacks",
+          "homeAway": "away",
+          "score": "27",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T22:29:49.725248+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "052e171821065552dd572c52a5ceb4093d902d5ad407242f4155985c04f42a25",
+    "capturedAt": "2026-11-26T22:29:55.957521+00:00",
+    "observation": {
+      "eventKey": "nfl:401873080",
+      "sport": "nfl",
+      "scheduledStart": "2026-11-26T21:30Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "6",
+          "name": "Dallas Cowboys",
+          "homeAway": "home",
+          "score": "14",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "21",
+          "name": "Philadelphia Eagles",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T22:29:49.725248+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "2fa81991b32df853e8cd028148275e2b520d34a96ea1c57d4fb9ab5e636852fb",
+    "capturedAt": "2026-11-26T22:29:55.957521+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401917547",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-26T22:00Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2608",
+          "name": "Saint Mary's Gaels",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "26",
+          "name": "UCLA Bruins",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T22:29:49.725248+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
