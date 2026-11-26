@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-26T07:46:33.536923+00:00",
+  "asOf": "2026-11-26T08:00:47.733390+00:00",
   "pipeline": {
     "stage1Events": 353,
-    "stage2Games": 352,
+    "stage2Games": 353,
     "legacyMultisportGames": 488,
     "legacyFootballGames": 165,
-    "stage5Snapshots": 5965,
-    "unifiedEventHistory": 1335,
+    "stage5Snapshots": 6318,
+    "unifiedEventHistory": 1336,
     "sportsWithCoverageChecks": 18,
     "liveModelForecasts": 126,
     "ESPNFinalOutcomes": 85,
@@ -16,123 +16,7 @@
   },
   "verification": {
     "sameProviderGamesCompared": 206,
-    "sameProviderDisagreements": [
-      {
-        "gameKey": "nba:401909318",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892781",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892782",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892783",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892784",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892785",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892786",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892787",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892788",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nba:401909319",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nba:401909320",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892789",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nba:401909321",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nba:401909322",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nfl:401873079",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892790",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892791",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nba:401909323",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892792",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892794",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nba:401909324",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nba:401909325",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892793",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      }
-    ],
+    "sameProviderDisagreements": [],
     "unmatchedOutcomeIds": [],
     "independentProviderVerification": false,
     "injuriesVerified": false,

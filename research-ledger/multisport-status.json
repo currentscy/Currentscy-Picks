@@ -1,18 +1,10 @@
 {
-  "lastRun": "2026-11-26T01:57:12.991795+00:00",
+  "lastRun": "2026-11-26T08:00:30.946576+00:00",
   "trackedGames": 488,
   "changes": [
     {
       "type": "game_updated",
       "key": "nfl:401873079"
-    },
-    {
-      "type": "new_game",
-      "key": "nfl:401873096"
-    },
-    {
-      "type": "game_updated",
-      "key": "nba:401909317"
     },
     {
       "type": "game_updated",
@@ -39,24 +31,12 @@
       "key": "nba:401909323"
     },
     {
-      "type": "new_game",
-      "key": "nba:401910085"
+      "type": "game_updated",
+      "key": "nba:401909324"
     },
     {
-      "type": "new_game",
-      "key": "nba:401910086"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910087"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910088"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401910089"
+      "type": "game_updated",
+      "key": "nba:401909325"
     },
     {
       "type": "game_updated",
@@ -103,59 +83,19 @@
       "key": "nhl:401892791"
     },
     {
-      "type": "new_game",
-      "key": "nhl:401892843"
+      "type": "game_updated",
+      "key": "nhl:401892792"
     },
     {
-      "type": "new_game",
-      "key": "nhl:401892844"
+      "type": "game_updated",
+      "key": "nhl:401892794"
     },
     {
-      "type": "new_game",
-      "key": "nhl:401892845"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892846"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892848"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892847"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892849"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892850"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892851"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892852"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892853"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892854"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-epl:401878749"
+      "type": "game_updated",
+      "key": "nhl:401892793"
     }
   ],
-  "changeCount": 38,
+  "changeCount": 23,
   "sourceFailures": [],
   "failureCount": 0,
   "injuryFeedVerified": false,
