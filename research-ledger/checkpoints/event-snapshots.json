@@ -122408,5 +122408,740 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "100c99fd3402fdb63f194ae06b3d88c2765b89fbba76b4ac2eba5b1616fd070c",
+    "capturedAt": "2026-11-26T02:58:30.967886+00:00",
+    "observation": {
+      "eventKey": "nba:401909318",
+      "sport": "nba",
+      "scheduledStart": "2026-11-26T00:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "30",
+          "name": "Charlotte Hornets",
+          "homeAway": "home",
+          "score": "105",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "4",
+          "name": "Chicago Bulls",
+          "homeAway": "away",
+          "score": "107",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T02:58:16.571153+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "7f4f9b4c31f1afd3cad340d470631f17a4e3954ad9bda37360d80cdfe4aee8f4",
+    "capturedAt": "2026-11-26T02:58:30.967886+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401909568",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-26T00:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "41",
+          "name": "UConn Huskies",
+          "homeAway": "home",
+          "score": "63",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "150",
+          "name": "Duke Blue Devils",
+          "homeAway": "away",
+          "score": "77",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T02:58:16.571153+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "a53654ab02357f2170edcb035176a835cd7901bfda9b350d718052abd9a666d3",
+    "capturedAt": "2026-11-26T02:58:30.967886+00:00",
+    "observation": {
+      "eventKey": "nhl:401892781",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T00:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "1",
+          "name": "Boston Bruins",
+          "homeAway": "home",
+          "score": "2",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "28",
+          "name": "Winnipeg Jets",
+          "homeAway": "away",
+          "score": "4",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T02:58:16.571153+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "11175efff28166bbbbf276a5d8fb7fee42300ab24da6d8ee409b64e8ae60958b",
+    "capturedAt": "2026-11-26T02:58:30.967886+00:00",
+    "observation": {
+      "eventKey": "nhl:401892782",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T00:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "2",
+          "name": "Buffalo Sabres",
+          "homeAway": "home",
+          "score": "5",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "13",
+          "name": "New York Rangers",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T02:58:16.571153+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "54c3aedb46229bf08f5921445c46db08deed446c478ec7c44524cc20d470d9aa",
+    "capturedAt": "2026-11-26T02:58:30.967886+00:00",
+    "observation": {
+      "eventKey": "nhl:401892783",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T00:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "20",
+          "name": "Tampa Bay Lightning",
+          "homeAway": "home",
+          "score": "1",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "7",
+          "name": "Carolina Hurricanes",
+          "homeAway": "away",
+          "score": "3",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T02:58:16.571153+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "09bb469d31461734d5ca327e3e1ea9771e0686fae3111179ff759b84d0874ad8",
+    "capturedAt": "2026-11-26T02:58:30.967886+00:00",
+    "observation": {
+      "eventKey": "nhl:401892784",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T00:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "26",
+          "name": "Florida Panthers",
+          "homeAway": "home",
+          "score": "5",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "14",
+          "name": "Ottawa Senators",
+          "homeAway": "away",
+          "score": "3",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T02:58:16.571153+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "6aa5ce8a70b71a2bbdb28995dd758a9c7fbbc2acdbfe1bd3a772bc5c4d5105de",
+    "capturedAt": "2026-11-26T02:58:30.967886+00:00",
+    "observation": {
+      "eventKey": "nhl:401892785",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T00:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "12",
+          "name": "New York Islanders",
+          "homeAway": "home",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "19",
+          "name": "St. Louis Blues",
+          "homeAway": "away",
+          "score": "2",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T02:58:16.571153+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "fec99b5660def577d649122aa6ced26dee2cc33e710a0ab8a2662e21e8ebcd25",
+    "capturedAt": "2026-11-26T02:58:30.967886+00:00",
+    "observation": {
+      "eventKey": "nhl:401892786",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T00:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "16",
+          "name": "Pittsburgh Penguins",
+          "homeAway": "home",
+          "score": "3",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "3",
+          "name": "Calgary Flames",
+          "homeAway": "away",
+          "score": "6",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T02:58:16.571153+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "d2447dbeaf9f716629bf0822736860a06de6404851401563b1eeaa0c291d70aa",
+    "capturedAt": "2026-11-26T02:58:30.967886+00:00",
+    "observation": {
+      "eventKey": "nhl:401892787",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T00:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "23",
+          "name": "Washington Capitals",
+          "homeAway": "home",
+          "score": "7",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "15",
+          "name": "Philadelphia Flyers",
+          "homeAway": "away",
+          "score": "3",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T02:58:16.571153+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "d98539fd235238a15bf409d3a3c90fb057db8f566c7cd07fe4c721f6a5c60a1e",
+    "capturedAt": "2026-11-26T02:58:30.967886+00:00",
+    "observation": {
+      "eventKey": "nhl:401892788",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T00:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "29",
+          "name": "Columbus Blue Jackets",
+          "homeAway": "home",
+          "score": "2",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "11",
+          "name": "New Jersey Devils",
+          "homeAway": "away",
+          "score": "3",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T02:58:16.571153+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "ede0f836f94a886c320341c69b159c8bf1262c6af68089f03fba3980c5d19a16",
+    "capturedAt": "2026-11-26T02:58:30.967886+00:00",
+    "observation": {
+      "eventKey": "nba:401909319",
+      "sport": "nba",
+      "scheduledStart": "2026-11-26T00:30Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "18",
+          "name": "New York Knicks",
+          "homeAway": "home",
+          "score": "121",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "5",
+          "name": "Cleveland Cavaliers",
+          "homeAway": "away",
+          "score": "102",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T02:58:16.571153+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "cfa440d2012d13c73aa6088df749212185dc8b79939b4b74a573b95539c339cd",
+    "capturedAt": "2026-11-26T02:58:30.967886+00:00",
+    "observation": {
+      "eventKey": "nba:401909320",
+      "sport": "nba",
+      "scheduledStart": "2026-11-26T00:30Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "25",
+          "name": "Oklahoma City Thunder",
+          "homeAway": "home",
+          "score": "104",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "16",
+          "name": "Minnesota Timberwolves",
+          "homeAway": "away",
+          "score": "105",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T02:58:16.571153+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "097f6489e5dbb8057450ce4047037ed1f4e22a6d768592d088c60811cebae89d",
+    "capturedAt": "2026-11-26T02:58:30.967886+00:00",
+    "observation": {
+      "eventKey": "nhl:401892789",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T00:30Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "5",
+          "name": "Detroit Red Wings",
+          "homeAway": "home",
+          "score": "5",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "22",
+          "name": "Vancouver Canucks",
+          "homeAway": "away",
+          "score": "1",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T02:58:16.571153+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "32a183a5260f1df73e8b2d5d43db2b8f318ddbc8abfe9d4a648ac015bb7c039e",
+    "capturedAt": "2026-11-26T02:58:30.967886+00:00",
+    "observation": {
+      "eventKey": "nba:401909321",
+      "sport": "nba",
+      "scheduledStart": "2026-11-26T01:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "29",
+          "name": "Memphis Grizzlies",
+          "homeAway": "home",
+          "score": "97",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "12",
+          "name": "LA Clippers",
+          "homeAway": "away",
+          "score": "81",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T02:58:16.571153+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "d57aba65959f1c763d637092296e535e8eb171231db9e13c25369262c36b4b50",
+    "capturedAt": "2026-11-26T02:58:30.967886+00:00",
+    "observation": {
+      "eventKey": "nba:401909322",
+      "sport": "nba",
+      "scheduledStart": "2026-11-26T01:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "15",
+          "name": "Milwaukee Bucks",
+          "homeAway": "home",
+          "score": "74",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "17",
+          "name": "Brooklyn Nets",
+          "homeAway": "away",
+          "score": "82",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T02:58:16.571153+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "9f1104a6157ff1ee17bb4ca51c1ac07c187e5c39ac71fadc96bc6c0c614d5de1",
+    "capturedAt": "2026-11-26T02:58:30.967886+00:00",
+    "observation": {
+      "eventKey": "nfl:401873079",
+      "sport": "nfl",
+      "scheduledStart": "2026-11-26T01:00Z",
+      "status": "STATUS_HALFTIME",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "14",
+          "name": "Los Angeles Rams",
+          "homeAway": "home",
+          "score": "13",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "9",
+          "name": "Green Bay Packers",
+          "homeAway": "away",
+          "score": "13",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T02:58:16.571153+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "925b1609f4b67ef81f8d8453bad4ec796ff90135c1be6aeb4cbea5c10d281b06",
+    "capturedAt": "2026-11-26T02:58:30.967886+00:00",
+    "observation": {
+      "eventKey": "nhl:401892791",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T01:00Z",
+      "status": "STATUS_END_PERIOD",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "30",
+          "name": "Minnesota Wild",
+          "homeAway": "home",
+          "score": "2",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "129764",
+          "name": "Utah Mammoth",
+          "homeAway": "away",
+          "score": "4",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T02:58:16.571153+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "ad93ced662ccc3e4da7a7858c55ee62718410309f39397a1e918c2948c23a7ec",
+    "capturedAt": "2026-11-26T02:58:30.967886+00:00",
+    "observation": {
+      "eventKey": "soccer-mexico:401931986",
+      "sport": "soccer-mexico",
+      "scheduledStart": "2026-11-26T01:00Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "223",
+          "name": "Toluca",
+          "homeAway": "home",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "216",
+          "name": "Atlas",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T02:58:16.571153+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "154b15ef2bb23f08d9c974ce3a34f3831e45350cdba73f9ffdeabd531e052861",
+    "capturedAt": "2026-11-26T02:58:30.967886+00:00",
+    "observation": {
+      "eventKey": "nba:401909323",
+      "sport": "nba",
+      "scheduledStart": "2026-11-26T01:30Z",
+      "status": "STATUS_HALFTIME",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "10",
+          "name": "Houston Rockets",
+          "homeAway": "home",
+          "score": "66",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "21",
+          "name": "Phoenix Suns",
+          "homeAway": "away",
+          "score": "56",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T02:58:16.571153+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "3691d4ccfb8a854e999ff7e379da1d4e1d3251955831e97f43f4e232a4a144f9",
+    "capturedAt": "2026-11-26T02:58:30.967886+00:00",
+    "observation": {
+      "eventKey": "nhl:401892792",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T02:30Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "17",
+          "name": "Colorado Avalanche",
+          "homeAway": "home",
+          "score": "1",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "10",
+          "name": "Montreal Canadiens",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T02:58:16.571153+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "524d37145113b8f0fd70cf694751cb03acc018bb433fc8b5ba501a25c29f178c",
+    "capturedAt": "2026-11-26T02:58:30.967886+00:00",
+    "observation": {
+      "eventKey": "nhl:401892794",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-26T02:40Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "124292",
+          "name": "Seattle Kraken",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "4",
+          "name": "Chicago Blackhawks",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+      "observedAt": "2026-11-26T02:58:16.571153+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
