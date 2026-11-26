@@ -1,9 +1,39 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T00:38:54.685462+00:00",
-  "totalForecastsWithFixtures": 124,
+  "generatedAt": "2026-11-26T01:57:30.429962+00:00",
+  "totalForecastsWithFixtures": 126,
   "scored": 54,
   "games": [
+    {
+      "gameKey": "nhl:401892824",
+      "sport": "nhl",
+      "home": "Boston Bruins",
+      "away": "Vancouver Canucks",
+      "scheduledStart": "2026-11-29T22:00Z",
+      "predictedAt": "2026-11-26T01:57:29.818599+00:00",
+      "predictedWinner": "Boston Bruins",
+      "predictedWinnerProbability": 0.6631,
+      "homeWinProbability": 0.6630921771196917,
+      "modelVersion": "research-prior20-v1",
+      "captureMethod": "server-side historical results baseline; NOT website simulation",
+      "result": null,
+      "status": "awaiting-verified-final"
+    },
+    {
+      "gameKey": "nhl:401892823",
+      "sport": "nhl",
+      "home": "Chicago Blackhawks",
+      "away": "Minnesota Wild",
+      "scheduledStart": "2026-11-29T19:00Z",
+      "predictedAt": "2026-11-26T01:57:29.818599+00:00",
+      "predictedWinner": "Minnesota Wild",
+      "predictedWinnerProbability": 0.6342,
+      "homeWinProbability": 0.365826877386753,
+      "modelVersion": "research-prior20-v1",
+      "captureMethod": "server-side historical results baseline; NOT website simulation",
+      "result": null,
+      "status": "awaiting-verified-final"
+    },
     {
       "gameKey": "nhl:401892822",
       "sport": "nhl",

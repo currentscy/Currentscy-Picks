@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 5,
+  "gameKey": "soccer-england:401879230",
+  "sport": "soccer-england",
+  "phase": "pregame",
+  "scheduledStart": "2026-11-29T14:05Z",
+  "sourceObservedAt": "2026-11-26T01:56:56.490073+00:00",
+  "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261129&limit=300",
+  "teams": [
+    {
+      "sourceTeamId": "384",
+      "homeAway": "home",
+      "score": null
+    },
+    {
+      "sourceTeamId": "306",
+      "homeAway": "away",
+      "score": null
+    }
+  ],
+  "completed": false
+}

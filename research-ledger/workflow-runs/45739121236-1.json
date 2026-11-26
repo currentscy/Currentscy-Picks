@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-26T01:57:30.971534+00:00",
+  "workflow": "Currentscy Stage 1 multi-sport evidence collection",
+  "runId": "45739121236",
+  "runAttempt": "1",
+  "jobStatusAtCheckpoint": "success",
+  "sourceRequestsSucceeded": 70,
+  "sourceRequestsFailed": 0,
+  "savedEvents": 1335,
+  "savedPregameForecasts": 126,
+  "savedFinalOutcomes": 63,
+  "validPregameForecasts": 126,
+  "matchedFinalOutcomes": 55,
+  "sportsWithCoverageReports": 18,
+  "endToEndValidated": true,
+  "note": "A green job without real pregame forecasts and matched outcomes is not end-to-end validation."
+}

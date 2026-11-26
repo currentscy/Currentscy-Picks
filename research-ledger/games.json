@@ -857,6 +857,25 @@
       }
     ]
   },
+  "ncaa:401856879": {
+    "firstObserved": "2026-11-26T01:57:26.342349+00:00",
+    "gameId": "401856879",
+    "kickoff": "2026-11-27T01:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "2641",
+        "name": "Texas Tech Red Raiders",
+        "score": "0"
+      },
+      {
+        "id": "2628",
+        "name": "TCU Horned Frogs",
+        "score": "0"
+      }
+    ]
+  },
   "ncaa:401856882": {
     "completed": true,
     "finalTeams": [
@@ -5294,6 +5313,63 @@
       {
         "id": "9",
         "name": "Green Bay Packers",
+        "score": "0"
+      }
+    ]
+  },
+  "nfl:401873080": {
+    "firstObserved": "2026-11-26T01:57:26.342349+00:00",
+    "gameId": "401873080",
+    "kickoff": "2026-11-26T21:30:00+00:00",
+    "league": "nfl",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "6",
+        "name": "Dallas Cowboys",
+        "score": "0"
+      },
+      {
+        "id": "21",
+        "name": "Philadelphia Eagles",
+        "score": "0"
+      }
+    ]
+  },
+  "nfl:401873081": {
+    "firstObserved": "2026-11-26T01:57:26.342349+00:00",
+    "gameId": "401873081",
+    "kickoff": "2026-11-26T18:00:00+00:00",
+    "league": "nfl",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "8",
+        "name": "Detroit Lions",
+        "score": "0"
+      },
+      {
+        "id": "3",
+        "name": "Chicago Bears",
+        "score": "0"
+      }
+    ]
+  },
+  "nfl:401873082": {
+    "firstObserved": "2026-11-26T01:57:26.342349+00:00",
+    "gameId": "401873082",
+    "kickoff": "2026-11-27T01:20:00+00:00",
+    "league": "nfl",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "2",
+        "name": "Buffalo Bills",
+        "score": "0"
+      },
+      {
+        "id": "12",
+        "name": "Kansas City Chiefs",
         "score": "0"
       }
     ]
