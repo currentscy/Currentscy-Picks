@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T03:59:34.236904+00:00",
+  "generatedAt": "2026-11-26T05:09:03.705254+00:00",
   "totalForecastsWithFixtures": 126,
-  "scored": 70,
+  "scored": 71,
   "games": [
     {
       "gameKey": "nhl:401892824",
@@ -706,8 +706,15 @@
       "homeWinProbability": 0.6230255236939329,
       "modelVersion": "nba-record-home-v1",
       "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "116",
+        "awayScore": "104",
+        "homeWon": true,
+        "verifiedAt": "2026-11-26T05:08:56.484Z",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=100",
+        "brier": 0.14211
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nhl:401892791",

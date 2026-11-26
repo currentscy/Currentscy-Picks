@@ -764,8 +764,8 @@
     "verifiedAt": "2026-11-26T03:59:27.874996+00:00",
     "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
     "verificationMethod": "ESPN scoreboard marked completed; single-provider final, not independently corroborated",
-    "homeScore": 5.0,
-    "awayScore": 1.0
+    "homeScore": 5,
+    "awayScore": 1
   },
   {
     "predictionId": "research-home-win:nhl:401892790:prior20-v1",
@@ -774,8 +774,8 @@
     "verifiedAt": "2026-11-26T03:59:27.874996+00:00",
     "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
     "verificationMethod": "ESPN scoreboard marked completed; single-provider final, not independently corroborated",
-    "homeScore": 1.0,
-    "awayScore": 3.0
+    "homeScore": 1,
+    "awayScore": 3
   },
   {
     "predictionId": "research-home-win:nhl:401892791:prior20-v1",
@@ -784,7 +784,17 @@
     "verifiedAt": "2026-11-26T03:59:27.874996+00:00",
     "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
     "verificationMethod": "ESPN scoreboard marked completed; single-provider final, not independently corroborated",
-    "homeScore": 3.0,
-    "awayScore": 4.0
+    "homeScore": 3,
+    "awayScore": 4
+  },
+  {
+    "predictionId": "nba-home-win:401909323:nba-record-home-v1",
+    "result": 1,
+    "verified": true,
+    "verifiedAt": "2026-11-26T05:08:56.484Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=100",
+    "verificationMethod": "ESPN completed scoreboard and numeric final score (single provider; not independently corroborated)",
+    "homeScore": 116,
+    "awayScore": 104
   }
 ]
