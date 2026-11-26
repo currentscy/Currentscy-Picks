@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 5,
+  "gameKey": "soccer-italy:401875081",
+  "sport": "soccer-italy",
+  "phase": "pregame",
+  "scheduledStart": "2026-11-28T14:00Z",
+  "sourceObservedAt": "2026-11-26T13:54:11.627811+00:00",
+  "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261128&limit=300",
+  "teams": [
+    {
+      "sourceTeamId": "4057",
+      "homeAway": "home",
+      "score": null
+    },
+    {
+      "sourceTeamId": "115",
+      "homeAway": "away",
+      "score": null
+    }
+  ],
+  "completed": false
+}
