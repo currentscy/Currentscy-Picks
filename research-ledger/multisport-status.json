@@ -1,8 +1,13 @@
 {
-  "lastRun": "2026-11-26T13:54:24.729506+00:00",
+  "lastRun": "2026-11-26T19:40:36.619474+00:00",
   "trackedGames": 488,
-  "changes": [],
-  "changeCount": 0,
+  "changes": [
+    {
+      "type": "game_updated",
+      "key": "nfl:401873081"
+    }
+  ],
+  "changeCount": 1,
   "sourceFailures": [],
   "failureCount": 0,
   "injuryFeedVerified": false,
