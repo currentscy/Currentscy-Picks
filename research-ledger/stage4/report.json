@@ -1,13 +1,13 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-11-26T02:58:30.733420+00:00",
+  "generatedAt": "2026-11-26T03:59:33.678346+00:00",
   "total": {
-    "scored": 73,
+    "scored": 79,
     "paired": 0,
     "baseline": {
-      "n": 73,
-      "brier": 0.232063,
-      "logLoss": 0.655574,
+      "n": 79,
+      "brier": 0.233607,
+      "logLoss": 0.658743,
       "calibrationBins": [
         {
           "range": [
@@ -23,18 +23,18 @@
             0.4,
             0.6
           ],
-          "n": 43,
-          "meanPrediction": 0.5035,
-          "observedRate": 0.5581
+          "n": 46,
+          "meanPrediction": 0.5048,
+          "observedRate": 0.5217
         },
         {
           "range": [
             0.6,
             0.8
           ],
-          "n": 25,
-          "meanPrediction": 0.667,
-          "observedRate": 0.64
+          "n": 28,
+          "meanPrediction": 0.6681,
+          "observedRate": 0.6429
         }
       ]
     },
@@ -45,12 +45,12 @@
   },
   "bySport": {
     "nba": {
-      "scored": 38,
+      "scored": 41,
       "paired": 0,
       "baseline": {
-        "n": 38,
-        "brier": 0.208866,
-        "logLoss": 0.606809,
+        "n": 41,
+        "brier": 0.207308,
+        "logLoss": 0.603371,
         "calibrationBins": [
           {
             "range": [
@@ -66,18 +66,18 @@
               0.4,
               0.6
             ],
-            "n": 19,
-            "meanPrediction": 0.4855,
-            "observedRate": 0.4737
+            "n": 21,
+            "meanPrediction": 0.4865,
+            "observedRate": 0.4286
           },
           {
             "range": [
               0.6,
               0.8
             ],
-            "n": 16,
-            "meanPrediction": 0.6825,
-            "observedRate": 0.8125
+            "n": 17,
+            "meanPrediction": 0.6855,
+            "observedRate": 0.8235
           }
         ]
       },
@@ -87,12 +87,12 @@
       "pairedLogLossDelta": null
     },
     "nhl": {
-      "scored": 35,
+      "scored": 38,
       "paired": 0,
       "baseline": {
-        "n": 35,
-        "brier": 0.257248,
-        "logLoss": 0.708518,
+        "n": 38,
+        "brier": 0.261983,
+        "logLoss": 0.718487,
         "calibrationBins": [
           {
             "range": [
@@ -108,18 +108,18 @@
               0.4,
               0.6
             ],
-            "n": 24,
-            "meanPrediction": 0.5177,
-            "observedRate": 0.625
+            "n": 25,
+            "meanPrediction": 0.5201,
+            "observedRate": 0.6
           },
           {
             "range": [
               0.6,
               0.8
             ],
-            "n": 9,
-            "meanPrediction": 0.6395,
-            "observedRate": 0.3333
+            "n": 11,
+            "meanPrediction": 0.6411,
+            "observedRate": 0.3636
           }
         ]
       },
@@ -131,12 +131,12 @@
   },
   "byKickoffMonth": {
     "2026-11": {
-      "scored": 73,
+      "scored": 79,
       "paired": 0,
       "baseline": {
-        "n": 73,
-        "brier": 0.232063,
-        "logLoss": 0.655574,
+        "n": 79,
+        "brier": 0.233607,
+        "logLoss": 0.658743,
         "calibrationBins": [
           {
             "range": [
@@ -152,18 +152,18 @@
               0.4,
               0.6
             ],
-            "n": 43,
-            "meanPrediction": 0.5035,
-            "observedRate": 0.5581
+            "n": 46,
+            "meanPrediction": 0.5048,
+            "observedRate": 0.5217
           },
           {
             "range": [
               0.6,
               0.8
             ],
-            "n": 25,
-            "meanPrediction": 0.667,
-            "observedRate": 0.64
+            "n": 28,
+            "meanPrediction": 0.6681,
+            "observedRate": 0.6429
           }
         ]
       },
@@ -173,7 +173,7 @@
       "pairedLogLossDelta": null
     }
   },
-  "pendingOutcomes": 53,
+  "pendingOutcomes": 47,
   "rejected": [],
   "diagnostics": {
     "candidateCoverage": 0,

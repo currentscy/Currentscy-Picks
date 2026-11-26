@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-26T02:58:30.831319+00:00",
+  "asOf": "2026-11-26T03:59:33.758341+00:00",
   "pipeline": {
     "stage1Events": 352,
     "stage2Games": 352,
@@ -10,9 +10,9 @@
     "unifiedEventHistory": 1335,
     "sportsWithCoverageChecks": 18,
     "liveModelForecasts": 126,
-    "ESPNFinalOutcomes": 73,
-    "stage3Scored": 73,
-    "stage4Scored": 73
+    "ESPNFinalOutcomes": 79,
+    "stage3Scored": 79,
+    "stage4Scored": 79
   },
   "verification": {
     "sameProviderGamesCompared": 206,
@@ -64,6 +64,36 @@
       },
       {
         "gameKey": "nba:401909319",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "nba:401909320",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "nhl:401892789",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "nba:401909321",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "nba:401909322",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "nhl:401892790",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "nhl:401892791",
         "field": "completed",
         "reason": "collection disagreement or different polling times"
       }

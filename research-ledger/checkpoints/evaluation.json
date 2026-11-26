@@ -4,11 +4,11 @@
     "nba": {
       "early": {
         "metrics": {
-          "count": 67,
-          "brier": 0.23239590582379685,
-          "logLoss": 0.6560322054634341,
-          "actualWinRate": 0.582089552238806,
-          "meanPredicted": 0.5419300772009153
+          "count": 73,
+          "brier": 0.23403937714180947,
+          "logLoss": 0.6594243359442548,
+          "actualWinRate": 0.5616438356164384,
+          "meanPredicted": 0.5466800173973543
         },
         "calibrationBins": [
           {
@@ -57,11 +57,11 @@
               0.5
             ],
             "metrics": {
-              "count": 18,
-              "brier": 0.237884226636428,
-              "logLoss": 0.6686503506466661,
-              "actualWinRate": 0.5,
-              "meanPredicted": 0.4547963478961469
+              "count": 19,
+              "brier": 0.23762863474809082,
+              "logLoss": 0.6681524244098774,
+              "actualWinRate": 0.47368421052631576,
+              "meanPredicted": 0.45626652527644823
             }
           },
           {
@@ -70,11 +70,11 @@
               0.6
             ],
             "metrics": {
-              "count": 23,
-              "brier": 0.23757371399120508,
-              "logLoss": 0.6682145188581472,
-              "actualWinRate": 0.6521739130434783,
-              "meanPredicted": 0.5410949327068952
+              "count": 25,
+              "brier": 0.24220850900702373,
+              "logLoss": 0.6775443182762168,
+              "actualWinRate": 0.6,
+              "meanPredicted": 0.5412116473642583
             }
           },
           {
@@ -83,11 +83,11 @@
               0.7
             ],
             "metrics": {
-              "count": 15,
-              "brier": 0.27543630803172003,
-              "logLoss": 0.7460368753421484,
-              "actualWinRate": 0.4666666666666667,
-              "meanPredicted": 0.6398651539753328
+              "count": 17,
+              "brier": 0.2794700101938341,
+              "logLoss": 0.7550588647020153,
+              "actualWinRate": 0.47058823529411764,
+              "meanPredicted": 0.6408622132573218
             }
           },
           {
@@ -96,11 +96,11 @@
               0.8
             ],
             "metrics": {
-              "count": 6,
-              "brier": 0.06841711480559155,
-              "logLoss": 0.3028754947814376,
+              "count": 7,
+              "brier": 0.06876581329085361,
+              "logLoss": 0.3038229116359121,
               "actualWinRate": 1.0,
-              "meanPredicted": 0.7388355238395938
+              "meanPredicted": 0.7381173535526973
             }
           },
           {
@@ -224,5 +224,5 @@
   "rejected": {},
   "liveModelPromoted": false,
   "limitations": "No causal injury/lineup attribution without matched same-state counterfactuals; no model promotion or automatic live deployment.",
-  "generatedAt": "2026-11-26T02:58:31.242822+00:00"
+  "generatedAt": "2026-11-26T03:59:34.089657+00:00"
 }

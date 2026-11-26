@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T02:58:31.426293+00:00",
+  "generatedAt": "2026-11-26T03:59:34.236904+00:00",
   "totalForecastsWithFixtures": 126,
-  "scored": 64,
+  "scored": 70,
   "games": [
     {
       "gameKey": "nhl:401892824",
@@ -721,8 +721,15 @@
       "homeWinProbability": 0.6847336458753362,
       "modelVersion": "research-prior20-v1",
       "captureMethod": "server-side historical results baseline; NOT website simulation",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "3",
+        "awayScore": "4",
+        "homeWon": false,
+        "verifiedAt": "2026-11-26T03:59:27.874996+00:00",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+        "brier": 0.46886
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nhl:401892790",
@@ -736,8 +743,15 @@
       "homeWinProbability": 0.5763762588010395,
       "modelVersion": "research-prior20-v1",
       "captureMethod": "server-side historical results baseline; NOT website simulation",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "1",
+        "awayScore": "3",
+        "homeWon": false,
+        "verifiedAt": "2026-11-26T03:59:27.874996+00:00",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+        "brier": 0.33221
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nba:401909322",
@@ -751,8 +765,15 @@
       "homeWinProbability": 0.5087314730468263,
       "modelVersion": "nba-record-home-v1",
       "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "97",
+        "awayScore": "104",
+        "homeWon": false,
+        "verifiedAt": "2026-11-26T03:59:27.319Z",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=100",
+        "brier": 0.258808
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nba:401909321",
@@ -766,8 +787,15 @@
       "homeWinProbability": 0.7338083318313174,
       "modelVersion": "nba-record-home-v1",
       "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "115",
+        "awayScore": "97",
+        "homeWon": true,
+        "verifiedAt": "2026-11-26T03:59:27.319Z",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=100",
+        "brier": 0.070858
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nhl:401892789",
@@ -781,8 +809,15 @@
       "homeWinProbability": 0.6119466698691415,
       "modelVersion": "research-prior20-v1",
       "captureMethod": "server-side historical results baseline; NOT website simulation",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "5",
+        "awayScore": "1",
+        "homeWon": true,
+        "verifiedAt": "2026-11-26T03:59:27.874996+00:00",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=300",
+        "brier": 0.150585
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nba:401909320",
@@ -796,8 +831,15 @@
       "homeWinProbability": 0.48272971812187165,
       "modelVersion": "nba-record-home-v1",
       "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
-      "result": null,
-      "status": "awaiting-verified-final"
+      "result": {
+        "homeScore": "106",
+        "awayScore": "113",
+        "homeWon": false,
+        "verifiedAt": "2026-11-26T03:59:27.319Z",
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=100",
+        "brier": 0.233028
+      },
+      "status": "scored"
     },
     {
       "gameKey": "nba:401909319",
