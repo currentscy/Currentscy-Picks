@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T08:00:47.838446+00:00",
-  "totalForecastsWithFixtures": 126,
+  "generatedAt": "2026-11-26T08:49:58.100430+00:00",
+  "totalForecastsWithFixtures": 131,
   "scored": 76,
   "games": [
     {
@@ -80,6 +80,21 @@
       "status": "awaiting-verified-final"
     },
     {
+      "gameKey": "nba:401910050",
+      "sport": "nba",
+      "home": "Houston Rockets",
+      "away": "Philadelphia 76ers",
+      "scheduledStart": "2026-11-29T01:30Z",
+      "predictedAt": "2026-11-26T08:49:53.333Z",
+      "predictedWinner": "Houston Rockets",
+      "predictedWinnerProbability": 0.5297,
+      "homeWinProbability": 0.529747267270797,
+      "modelVersion": "nba-record-home-v1",
+      "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+      "result": null,
+      "status": "awaiting-verified-final"
+    },
+    {
       "gameKey": "nhl:401892819",
       "sport": "nhl",
       "home": "Dallas Stars",
@@ -91,6 +106,36 @@
       "homeWinProbability": 0.6728949196818435,
       "modelVersion": "research-prior20-v1",
       "captureMethod": "server-side historical results baseline; NOT website simulation",
+      "result": null,
+      "status": "awaiting-verified-final"
+    },
+    {
+      "gameKey": "nba:401910049",
+      "sport": "nba",
+      "home": "Milwaukee Bucks",
+      "away": "Oklahoma City Thunder",
+      "scheduledStart": "2026-11-29T01:00Z",
+      "predictedAt": "2026-11-26T08:49:53.333Z",
+      "predictedWinner": "Oklahoma City Thunder",
+      "predictedWinnerProbability": 0.6375,
+      "homeWinProbability": 0.36252679943748944,
+      "modelVersion": "nba-record-home-v1",
+      "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+      "result": null,
+      "status": "awaiting-verified-final"
+    },
+    {
+      "gameKey": "nba:401910048",
+      "sport": "nba",
+      "home": "Chicago Bulls",
+      "away": "Indiana Pacers",
+      "scheduledStart": "2026-11-29T01:00Z",
+      "predictedAt": "2026-11-26T08:49:53.333Z",
+      "predictedWinner": "Chicago Bulls",
+      "predictedWinnerProbability": 0.5548,
+      "homeWinProbability": 0.5547792351072148,
+      "modelVersion": "nba-record-home-v1",
+      "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
       "result": null,
       "status": "awaiting-verified-final"
     },
@@ -211,6 +256,36 @@
       "homeWinProbability": 0.5140018884476225,
       "modelVersion": "research-prior20-v1",
       "captureMethod": "server-side historical results baseline; NOT website simulation",
+      "result": null,
+      "status": "awaiting-verified-final"
+    },
+    {
+      "gameKey": "nba:401910047",
+      "sport": "nba",
+      "home": "Charlotte Hornets",
+      "away": "Brooklyn Nets",
+      "scheduledStart": "2026-11-28T23:00Z",
+      "predictedAt": "2026-11-26T08:49:53.333Z",
+      "predictedWinner": "Charlotte Hornets",
+      "predictedWinnerProbability": 0.5548,
+      "homeWinProbability": 0.5547792351072148,
+      "modelVersion": "nba-record-home-v1",
+      "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
+      "result": null,
+      "status": "awaiting-verified-final"
+    },
+    {
+      "gameKey": "nba:401910046",
+      "sport": "nba",
+      "home": "Washington Wizards",
+      "away": "Orlando Magic",
+      "scheduledStart": "2026-11-28T22:00Z",
+      "predictedAt": "2026-11-26T08:49:53.333Z",
+      "predictedWinner": "Washington Wizards",
+      "predictedWinnerProbability": 0.5343,
+      "homeWinProbability": 0.534333851301434,
+      "modelVersion": "nba-record-home-v1",
+      "captureMethod": "GitHub Actions server-side using exact NBA website shared model",
       "result": null,
       "status": "awaiting-verified-final"
     },

@@ -1510,5 +1510,65 @@
     "modelVersion": "research-prior20-v1",
     "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261129&limit=300",
     "provenance": "existing exact shared NBA model; not independently injury-adjusted"
+  },
+  {
+    "predictionId": "nba-home-win:401910046:nba-record-home-v1",
+    "gameKey": "nba:401910046",
+    "sport": "nba",
+    "checkpoint": "early",
+    "scheduledStart": "2026-11-28T22:00Z",
+    "predictedAt": "2026-11-26T08:49:53.333Z",
+    "probability": 0.534333851301434,
+    "modelVersion": "nba-record-home-v1",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261128&limit=100",
+    "provenance": "existing exact shared NBA model; not independently injury-adjusted"
+  },
+  {
+    "predictionId": "nba-home-win:401910047:nba-record-home-v1",
+    "gameKey": "nba:401910047",
+    "sport": "nba",
+    "checkpoint": "early",
+    "scheduledStart": "2026-11-28T23:00Z",
+    "predictedAt": "2026-11-26T08:49:53.333Z",
+    "probability": 0.5547792351072148,
+    "modelVersion": "nba-record-home-v1",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261128&limit=100",
+    "provenance": "existing exact shared NBA model; not independently injury-adjusted"
+  },
+  {
+    "predictionId": "nba-home-win:401910048:nba-record-home-v1",
+    "gameKey": "nba:401910048",
+    "sport": "nba",
+    "checkpoint": "early",
+    "scheduledStart": "2026-11-29T01:00Z",
+    "predictedAt": "2026-11-26T08:49:53.333Z",
+    "probability": 0.5547792351072148,
+    "modelVersion": "nba-record-home-v1",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261128&limit=100",
+    "provenance": "existing exact shared NBA model; not independently injury-adjusted"
+  },
+  {
+    "predictionId": "nba-home-win:401910049:nba-record-home-v1",
+    "gameKey": "nba:401910049",
+    "sport": "nba",
+    "checkpoint": "early",
+    "scheduledStart": "2026-11-29T01:00Z",
+    "predictedAt": "2026-11-26T08:49:53.333Z",
+    "probability": 0.36252679943748944,
+    "modelVersion": "nba-record-home-v1",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261128&limit=100",
+    "provenance": "existing exact shared NBA model; not independently injury-adjusted"
+  },
+  {
+    "predictionId": "nba-home-win:401910050:nba-record-home-v1",
+    "gameKey": "nba:401910050",
+    "sport": "nba",
+    "checkpoint": "early",
+    "scheduledStart": "2026-11-29T01:30Z",
+    "predictedAt": "2026-11-26T08:49:53.333Z",
+    "probability": 0.529747267270797,
+    "modelVersion": "nba-record-home-v1",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261128&limit=100",
+    "provenance": "existing exact shared NBA model; not independently injury-adjusted"
   }
 ]
