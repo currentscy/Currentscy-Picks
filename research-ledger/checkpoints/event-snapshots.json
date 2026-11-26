@@ -124753,5 +124753,775 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "4c11bcc46f8ee4b273e48e9e3b93b54ce3b53a204291e042305240bf39d897c4",
+    "capturedAt": "2026-11-26T20:28:25.567781+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915506",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T17:45Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "1895",
+          "name": "Besiktas",
+          "homeAway": "home",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "13083",
+          "name": "Hapoel Be'er",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T20:28:16.016621+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "74e5995b1777ad06786c6585b332257cb6ef63725b48313a4a77e1af903652a0",
+    "capturedAt": "2026-11-26T20:28:25.567781+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915507",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T17:45Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "176",
+          "name": "Marseille",
+          "homeAway": "home",
+          "score": "1",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "490",
+          "name": "Levski Sofia",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T20:28:16.016621+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "8037c14abdc773be2d181b0b603cf240ba9d3e92354b606fb108d286eeb90fc9",
+    "capturedAt": "2026-11-26T20:28:25.567781+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915508",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T17:45Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "5807",
+          "name": "Union St.-Gilloise",
+          "homeAway": "home",
+          "score": "2",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "2990",
+          "name": "Lech Poznan",
+          "homeAway": "away",
+          "score": "2",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T20:28:16.016621+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "aad1aea2edeb35f0ac7903a873d090811df6e39f6be801fb565fa8f28e4330cf",
+    "capturedAt": "2026-11-26T20:28:25.567781+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915517",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T17:45Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "597",
+          "name": "Dinamo Zagreb",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "131",
+          "name": "Bayer Leverkusen",
+          "homeAway": "away",
+          "score": "2",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T20:28:16.016621+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "e78f53114a59a7d3e12275a17f04c8728e3b475720a5a63e2de5b6e64baddfc4",
+    "capturedAt": "2026-11-26T20:28:25.567781+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915518",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T17:45Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "11706",
+          "name": "Viktoria Plzen",
+          "homeAway": "home",
+          "score": "4",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "1929",
+          "name": "Benfica",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T20:28:16.016621+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "d01c64584191ccde190ec0f598c500c3d9929a8617ac80296508173dadd48540",
+    "capturedAt": "2026-11-26T20:28:25.567781+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915519",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T17:45Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "85",
+          "name": "Celta Vigo",
+          "homeAway": "home",
+          "score": "1",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "349",
+          "name": "AFC Bournemouth",
+          "homeAway": "away",
+          "score": "2",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T20:28:16.016621+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "e96e597fe5b67637b9f0003be1bb66ed672d4a92176226a26312cfbb969c4b44",
+    "capturedAt": "2026-11-26T20:28:25.567781+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915520",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T17:45Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "2790",
+          "name": "RB Salzburg",
+          "homeAway": "home",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "20024",
+          "name": "Ararat-Armenia",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T20:28:16.016621+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "e85917f336cf6249f1ee1ef6f35a64983e068509f9ee1d9b28d26c31787bbffe",
+    "capturedAt": "2026-11-26T20:28:25.567781+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915521",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T17:45Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "435",
+          "name": "Olympiacos",
+          "homeAway": "home",
+          "score": "2",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "103",
+          "name": "AC Milan",
+          "homeAway": "away",
+          "score": "4",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T20:28:16.016621+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "6c8cc47fd201298933420e2be2bd4f9a6cb80de7fe0aeddafa1a6c3977fd9de3",
+    "capturedAt": "2026-11-26T20:28:25.567781+00:00",
+    "observation": {
+      "eventKey": "nfl:401873081",
+      "sport": "nfl",
+      "scheduledStart": "2026-11-26T18:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "8",
+          "name": "Detroit Lions",
+          "homeAway": "home",
+          "score": "26",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "3",
+          "name": "Chicago Bears",
+          "homeAway": "away",
+          "score": "24",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T20:28:16.016621+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "8b54df585ffe770900bc5b1d346bd6298450785f8279e8754036c38603eac24c",
+    "capturedAt": "2026-11-26T20:28:25.567781+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401906869",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-26T19:30Z",
+      "status": "STATUS_HALFTIME",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "251",
+          "name": "Texas Longhorns",
+          "homeAway": "home",
+          "score": "41",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "46",
+          "name": "Georgetown Hoyas",
+          "homeAway": "away",
+          "score": "30",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T20:28:16.016621+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "33ac7a2359aab8e0bc7036999ffbc30a430b9de5dda7cb00dbfed79814a21795",
+    "capturedAt": "2026-11-26T20:28:25.567781+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915501",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T20:00Z",
+      "status": "STATUS_FIRST_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "167",
+          "name": "Lyon",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "987",
+          "name": "Lillestrom",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T20:28:16.016621+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "65147a37387f226507acb85694682c3b8d4da861e198b1ad4dd26dc45751a34b",
+    "capturedAt": "2026-11-26T20:28:25.567781+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915502",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T20:00Z",
+      "status": "STATUS_FIRST_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "111",
+          "name": "Juventus",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "617",
+          "name": "Omonia Nicosia",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T20:28:16.016621+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "569ff882eef42936197384874c1479530e99e7252a76d7b5b4637de47a830c08",
+    "capturedAt": "2026-11-26T20:28:25.567781+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915503",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T20:00Z",
+      "status": "STATUS_FIRST_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "1010",
+          "name": "OFI Crete",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "441",
+          "name": "Anderlecht",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T20:28:16.016621+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "27846bcdc1add60ce42ccf3335e1f5e98fa1267920f21c1e6601275f7ab43c16",
+    "capturedAt": "2026-11-26T20:28:25.567781+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915504",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T20:00Z",
+      "status": "STATUS_FIRST_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "384",
+          "name": "Crystal Palace",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "89",
+          "name": "Real Sociedad",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T20:28:16.016621+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "afce9f18669efeb441d4ba79f9727af3f452b879526cccc11b09b87ef8c786fc",
+    "capturedAt": "2026-11-26T20:28:25.567781+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915505",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T20:00Z",
+      "status": "STATUS_FIRST_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "147",
+          "name": "NEC Nijmegen",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "169",
+          "name": "Stade Rennais",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T20:28:16.016621+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "f517da73e25ed41f94c283b54530d5901273c7a1f1667fcfc5893a254569fae1",
+    "capturedAt": "2026-11-26T20:28:25.567781+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915512",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T20:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "21615",
+          "name": "Torreense",
+          "homeAway": "home",
+          "score": "1",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "256",
+          "name": "Celtic",
+          "homeAway": "away",
+          "score": "1",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T20:28:16.016621+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "4de99e8743112aa154bd12f4a1d6180529b621c1e30af79296b65a61478a1a79",
+    "capturedAt": "2026-11-26T20:28:25.567781+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915513",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T20:00Z",
+      "status": "STATUS_FIRST_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "366",
+          "name": "Sunderland",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "11505",
+          "name": "Jagiellonia Bialystok",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T20:28:16.016621+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "89c499172cb84bebb3a255e0ac5d3bd594f9ec67b9f8d045df8e233d4c48e122",
+    "capturedAt": "2026-11-26T20:28:25.567781+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915514",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T20:00Z",
+      "status": "STATUS_FIRST_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "433",
+          "name": "Sparta Prague",
+          "homeAway": "home",
+          "score": "2",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "140",
+          "name": "AZ Alkmaar",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T20:28:16.016621+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "a4d643d8e7cfb01a4bbe9a898823433e1e3002338a7eb79cbba88d7585e0cbea",
+    "capturedAt": "2026-11-26T20:28:25.567781+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915515",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T20:00Z",
+      "status": "STATUS_FIRST_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "7911",
+          "name": "TSG Hoffenheim",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "3746",
+          "name": "SK Sturm Graz",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T20:28:16.016621+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "d60f450bba2bf7ee98969dc32559faf28078a1b796fdf47453c7c958e7c18697",
+    "capturedAt": "2026-11-26T20:28:25.567781+00:00",
+    "observation": {
+      "eventKey": "soccer-uel:401915516",
+      "sport": "soccer-uel",
+      "scheduledStart": "2026-11-26T20:00Z",
+      "status": "STATUS_FIRST_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "622",
+          "name": "Ferencvaros",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "3362",
+          "name": "NK Celje",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T20:28:16.016621+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "f6fb7cc8d8646029f69ca831862a1ee3d9fa88c2fc7971f4bf2b143b63a83faf",
+    "capturedAt": "2026-11-26T20:28:25.567781+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401906869",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-26T19:30Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "251",
+          "name": "Texas Longhorns",
+          "homeAway": "home",
+          "score": "10",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "46",
+          "name": "Georgetown Hoyas",
+          "homeAway": "away",
+          "score": "5",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T19:40:22.744665+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "dfd9961f38f5ac01cd5cbbf7933e6bbdac967dc124bc5b38e2cd8ad6b9bf4fdf",
+    "capturedAt": "2026-11-26T20:28:25.567781+00:00",
+    "observation": {
+      "eventKey": "nfl:401873081",
+      "sport": "nfl",
+      "scheduledStart": "2026-11-26T18:00Z",
+      "status": "STATUS_HALFTIME",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "8",
+          "name": "Detroit Lions",
+          "homeAway": "home",
+          "score": "19",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "3",
+          "name": "Chicago Bears",
+          "homeAway": "away",
+          "score": "10",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-26T19:40:22.744665+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
