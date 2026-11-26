@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-25T23:50:40.045628+00:00",
+  "asOf": "2026-11-26T00:38:54.299744+00:00",
   "pipeline": {
-    "stage1Events": 333,
+    "stage1Events": 352,
     "stage2Games": 333,
     "legacyMultisportGames": 469,
     "legacyFootballGames": 161,
@@ -10,13 +10,19 @@
     "unifiedEventHistory": 1289,
     "sportsWithCoverageChecks": 18,
     "liveModelForecasts": 124,
-    "ESPNFinalOutcomes": 62,
-    "stage3Scored": 62,
-    "stage4Scored": 62
+    "ESPNFinalOutcomes": 63,
+    "stage3Scored": 63,
+    "stage4Scored": 63
   },
   "verification": {
-    "sameProviderGamesCompared": 170,
-    "sameProviderDisagreements": [],
+    "sameProviderGamesCompared": 206,
+    "sameProviderDisagreements": [
+      {
+        "gameKey": "nba:401909317",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      }
+    ],
     "unmatchedOutcomeIds": [],
     "independentProviderVerification": false,
     "injuriesVerified": false,

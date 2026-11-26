@@ -616,5 +616,15 @@
     "verificationMethod": "ESPN completed scoreboard and numeric final score (single provider; not independently corroborated)",
     "homeScore": 101,
     "awayScore": 120
+  },
+  {
+    "predictionId": "nba-home-win:401909317:nba-record-home-v1",
+    "result": 1,
+    "verified": true,
+    "verifiedAt": "2026-11-26T00:38:43.953Z",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=100",
+    "verificationMethod": "ESPN completed scoreboard and numeric final score (single provider; not independently corroborated)",
+    "homeScore": 111,
+    "awayScore": 104
   }
 ]
