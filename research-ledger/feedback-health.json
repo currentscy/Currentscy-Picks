@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-26T23:29:32.256983+00:00",
+  "asOf": "2026-11-27T00:29:02.660730+00:00",
   "pipeline": {
-    "stage1Events": 353,
+    "stage1Events": 328,
     "stage2Games": 353,
     "legacyMultisportGames": 488,
     "legacyFootballGames": 165,
@@ -15,7 +15,7 @@
     "stage4Scored": 85
   },
   "verification": {
-    "sameProviderGamesCompared": 206,
+    "sameProviderGamesCompared": 199,
     "sameProviderDisagreements": [
       {
         "gameKey": "nfl:401873081",
