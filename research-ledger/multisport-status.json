@@ -1,8 +1,49 @@
 {
-  "lastRun": "2026-11-27T13:54:29.345177+00:00",
+  "lastRun": "2026-11-27T19:36:45.494925+00:00",
   "trackedGames": 503,
-  "changes": [],
-  "changeCount": 0,
+  "changes": [
+    {
+      "type": "game_updated",
+      "key": "ncaa:401856762"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401862840"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401866472"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401866473"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401858536"
+    },
+    {
+      "type": "game_updated",
+      "key": "nhl:401892795"
+    },
+    {
+      "type": "game_updated",
+      "key": "nhl:401892796"
+    },
+    {
+      "type": "game_updated",
+      "key": "nhl:401892797"
+    },
+    {
+      "type": "game_updated",
+      "key": "nhl:401892798"
+    },
+    {
+      "type": "game_updated",
+      "key": "soccer-bundesliga:401884720"
+    }
+  ],
+  "changeCount": 10,
   "sourceFailures": [],
   "failureCount": 0,
   "injuryFeedVerified": false,
