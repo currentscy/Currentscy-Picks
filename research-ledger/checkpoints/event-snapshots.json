@@ -129323,5 +129323,320 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "a8cc2a6d79b97cb7b3e837afd25b20700a41c62603972c98d8489057410df727",
+    "capturedAt": "2026-11-27T18:07:55.900924+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920429",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-27T16:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2752",
+          "name": "Xavier Musketeers",
+          "homeAway": "home",
+          "score": "69",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "258",
+          "name": "Virginia Cavaliers",
+          "homeAway": "away",
+          "score": "78",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-27T18:07:51.046922+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "7da1368b2c62968a66d320cff928ab627153aa1c2938894f51f199576a14cfc6",
+    "capturedAt": "2026-11-27T18:07:55.900924+00:00",
+    "observation": {
+      "eventKey": "ncaa-football:401856762",
+      "sport": "ncaa-football",
+      "scheduledStart": "2026-11-27T17:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "145",
+          "name": "Ole Miss Rebels",
+          "homeAway": "home",
+          "score": "3",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "344",
+          "name": "Mississippi State Bulldogs",
+          "homeAway": "away",
+          "score": "7",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-27T18:07:51.046922+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "2625d6e769c969aa6a7278f28875dfe3d9acb36bd2628c7929e5edbe99c4588b",
+    "capturedAt": "2026-11-27T18:07:55.900924+00:00",
+    "observation": {
+      "eventKey": "ncaa-football:401862840",
+      "sport": "ncaa-football",
+      "scheduledStart": "2026-11-27T17:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2636",
+          "name": "UTSA Roadrunners",
+          "homeAway": "home",
+          "score": "16",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "202",
+          "name": "Tulsa Golden Hurricane",
+          "homeAway": "away",
+          "score": "7",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-27T18:07:51.046922+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "b42727f37e469d3816036e205ff8abb525632a44799a2da8565e8a2a960a5fe2",
+    "capturedAt": "2026-11-27T18:07:55.900924+00:00",
+    "observation": {
+      "eventKey": "ncaa-football:401866472",
+      "sport": "ncaa-football",
+      "scheduledStart": "2026-11-27T17:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2006",
+          "name": "Akron Zips",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "2084",
+          "name": "Buffalo Bulls",
+          "homeAway": "away",
+          "score": "7",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-27T18:07:51.046922+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "1de740f31192e0c8f78cb5ee8d232bf329fa88946d8d2df6640215168d30a76d",
+    "capturedAt": "2026-11-27T18:07:55.900924+00:00",
+    "observation": {
+      "eventKey": "ncaa-football:401866473",
+      "sport": "ncaa-football",
+      "scheduledStart": "2026-11-27T17:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "195",
+          "name": "Ohio Bobcats",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "2649",
+          "name": "Toledo Rockets",
+          "homeAway": "away",
+          "score": "17",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-27T18:07:51.046922+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "41a99c364d0f58fc7afcb57caae4b0adba2c1c20df42a35accac82c1e34e7524",
+    "capturedAt": "2026-11-27T18:07:55.900924+00:00",
+    "observation": {
+      "eventKey": "ncaa-football:401858536",
+      "sport": "ncaa-football",
+      "scheduledStart": "2026-11-27T17:08Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2294",
+          "name": "Iowa Hawkeyes",
+          "homeAway": "home",
+          "score": "10",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "158",
+          "name": "Nebraska Cornhuskers",
+          "homeAway": "away",
+          "score": "7",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-27T18:07:51.046922+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "b09f6a5c83a3c7ecf5aa90e4ea11e53b8aca71fee5f6fca7647aa053cb83806e",
+    "capturedAt": "2026-11-27T18:07:55.900924+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920533",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-27T18:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2599",
+          "name": "St. John's Red Storm",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "66",
+          "name": "Iowa State Cyclones",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-27T18:07:51.046922+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "e19bab2376ef4e228495e32237b50544893d1b12c63b4ffcf0ba6ff5c4ac355c",
+    "capturedAt": "2026-11-27T18:07:55.900924+00:00",
+    "observation": {
+      "eventKey": "nhl:401892795",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-27T18:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "1",
+          "name": "Boston Bruins",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "21",
+          "name": "Toronto Maple Leafs",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-27T18:07:51.046922+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "1cd09a19867dbe1db1316a52303b7561d4dd0f8f4893ae4100f040fdb49d08c2",
+    "capturedAt": "2026-11-27T18:07:55.900924+00:00",
+    "observation": {
+      "eventKey": "nhl:401892796",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-27T18:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "11",
+          "name": "New Jersey Devils",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "3",
+          "name": "Calgary Flames",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-27T18:07:51.046922+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
