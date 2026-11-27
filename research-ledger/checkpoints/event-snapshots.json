@@ -128518,5 +128518,285 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "074b88401081a0f16254cbd48d05cc777fc2a0f1845a65cd71c5ba6e0f118442",
+    "capturedAt": "2026-11-27T05:08:27.172919+00:00",
+    "observation": {
+      "eventKey": "ncaa-football:401856879",
+      "sport": "ncaa-football",
+      "scheduledStart": "2026-11-27T01:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "2641",
+          "name": "Texas Tech Red Raiders",
+          "homeAway": "home",
+          "score": "48",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "2628",
+          "name": "TCU Horned Frogs",
+          "homeAway": "away",
+          "score": "27",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-27T05:08:17.044848+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "12f7beb42ce35859e84881a8095d2164ffade6e15ee9b80cc3dfb1627372f78d",
+    "capturedAt": "2026-11-27T05:08:27.172919+00:00",
+    "observation": {
+      "eventKey": "nfl:401873082",
+      "sport": "nfl",
+      "scheduledStart": "2026-11-27T01:20Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "2",
+          "name": "Buffalo Bills",
+          "homeAway": "home",
+          "score": "13",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "12",
+          "name": "Kansas City Chiefs",
+          "homeAway": "away",
+          "score": "10",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-27T05:08:17.044848+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "accbd083c559bdbd3ba23b0e4676dd55270bfe9209933d1d91d158dc205e16d3",
+    "capturedAt": "2026-11-27T05:08:27.172919+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920530",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-27T02:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "2599",
+          "name": "St. John's Red Storm",
+          "homeAway": "home",
+          "score": "90",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "97",
+          "name": "Louisville Cardinals",
+          "homeAway": "away",
+          "score": "93",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-27T05:08:17.044848+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "ea8b4601deb0f07e4514997e8cc5b200ee19d8639ffb4f52b87b4cd67ec63fb4",
+    "capturedAt": "2026-11-27T05:08:27.172919+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920539",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-27T02:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "2306",
+          "name": "Kansas State Wildcats",
+          "homeAway": "home",
+          "score": "91",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "333",
+          "name": "Alabama Crimson Tide",
+          "homeAway": "away",
+          "score": "104",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-27T05:08:17.044848+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "d58c0fffdd7daab53d00c14bf4c74776ac86037e2ee692eaed25f64cc3a60e0e",
+    "capturedAt": "2026-11-27T05:08:27.172919+00:00",
+    "observation": {
+      "eventKey": "soccer-mexico:401931995",
+      "sport": "soccer-mexico",
+      "scheduledStart": "2026-11-27T03:10Z",
+      "status": "STATUS_FULL_TIME",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "228",
+          "name": "Le\u00f3n",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "218",
+          "name": "Cruz Azul",
+          "homeAway": "away",
+          "score": "4",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-27T05:08:17.044848+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "46f99780cdad5227ae9640c656b7e427fd190dab9f2c68b51fc1594d20623f25",
+    "capturedAt": "2026-11-27T05:08:27.172919+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920540",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-27T04:53Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2250",
+          "name": "Gonzaga Bulldogs",
+          "homeAway": "home",
+          "score": "15",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "239",
+          "name": "Baylor Bears",
+          "homeAway": "away",
+          "score": "16",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-27T05:08:17.044848+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "2678ddc6cc05eeff10a060faa0350f52a0bbadbe1abe1b762d034358691f876d",
+    "capturedAt": "2026-11-27T05:08:27.172919+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920531",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-27T04:57Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2483",
+          "name": "Oregon Ducks",
+          "homeAway": "home",
+          "score": "8",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "2641",
+          "name": "Texas Tech Red Raiders",
+          "homeAway": "away",
+          "score": "10",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300",
+      "observedAt": "2026-11-27T05:08:17.044848+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "5db50f3cba4f54696dfe7f1690b281af87a97f64baa716adbef562807ced6244",
+    "capturedAt": "2026-11-27T05:08:27.172919+00:00",
+    "observation": {
+      "eventKey": "ncaa-football:401858536",
+      "sport": "ncaa-football",
+      "scheduledStart": "2026-11-27T17:08Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2294",
+          "name": "Iowa Hawkeyes",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "158",
+          "name": "Nebraska Cornhuskers",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-27T05:08:17.044848+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-27T04:02:03.268404+00:00",
+  "asOf": "2026-11-27T05:08:27.092113+00:00",
   "pipeline": {
     "stage1Events": 330,
     "stage2Games": 330,
@@ -16,7 +16,18 @@
   },
   "verification": {
     "sameProviderGamesCompared": 199,
-    "sameProviderDisagreements": [],
+    "sameProviderDisagreements": [
+      {
+        "gameKey": "ncaa-football:401856879",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "nfl:401873082",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      }
+    ],
     "unmatchedOutcomeIds": [],
     "independentProviderVerification": false,
     "injuriesVerified": false,
