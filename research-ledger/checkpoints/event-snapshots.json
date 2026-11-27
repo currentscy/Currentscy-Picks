@@ -129113,5 +129113,40 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "fe648fb478a56b247c6ccfe737d1b645139064624be914b19ee606df0c943e0d",
+    "capturedAt": "2026-11-27T16:00:05.540059+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920535",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-28T04:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2641",
+          "name": "Texas Tech Red Raiders",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "21",
+          "name": "San Diego State Aztecs",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-27T15:59:58.797359+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
