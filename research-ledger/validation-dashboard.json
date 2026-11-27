@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T01:56:18.345487+00:00",
+  "generatedAt": "2026-11-27T01:57:39.793425+00:00",
   "fiveSteps": {
     "eventCollection": true,
     "pregameForecastCaptured": true,
@@ -11,14 +11,14 @@
   },
   "bySport": {
     "nba": {
-      "events": 296,
+      "events": 303,
       "completed": 265,
       "validForecasts": 60,
       "matchedFinalOutcomes": 39
     },
     "ncaa-basketball": {
-      "events": 119,
-      "completed": 23,
+      "events": 122,
+      "completed": 29,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
@@ -29,15 +29,15 @@
       "matchedFinalOutcomes": 0
     },
     "nfl": {
-      "events": 38,
-      "completed": 23,
+      "events": 39,
+      "completed": 25,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "nhl": {
-      "events": 309,
+      "events": 315,
       "completed": 276,
-      "validForecasts": 71,
+      "validForecasts": 77,
       "matchedFinalOutcomes": 38
     },
     "soccer-england": {
@@ -59,7 +59,7 @@
       "matchedFinalOutcomes": 0
     },
     "soccer-italy": {
-      "events": 41,
+      "events": 43,
       "completed": 33,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
@@ -77,7 +77,7 @@
       "matchedFinalOutcomes": 0
     },
     "soccer-spain": {
-      "events": 38,
+      "events": 39,
       "completed": 29,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
@@ -90,7 +90,7 @@
     },
     "soccer-uel": {
       "events": 53,
-      "completed": 42,
+      "completed": 53,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
@@ -155,7 +155,7 @@
       "reason": "invalid or not final"
     }
   ],
-  "validPregameForecasts": 131,
+  "validPregameForecasts": 137,
   "matchedFinalOutcomes": 77,
   "completeCoverageEstablished": false,
   "sportsWithScoredForecasts": [
