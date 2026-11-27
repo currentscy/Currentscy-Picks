@@ -854,8 +854,8 @@
     "verifiedAt": "2026-11-27T21:16:32.931591+00:00",
     "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
     "verificationMethod": "ESPN scoreboard marked completed; single-provider final, not independently corroborated",
-    "homeScore": 1.0,
-    "awayScore": 3.0
+    "homeScore": 1,
+    "awayScore": 3
   },
   {
     "predictionId": "research-home-win:nhl:401892796:prior20-v1",
@@ -864,8 +864,8 @@
     "verifiedAt": "2026-11-27T21:16:32.931591+00:00",
     "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
     "verificationMethod": "ESPN scoreboard marked completed; single-provider final, not independently corroborated",
-    "homeScore": 5.0,
-    "awayScore": 3.0
+    "homeScore": 5,
+    "awayScore": 3
   },
   {
     "predictionId": "research-home-win:nhl:401892797:prior20-v1",
@@ -874,7 +874,17 @@
     "verifiedAt": "2026-11-27T21:16:32.931591+00:00",
     "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
     "verificationMethod": "ESPN scoreboard marked completed; single-provider final, not independently corroborated",
+    "homeScore": 5,
+    "awayScore": 6
+  },
+  {
+    "predictionId": "research-home-win:nhl:401892798:prior20-v1",
+    "result": 1,
+    "verified": true,
+    "verifiedAt": "2026-11-27T22:14:45.745112+00:00",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
+    "verificationMethod": "ESPN scoreboard marked completed; single-provider final, not independently corroborated",
     "homeScore": 5.0,
-    "awayScore": 6.0
+    "awayScore": 3.0
   }
 ]

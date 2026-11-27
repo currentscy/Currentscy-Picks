@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-27T21:16:51.901744+00:00",
+  "asOf": "2026-11-27T22:15:00.123183+00:00",
   "pipeline": {
     "stage1Events": 335,
     "stage2Games": 335,
@@ -10,9 +10,9 @@
     "unifiedEventHistory": 1361,
     "sportsWithCoverageChecks": 18,
     "liveModelForecasts": 147,
-    "ESPNFinalOutcomes": 88,
-    "stage3Scored": 88,
-    "stage4Scored": 88
+    "ESPNFinalOutcomes": 89,
+    "stage3Scored": 89,
+    "stage4Scored": 89
   },
   "verification": {
     "sameProviderGamesCompared": 199,
@@ -54,6 +54,36 @@
       },
       {
         "gameKey": "nhl:401892797",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "nhl:401892798",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "soccer-germany:401884720",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "soccer-france:401876392",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "soccer-italy:401875004",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "soccer-england:401879225",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "soccer-spain:401882791",
         "field": "completed",
         "reason": "collection disagreement or different polling times"
       }
