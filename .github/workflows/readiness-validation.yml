@@ -1,0 +1,36 @@
+name: Readiness validation (isolated)
+on:
+  push:
+    branches:
+      - fix/stages-1-3-evidence-2026-11-21
+    paths:
+      - 'research-ledger/validation/**'
+      - '.github/workflows/readiness-validation.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run isolated readiness regression tests
+        run: node --test research-ledger/validation/*.test.mjs
+      - name: Dry-run readiness report without publishing
+        run: |
+          node research-ledger/validation/build-readiness.mjs
+          git diff -- research-ledger/validation-dashboard.json
+      - name: Collect limited Phase 1 historical evidence (non-production)
+        env:
+          STAGE2_PHASE1_MAX_GAMES: '4'
+        run: node research-ledger/validation/build-phase1.mjs
+      - name: Archive Phase 1 evidence for review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: stage2-phase1-historical-evidence
+          path: research-ledger/stage2/phase1-historical.json
+          if-no-files-found: warn
