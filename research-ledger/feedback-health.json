@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-27T00:29:02.660730+00:00",
+  "asOf": "2026-11-27T01:56:18.392713+00:00",
   "pipeline": {
-    "stage1Events": 328,
+    "stage1Events": 330,
     "stage2Games": 353,
     "legacyMultisportGames": 488,
     "legacyFootballGames": 165,
@@ -19,6 +19,11 @@
     "sameProviderDisagreements": [
       {
         "gameKey": "nfl:401873081",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "nfl:401873080",
         "field": "completed",
         "reason": "collection disagreement or different polling times"
       }
