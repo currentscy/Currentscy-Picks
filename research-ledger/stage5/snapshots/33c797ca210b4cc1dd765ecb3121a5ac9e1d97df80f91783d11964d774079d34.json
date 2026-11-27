@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 5,
+  "gameKey": "soccer-spain:401882796",
+  "sport": "soccer-spain",
+  "phase": "pregame",
+  "scheduledStart": "2026-11-28T13:00Z",
+  "sourceObservedAt": "2026-11-27T07:58:53.954063+00:00",
+  "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=300",
+  "teams": [
+    {
+      "sourceTeamId": "244",
+      "homeAway": "home",
+      "score": null
+    },
+    {
+      "sourceTeamId": "101",
+      "homeAway": "away",
+      "score": null
+    }
+  ],
+  "completed": false
+}

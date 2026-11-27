@@ -915,10 +915,24 @@
     ]
   },
   "ncaa:401856879": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "2641",
+        "name": "Texas Tech Red Raiders",
+        "score": "48"
+      },
+      {
+        "id": "2628",
+        "name": "TCU Horned Frogs",
+        "score": "27"
+      }
+    ],
     "firstObserved": "2026-11-26T01:57:26.342349+00:00",
     "gameId": "401856879",
     "kickoff": "2026-11-27T01:00:00+00:00",
     "league": "ncaa",
+    "outcomeObserved": "2026-11-27T07:59:03.026632+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
@@ -5645,10 +5659,24 @@
     ]
   },
   "nfl:401873082": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "2",
+        "name": "Buffalo Bills",
+        "score": "13"
+      },
+      {
+        "id": "12",
+        "name": "Kansas City Chiefs",
+        "score": "10"
+      }
+    ],
     "firstObserved": "2026-11-26T01:57:26.342349+00:00",
     "gameId": "401873082",
     "kickoff": "2026-11-27T01:20:00+00:00",
     "league": "nfl",
+    "outcomeObserved": "2026-11-27T07:59:03.026632+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {

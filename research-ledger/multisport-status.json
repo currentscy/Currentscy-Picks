@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-11-27T01:57:30.190926+00:00",
+  "lastRun": "2026-11-27T07:58:59.220953+00:00",
   "trackedGames": 503,
   "changes": [
     {
@@ -8,78 +8,18 @@
     },
     {
       "type": "game_updated",
-      "key": "nfl:401873081"
-    },
-    {
-      "type": "game_updated",
-      "key": "nfl:401873080"
-    },
-    {
-      "type": "game_updated",
       "key": "ncaa:401856879"
     },
     {
-      "type": "new_game",
-      "key": "ncaa:401869535"
+      "type": "game_updated",
+      "key": "ncaa:401858536"
     },
     {
-      "type": "new_game",
-      "key": "ncaa:401869546"
-    },
-    {
-      "type": "new_game",
+      "type": "game_updated",
       "key": "ncaa:401869533"
-    },
-    {
-      "type": "new_game",
-      "key": "ncaa:401869542"
-    },
-    {
-      "type": "new_game",
-      "key": "ncaa:401874049"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401909450"
-    },
-    {
-      "type": "new_game",
-      "key": "nba:401909451"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892855"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892856"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892857"
-    },
-    {
-      "type": "new_game",
-      "key": "nhl:401892858"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-laliga:401882786"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-bundesliga:401884718"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-seriea:401874984"
-    },
-    {
-      "type": "new_game",
-      "key": "soccer-ligue1:401876378"
     }
   ],
-  "changeCount": 19,
+  "changeCount": 4,
   "sourceFailures": [],
   "failureCount": 0,
   "injuryFeedVerified": false,

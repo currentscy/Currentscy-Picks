@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T07:48:59.121253+00:00",
+  "generatedAt": "2026-11-27T07:59:04.561921+00:00",
   "fiveSteps": {
     "eventCollection": true,
     "pregameForecastCaptured": true,
@@ -17,20 +17,20 @@
       "matchedFinalOutcomes": 39
     },
     "ncaa-basketball": {
-      "events": 122,
-      "completed": 29,
+      "events": 127,
+      "completed": 34,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "ncaa-football": {
       "events": 182,
-      "completed": 115,
+      "completed": 116,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "nfl": {
       "events": 39,
-      "completed": 25,
+      "completed": 26,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
@@ -66,7 +66,7 @@
     },
     "soccer-mexico": {
       "events": 38,
-      "completed": 31,
+      "completed": 33,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
