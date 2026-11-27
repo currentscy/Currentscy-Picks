@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 5,
+  "gameKey": "soccer-france:401876394",
+  "sport": "soccer-france",
+  "phase": "pregame",
+  "scheduledStart": "2026-11-28T16:15Z",
+  "sourceObservedAt": "2026-11-27T13:54:24.269022+00:00",
+  "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128&limit=300",
+  "teams": [
+    {
+      "sourceTeamId": "7868",
+      "homeAway": "home",
+      "score": null
+    },
+    {
+      "sourceTeamId": "175",
+      "homeAway": "away",
+      "score": null
+    }
+  ],
+  "completed": false
+}
