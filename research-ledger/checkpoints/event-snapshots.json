@@ -138498,5 +138498,40 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "f2eb8e9216a9b37f853f231b08a473c67aafda3ca37888fc82d638f23a6cc8ab",
+    "capturedAt": "2026-11-28T13:39:17.638496+00:00",
+    "observation": {
+      "eventKey": "soccer-spain:401882796",
+      "sport": "soccer-spain",
+      "scheduledStart": "2026-11-28T13:00Z",
+      "status": "STATUS_FIRST_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "244",
+          "name": "Real Betis",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "101",
+          "name": "Rayo Vallecano",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=300",
+      "observedAt": "2026-11-28T13:39:12.037506+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
