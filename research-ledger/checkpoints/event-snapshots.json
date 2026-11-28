@@ -138533,5 +138533,75 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "53cac00fda8f8451054ed2610c91aa889ed4c0219b06085584b8a717c3126beb",
+    "capturedAt": "2026-11-28T14:30:33.000685+00:00",
+    "observation": {
+      "eventKey": "soccer-spain:401882796",
+      "sport": "soccer-spain",
+      "scheduledStart": "2026-11-28T13:00Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "244",
+          "name": "Real Betis",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "101",
+          "name": "Rayo Vallecano",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=300",
+      "observedAt": "2026-11-28T14:30:27.236159+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "ea8e327d4b6423542860405b7dd1e40a55a72d40b2fde27bf8d6ece603d3e863",
+    "capturedAt": "2026-11-28T14:30:33.000685+00:00",
+    "observation": {
+      "eventKey": "soccer-italy:401875081",
+      "sport": "soccer-italy",
+      "scheduledStart": "2026-11-28T14:00Z",
+      "status": "STATUS_FIRST_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "4057",
+          "name": "Frosinone",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "115",
+          "name": "Parma",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261128&limit=300",
+      "observedAt": "2026-11-28T14:30:27.236159+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
