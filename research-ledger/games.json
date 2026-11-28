@@ -330,10 +330,24 @@
     ]
   },
   "ncaa:401856756": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "245",
+        "name": "Texas A&M Aggies",
+        "score": "6"
+      },
+      {
+        "id": "251",
+        "name": "Texas Longhorns",
+        "score": "16"
+      }
+    ],
     "firstObserved": "2026-11-27T01:57:37.317734+00:00",
     "gameId": "401856756",
     "kickoff": "2026-11-28T00:30:00+00:00",
     "league": "ncaa",
+    "outcomeObserved": "2026-11-28T07:51:30.979463+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
@@ -1223,10 +1237,24 @@
     ]
   },
   "ncaa:401856880": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "254",
+        "name": "Utah Utes",
+        "score": "52"
+      },
+      {
+        "id": "277",
+        "name": "West Virginia Mountaineers",
+        "score": "28"
+      }
+    ],
     "firstObserved": "2026-11-27T01:57:37.317734+00:00",
     "gameId": "401856880",
     "kickoff": "2026-11-28T02:00:00+00:00",
     "league": "ncaa",
+    "outcomeObserved": "2026-11-28T07:51:30.979463+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
@@ -2993,10 +3021,24 @@
     ]
   },
   "ncaa:401858544": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "275",
+        "name": "Wisconsin Badgers",
+        "score": "28"
+      },
+      {
+        "id": "135",
+        "name": "Minnesota Golden Gophers",
+        "score": "5"
+      }
+    ],
     "firstObserved": "2026-11-27T01:57:37.317734+00:00",
     "gameId": "401858544",
     "kickoff": "2026-11-28T00:30:00+00:00",
     "league": "ncaa",
+    "outcomeObserved": "2026-11-28T07:51:30.979463+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
