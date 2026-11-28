@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-28T04:35:57.433660+00:00",
+  "generatedAt": "2026-11-28T05:33:49.025816+00:00",
   "fiveSteps": {
     "eventCollection": true,
     "pregameForecastCaptured": true,
@@ -202,6 +202,26 @@
     {
       "type": "outcome",
       "id": "research-home-win:nhl:401892809:prior20-v1",
+      "reason": "invalid or not final"
+    },
+    {
+      "type": "outcome",
+      "id": "nba-home-win:401909333:nba-record-home-v1",
+      "reason": "invalid or not final"
+    },
+    {
+      "type": "outcome",
+      "id": "nba-home-win:401909334:nba-record-home-v1",
+      "reason": "invalid or not final"
+    },
+    {
+      "type": "outcome",
+      "id": "nba-home-win:401909335:nba-record-home-v1",
+      "reason": "invalid or not final"
+    },
+    {
+      "type": "outcome",
+      "id": "nba-home-win:401909336:nba-record-home-v1",
       "reason": "invalid or not final"
     }
   ],

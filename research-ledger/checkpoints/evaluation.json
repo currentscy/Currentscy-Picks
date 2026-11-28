@@ -4,11 +4,11 @@
     "nba": {
       "early": {
         "metrics": {
-          "count": 101,
-          "brier": 0.24135875686742292,
-          "logLoss": 0.6741616165905926,
-          "actualWinRate": 0.5247524752475248,
-          "meanPredicted": 0.5518977168514583
+          "count": 105,
+          "brier": 0.23969203596466696,
+          "logLoss": 0.6708039416046202,
+          "actualWinRate": 0.5238095238095238,
+          "meanPredicted": 0.5505534093318377
         },
         "calibrationBins": [
           {
@@ -44,11 +44,11 @@
               0.4
             ],
             "metrics": {
-              "count": 4,
-              "brier": 0.21426629375493705,
-              "logLoss": 0.6220511559711055,
-              "actualWinRate": 0.25,
-              "meanPredicted": 0.36299987338228185
+              "count": 5,
+              "brier": 0.19629706905401162,
+              "logLoss": 0.5846400291449985,
+              "actualWinRate": 0.2,
+              "meanPredicted": 0.3609463855780461
             }
           },
           {
@@ -70,11 +70,11 @@
               0.6
             ],
             "metrics": {
-              "count": 36,
-              "brier": 0.255740746650988,
-              "logLoss": 0.7047140988548194,
-              "actualWinRate": 0.4722222222222222,
-              "meanPredicted": 0.5432689220431798
+              "count": 38,
+              "brier": 0.2556473355882797,
+              "logLoss": 0.7045259660524771,
+              "actualWinRate": 0.47368421052631576,
+              "meanPredicted": 0.5439204390756026
             }
           },
           {
@@ -83,11 +83,11 @@
               0.7
             ],
             "metrics": {
-              "count": 26,
-              "brier": 0.27867713280334444,
-              "logLoss": 0.7529313343598193,
-              "actualWinRate": 0.46153846153846156,
-              "meanPredicted": 0.6347545258462068
+              "count": 27,
+              "brier": 0.2742104719406631,
+              "logLoss": 0.7438159486344209,
+              "actualWinRate": 0.48148148148148145,
+              "meanPredicted": 0.6335566045987973
             }
           },
           {
@@ -224,5 +224,5 @@
   "rejected": {},
   "liveModelPromoted": false,
   "limitations": "No causal injury/lineup attribution without matched same-state counterfactuals; no model promotion or automatic live deployment.",
-  "generatedAt": "2026-11-28T04:35:57.870136+00:00"
+  "generatedAt": "2026-11-28T05:33:49.513066+00:00"
 }
