@@ -137448,5 +137448,530 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "27d404b6c103246077e695648e716b6c0bcf7b3e01a04faf0b03cf44039fe055",
+    "capturedAt": "2026-11-28T04:35:57.610252+00:00",
+    "observation": {
+      "eventKey": "ncaa-football:401856756",
+      "sport": "ncaa-football",
+      "scheduledStart": "2026-11-28T00:30Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "245",
+          "name": "Texas A&M Aggies",
+          "homeAway": "home",
+          "score": "6",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "251",
+          "name": "Texas Longhorns",
+          "homeAway": "away",
+          "score": "16",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-28T04:35:42.786299+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "8394db1df64a70251c25d83afa7717505efb0bcb64a88893bbe1f352ce00536f",
+    "capturedAt": "2026-11-28T04:35:57.610252+00:00",
+    "observation": {
+      "eventKey": "ncaa-football:401858544",
+      "sport": "ncaa-football",
+      "scheduledStart": "2026-11-28T00:30Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "275",
+          "name": "Wisconsin Badgers",
+          "homeAway": "home",
+          "score": "28",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "135",
+          "name": "Minnesota Golden Gophers",
+          "homeAway": "away",
+          "score": "5",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-28T04:35:42.786299+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "0b71d3d3f73bb8cf6b7c9cac3d0ed6f06ee3a148a330537fbcc1ceec47a5e7a8",
+    "capturedAt": "2026-11-28T04:35:57.610252+00:00",
+    "observation": {
+      "eventKey": "nhl:401892808",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-28T01:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "2",
+          "name": "Buffalo Sabres",
+          "homeAway": "home",
+          "score": "3",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "16",
+          "name": "Pittsburgh Penguins",
+          "homeAway": "away",
+          "score": "6",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-28T04:35:42.786299+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "982a80985d7b36b5584dd182a811a4f3c84cd0f7db2d2e2d4a0a118af2e45a74",
+    "capturedAt": "2026-11-28T04:35:57.610252+00:00",
+    "observation": {
+      "eventKey": "nhl:401892809",
+      "sport": "nhl",
+      "scheduledStart": "2026-11-28T01:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "6",
+          "name": "Edmonton Oilers",
+          "homeAway": "home",
+          "score": "2",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "124292",
+          "name": "Seattle Kraken",
+          "homeAway": "away",
+          "score": "4",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-28T04:35:42.786299+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "5e5eb2edb83a1e520f4fc8458b9dedb1af324709456629fe6e6c36dbd2e5ada4",
+    "capturedAt": "2026-11-28T04:35:57.610252+00:00",
+    "observation": {
+      "eventKey": "nba:401909331",
+      "sport": "nba",
+      "scheduledStart": "2026-11-28T01:30Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "16",
+          "name": "Minnesota Timberwolves",
+          "homeAway": "home",
+          "score": "109",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "29",
+          "name": "Memphis Grizzlies",
+          "homeAway": "away",
+          "score": "114",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-28T04:35:42.786299+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "492b54f546f2ca2963954451538e8f847f6f3f9a20c08ab40f098b7da5b74c85",
+    "capturedAt": "2026-11-28T04:35:57.610252+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920543",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-28T01:30Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "333",
+          "name": "Alabama Crimson Tide",
+          "homeAway": "home",
+          "score": "81",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "2390",
+          "name": "Miami Hurricanes",
+          "homeAway": "away",
+          "score": "87",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-28T04:35:42.786299+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "70937be1f6d38b66537574a27e01babf5d4fa1b838e7d36058d304d39d1bae9d",
+    "capturedAt": "2026-11-28T04:35:57.610252+00:00",
+    "observation": {
+      "eventKey": "nba:401909332",
+      "sport": "nba",
+      "scheduledStart": "2026-11-28T02:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "21",
+          "name": "Phoenix Suns",
+          "homeAway": "home",
+          "score": "109",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "6",
+          "name": "Dallas Mavericks",
+          "homeAway": "away",
+          "score": "113",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-28T04:35:42.786299+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "b7a3cac6940841e66fac241c3db0613840760f188e1cc3d6a676ad609b860db7",
+    "capturedAt": "2026-11-28T04:35:57.610252+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920534",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-28T02:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "97",
+          "name": "Louisville Cardinals",
+          "homeAway": "home",
+          "score": "84",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "2633",
+          "name": "Tennessee Volunteers",
+          "homeAway": "away",
+          "score": "64",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-28T04:35:42.786299+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "ad20dd92ab31cf3aa4e4aaf280b66e863f43676e918e7d3efe6d18ad2392ab6b",
+    "capturedAt": "2026-11-28T04:35:57.610252+00:00",
+    "observation": {
+      "eventKey": "ncaa-football:401856880",
+      "sport": "ncaa-football",
+      "scheduledStart": "2026-11-28T02:00Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "254",
+          "name": "Utah Utes",
+          "homeAway": "home",
+          "score": "52",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "277",
+          "name": "West Virginia Mountaineers",
+          "homeAway": "away",
+          "score": "7",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-28T04:35:42.786299+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "23b4ed433eed7e17c3b751c88edeee5e3989b8e08901c6461ab5c4b16fb68640",
+    "capturedAt": "2026-11-28T04:35:57.610252+00:00",
+    "observation": {
+      "eventKey": "nba:401909333",
+      "sport": "nba",
+      "scheduledStart": "2026-11-28T02:30Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "24",
+          "name": "San Antonio Spurs",
+          "homeAway": "home",
+          "score": "81",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "13",
+          "name": "Los Angeles Lakers",
+          "homeAway": "away",
+          "score": "73",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-28T04:35:42.786299+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "8dab749a2a55e861c47ae4cf7d7608e4eb48a0484b43c4b738d32cefee736a29",
+    "capturedAt": "2026-11-28T04:35:57.610252+00:00",
+    "observation": {
+      "eventKey": "nba:401909334",
+      "sport": "nba",
+      "scheduledStart": "2026-11-28T02:30Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "26",
+          "name": "Utah Jazz",
+          "homeAway": "home",
+          "score": "102",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "7",
+          "name": "Denver Nuggets",
+          "homeAway": "away",
+          "score": "97",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-28T04:35:42.786299+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "ebcb2b38decc8532c6cf57f6e1c63ea8a602085a270fd7ac0853d9b2ca595ffc",
+    "capturedAt": "2026-11-28T04:35:57.610252+00:00",
+    "observation": {
+      "eventKey": "nba:401909335",
+      "sport": "nba",
+      "scheduledStart": "2026-11-28T02:30Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "12",
+          "name": "LA Clippers",
+          "homeAway": "home",
+          "score": "87",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "3",
+          "name": "New Orleans Pelicans",
+          "homeAway": "away",
+          "score": "90",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-28T04:35:42.786299+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "3f90c6d2a4b51b46e9f6efa14f493bc3e86bf42b9daf2cc6b6de6445204ca057",
+    "capturedAt": "2026-11-28T04:35:57.610252+00:00",
+    "observation": {
+      "eventKey": "nba:401909336",
+      "sport": "nba",
+      "scheduledStart": "2026-11-28T02:30Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "22",
+          "name": "Portland Trail Blazers",
+          "homeAway": "home",
+          "score": "97",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "9",
+          "name": "Golden State Warriors",
+          "homeAway": "away",
+          "score": "82",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-28T04:35:42.786299+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "99df102946b28aef06dedc712a8372ad7abda92121211c28f711f9b94c8a573c",
+    "capturedAt": "2026-11-28T04:35:57.610252+00:00",
+    "observation": {
+      "eventKey": "soccer-mls:401933725",
+      "sport": "soccer-mls",
+      "scheduledStart": "2026-11-28T03:00Z",
+      "status": "STATUS_SECOND_HALF",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "4771",
+          "name": "Real Salt Lake",
+          "homeAway": "home",
+          "score": "0",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "9727",
+          "name": "Vancouver Whitecaps",
+          "homeAway": "away",
+          "score": "0",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-28T04:35:42.786299+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "c681f7eb59324c98c5738f9d326f0df87995902c14ff5dfe9301ec61fbc3124f",
+    "capturedAt": "2026-11-28T04:35:57.610252+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920544",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-28T04:15Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2250",
+          "name": "Gonzaga Bulldogs",
+          "homeAway": "home",
+          "score": "7",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "156",
+          "name": "Creighton Bluejays",
+          "homeAway": "away",
+          "score": "10",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-28T04:35:42.786299+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
