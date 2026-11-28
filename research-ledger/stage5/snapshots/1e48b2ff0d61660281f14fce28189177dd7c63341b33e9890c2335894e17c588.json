@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 5,
+  "gameKey": "ncaa-basketball:401921718",
+  "sport": "ncaa-basketball",
+  "phase": "postgame",
+  "scheduledStart": "2026-11-27T22:00Z",
+  "sourceObservedAt": "2026-11-28T01:54:45.746676+00:00",
+  "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300",
+  "teams": [
+    {
+      "sourceTeamId": "2608",
+      "homeAway": "home",
+      "score": "73"
+    },
+    {
+      "sourceTeamId": "251",
+      "homeAway": "away",
+      "score": "76"
+    }
+  ],
+  "completed": true
+}

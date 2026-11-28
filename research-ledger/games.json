@@ -348,11 +348,63 @@
       }
     ]
   },
+  "ncaa:401856757": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401856757",
+    "kickoff": "2026-11-29T00:30:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "333",
+        "name": "Alabama Crimson Tide",
+        "score": "0"
+      },
+      {
+        "id": "2",
+        "name": "Auburn Tigers",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401856758": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401856758",
+    "kickoff": "2026-11-28T17:45:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "8",
+        "name": "Arkansas Razorbacks",
+        "score": "0"
+      },
+      {
+        "id": "99",
+        "name": "LSU Tigers",
+        "score": "0"
+      }
+    ]
+  },
   "ncaa:401856759": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "52",
+        "name": "Florida State Seminoles",
+        "score": "10"
+      },
+      {
+        "id": "57",
+        "name": "Florida Gators",
+        "score": "26"
+      }
+    ],
     "firstObserved": "2026-11-27T01:57:37.317734+00:00",
     "gameId": "401856759",
     "kickoff": "2026-11-27T20:30:00+00:00",
     "league": "ncaa",
+    "outcomeObserved": "2026-11-28T01:55:09.384858+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
@@ -367,11 +419,63 @@
       }
     ]
   },
+  "ncaa:401856760": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401856760",
+    "kickoff": "2026-11-28T20:30:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "61",
+        "name": "Georgia Bulldogs",
+        "score": "0"
+      },
+      {
+        "id": "59",
+        "name": "Georgia Tech Yellow Jackets",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401856761": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401856761",
+    "kickoff": "2026-11-28T17:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "96",
+        "name": "Kentucky Wildcats",
+        "score": "0"
+      },
+      {
+        "id": "97",
+        "name": "Louisville Cardinals",
+        "score": "0"
+      }
+    ]
+  },
   "ncaa:401856762": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "145",
+        "name": "Ole Miss Rebels",
+        "score": "41"
+      },
+      {
+        "id": "344",
+        "name": "Mississippi State Bulldogs",
+        "score": "17"
+      }
+    ],
     "firstObserved": "2026-11-27T01:57:37.317734+00:00",
     "gameId": "401856762",
     "kickoff": "2026-11-27T17:00:00+00:00",
     "league": "ncaa",
+    "outcomeObserved": "2026-11-28T01:55:09.384858+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
@@ -382,6 +486,63 @@
       {
         "id": "344",
         "name": "Mississippi State Bulldogs",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401856763": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401856763",
+    "kickoff": "2026-11-28T21:15:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "142",
+        "name": "Missouri Tigers",
+        "score": "0"
+      },
+      {
+        "id": "201",
+        "name": "Oklahoma Sooners",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401856764": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401856764",
+    "kickoff": "2026-11-28T20:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "228",
+        "name": "Clemson Tigers",
+        "score": "0"
+      },
+      {
+        "id": "2579",
+        "name": "South Carolina Gamecocks",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401856765": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401856765",
+    "kickoff": "2026-11-29T00:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "238",
+        "name": "Vanderbilt Commodores",
+        "score": "0"
+      },
+      {
+        "id": "2633",
+        "name": "Tennessee Volunteers",
         "score": "0"
       }
     ]
@@ -910,6 +1071,120 @@
       {
         "id": "254",
         "name": "Utah Utes",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401856873": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401856873",
+    "kickoff": "2026-11-29T02:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "12",
+        "name": "Arizona Wildcats",
+        "score": "0"
+      },
+      {
+        "id": "9",
+        "name": "Arizona State Sun Devils",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401856874": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401856874",
+    "kickoff": "2026-11-29T02:30:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "248",
+        "name": "Houston Cougars",
+        "score": "0"
+      },
+      {
+        "id": "239",
+        "name": "Baylor Bears",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401856875": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401856875",
+    "kickoff": "2026-11-28T19:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "38",
+        "name": "Colorado Buffaloes",
+        "score": "0"
+      },
+      {
+        "id": "2116",
+        "name": "UCF Knights",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401856876": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401856876",
+    "kickoff": "2026-11-28T20:30:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "252",
+        "name": "BYU Cougars",
+        "score": "0"
+      },
+      {
+        "id": "2132",
+        "name": "Cincinnati Bearcats",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401856877": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401856877",
+    "kickoff": "2026-11-28T23:15:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "197",
+        "name": "Oklahoma State Cowboys",
+        "score": "0"
+      },
+      {
+        "id": "2305",
+        "name": "Kansas Jayhawks",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401856878": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401856878",
+    "kickoff": "2026-11-28T19:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "66",
+        "name": "Iowa State Cyclones",
+        "score": "0"
+      },
+      {
+        "id": "2306",
+        "name": "Kansas State Wildcats",
         "score": "0"
       }
     ]
@@ -1824,6 +2099,139 @@
       }
     ]
   },
+  "ncaa:401858311": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401858311",
+    "kickoff": "2026-11-28T17:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "2390",
+        "name": "Miami Hurricanes",
+        "score": "0"
+      },
+      {
+        "id": "103",
+        "name": "Boston College Eagles",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401858312": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401858312",
+    "kickoff": "2026-11-28T20:30:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "154",
+        "name": "Wake Forest Demon Deacons",
+        "score": "0"
+      },
+      {
+        "id": "150",
+        "name": "Duke Blue Devils",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401858313": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401858313",
+    "kickoff": "2026-11-28T17:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "153",
+        "name": "North Carolina Tar Heels",
+        "score": "0"
+      },
+      {
+        "id": "152",
+        "name": "NC State Wolfpack",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401858314": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401858314",
+    "kickoff": "2026-11-28T17:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "183",
+        "name": "Syracuse Orange",
+        "score": "0"
+      },
+      {
+        "id": "87",
+        "name": "Notre Dame Fighting Irish",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401858315": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401858315",
+    "kickoff": "2026-11-29T00:30:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "25",
+        "name": "California Golden Bears",
+        "score": "0"
+      },
+      {
+        "id": "221",
+        "name": "Pittsburgh Panthers",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401858316": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401858316",
+    "kickoff": "2026-11-28T20:30:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "24",
+        "name": "Stanford Cardinal",
+        "score": "0"
+      },
+      {
+        "id": "2567",
+        "name": "SMU Mustangs",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401858317": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401858317",
+    "kickoff": "2026-11-28T20:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "259",
+        "name": "Virginia Tech Hokies",
+        "score": "0"
+      },
+      {
+        "id": "258",
+        "name": "Virginia Cavaliers",
+        "score": "0"
+      }
+    ]
+  },
   "ncaa:401858518": {
     "completed": true,
     "finalTeams": [
@@ -2419,10 +2827,24 @@
     ]
   },
   "ncaa:401858536": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "2294",
+        "name": "Iowa Hawkeyes",
+        "score": "31"
+      },
+      {
+        "id": "158",
+        "name": "Nebraska Cornhuskers",
+        "score": "7"
+      }
+    ],
     "firstObserved": "2026-11-27T01:57:37.317734+00:00",
     "gameId": "401858536",
     "kickoff": "2026-11-27T17:00:00+00:00",
     "league": "ncaa",
+    "outcomeObserved": "2026-11-28T01:55:09.384858+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
@@ -2433,6 +2855,139 @@
       {
         "id": "158",
         "name": "Nebraska Cornhuskers",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401858537": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401858537",
+    "kickoff": "2026-11-28T17:30:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "77",
+        "name": "Northwestern Wildcats",
+        "score": "0"
+      },
+      {
+        "id": "356",
+        "name": "Illinois Fighting Illini",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401858538": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401858538",
+    "kickoff": "2026-11-29T00:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "84",
+        "name": "Indiana Hoosiers",
+        "score": "0"
+      },
+      {
+        "id": "2509",
+        "name": "Purdue Boilermakers",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401858539": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401858539",
+    "kickoff": "2026-11-28T20:30:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "120",
+        "name": "Maryland Terrapins",
+        "score": "0"
+      },
+      {
+        "id": "213",
+        "name": "Penn State Nittany Lions",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401858540": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401858540",
+    "kickoff": "2026-11-28T17:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "194",
+        "name": "Ohio State Buckeyes",
+        "score": "0"
+      },
+      {
+        "id": "130",
+        "name": "Michigan Wolverines",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401858541": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401858541",
+    "kickoff": "2026-11-29T00:30:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "2483",
+        "name": "Oregon Ducks",
+        "score": "0"
+      },
+      {
+        "id": "264",
+        "name": "Washington Huskies",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401858542": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401858542",
+    "kickoff": "2026-11-28T21:15:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "164",
+        "name": "Rutgers Scarlet Knights",
+        "score": "0"
+      },
+      {
+        "id": "127",
+        "name": "Michigan State Spartans",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401858543": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401858543",
+    "kickoff": "2026-11-28T20:30:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "26",
+        "name": "UCLA Bruins",
+        "score": "0"
+      },
+      {
+        "id": "30",
+        "name": "USC Trojans",
         "score": "0"
       }
     ]
@@ -2720,6 +3275,82 @@
       }
     ]
   },
+  "ncaa:401860926": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401860926",
+    "kickoff": "2026-11-28T23:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "36",
+        "name": "Colorado State Rams",
+        "score": "0"
+      },
+      {
+        "id": "68",
+        "name": "Boise State Broncos",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401860927": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401860927",
+    "kickoff": "2026-11-29T03:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "278",
+        "name": "Fresno State Bulldogs",
+        "score": "0"
+      },
+      {
+        "id": "204",
+        "name": "Oregon State Beavers",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401860928": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401860928",
+    "kickoff": "2026-11-29T02:30:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "328",
+        "name": "Utah State Aggies",
+        "score": "0"
+      },
+      {
+        "id": "326",
+        "name": "Texas State Bobcats",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401860929": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401860929",
+    "kickoff": "2026-11-28T23:30:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "265",
+        "name": "Washington State Cougars",
+        "score": "0"
+      },
+      {
+        "id": "21",
+        "name": "San Diego State Aztecs",
+        "score": "0"
+      }
+    ]
+  },
   "ncaa:401861967": {
     "completed": true,
     "finalTeams": [
@@ -2782,6 +3413,25 @@
       {
         "id": "295",
         "name": "Old Dominion Monarchs",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401861969": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401861969",
+    "kickoff": "2026-11-28T17:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "2751",
+        "name": "Wyoming Cowboys",
+        "score": "0"
+      },
+      {
+        "id": "41",
+        "name": "UConn Huskies",
         "score": "0"
       }
     ]
@@ -3215,11 +3865,44 @@
       }
     ]
   },
+  "ncaa:401862837": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401862837",
+    "kickoff": "2026-11-28T18:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "151",
+        "name": "East Carolina Pirates",
+        "score": "0"
+      },
+      {
+        "id": "2226",
+        "name": "Florida Atlantic Owls",
+        "score": "0"
+      }
+    ]
+  },
   "ncaa:401862838": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "235",
+        "name": "Memphis Tigers",
+        "score": "31"
+      },
+      {
+        "id": "218",
+        "name": "Temple Owls",
+        "score": "35"
+      }
+    ],
     "firstObserved": "2026-11-27T01:57:37.317734+00:00",
     "gameId": "401862838",
     "kickoff": "2026-11-27T20:30:00+00:00",
     "league": "ncaa",
+    "outcomeObserved": "2026-11-28T01:55:09.384858+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
@@ -3234,11 +3917,44 @@
       }
     ]
   },
+  "ncaa:401862839": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401862839",
+    "kickoff": "2026-11-28T20:30:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "58",
+        "name": "South Florida Bulls",
+        "score": "0"
+      },
+      {
+        "id": "2655",
+        "name": "Tulane Green Wave",
+        "score": "0"
+      }
+    ]
+  },
   "ncaa:401862840": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "2636",
+        "name": "UTSA Roadrunners",
+        "score": "28"
+      },
+      {
+        "id": "202",
+        "name": "Tulsa Golden Hurricane",
+        "score": "22"
+      }
+    ],
     "firstObserved": "2026-11-27T01:57:37.317734+00:00",
     "gameId": "401862840",
     "kickoff": "2026-11-27T17:00:00+00:00",
     "league": "ncaa",
+    "outcomeObserved": "2026-11-28T01:55:09.384858+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
@@ -3249,6 +3965,63 @@
       {
         "id": "202",
         "name": "Tulsa Golden Hurricane",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401862841": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401862841",
+    "kickoff": "2026-11-28T19:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "242",
+        "name": "Rice Owls",
+        "score": "0"
+      },
+      {
+        "id": "349",
+        "name": "Army Black Knights",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401862842": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401862842",
+    "kickoff": "2026-11-28T17:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "2429",
+        "name": "Charlotte 49ers",
+        "score": "0"
+      },
+      {
+        "id": "2426",
+        "name": "Navy Midshipmen",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401862843": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401862843",
+    "kickoff": "2026-11-28T21:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "249",
+        "name": "North Texas Mean Green",
+        "score": "0"
+      },
+      {
+        "id": "5",
+        "name": "UAB Blazers",
         "score": "0"
       }
     ]
@@ -3584,10 +4357,24 @@
     ]
   },
   "ncaa:401864546": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "167",
+        "name": "New Mexico Lobos",
+        "score": "42"
+      },
+      {
+        "id": "2005",
+        "name": "Air Force Falcons",
+        "score": "19"
+      }
+    ],
     "firstObserved": "2026-11-27T01:57:37.317734+00:00",
     "gameId": "401864546",
     "kickoff": "2026-11-27T21:30:00+00:00",
     "league": "ncaa",
+    "outcomeObserved": "2026-11-28T01:55:09.384858+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
@@ -3602,11 +4389,63 @@
       }
     ]
   },
+  "ncaa:401864547": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401864547",
+    "kickoff": "2026-11-29T04:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "62",
+        "name": "Hawai'i Rainbow Warriors",
+        "score": "0"
+      },
+      {
+        "id": "16",
+        "name": "Sacramento State Hornets",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401864548": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401864548",
+    "kickoff": "2026-11-29T02:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "2439",
+        "name": "UNLV Rebels",
+        "score": "0"
+      },
+      {
+        "id": "2440",
+        "name": "Nevada Wolf Pack",
+        "score": "0"
+      }
+    ]
+  },
   "ncaa:401864549": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "23",
+        "name": "San Jos\u00e9 State Spartans",
+        "score": "31"
+      },
+      {
+        "id": "2449",
+        "name": "North Dakota State Bison",
+        "score": "38"
+      }
+    ],
     "firstObserved": "2026-11-27T01:57:37.317734+00:00",
     "gameId": "401864549",
     "kickoff": "2026-11-27T20:30:00+00:00",
     "league": "ncaa",
+    "outcomeObserved": "2026-11-28T01:55:09.384858+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
@@ -3617,6 +4456,25 @@
       {
         "id": "2449",
         "name": "North Dakota State Bison",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401864550": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401864550",
+    "kickoff": "2026-11-28T20:30:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "2459",
+        "name": "Northern Illinois Huskies",
+        "score": "0"
+      },
+      {
+        "id": "2638",
+        "name": "UTEP Miners",
         "score": "0"
       }
     ]
@@ -3886,10 +4744,24 @@
     ]
   },
   "ncaa:401866472": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "2006",
+        "name": "Akron Zips",
+        "score": "9"
+      },
+      {
+        "id": "2084",
+        "name": "Buffalo Bulls",
+        "score": "17"
+      }
+    ],
     "firstObserved": "2026-11-27T01:57:37.317734+00:00",
     "gameId": "401866472",
     "kickoff": "2026-11-27T17:00:00+00:00",
     "league": "ncaa",
+    "outcomeObserved": "2026-11-28T01:55:09.384858+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
@@ -3905,10 +4777,24 @@
     ]
   },
   "ncaa:401866473": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "195",
+        "name": "Ohio Bobcats",
+        "score": "31"
+      },
+      {
+        "id": "2649",
+        "name": "Toledo Rockets",
+        "score": "34"
+      }
+    ],
     "firstObserved": "2026-11-27T01:57:37.317734+00:00",
     "gameId": "401866473",
     "kickoff": "2026-11-27T17:00:00+00:00",
     "league": "ncaa",
+    "outcomeObserved": "2026-11-28T01:55:09.384858+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
@@ -3919,6 +4805,44 @@
       {
         "id": "2649",
         "name": "Toledo Rockets",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401866474": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401866474",
+    "kickoff": "2026-11-28T17:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "2050",
+        "name": "Ball State Cardinals",
+        "score": "0"
+      },
+      {
+        "id": "2117",
+        "name": "Central Michigan Chippewas",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401866475": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401866475",
+    "kickoff": "2026-11-28T20:30:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "189",
+        "name": "Bowling Green Falcons",
+        "score": "0"
+      },
+      {
+        "id": "113",
+        "name": "Massachusetts Minutemen",
         "score": "0"
       }
     ]
@@ -3990,10 +4914,24 @@
     ]
   },
   "ncaa:401869930": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "6",
+        "name": "South Alabama Jaguars",
+        "score": "20"
+      },
+      {
+        "id": "2026",
+        "name": "App State Mountaineers",
+        "score": "13"
+      }
+    ],
     "firstObserved": "2026-11-27T01:57:37.317734+00:00",
     "gameId": "401869930",
     "kickoff": "2026-11-27T20:00:00+00:00",
     "league": "ncaa",
+    "outcomeObserved": "2026-11-28T01:55:09.384858+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {
@@ -4074,6 +5012,25 @@
       }
     ]
   },
+  "ncaa:401869939": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401869939",
+    "kickoff": "2026-11-28T20:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "2032",
+        "name": "Arkansas State Red Wolves",
+        "score": "0"
+      },
+      {
+        "id": "2653",
+        "name": "Troy Trojans",
+        "score": "0"
+      }
+    ]
+  },
   "ncaa:401869946": {
     "completed": true,
     "finalTeams": [
@@ -4098,6 +5055,25 @@
       {
         "id": "309",
         "name": "Louisiana Ragin' Cajuns",
+        "score": "0"
+      },
+      {
+        "id": "324",
+        "name": "Coastal Carolina Chanticleers",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401869947": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401869947",
+    "kickoff": "2026-11-28T19:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "256",
+        "name": "James Madison Dukes",
         "score": "0"
       },
       {
@@ -4173,6 +5149,25 @@
       }
     ]
   },
+  "ncaa:401869954": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401869954",
+    "kickoff": "2026-11-28T17:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "290",
+        "name": "Georgia Southern Eagles",
+        "score": "0"
+      },
+      {
+        "id": "2348",
+        "name": "Louisiana Tech Bulldogs",
+        "score": "0"
+      }
+    ]
+  },
   "ncaa:401869958": {
     "completed": true,
     "finalTeams": [
@@ -4202,6 +5197,25 @@
       {
         "id": "2247",
         "name": "Georgia State Panthers",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401869959": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401869959",
+    "kickoff": "2026-11-28T19:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "2247",
+        "name": "Georgia State Panthers",
+        "score": "0"
+      },
+      {
+        "id": "309",
+        "name": "Louisiana Ragin' Cajuns",
         "score": "0"
       }
     ]
@@ -4338,6 +5352,25 @@
       }
     ]
   },
+  "ncaa:401870804": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401870804",
+    "kickoff": "2026-11-28T18:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "98",
+        "name": "Western Kentucky Hilltoppers",
+        "score": "0"
+      },
+      {
+        "id": "338",
+        "name": "Kennesaw State Owls",
+        "score": "0"
+      }
+    ]
+  },
   "ncaa:401871060": {
     "completed": true,
     "finalTeams": [
@@ -4401,6 +5434,44 @@
         "id": "2393",
         "name": "Middle Tennessee Blue Raiders",
         "score": "23"
+      }
+    ]
+  },
+  "ncaa:401871062": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401871062",
+    "kickoff": "2026-11-28T20:30:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "48",
+        "name": "Delaware Blue Hens",
+        "score": "0"
+      },
+      {
+        "id": "55",
+        "name": "Jacksonville State Gamecocks",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401871063": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401871063",
+    "kickoff": "2026-11-28T19:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "2623",
+        "name": "Missouri State Bears",
+        "score": "0"
+      },
+      {
+        "id": "2335",
+        "name": "Liberty Flames",
+        "score": "0"
       }
     ]
   },
@@ -4569,6 +5640,44 @@
       }
     ]
   },
+  "ncaa:401871082": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401871082",
+    "kickoff": "2026-11-28T19:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "2229",
+        "name": "Florida International Panthers",
+        "score": "0"
+      },
+      {
+        "id": "2534",
+        "name": "Sam Houston Bearkats",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401871083": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401871083",
+    "kickoff": "2026-11-28T19:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "2393",
+        "name": "Middle Tennessee Blue Raiders",
+        "score": "0"
+      },
+      {
+        "id": "166",
+        "name": "New Mexico State Aggies",
+        "score": "0"
+      }
+    ]
+  },
   "ncaa:401871099": {
     "completed": true,
     "finalTeams": [
@@ -4664,6 +5773,44 @@
       {
         "id": "6",
         "name": "South Alabama Jaguars",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401871102": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401871102",
+    "kickoff": "2026-11-28T18:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "2433",
+        "name": "UL Monroe Warhawks",
+        "score": "0"
+      },
+      {
+        "id": "276",
+        "name": "Marshall Thundering Herd",
+        "score": "0"
+      }
+    ]
+  },
+  "ncaa:401871103": {
+    "firstObserved": "2026-11-28T01:55:09.384858+00:00",
+    "gameId": "401871103",
+    "kickoff": "2026-11-28T18:00:00+00:00",
+    "league": "ncaa",
+    "source": "ESPN scoreboard",
+    "teams": [
+      {
+        "id": "295",
+        "name": "Old Dominion Monarchs",
+        "score": "0"
+      },
+      {
+        "id": "2572",
+        "name": "Southern Miss Golden Eagles",
         "score": "0"
       }
     ]
@@ -5692,10 +6839,24 @@
     ]
   },
   "nfl:401873083": {
+    "completed": true,
+    "finalTeams": [
+      {
+        "id": "23",
+        "name": "Pittsburgh Steelers",
+        "score": "27"
+      },
+      {
+        "id": "7",
+        "name": "Denver Broncos",
+        "score": "5"
+      }
+    ],
     "firstObserved": "2026-11-27T01:57:37.317734+00:00",
     "gameId": "401873083",
     "kickoff": "2026-11-27T20:00:00+00:00",
     "league": "nfl",
+    "outcomeObserved": "2026-11-28T01:55:09.384858+00:00",
     "source": "ESPN scoreboard",
     "teams": [
       {

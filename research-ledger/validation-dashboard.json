@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-28T01:18:28.021381+00:00",
+  "generatedAt": "2026-11-28T01:55:13.353436+00:00",
   "fiveSteps": {
     "eventCollection": true,
     "pregameForecastCaptured": true,
@@ -11,56 +11,56 @@
   },
   "bySport": {
     "nba": {
-      "events": 303,
+      "events": 311,
       "completed": 265,
       "validForecasts": 70,
       "matchedFinalOutcomes": 39
     },
     "ncaa-basketball": {
-      "events": 127,
-      "completed": 35,
+      "events": 136,
+      "completed": 43,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "ncaa-football": {
       "events": 182,
-      "completed": 116,
+      "completed": 126,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "nfl": {
       "events": 39,
-      "completed": 26,
+      "completed": 27,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "nhl": {
-      "events": 315,
-      "completed": 276,
-      "validForecasts": 77,
-      "matchedFinalOutcomes": 38
+      "events": 324,
+      "completed": 288,
+      "validForecasts": 86,
+      "matchedFinalOutcomes": 50
     },
     "soccer-england": {
-      "events": 33,
-      "completed": 23,
+      "events": 34,
+      "completed": 24,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-france": {
       "events": 35,
-      "completed": 26,
+      "completed": 27,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-germany": {
       "events": 35,
-      "completed": 26,
+      "completed": 27,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
     "soccer-italy": {
       "events": 43,
-      "completed": 33,
+      "completed": 34,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
@@ -78,7 +78,7 @@
     },
     "soccer-spain": {
       "events": 39,
-      "completed": 29,
+      "completed": 30,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
     },
@@ -101,7 +101,7 @@
       "matchedFinalOutcomes": 0
     },
     "tennis-wta": {
-      "events": 2,
+      "events": 4,
       "completed": 2,
       "validForecasts": 0,
       "matchedFinalOutcomes": 0
@@ -153,70 +153,10 @@
       "type": "outcome",
       "id": "research-home-win:nhl:401892772:prior20-v1",
       "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892795:prior20-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892796:prior20-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892797:prior20-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892798:prior20-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892799:prior20-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892800:prior20-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892801:prior20-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892802:prior20-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892803:prior20-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892804:prior20-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892805:prior20-v1",
-      "reason": "invalid or not final"
-    },
-    {
-      "type": "outcome",
-      "id": "research-home-win:nhl:401892806:prior20-v1",
-      "reason": "invalid or not final"
     }
   ],
-  "validPregameForecasts": 147,
-  "matchedFinalOutcomes": 77,
+  "validPregameForecasts": 156,
+  "matchedFinalOutcomes": 89,
   "completeCoverageEstablished": false,
   "sportsWithScoredForecasts": [
     "nba",

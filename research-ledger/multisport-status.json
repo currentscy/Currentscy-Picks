@@ -1,7 +1,27 @@
 {
-  "lastRun": "2026-11-27T19:36:45.494925+00:00",
-  "trackedGames": 503,
+  "lastRun": "2026-11-28T01:54:57.325912+00:00",
+  "trackedGames": 547,
   "changes": [
+    {
+      "type": "game_updated",
+      "key": "nfl:401873083"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401856756"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401858544"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401858536"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401856759"
+    },
     {
       "type": "game_updated",
       "key": "ncaa:401856762"
@@ -20,7 +40,71 @@
     },
     {
       "type": "game_updated",
-      "key": "ncaa:401858536"
+      "key": "ncaa:401869930"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401862838"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401864549"
+    },
+    {
+      "type": "game_updated",
+      "key": "ncaa:401864546"
+    },
+    {
+      "type": "new_game",
+      "key": "ncaa:401858318"
+    },
+    {
+      "type": "new_game",
+      "key": "ncaa:401869536"
+    },
+    {
+      "type": "new_game",
+      "key": "ncaa:401869545"
+    },
+    {
+      "type": "new_game",
+      "key": "ncaa:401869532"
+    },
+    {
+      "type": "new_game",
+      "key": "ncaa:401869534"
+    },
+    {
+      "type": "game_updated",
+      "key": "nba:401909326"
+    },
+    {
+      "type": "game_updated",
+      "key": "nba:401909327"
+    },
+    {
+      "type": "game_updated",
+      "key": "nba:401909328"
+    },
+    {
+      "type": "game_updated",
+      "key": "nba:401909329"
+    },
+    {
+      "type": "game_updated",
+      "key": "nba:401909330"
+    },
+    {
+      "type": "game_updated",
+      "key": "nba:401909331"
+    },
+    {
+      "type": "new_game",
+      "key": "nba:401909452"
+    },
+    {
+      "type": "new_game",
+      "key": "nba:401909453"
     },
     {
       "type": "game_updated",
@@ -40,10 +124,218 @@
     },
     {
       "type": "game_updated",
+      "key": "nhl:401892799"
+    },
+    {
+      "type": "game_updated",
+      "key": "nhl:401892800"
+    },
+    {
+      "type": "game_updated",
+      "key": "nhl:401892801"
+    },
+    {
+      "type": "game_updated",
+      "key": "nhl:401892802"
+    },
+    {
+      "type": "game_updated",
+      "key": "nhl:401892803"
+    },
+    {
+      "type": "game_updated",
+      "key": "nhl:401892804"
+    },
+    {
+      "type": "game_updated",
+      "key": "nhl:401892805"
+    },
+    {
+      "type": "game_updated",
+      "key": "nhl:401892806"
+    },
+    {
+      "type": "game_updated",
+      "key": "nhl:401892807"
+    },
+    {
+      "type": "game_updated",
+      "key": "nhl:401892808"
+    },
+    {
+      "type": "game_updated",
+      "key": "nhl:401892809"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892859"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892860"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892861"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892862"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892863"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892864"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892865"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892866"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892867"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892868"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892869"
+    },
+    {
+      "type": "new_game",
+      "key": "nhl:401892870"
+    },
+    {
+      "type": "game_updated",
+      "key": "soccer-epl:401879225"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-epl:401879213"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-epl:401879216"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-epl:401879215"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-epl:401879211"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-epl:401879210"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-epl:401878747"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-epl:401879214"
+    },
+    {
+      "type": "game_updated",
+      "key": "soccer-laliga:401882791"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-laliga:401882780"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-laliga:401882779"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-laliga:401882777"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-laliga:401882783"
+    },
+    {
+      "type": "game_updated",
       "key": "soccer-bundesliga:401884720"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-bundesliga:401884712"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-bundesliga:401884716"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-bundesliga:401884713"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-bundesliga:401884717"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-bundesliga:401884715"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-bundesliga:401884714"
+    },
+    {
+      "type": "game_updated",
+      "key": "soccer-seriea:401875004"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-seriea:401874975"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-seriea:401875023"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-seriea:401874788"
+    },
+    {
+      "type": "game_updated",
+      "key": "soccer-ligue1:401876392"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-ligue1:401876384"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-ligue1:401876382"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-ligue1:401876385"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-ligue1:401876381"
+    },
+    {
+      "type": "new_game",
+      "key": "soccer-ligue1:401876379"
     }
   ],
-  "changeCount": 10,
+  "changeCount": 83,
   "sourceFailures": [],
   "failureCount": 0,
   "injuryFeedVerified": false,

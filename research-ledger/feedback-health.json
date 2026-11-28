@@ -1,163 +1,22 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-28T01:18:28.061071+00:00",
+  "asOf": "2026-11-28T01:55:13.418655+00:00",
   "pipeline": {
     "stage1Events": 327,
-    "stage2Games": 335,
-    "legacyMultisportGames": 503,
-    "legacyFootballGames": 179,
-    "stage5Snapshots": 8338,
-    "unifiedEventHistory": 1361,
+    "stage2Games": 327,
+    "legacyMultisportGames": 547,
+    "legacyFootballGames": 232,
+    "stage5Snapshots": 8651,
+    "unifiedEventHistory": 1390,
     "sportsWithCoverageChecks": 18,
-    "liveModelForecasts": 147,
+    "liveModelForecasts": 156,
     "ESPNFinalOutcomes": 97,
     "stage3Scored": 97,
     "stage4Scored": 97
   },
   "verification": {
     "sameProviderGamesCompared": 213,
-    "sameProviderDisagreements": [
-      {
-        "gameKey": "ncaa-football:401856762",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "ncaa-football:401862840",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "ncaa-football:401866472",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "ncaa-football:401866473",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "ncaa-football:401858536",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892795",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892796",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892797",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892798",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "soccer-germany:401884720",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "soccer-france:401876392",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "soccer-italy:401875004",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "ncaa-football:401869930",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nfl:401873083",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892799",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892800",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892801",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892802",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "soccer-england:401879225",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "soccer-spain:401882791",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "ncaa-football:401856759",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "ncaa-football:401862838",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "ncaa-football:401864549",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892803",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892804",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892805",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "ncaa-football:401864546",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      },
-      {
-        "gameKey": "nhl:401892806",
-        "field": "completed",
-        "reason": "collection disagreement or different polling times"
-      }
-    ],
+    "sameProviderDisagreements": [],
     "unmatchedOutcomeIds": [],
     "independentProviderVerification": false,
     "injuriesVerified": false,

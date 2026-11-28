@@ -1820,6 +1820,54 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261130&limit=300"
     },
     {
+      "gameKey": "nba:401910068",
+      "sport": "nba",
+      "start": "2026-12-02T00:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261201&limit=300"
+    },
+    {
+      "gameKey": "nba:401910069",
+      "sport": "nba",
+      "start": "2026-12-02T00:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261201&limit=300"
+    },
+    {
+      "gameKey": "nba:401910070",
+      "sport": "nba",
+      "start": "2026-12-02T00:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261201&limit=300"
+    },
+    {
+      "gameKey": "nba:401910071",
+      "sport": "nba",
+      "start": "2026-12-02T01:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261201&limit=300"
+    },
+    {
+      "gameKey": "nba:401910072",
+      "sport": "nba",
+      "start": "2026-12-02T01:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261201&limit=300"
+    },
+    {
+      "gameKey": "nba:401910073",
+      "sport": "nba",
+      "start": "2026-12-02T02:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261201&limit=300"
+    },
+    {
+      "gameKey": "nba:401910074",
+      "sport": "nba",
+      "start": "2026-12-02T04:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261201&limit=300"
+    },
+    {
+      "gameKey": "nba:401910075",
+      "sport": "nba",
+      "start": "2026-12-02T03:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261201&limit=300"
+    },
+    {
       "gameKey": "ncaa-basketball:401906762",
       "sport": "ncaa-basketball",
       "start": "2026-11-25T03:00Z",
@@ -1832,10 +1880,22 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300"
     },
     {
+      "gameKey": "ncaa-basketball:401906775",
+      "sport": "ncaa-basketball",
+      "start": "2026-12-02T02:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261201&limit=300"
+    },
+    {
       "gameKey": "ncaa-basketball:401906853",
       "sport": "ncaa-basketball",
       "start": "2026-11-24T20:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401906854",
+      "sport": "ncaa-basketball",
+      "start": "2026-12-02T00:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261201&limit=300"
     },
     {
       "gameKey": "ncaa-basketball:401906869",
@@ -1844,16 +1904,34 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261126&limit=300"
     },
     {
+      "gameKey": "ncaa-basketball:401906870",
+      "sport": "ncaa-basketball",
+      "start": "2026-12-02T02:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261201&limit=300"
+    },
+    {
       "gameKey": "ncaa-basketball:401909568",
       "sport": "ncaa-basketball",
       "start": "2026-11-26T00:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261125&limit=300"
     },
     {
+      "gameKey": "ncaa-basketball:401909731",
+      "sport": "ncaa-basketball",
+      "start": "2026-12-02T02:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261201&limit=300"
+    },
+    {
       "gameKey": "ncaa-basketball:401909743",
       "sport": "ncaa-basketball",
       "start": "2026-11-24T04:55Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261123&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401909744",
+      "sport": "ncaa-basketball",
+      "start": "2026-12-02T02:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261201&limit=300"
     },
     {
       "gameKey": "ncaa-basketball:401909788",
@@ -1866,6 +1944,12 @@
       "sport": "ncaa-basketball",
       "start": "2026-11-27T22:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401909790",
+      "sport": "ncaa-basketball",
+      "start": "2026-12-02T01:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261201&limit=300"
     },
     {
       "gameKey": "ncaa-basketball:401909800",
@@ -2210,6 +2294,12 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300"
     },
     {
+      "gameKey": "ncaa-basketball:401920683",
+      "sport": "ncaa-basketball",
+      "start": "2026-12-01T23:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261201&limit=300"
+    },
+    {
       "gameKey": "ncaa-basketball:401920687",
       "sport": "ncaa-basketball",
       "start": "2026-11-30T23:30Z",
@@ -2388,6 +2478,18 @@
       "sport": "ncaa-basketball",
       "start": "2026-11-27T19:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401921873",
+      "sport": "ncaa-basketball",
+      "start": "2026-12-02T01:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261201&limit=300"
+    },
+    {
+      "gameKey": "ncaa-basketball:401921875",
+      "sport": "ncaa-basketball",
+      "start": "2026-12-02T03:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261201&limit=300"
     },
     {
       "gameKey": "ncaa-basketball:401922024",
@@ -5798,6 +5900,60 @@
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261130&limit=300"
     },
     {
+      "gameKey": "nhl:401892831",
+      "sport": "nhl",
+      "start": "2026-12-02T00:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261201&limit=300"
+    },
+    {
+      "gameKey": "nhl:401892832",
+      "sport": "nhl",
+      "start": "2026-12-02T00:30Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261201&limit=300"
+    },
+    {
+      "gameKey": "nhl:401892833",
+      "sport": "nhl",
+      "start": "2026-12-02T00:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261201&limit=300"
+    },
+    {
+      "gameKey": "nhl:401892834",
+      "sport": "nhl",
+      "start": "2026-12-02T00:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261201&limit=300"
+    },
+    {
+      "gameKey": "nhl:401892835",
+      "sport": "nhl",
+      "start": "2026-12-02T01:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261201&limit=300"
+    },
+    {
+      "gameKey": "nhl:401892836",
+      "sport": "nhl",
+      "start": "2026-12-02T01:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261201&limit=300"
+    },
+    {
+      "gameKey": "nhl:401892837",
+      "sport": "nhl",
+      "start": "2026-12-02T02:40Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261201&limit=300"
+    },
+    {
+      "gameKey": "nhl:401892838",
+      "sport": "nhl",
+      "start": "2026-12-02T03:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261201&limit=300"
+    },
+    {
+      "gameKey": "nhl:401892839",
+      "sport": "nhl",
+      "start": "2026-12-02T03:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261201&limit=300"
+    },
+    {
       "gameKey": "soccer-england:401878752",
       "sport": "soccer-england",
       "start": "2026-11-28T17:30Z",
@@ -5862,6 +6018,12 @@
       "sport": "soccer-england",
       "start": "2026-10-18T15:30Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261018&limit=300"
+    },
+    {
+      "gameKey": "soccer-england:401879221",
+      "sport": "soccer-england",
+      "start": "2026-12-01T20:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261201&limit=300"
     },
     {
       "gameKey": "soccer-england:401879224",
@@ -8082,6 +8244,18 @@
       "sport": "tennis-atp",
       "start": "2026-11-15T05:00Z",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20261122&limit=300"
+    },
+    {
+      "gameKey": "tennis-wta:1038-2026",
+      "sport": "tennis-wta",
+      "start": "2026-11-30T05:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/tennis/wta/scoreboard?dates=20261130&limit=300"
+    },
+    {
+      "gameKey": "tennis-wta:801-2026",
+      "sport": "tennis-wta",
+      "start": "2026-11-30T05:00Z",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/tennis/wta/scoreboard?dates=20261130&limit=300"
     },
     {
       "gameKey": "tennis-wta:867-2026",

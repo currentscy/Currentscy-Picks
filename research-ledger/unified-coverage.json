@@ -1,47 +1,47 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T19:36:45.391946+00:00",
+  "updatedAt": "2026-11-28T01:54:57.202691+00:00",
   "sports": {
     "nfl": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 15,
+      "eventsObservedThisRun": 12,
       "historicalEvents": 39,
       "coverageVerifiedComplete": false
     },
     "ncaa-football": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 67,
+      "eventsObservedThisRun": 66,
       "historicalEvents": 182,
       "coverageVerifiedComplete": false
     },
     "nba": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 33,
-      "historicalEvents": 303,
+      "eventsObservedThisRun": 41,
+      "historicalEvents": 311,
       "coverageVerifiedComplete": false
     },
     "ncaa-basketball": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 104,
-      "historicalEvents": 127,
+      "eventsObservedThisRun": 102,
+      "historicalEvents": 136,
       "coverageVerifiedComplete": false
     },
     "nhl": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 36,
-      "historicalEvents": 315,
+      "eventsObservedThisRun": 45,
+      "historicalEvents": 324,
       "coverageVerifiedComplete": false
     },
     "soccer-england": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 10,
-      "historicalEvents": 33,
+      "eventsObservedThisRun": 11,
+      "historicalEvents": 34,
       "coverageVerifiedComplete": false
     },
     "soccer-spain": {
@@ -82,7 +82,7 @@
     "soccer-mexico": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 6,
+      "eventsObservedThisRun": 4,
       "historicalEvents": 38,
       "coverageVerifiedComplete": false
     },
@@ -96,7 +96,7 @@
     "soccer-uel": {
       "requestsSucceeded": 5,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 18,
+      "eventsObservedThisRun": 0,
       "historicalEvents": 53,
       "coverageVerifiedComplete": false
     },
@@ -124,13 +124,13 @@
     "tennis-wta": {
       "requestsSucceeded": 4,
       "requestsFailed": 0,
-      "eventsObservedThisRun": 4,
-      "historicalEvents": 2,
+      "eventsObservedThisRun": 5,
+      "historicalEvents": 4,
       "coverageVerifiedComplete": false
     }
   },
   "errors": [],
-  "totalHistoricalEvents": 1361,
+  "totalHistoricalEvents": 1390,
   "allEventsCaptured": false,
   "allPredictionsCaptured": false,
   "note": "Unofficial ESPN schedule feeds are incomplete for some fights and tennis matches; absence of events is not evidence of full coverage."
