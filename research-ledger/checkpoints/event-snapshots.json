@@ -138393,5 +138393,110 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "c94632f804160014243da11bb980f0aad24f2423f5e08aa9b230059dd64b21ea",
+    "capturedAt": "2026-11-28T07:50:40.669258+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920544",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-28T04:15Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "2250",
+          "name": "Gonzaga Bulldogs",
+          "homeAway": "home",
+          "score": "89",
+          "winner": false
+        },
+        {
+          "sourceTeamId": "156",
+          "name": "Creighton Bluejays",
+          "homeAway": "away",
+          "score": "97",
+          "winner": true
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-28T07:50:36.759900+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "6b51d1efb27416dee43e3e3e7bdde70b85ea76c330801d88df51b4343916913d",
+    "capturedAt": "2026-11-28T07:50:40.669258+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920535",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-28T04:30Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "2641",
+          "name": "Texas Tech Red Raiders",
+          "homeAway": "home",
+          "score": "78",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "21",
+          "name": "San Diego State Aztecs",
+          "homeAway": "away",
+          "score": "75",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-28T07:50:36.759900+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "555efa6aa3e7f080a05f48be10953035f54b639cf10f82dd61bea284bfd84a16",
+    "capturedAt": "2026-11-28T07:50:40.669258+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920536",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-29T03:30Z",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "97",
+          "name": "Louisville Cardinals",
+          "homeAway": "home",
+          "score": "0",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "156",
+          "name": "Creighton Bluejays",
+          "homeAway": "away",
+          "score": "0",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261128&limit=300",
+      "observedAt": "2026-11-28T07:50:36.759900+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]
