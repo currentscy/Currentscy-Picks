@@ -138288,5 +138288,110 @@
         "playerStatisticsVerified": false
       }
     }
+  },
+  {
+    "snapshotId": "1aa5c18ef327081cfac57e0470b9480068865dca4ec7f9f659d32247adc79d18",
+    "capturedAt": "2026-11-28T06:32:38.924233+00:00",
+    "observation": {
+      "eventKey": "ncaa-football:401856880",
+      "sport": "ncaa-football",
+      "scheduledStart": "2026-11-28T02:00Z",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "teams": [
+        {
+          "sourceTeamId": "254",
+          "name": "Utah Utes",
+          "homeAway": "home",
+          "score": "52",
+          "winner": true
+        },
+        {
+          "sourceTeamId": "277",
+          "name": "West Virginia Mountaineers",
+          "homeAway": "away",
+          "score": "28",
+          "winner": false
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-28T06:32:35.139307+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "31d9e729119d24d0e2d0eaff9bb957a341aadf71afcc6e13cd8be2a6a4f8f022",
+    "capturedAt": "2026-11-28T06:32:38.924233+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920544",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-28T04:15Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2250",
+          "name": "Gonzaga Bulldogs",
+          "homeAway": "home",
+          "score": "82",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "156",
+          "name": "Creighton Bluejays",
+          "homeAway": "away",
+          "score": "84",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-28T06:32:35.139307+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
+  },
+  {
+    "snapshotId": "b47bd19420df95356b3f3478ab497942558794103c334c076b968fb2aa463bd2",
+    "capturedAt": "2026-11-28T06:32:38.924233+00:00",
+    "observation": {
+      "eventKey": "ncaa-basketball:401920535",
+      "sport": "ncaa-basketball",
+      "scheduledStart": "2026-11-28T04:30Z",
+      "status": "STATUS_IN_PROGRESS",
+      "completed": false,
+      "teams": [
+        {
+          "sourceTeamId": "2641",
+          "name": "Texas Tech Red Raiders",
+          "homeAway": "home",
+          "score": "57",
+          "winner": null
+        },
+        {
+          "sourceTeamId": "21",
+          "name": "San Diego State Aztecs",
+          "homeAway": "away",
+          "score": "51",
+          "winner": null
+        }
+      ],
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261127&limit=300",
+      "observedAt": "2026-11-28T06:32:35.139307+00:00",
+      "quality": {
+        "scoreboardObserved": true,
+        "injuriesVerified": false,
+        "lineupsVerified": false,
+        "playerStatisticsVerified": false
+      }
+    }
   }
 ]

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-28T05:33:49.092241+00:00",
+  "asOf": "2026-11-28T06:32:38.793275+00:00",
   "pipeline": {
     "stage1Events": 327,
     "stage2Games": 327,
@@ -74,6 +74,11 @@
       },
       {
         "gameKey": "nba:401909332",
+        "field": "completed",
+        "reason": "collection disagreement or different polling times"
+      },
+      {
+        "gameKey": "ncaa-football:401856880",
         "field": "completed",
         "reason": "collection disagreement or different polling times"
       },
