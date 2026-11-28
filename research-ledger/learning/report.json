@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-28T02:26:14.041481+00:00",
-  "scoredPredictions": 97,
+  "generatedAt": "2026-11-28T03:29:14.062728+00:00",
+  "scoredPredictions": 103,
   "bySport": {
     "nba": {
-      "n": 44,
-      "trainCount": 14,
+      "n": 49,
+      "trainCount": 19,
       "holdoutCount": 30,
       "actualArchivedShadow": {
         "n": 0,
@@ -13,36 +13,36 @@
         "shadow": null
       },
       "originalBrier": {
-        "n": 44,
-        "brier": 0.204625,
-        "logLoss": 0.597726,
+        "n": 49,
+        "brier": 0.203694,
+        "logLoss": 0.595559,
         "calibrationBins": [
           {
             "range": [
               0.2,
               0.4
             ],
-            "n": 3,
-            "meanPrediction": 0.3079,
-            "observedRate": 0.3333
+            "n": 4,
+            "meanPrediction": 0.3225,
+            "observedRate": 0.25
           },
           {
             "range": [
               0.4,
               0.6
             ],
-            "n": 22,
-            "meanPrediction": 0.4856,
-            "observedRate": 0.4545
+            "n": 24,
+            "meanPrediction": 0.4923,
+            "observedRate": 0.4167
           },
           {
             "range": [
               0.6,
               0.8
             ],
-            "n": 19,
-            "meanPrediction": 0.684,
-            "observedRate": 0.8421
+            "n": 21,
+            "meanPrediction": 0.6842,
+            "observedRate": 0.8571
           }
         ]
       },
@@ -52,8 +52,8 @@
       "activeAdjustment": null
     },
     "nhl": {
-      "n": 53,
-      "trainCount": 23,
+      "n": 54,
+      "trainCount": 24,
       "holdoutCount": 30,
       "actualArchivedShadow": {
         "n": 0,
@@ -61,9 +61,9 @@
         "shadow": null
       },
       "originalBrier": {
-        "n": 53,
-        "brier": 0.267234,
-        "logLoss": 0.72891,
+        "n": 54,
+        "brier": 0.26807,
+        "logLoss": 0.73057,
         "calibrationBins": [
           {
             "range": [
@@ -79,9 +79,9 @@
               0.4,
               0.6
             ],
-            "n": 34,
-            "meanPrediction": 0.5171,
-            "observedRate": 0.5882
+            "n": 35,
+            "meanPrediction": 0.5183,
+            "observedRate": 0.5714
           },
           {
             "range": [
